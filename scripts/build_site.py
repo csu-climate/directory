@@ -13,7 +13,6 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 # Shared instructor repository - same for all lessons
 INSTRUCTOR_REPO = "act-cms/instructor-materials"  # Replace with your instructor repo
-DEFAULT_INSTRUCTOR_EMAIL = "instructor-access@university.edu"  # Default contact email
 
 def load_yaml_file(filepath):
     """Load and parse a YAML file"""
