@@ -1,4 +1,4 @@
-# lessons/your-lesson-name.yml
+# lessons/jupyterquiz-tutorial.yml
 # 
 # STARTER TEMPLATE FOR ACT-CMS LESSON PORTAL SUBMISSION
 # Replace all placeholder text with your actual lesson information
@@ -8,7 +8,7 @@
 # Use a clear, descriptive title that includes the main topic
 title: "JupyterQuiz Tutorial for Educators"
 
-# Brief description for search results (1-2 sentences)
+# Brief description for search results (1-2 sentence
 description: "Learn how to embed interactive assessments into your Jupyter notebooks!"
 
 # Longer description for the lesson page (use | for multi-line text)
@@ -78,7 +78,7 @@ materials:
     # Direct link to notebook file on GitHub
     github_url: "https://github.com/act-cms/jupyterquiz-tutorial/blob/main/jupyterquiz-tutorial.ipynb"
     # Google Colab launch link (recommended for accessibility)
-    colab_url: "https://colab.research.google.com/github/act-cms/jupyterquiz-tutorial/jupyterquiz-tutorial.ipynb"
+    colab_url: "https://colab.research.google.com/github/act-cms/jupyterquiz-tutorial/blob/main/jupyterquiz-tutorial.ipynb"
     
     # Learning objectives specific to this material
     objectives:
@@ -99,7 +99,7 @@ materials:
 # LEARNING OBJECTIVES (REQUIRED)
 # What molecular science concepts will students learn?
 scientific_objectives:
-  - ""
+  - "None"
 
 # What computational/programming skills will students develop?
 cyberinfrastructure_objectives:
@@ -108,7 +108,7 @@ cyberinfrastructure_objectives:
 # PREREQUISITES (REQUIRED)
 # What science background do students need?
 scientific_prerequisites:
-  - ""
+  - "None"
 
 # What programming experience is assumed?
 programming_prerequisites:
@@ -119,8 +119,8 @@ programming_prerequisites:
 # List platforms where your materials can be used.
 platforms:
   - "Google Colab"
-  - "Local Installation"
   - "ChemCompute"
+  - "Local Installation"
 
 # Which platform do you recommend for most users?
 recommended_platform: "Google Colab"
