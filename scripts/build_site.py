@@ -11,6 +11,10 @@ import shutil
 from pathlib import Path
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
+import urllib.parse
+from pathlib import PurePosixPath
+
+
 # Shared instructor repository - same for all lessons
 INSTRUCTOR_REPO = "act-cms/instructor-materials"  # Replace with your instructor repo
 
@@ -46,6 +50,27 @@ def process_lesson_data(lesson_data, lesson_id):
         else:
             print(f"Error: Lesson {lesson_id} has no materials section.")
             return None
+
+    # Generate chemcompute launch from public_repo_url
+
+    if "ChemCompute" in lesson_data["platforms"]:
+        stub = "https://chemcompute.org/jupyterhub_internal/hub/user-redirect/git-pull?repo="
+        
+        # Parse the GitHub repo URL
+        repo_url = lesson_data['public_repo_url']
+        parsed = urllib.parse.urlparse(repo_url)
+        repo_path = PurePosixPath(parsed.path).stem
+
+        repo_url_encoded = urllib.parse.quote(repo_url)
+        urlpath = f"lab/tree/{repo_path}/"
+        urlpath_encoded = urllib.parse.quote(urlpath)
+
+        # Construct full launch URL
+        lesson_data['chemcompute_launch'] = (
+            f"{stub}{repo_url_encoded}"
+            f"&branch=main"
+            f"&urlpath={urlpath_encoded}"
+        )  
     
     return lesson_data
 

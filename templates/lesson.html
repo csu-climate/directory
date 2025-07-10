@@ -264,7 +264,12 @@
                             <a href="{{ public_repo_url }}" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
                                 View Repository
                             </a>
-                        </div>
+                            {% if chemcompute_launch %}
+                            <a href="{{ chemcompute_launch }}" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+                                Launch on ChemCompute
+                            </a>
+                            {% endif %}
+                        </div> 
                     </div>
                     
                     <h3 style="margin-top: 32px;">Instructor Materials</h3>
