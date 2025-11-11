@@ -7,7 +7,7 @@ No individual member pages are generated.
 import json, yaml, sys
 from pathlib import Path
 
-REQUIRED_FIELDS = ["Name","College","Department","Title","Email","Research Interests","Teaching Interests","Sustainability Contributions","Notes"]
+REQUIRED_FIELDS = ["Name","Campus","College","Department","Title","Email","Research Interests","Teaching Interests","Sustainability Contributions","Notes"]
 
 def load_yaml(p: Path):
     with p.open("r", encoding="utf-8") as f:

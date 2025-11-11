@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -46,6 +47,12 @@
           <label for="title">Title</label>
           <select class="filter-select" id="title">
             <option value="">All Titles</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="campus">Campus</label>
+          <select class="filter-select" id="campus">
+            <option value="">All Campuses</option>
           </select>
         </div>
       </div>
@@ -111,7 +118,7 @@
   function createMemberCard(m) {
     const interests = [...pillize(m['Research Interests']), ...pillize(m['Teaching Interests'])].slice(0, 8);
     const emailHTML = m['Email'] ? `<a href="mailto:${m['Email']}">${m['Email']}</a>` : '';
-    const metaBits = [m['Title'], m['Department'], m['College']].filter(Boolean).join(' · ');
+    const metaBits = [m['Title'], m['Department'], m['College'], m['Campus']].filter(Boolean).join(' · ');
 
     const card = document.createElement('div');
     card.className = 'lesson-card'; // reuse existing card styling
@@ -133,17 +140,19 @@
     const college = document.getElementById('college').value;
     const department = document.getElementById('department').value;
     const title = document.getElementById('title').value;
+    const campus = document.getElementById('campus').value;
 
     const filtered = MEMBERS.filter(m => {
       const blob = [
         m['Name'], m['Research Interests'], m['Teaching Interests'],
         m['Notes'], m['Sustainability Contributions'], m['College'],
-        m['Department'], m['Title'], m['Email']
+        m['Department'], m['Title'], m['Campus'], m['Email']
       ].join(' ').toLowerCase();
       if (q && !blob.includes(q)) return false;
       if (college && m['College'] !== college) return false;
       if (department && m['Department'] !== department) return false;
       if (title && m['Title'] !== title) return false;
+      if (campus && m['Campus'] !== campus) return false;
       return true;
     });
 
@@ -159,7 +168,8 @@
     const active = [
       college ? {label:'College', value:college, id:'college'} : null,
       department ? {label:'Department', value:department, id:'department'} : null,
-      title ? {label:'Title', value:title, id:'title'} : null
+      title ? {label:'Title', value:title, id:'title'} : null,
+      campus ? {label:'Campus', value:campus, id:'campus'} : null
     ].filter(Boolean);
 
     active.forEach(f => {
@@ -183,6 +193,7 @@
     const colleges = uniq(MEMBERS.map(m => m['College']));
     const departments = uniq(MEMBERS.map(m => m['Department']));
     const titles = uniq(MEMBERS.map(m => m['Title']));
+    const campuses = uniq(MEMBERS.map(m => m['Campus']));
 
     function fill(selectId, values) {
       const sel = document.getElementById(selectId);
@@ -203,6 +214,7 @@
     fill('college', colleges);
     fill('department', departments);
     fill('title', titles);
+    fill('campus', campuses);
 
     document.getElementById('searchInput').addEventListener('input', applyFilters);
 
