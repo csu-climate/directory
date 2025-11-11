@@ -1,6 +1,6 @@
 [
   {
-    "title": "Buffer Preparation Calculations",
+    "title": "Antje Lauer",
     "description": "Calculations to guide reagent use when preparing a buffer solution at a given pH.",
     "expanded_description": "This lesson can be used to guide reagent use by students when preparing a buffer solution in an analytical chemistry laboratory.\nThe suggested context would be to walk through it together in the analytical laboratory before preparing the buffer solutions.\nQuantities may need to be revised and recalculated during the laboratory if a student's buffer solution does not meet specifications.\nAbout an hour during lab should be allocated to this module; students may also ask questions when recalculating.\n",
     "programming_skill": "None",
@@ -76,9 +76,9 @@
       "laboratory",
       "data-analysis"
     ],
-    "id": "buffer-solutions",
+    "id": "Lauer-Antje",
     "instructor_repo": "act-cms/instructor-materials",
-    "instructor_repo_path": "buffer-solutions",
+    "instructor_repo_path": "Lauer-Antje",
     "chemcompute_launch": "https://chemcompute.org/jupyterhub_internal/hub/user-redirect/git-pull?repo=https%3A//github.com/act-cms/buffer-solutions&branch=main&urlpath=lab/tree/buffer-solutions/"
   }
 ]
