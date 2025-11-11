@@ -16,7 +16,7 @@ from pathlib import PurePosixPath
 
 
 # Shared instructor repository - same for all lessons
-INSTRUCTOR_REPO = "act-cms/instructor-materials"  # Replace with your instructor repo
+INSTRUCTOR_REPO = "csu-climate/members"  # Replace with your instructor repo
 
 def load_yaml_file(filepath):
     """Load and parse a YAML file"""
