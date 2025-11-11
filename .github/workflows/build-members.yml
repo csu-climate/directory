@@ -67,7 +67,7 @@ jobs:
         mkdir -p site/data
 
         # Use the members directory page as the landing page
-        cp index-members.html site/index.html
+        cp index.html site/index.html
 
         # Theme & assets
         if [ -f theme.css ]; then cp theme.css site/; fi
