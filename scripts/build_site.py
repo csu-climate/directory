@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Build script for the Lesson Portal
-Processes YAML lesson files and generates static site
+Build script for the member Portal
+Processes YAML member files and generates static site
 """
 
 import os
@@ -15,7 +15,7 @@ import urllib.parse
 from pathlib import PurePosixPath
 
 
-# Shared instructor repository - same for all lessons
+# Shared instructor repository - same for all members
 INSTRUCTOR_REPO = "csu-climate/members"  # Replace with your instructor repo
 
 def load_yaml_file(filepath):
@@ -23,41 +23,41 @@ def load_yaml_file(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
         return yaml.safe_load(f)
 
-def get_lesson_id_from_filename(filename):
-    """Extract lesson ID from YAML filename"""
+def get_member_id_from_filename(filename):
+    """Extract member ID from YAML filename"""
     return Path(filename).stem
 
-def process_lesson_data(lesson_data, lesson_id):
-    """Process lesson data and add computed fields"""
-    lesson_data['id'] = lesson_id
+def process_member_data(member_data, member_id):
+    """Process member data and add computed fields"""
+    member_data['id'] = member_id
     
     # Add shared instructor repo
-    lesson_data['instructor_repo'] = INSTRUCTOR_REPO
+    member_data['instructor_repo'] = INSTRUCTOR_REPO
     
-    # Automatically set instructor repo path to match lesson ID
-    lesson_data['instructor_repo_path'] = lesson_id
+    # Automatically set instructor repo path to match member ID
+    member_data['instructor_repo_path'] = member_id
     
     # Use fallback for instructor email if not specified
-    if 'instructor_email' not in lesson_data:
-        lesson_data['instructor_email'] = "N/A"
+    if 'instructor_email' not in member_data:
+        member_data['instructor_email'] = "N/A"
     
-    # All lessons must now use the materials format with explicit URLs
+    # All members must now use the materials format with explicit URLs
     # Legacy formats (notebook/notebooks) are no longer supported
-    if 'materials' not in lesson_data:
-        if 'notebook' in lesson_data or 'notebooks' in lesson_data:
-            print(f"Warning: Lesson {lesson_id} uses legacy format. Please convert to materials format with explicit URLs.")
+    if 'materials' not in member_data:
+        if 'notebook' in member_data or 'notebooks' in member_data:
+            print(f"Warning: member {member_id} uses legacy format. Please convert to materials format with explicit URLs.")
             return None
         else:
-            print(f"Error: Lesson {lesson_id} has no materials section.")
+            print(f"Error: member {member_id} has no materials section.")
             return None
 
     # Generate chemcompute launch from public_repo_url
 
-    if "ChemCompute" in lesson_data["platforms"]:
+    if "ChemCompute" in member_data["platforms"]:
         stub = "https://chemcompute.org/jupyterhub_internal/hub/user-redirect/git-pull?repo="
         
         # Parse the GitHub repo URL
-        repo_url = lesson_data['public_repo_url']
+        repo_url = member_data['public_repo_url']
         parsed = urllib.parse.urlparse(repo_url)
         repo_path = PurePosixPath(parsed.path).stem
 
@@ -66,44 +66,44 @@ def process_lesson_data(lesson_data, lesson_id):
         urlpath_encoded = urllib.parse.quote(urlpath)
 
         # Construct full launch URL
-        lesson_data['chemcompute_launch'] = (
+        member_data['chemcompute_launch'] = (
             f"{stub}{repo_url_encoded}"
             f"&branch=main"
             f"&urlpath={urlpath_encoded}"
         )  
     
-    return lesson_data
+    return member_data
 
-def build_lessons_json(lessons_dir, output_dir):
-    """Build the lessons.json file from all YAML files"""
-    lessons = []
+def build_members_json(members_dir, output_dir):
+    """Build the members.json file from all YAML files"""
+    members = []
     
-    # Process all YAML files in lessons directory
-    for yaml_file in Path(lessons_dir).glob('*.yml'):
+    # Process all YAML files in members directory
+    for yaml_file in Path(members_dir).glob('*.yml'):
         print(f"Processing {yaml_file.name}...")
         
-        lesson_data = load_yaml_file(yaml_file)
-        lesson_id = get_lesson_id_from_filename(yaml_file.name)
-        processed_lesson = process_lesson_data(lesson_data, lesson_id)
+        member_data = load_yaml_file(yaml_file)
+        member_id = get_member_id_from_filename(yaml_file.name)
+        processed_member = process_member_data(member_data, member_id)
         
-        if processed_lesson is not None:
-            lessons.append(processed_lesson)
+        if processed_member is not None:
+            members.append(processed_member)
         else:
             print(f"Skipping {yaml_file.name} due to processing errors")
     
-    # Sort lessons by title
-    lessons.sort(key=lambda x: x['title'])
+    # Sort members by title
+    members.sort(key=lambda x: x['title'])
     
-    # Write lessons.json
-    output_file = Path(output_dir) / 'lessons.json'
+    # Write members.json
+    output_file = Path(output_dir) / 'members.json'
     with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(lessons, f, indent=2, ensure_ascii=False)
+        json.dump(members, f, indent=2, ensure_ascii=False)
     
-    print(f"Generated {output_file} with {len(lessons)} lessons")
-    return lessons
+    print(f"Generated {output_file} with {len(members)} members")
+    return members
 
-def build_lesson_pages(lessons, templates_dir, output_dir):
-    """Build individual lesson pages from template"""
+def build_member_pages(members, templates_dir, output_dir):
+    """Build individual member pages from template"""
     
     # Setup Jinja2 environment
     env = Environment(
@@ -111,28 +111,28 @@ def build_lesson_pages(lessons, templates_dir, output_dir):
         autoescape=select_autoescape(['html', 'xml'])
     )
     
-    # Load lesson template
-    template = env.get_template('lesson.html')
+    # Load member template
+    template = env.get_template('member.html')
     
-    for lesson in lessons:
-        print(f"Building lesson page for {lesson['id']}...")
+    for member in members:
+        print(f"Building member page for {member['id']}...")
         
-        # Create lesson directory
-        lesson_dir = Path(output_dir) / 'lessons' / lesson['id']
-        lesson_dir.mkdir(parents=True, exist_ok=True)
+        # Create member directory
+        member_dir = Path(output_dir) / 'members' / member['id']
+        member_dir.mkdir(parents=True, exist_ok=True)
         
-        # Prepare template context - just lesson data
-        context = lesson
+        # Prepare template context - just member data
+        context = member
         
         # Render template
         html_content = template.render(context)
         
-        # Write lesson page
-        lesson_file = lesson_dir / 'index.html'
-        with open(lesson_file, 'w', encoding='utf-8') as f:
+        # Write member page
+        member_file = member_dir / 'index.html'
+        with open(member_file, 'w', encoding='utf-8') as f:
             f.write(html_content)
         
-        print(f"Generated {lesson_file}")
+        print(f"Generated {member_file}")
 
 def copy_static_files(source_dir, output_dir):
     """Copy index.html and any static assets"""
@@ -175,8 +175,8 @@ def copy_static_files(source_dir, output_dir):
         shutil.copytree(static_source, static_dest)
         print(f"Copied static files from {static_source} to {static_dest}")
 
-def validate_lesson_data(lesson_data, filename):
-    """Validate lesson data has required fields"""
+def validate_member_data(member_data, filename):
+    """Validate member data has required fields"""
     required_fields = [
         'title', 'description', 'programming_skill', 'primary_course',
         'authors', 'format', 'scientific_objectives', 
@@ -194,7 +194,7 @@ def validate_lesson_data(lesson_data, filename):
     
     missing_fields = []
     for field in required_fields:
-        if field not in lesson_data:
+        if field not in member_data:
             missing_fields.append(field)
     
     if missing_fields:
@@ -203,33 +203,33 @@ def validate_lesson_data(lesson_data, filename):
     
     # Validate optional instructor fields if present
     for field, expected_type in optional_instructor_fields.items():
-        if field in lesson_data:
-            value = lesson_data[field]
+        if field in member_data:
+            value = member_data[field]
             if not isinstance(value, expected_type):
                 print(f"Error: {filename} field '{field}' should be {expected_type.__name__ if hasattr(expected_type, '__name__') else expected_type}")
                 return False
     
     # Validate related_modules if present
-    if 'related_modules' in lesson_data:
-        if not all(isinstance(module, str) for module in lesson_data['related_modules']):
+    if 'related_modules' in member_data:
+        if not all(isinstance(module, str) for module in member_data['related_modules']):
             print(f"Error: {filename} related_modules should be a list of strings")
             return False
     
     # Check for legacy formats and reject them
-    if 'notebook' in lesson_data or 'notebooks' in lesson_data:
+    if 'notebook' in member_data or 'notebooks' in member_data:
         print(f"Error: {filename} uses legacy notebook/notebooks format. Please convert to materials format with explicit URLs.")
         return False
     
     # Validate materials structure
-    if not isinstance(lesson_data['materials'], list):
+    if not isinstance(member_data['materials'], list):
         print(f"Error: {filename} materials field must be a list")
         return False
     
-    if len(lesson_data['materials']) == 0:
+    if len(member_data['materials']) == 0:
         print(f"Error: {filename} materials list cannot be empty")
         return False
     
-    for i, material in enumerate(lesson_data['materials']):
+    for i, material in enumerate(member_data['materials']):
         required_material_fields = ['title', 'description', 'type', 'duration']
         for field in required_material_fields:
             if field not in material:
@@ -250,8 +250,8 @@ def validate_lesson_data(lesson_data, filename):
                     return False
     
     # Validate authors field
-    if 'authors' in lesson_data:
-        authors = lesson_data['authors']
+    if 'authors' in member_data:
+        authors = member_data['authors']
         if not isinstance(authors, (list, str)):
             print(f"Error: {filename} authors field must be a list or string")
             return False
@@ -260,14 +260,14 @@ def validate_lesson_data(lesson_data, filename):
 
 def main():
     """Main build process"""
-    print("Building Lesson Portal...")
+    print("Building Member Directory ...")
     print("Note: Only materials format with explicit URLs is now supported.")
     
     # Define paths
     script_dir = Path(__file__).parent
     project_root = script_dir.parent
     
-    lessons_dir = project_root / 'lessons'
+    members_dir = project_root / 'members'
     templates_dir = project_root / 'templates'
     output_dir = project_root / 'site'  # This will be pushed to gh-pages
     
@@ -275,8 +275,8 @@ def main():
     output_dir.mkdir(exist_ok=True)
     
     # Validate required directories exist
-    if not lessons_dir.exists():
-        print(f"Error: Lessons directory {lessons_dir} not found")
+    if not members_dir.exists():
+        print(f"Error: Member directory {members_dir} not found")
         return 1
     
     if not templates_dir.exists():
@@ -284,42 +284,42 @@ def main():
         return 1
     
     # Check for YAML files
-    yaml_files = list(lessons_dir.glob('*.yml'))
+    yaml_files = list(members_dir.glob('*.yml'))
     if not yaml_files:
-        print(f"Error: No .yml files found in {lessons_dir}")
+        print(f"Error: No .yml files found in {members_dir}")
         return 1
     
-    print(f"Found {len(yaml_files)} lesson files")
+    print(f"Found {len(yaml_files)} member files")
     
-    # Validate all lesson files first
-    valid_lessons = True
+    # Validate all member files first
+    valid_members = True
     for yaml_file in yaml_files:
-        lesson_data = load_yaml_file(yaml_file)
-        if not validate_lesson_data(lesson_data, yaml_file.name):
-            valid_lessons = False
+        member_data = load_yaml_file(yaml_file)
+        if not validate_member_data(member_data, yaml_file.name):
+            valid_members = False
     
-    if not valid_lessons:
-        print("Error: Some lesson files have validation errors")
+    if not valid_members:
+        print("Error: Some member files have validation errors")
         print("Please fix the errors above and run the build again.")
         return 1
     
     try:
-        # Build lessons.json
-        lessons = build_lessons_json(lessons_dir, output_dir)
+        # Build members.json
+        members = build_members_json(members_dir, output_dir)
         
-        if len(lessons) == 0:
-            print("Error: No valid lessons found after processing")
+        if len(members) == 0:
+            print("Error: No valid members found after processing")
             return 1
         
-        # Build individual lesson pages
-        build_lesson_pages(lessons, templates_dir, output_dir)
+        # Build individual member pages
+        build_member_pages(members, templates_dir, output_dir)
         
         # Copy static files
         copy_static_files(project_root, output_dir)
         
         print(f"\n✅ Build complete! Site generated in {output_dir}")
-        print(f"📄 Generated {len(lessons)} lesson pages")
-        print(f"🔗 Lessons available at: /lessons/[lesson-id]/")
+        print(f"📄 Generated {len(members)} member pages")
+        print(f"🔗 Members available at: /members/[member-id]/")
         
         return 0
         
