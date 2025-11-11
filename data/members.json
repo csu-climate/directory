@@ -1,18 +1,5 @@
 [
   {
-    "Name": "Ada Lovelace",
-    "Campus": "Main Campus",
-    "College": "Engineering",
-    "Department": "Computer Science",
-    "Title": "Professor",
-    "Email": "ada.lovelace@example.edu",
-    "Research Interests": "Algorithms; Computation; History of computing",
-    "Teaching Interests": "Programming, Ethics in CS",
-    "Sustainability Contributions": "Lead on sustainable computing initiative",
-    "Notes": "Advises ACM student chapter",
-    "id": "ada.lovelace@example.edu"
-  },
-  {
     "Name": "Abolfazl Kiani",
     "Campus": "Bakersfield",
     "College": "Natural Sciences, Mathematics, and Engineering",
@@ -24,6 +11,19 @@
     "Sustainability Contributions": "Publications related to fuel cells, electrochemical oxidation, emissions reductions",
     "Notes": "",
     "id": "akiani@csub.edu"
+  },
+  {
+    "Name": "Aemelia Hellgren",
+    "Campus": "Dominguez Hills",
+    "College": "Office of Sustainability",
+    "Department": "",
+    "Title": "Sustainability Coordinator",
+    "Email": "ahellgrennilsson@csudh.edu",
+    "Research Interests": "",
+    "Teaching Interests": "",
+    "Sustainability Contributions": "",
+    "Notes": "",
+    "id": "ahellgrennilsson@csudh.edu"
   },
   {
     "Name": "Alberto Cruz",
@@ -50,6 +50,19 @@
     "Sustainability Contributions": "Research in chemical ecology, specifically related to the impacts of TTX in predator-prey interactions and large taxonomic groups",
     "Notes": "",
     "id": "astokes2@csub.edu"
+  },
+  {
+    "Name": "Andrew Kalaidjian",
+    "Campus": "Dominguez Hills",
+    "College": "College of Arts & Humanities",
+    "Department": "English",
+    "Title": "Department Chair, English\nAssociate Professor, English",
+    "Email": "akalaidjian@csudh.edu",
+    "Research Interests": "20th and 21st century British and Global Anglophone literature, environmental history, spectacle and technology",
+    "Teaching Interests": "English Literature, 1823-present\nCritical Reading of Literature\nPoetry\nWorld Literature\nLiterature of Ethnicity and Gender\nLiterary Criticism, World and Text\nGlobal Ecologies, Vital Modernism",
+    "Sustainability Contributions": "Published Exhausted Ecologies: Modernism and Environmental Recovery\nResearch, publications, and presentations on global ecology and environmental history",
+    "Notes": "",
+    "id": "akalaidjian@csudh.edu"
   },
   {
     "Name": "Anjana Yatawara",
@@ -117,6 +130,32 @@
     "id": "alauer@csub.edu"
   },
   {
+    "Name": "Ashish Sinha",
+    "Campus": "Dominguez Hills",
+    "College": "College of Natural and Behavioral Sciences",
+    "Department": "Earth Science",
+    "Title": "Professor",
+    "Email": "asinha@csudh.edu",
+    "Research Interests": "Climate change with a particular focus on high-fidelity reconstruction of precipitation patterns in tropical and monsoonal locations over the past several millennia",
+    "Teaching Interests": "Global Change\nWorld Ocean\nEarth's History\nBig Ideas in Earth Science",
+    "Sustainability Contributions": "Research on climate dynamics, with emphasis on biodiversity, civilization changes, and research on Indian monsoons",
+    "Notes": "",
+    "id": "asinha@csudh.edu"
+  },
+  {
+    "Name": "Brendan McNulty",
+    "Campus": "Dominguez Hills",
+    "College": "College of Natural and Behavioral Sciences",
+    "Department": "Earth Science",
+    "Title": "Professor",
+    "Email": "bmcnulty@csudh.edu",
+    "Research Interests": "Geology Research:\nEvolution of Continental Magmatic Arcs\nMechanics of Pluton Emplacement\nPressure-temperature-time development of ductile shear zones\nFormation of pseudotachylyte\nHydrogeology and groundwater contamination",
+    "Teaching Interests": "Natural Disasters\nField Methods of Mapping\nEnvironmental Geology\nPlate Tectonics & The Rock Cycle\nGeomorphology",
+    "Sustainability Contributions": "Research funded by NSF on groundwater polllution by gasoline oxygenates\nApplications of geological research on climate change science",
+    "Notes": "",
+    "id": "bmcnulty@csudh.edu"
+  },
+  {
     "Name": "Brittney Beck",
     "Campus": "Bakersfield",
     "College": "Social Sciences and Education",
@@ -143,6 +182,19 @@
     "id": "ckloock@csub.edu"
   },
   {
+    "Name": "Charlene McCord",
+    "Campus": "Dominguez Hills",
+    "College": "",
+    "Department": "Biology",
+    "Title": "",
+    "Email": "",
+    "Research Interests": "",
+    "Teaching Interests": "",
+    "Sustainability Contributions": "Research topic on the sustainability of CSUDH's soil, which works on comparing the biodiversity of marine organisms",
+    "Notes": "",
+    "id": "charlene-mccord"
+  },
+  {
     "Name": "Chengwei Lei",
     "Campus": "Bakersfield",
     "College": "Natural Sciences, Mathematics, and Engineering",
@@ -156,6 +208,19 @@
     "id": "clei@csub.edu"
   },
   {
+    "Name": "Cheyenne Cummings",
+    "Campus": "Dominguez Hills",
+    "College": "College of Natural and Behavioral Sciences",
+    "Department": "Earth Science",
+    "Title": "Lecturer and Instructional Assistant",
+    "Email": "ccummings@csudh.edu",
+    "Research Interests": "Changes in impermiable surfaces within the LA River Watershed and impacts on river discharge\nGeology, hydrology, geochemistry, and natural hazards in metropolitan areas",
+    "Teaching Interests": "Physical Geology\nEarth History\nWorld Geography\nNatural Disasters\nEarth Science for Teachers",
+    "Sustainability Contributions": "Connections with Tree People, Los Angeles County Fire Department, Gardena Willows Wetland Preserve, Madrona Marsh Preserve, and Friends of the Los Angeles River (FOLAR)\nMember of the Environmental Sustainability Team at CSUDH, part of the Earth Day Festival committee",
+    "Notes": "",
+    "id": "ccummings@csudh.edu"
+  },
+  {
     "Name": "Craig Kelsey",
     "Campus": "Bakersfield",
     "College": "Business and Public Administration",
@@ -167,6 +232,19 @@
     "Sustainability Contributions": "Previously served as a City Planner focused on developing master plans, feasibility studies, and environmental impact reports",
     "Notes": "",
     "id": "ckelsey@csub.edu"
+  },
+  {
+    "Name": "Dana Belu",
+    "Campus": "Dominguez Hills",
+    "College": "College of Arts & Humanities",
+    "Department": "Philosophy",
+    "Title": "Professor of Philosophy and Women's Studies",
+    "Email": "dbelu@csudh.edu",
+    "Research Interests": "Phenomenological Interpretations of the relationship between technology and gender\nClimate Change and Renewable Technology",
+    "Teaching Interests": "Continental Philosophy\nPhilosophy of technology\nHistory of Philosophy and Feminist Philosophy",
+    "Sustainability Contributions": "Published \"We're in this together: Climate Change and Reproductive Technology in the age of the Anthropocene,\" and a chapter on in vitro fertilization and consumerist principles in relation to ecological degradation in Sustainability in the Anthropocene: Philosophical Essays on Renewable Technologies",
+    "Notes": "",
+    "id": "dbelu@csudh.edu"
   },
   {
     "Name": "Danielle Dodenoff",
@@ -208,6 +286,19 @@
     "id": "ereihani@cs.csubak.edu"
   },
   {
+    "Name": "Ellie Perry",
+    "Campus": "Dominguez Hills",
+    "College": "Office of Sustainability",
+    "Department": "",
+    "Title": "Sustainability Director",
+    "Email": "eperry@csudh.edu",
+    "Research Interests": "",
+    "Teaching Interests": "",
+    "Sustainability Contributions": "",
+    "Notes": "",
+    "id": "eperry@csudh.edu"
+  },
+  {
     "Name": "Fran Fairbairn",
     "Campus": "Bakersfield",
     "College": "Arts and Humanities",
@@ -232,6 +323,97 @@
     "Sustainability Contributions": "Teaching climate change in food policy and politics, environmental justice, working with Sierra Club and other nonprofit",
     "Notes": "",
     "id": "gcommuri@csub.edu"
+  },
+  {
+    "Name": "Hamid Pourmohammadi",
+    "Campus": "Dominguez Hills",
+    "College": "College of Business Administration and Public Policy",
+    "Department": "Information Systems and Operations Management",
+    "Title": "Professor",
+    "Email": "hamid@csudh.edu",
+    "Research Interests": "Supply Chain Management, Logistics and Transportation, Facility Layout and Location, Production Planning and Scheduling, Application of Operations Research in Industry, and Simulation",
+    "Teaching Interests": "Business Statistics, Business Analytics, Operations Research, Operations Management, and Supply Chain Management",
+    "Sustainability Contributions": "Published Green Logistics for Regional Industrial Waste Materials and Byproducts, applications of research related to operational efficiency and supply chain networks on energy efficiency and reduced environmental waste/degradation",
+    "Notes": "",
+    "id": "hamid@csudh.edu"
+  },
+  {
+    "Name": "Heather Clark",
+    "Campus": "Dominguez Hills",
+    "College": "College of Education",
+    "Department": "Teacher Education",
+    "Title": "Assistant Professor",
+    "Email": "hclark@csudh.edu",
+    "Research Interests": "Understanding how youth learn climate science in the pursuit of climate justice\nStudying how teachers learn to support these pursuits by developing justice-centered pedagogies",
+    "Teaching Interests": "",
+    "Sustainability Contributions": "Curriculum Co-Chair for the Center for Sustainability & the Environment\nPK-12 teacher preparation and PK-12 student learning for climate justice",
+    "Notes": "ResearchGate",
+    "id": "hclark@csudh.edu"
+  },
+  {
+    "Name": "Janine Gasco",
+    "Campus": "Dominguez Hills",
+    "College": "",
+    "Department": "Anthropology",
+    "Title": "",
+    "Email": "",
+    "Research Interests": "Ethnoecology, Ethnobotany",
+    "Teaching Interests": "",
+    "Sustainability Contributions": "",
+    "Notes": "",
+    "id": "janine-gasco"
+  },
+  {
+    "Name": "Jenney Hall",
+    "Campus": "Dominguez Hills",
+    "College": "College of Arts & Humanities",
+    "Department": "Interdisciplinary Studies",
+    "Title": "Associate Professor",
+    "Email": "jehall@csudh.edu",
+    "Research Interests": "Climate Change, Environmental Justice, Anthropocene",
+    "Teaching Interests": "",
+    "Sustainability Contributions": "Community Engagement Co-Chair for the Center for Sustainability and the Environment\nCreated a urban farm & pop-up thrift store on campus to increase food and clothing availability for students and the community",
+    "Notes": "",
+    "id": "jehall@csudh.edu"
+  },
+  {
+    "Name": "Jess Marinaccio",
+    "Campus": "Dominguez Hills",
+    "College": "",
+    "Department": "Asian Pacific Studies",
+    "Title": "",
+    "Email": "",
+    "Research Interests": "Climate change diplomacy and the mental health of Pacific children dealing with climate change situations",
+    "Teaching Interests": "",
+    "Sustainability Contributions": "",
+    "Notes": "",
+    "id": "jess-marinaccio"
+  },
+  {
+    "Name": "John Keyantash",
+    "Campus": "Dominguez Hills",
+    "College": "College of Natural and Behavioral Sciences",
+    "Department": "Earth Science",
+    "Title": "Professor of Earth Sciences, Department Chair",
+    "Email": "jkeyantash@csudh.edu",
+    "Research Interests": "Quantifying the severity of meteorological and hydrological drought\nHydrography of large rivers and waterfalls\nStreamflow statistics\nGIS",
+    "Teaching Interests": "Physical Geography\nThe Weather\nNumerical Methods in Geography\nRivers and Streams\nEarth's Climate\nNatural Disasters\nEarth Science for Teachers\nGroundwater",
+    "Sustainability Contributions": "Research and expertise on hydrology and applications for environmental health and water quality\nResearch on drought safety and National Parks",
+    "Notes": "",
+    "id": "jkeyantash@csudh.edu"
+  },
+  {
+    "Name": "Joshua Jeffers",
+    "Campus": "Dominguez Hills",
+    "College": "",
+    "Department": "History",
+    "Title": "",
+    "Email": "",
+    "Research Interests": "Environmental history",
+    "Teaching Interests": "",
+    "Sustainability Contributions": "",
+    "Notes": "",
+    "id": "joshua-jeffers"
   },
   {
     "Name": "Junhua (Adam) Guo",
@@ -260,6 +442,58 @@
     "id": "kkeller4@csub.edu"
   },
   {
+    "Name": "Karin Kram",
+    "Campus": "Dominguez Hills",
+    "College": "",
+    "Department": "Biology",
+    "Title": "",
+    "Email": "",
+    "Research Interests": "",
+    "Teaching Interests": "",
+    "Sustainability Contributions": "Research project on \"PCB Degradation by Bacteria in an Urban Wetland\" with implications for our understanding of the molecular mechanisms underlying evolution and adaptation",
+    "Notes": "",
+    "id": "karin-kram"
+  },
+  {
+    "Name": "Karina Sanchez",
+    "Campus": "Dominguez Hills",
+    "College": "",
+    "Department": "Biology",
+    "Title": "",
+    "Email": "",
+    "Research Interests": "Urban ecology",
+    "Teaching Interests": "",
+    "Sustainability Contributions": "",
+    "Notes": "",
+    "id": "karina-sanchez"
+  },
+  {
+    "Name": "Kathryn Theiss",
+    "Campus": "Dominguez Hills",
+    "College": "",
+    "Department": "Biology",
+    "Title": "",
+    "Email": "",
+    "Research Interests": "Effects of climate change on plants, including how their reprodutive strategies mitigate or aggravate conservation issues\nCombining field work, molecular biology, and greenhouse studies to understand plant response",
+    "Teaching Interests": "",
+    "Sustainability Contributions": "",
+    "Notes": "",
+    "id": "kathryn-theiss"
+  },
+  {
+    "Name": "Kenneth E. Seligson",
+    "Campus": "Dominguez Hills",
+    "College": "",
+    "Department": "Anthropology",
+    "Title": "",
+    "Email": "",
+    "Research Interests": "Understanding changing humanenvironmental relationships and resource management practices in the hilly Puuc region of the Yucatan",
+    "Teaching Interests": "",
+    "Sustainability Contributions": "Recent research project: \"Water Management Systems of a Smaller Puuc Community in Yucatan\"",
+    "Notes": "",
+    "id": "kenneth-e.-seligson"
+  },
+  {
     "Name": "Liaosha Song",
     "Campus": "Bakersfield",
     "College": "Natural Sciences, Mathematics, and Engineering",
@@ -286,6 +520,32 @@
     "id": "lhall12@csub.edu"
   },
   {
+    "Name": "Mahmoud Salari",
+    "Campus": "Dominguez Hills",
+    "College": "College of Business Administration and Public Policy",
+    "Department": "Accounting, Finance, and Economics",
+    "Title": "Associate Professor",
+    "Email": "msalari@csudh.edu",
+    "Research Interests": "Economics, Economic Analysis and Policy, Energy Policy, Renewable and Sustainable Energy Reviews, and Transportation Research Part D: Transport and Environment",
+    "Teaching Interests": "Micro-Economic Theory\nMacro-Economic Theory\nInternational Finance",
+    "Sustainability Contributions": "Research on renewable and sustainable energy, as well as transportation and the environment\nPublications and presentations on sustainable regional planning, CO2 emissions in agriculture, and electric vehicle technology",
+    "Notes": "LINK TO CV",
+    "id": "msalari@csudh.edu"
+  },
+  {
+    "Name": "Marie Palladini",
+    "Campus": "Dominguez Hills",
+    "College": "College of Business Administration and Public Policy",
+    "Department": "Public Administration, Criminal Justice curriculum",
+    "Title": "Professor",
+    "Email": "mpalladini@csudh.edu",
+    "Research Interests": "Criminal Law and Procedure\nEthics in the Criminal Law System\nWildlife Law Enforcement\nInternships and Organizational Culture in the Public and Private Sectors",
+    "Teaching Interests": "Legal and Ethical Foundations\nAdministrative Law\nCriminal Law and Justice Administration\nJuvenile Justice Process\nIntelligence and National Security\nIssues in Police Administration and Ethics",
+    "Sustainability Contributions": "Work in wildlife law enforcement, including publications about the Endangered Species Act\nResearch and publications on Corporate Social Responsibility and sustainability\nResearch on the divide between economic and social values and how CSR plays a major role",
+    "Notes": "",
+    "id": "mpalladini@csudh.edu"
+  },
+  {
     "Name": "Matthew Herman",
     "Campus": "Bakersfield",
     "College": "Natural Sciences, Mathematics, and Engineering",
@@ -297,6 +557,19 @@
     "Sustainability Contributions": "Research and publications related to tracking carbon capture and storage, geologic storage of hydrogen, earthquake seismotectonics\nPublications with the US Geological Survey",
     "Notes": "",
     "id": "mherman2@csub.edu"
+  },
+  {
+    "Name": "Michael Block",
+    "Campus": "Dominguez Hills",
+    "College": "",
+    "Department": "History",
+    "Title": "",
+    "Email": "",
+    "Research Interests": "Early American history; History of California; U.S. West; Business history; Environmental History; Maritime history",
+    "Teaching Interests": "",
+    "Sustainability Contributions": "",
+    "Notes": "",
+    "id": "michael-block"
   },
   {
     "Name": "Michell Thomey",
@@ -312,6 +585,32 @@
     "id": "mthomey@csub.edu"
   },
   {
+    "Name": "Nancy Erbe",
+    "Campus": "Dominguez Hills",
+    "College": "College of Arts & Humanities",
+    "Department": "Negotiation, Conflict Resolution, and Peacebuilding",
+    "Title": "Professor of Negotiation, Conflict Resolution, and Peacebuilding",
+    "Email": "nerbe@csudh.edu",
+    "Research Interests": "Organizational Diversity and Innovation\nInternational and Cross-Cultural Leadership\nNonviolence and Reducing Violence in Schools\nLegal and Feminist Studies on Human Trafficking",
+    "Teaching Interests": "",
+    "Sustainability Contributions": "Publications on mediation's role with global governance, with major implications on environmental mediation and litigation\nWorks with the Beahrs Environmental Leadership School",
+    "Notes": "",
+    "id": "nerbe@csudh.edu"
+  },
+  {
+    "Name": "Nestor Garza",
+    "Campus": "Dominguez Hills",
+    "College": "",
+    "Department": "Accounting, Finance, & Economics",
+    "Title": "",
+    "Email": "",
+    "Research Interests": "Climate change economics, Land concentration and food insecurity: the Colombian case",
+    "Teaching Interests": "",
+    "Sustainability Contributions": "",
+    "Notes": "",
+    "id": "nestor-garza"
+  },
+  {
     "Name": "Nyakundi Michieka",
     "Campus": "Bakersfield",
     "College": "Business and Public Administration",
@@ -323,6 +622,32 @@
     "Sustainability Contributions": "Courses and publications on topics such as natural energy resources, urbanization, carbon emissions, oil price dynamics, and environmental policy",
     "Notes": "Professional Memberships:\nAgricultural and Applied Economics Association (AAEA), July 2011 — Present\nRegional Science Association International (RSAI), March 2010 — Present\nSouthern Regional Science Association (SRSA), March 2010 — Present\nUnited States Association for Energy Economics (USAEE), May 2011 — Present\nWestern Economic Association International (WEAI), July 2017 – Present\nWestern Regional Science Association (WRSA), March 2018 — Present",
     "id": "nmichieka@csub.edu"
+  },
+  {
+    "Name": "Pamela Krochak",
+    "Campus": "Dominguez Hills",
+    "College": "",
+    "Department": "Health Science",
+    "Title": "",
+    "Email": "",
+    "Research Interests": "Enviornmental and Community Health",
+    "Teaching Interests": "",
+    "Sustainability Contributions": "",
+    "Notes": "",
+    "id": "pamela-krochak"
+  },
+  {
+    "Name": "Parveen Chhetri",
+    "Campus": "Dominguez Hills",
+    "College": "College of Natural and Behavioral Sciences",
+    "Department": "Earth Science",
+    "Title": "Associate Professor",
+    "Email": "pchhetri@csudh.edu",
+    "Research Interests": "Biogeography and Vegetation Dynamics, Spatial Modeling, and Geospatial Technology",
+    "Teaching Interests": "GIS\nRemote Sensing\nNatural Resources\nBiogeography\nPhysical Geography\nEarth Science for Teachers",
+    "Sustainability Contributions": "Applications of research in the tree-ring lab, with specific emphasis on trees in the Nepal Himalayas\nMentorship of student researchers\nResearch on Energy and Climate Issues related to CSUDH (LINK)\nEfforts in environmental pollution, climate change and vegetation response research\nResearch Co-Chair for the Center for Sustainability & the Environment",
+    "Notes": "LAB WEBSITE",
+    "id": "pchhetri@csudh.edu"
   },
   {
     "Name": "R. Brandon Pratt",
@@ -351,6 +676,45 @@
     "id": "rmcneish@csub.edu"
   },
   {
+    "Name": "Ralph Saunders",
+    "Campus": "Dominguez Hills",
+    "College": "",
+    "Department": "Earth Science and Geography",
+    "Title": "",
+    "Email": "",
+    "Research Interests": "Effects of urbanizationon animal poplationin the urban-wildlife interface",
+    "Teaching Interests": "",
+    "Sustainability Contributions": "",
+    "Notes": "",
+    "id": "ralph-saunders"
+  },
+  {
+    "Name": "Roya Azizi",
+    "Campus": "Dominguez Hills",
+    "College": "",
+    "Department": "Business Administration and Public Policy",
+    "Title": "",
+    "Email": "",
+    "Research Interests": "",
+    "Teaching Interests": "",
+    "Sustainability Contributions": "Research project: Inefficiency in the workplace with a focus on the Healthcare Industry - Green Healthcare, an Environmentally Sustainable Methodology - Incorporating Sustainability Research into your Classroom",
+    "Notes": "",
+    "id": "roya-azizi"
+  },
+  {
+    "Name": "Samantha Leigh",
+    "Campus": "Dominguez Hills",
+    "College": "",
+    "Department": "Biology",
+    "Title": "",
+    "Email": "",
+    "Research Interests": "",
+    "Teaching Interests": "",
+    "Sustainability Contributions": "Research project on the pervasiveness of microplastics in the Southern California Bight",
+    "Notes": "",
+    "id": "samantha-leigh"
+  },
+  {
     "Name": "Sarah Forester",
     "Campus": "Bakersfield",
     "College": "Natural Sciences, Mathematics, and Engineering",
@@ -362,6 +726,84 @@
     "Sustainability Contributions": "Wine sustainability research and publications",
     "Notes": "",
     "id": "sforester@csub.edu"
+  },
+  {
+    "Name": "Sarah Lacy",
+    "Campus": "Dominguez Hills",
+    "College": "",
+    "Department": "Anthropology",
+    "Title": "",
+    "Email": "",
+    "Research Interests": "Climactic instability impact on early human health, biological anthropology",
+    "Teaching Interests": "",
+    "Sustainability Contributions": "",
+    "Notes": "",
+    "id": "sarah-lacy"
+  },
+  {
+    "Name": "Sarah Taylor",
+    "Campus": "Dominguez Hills",
+    "College": "College of Natural and Behavioral Sciences",
+    "Department": "Anthropology",
+    "Title": "Associate Professor",
+    "Email": "sartaylor@csudh.edu",
+    "Research Interests": "Yucatán, Maya ethnology, political ecology and land use, critical development studies, agrarian reform and socioeconomic adaptation, community-based conservation strategies and natural resource management, tourism, gender and household production, ethnographic film, applied anthropology, and participatory research design",
+    "Teaching Interests": "Introduction to Cultural Anthropology\nMesoamerica, Past and Present\nApplied Anthropology\nPeople, Culture, and Environment",
+    "Sustainability Contributions": "Research on agriculture globalization and indigenous community-managed landscapes, research on land use and tourism",
+    "Notes": "",
+    "id": "sartaylor@csudh.edu"
+  },
+  {
+    "Name": "Scarlett Zamora",
+    "Campus": "Dominguez Hills",
+    "College": "Office of Sustainability",
+    "Department": "",
+    "Title": "Zero Waste Coordinator",
+    "Email": "szamora24@csudh.edu",
+    "Research Interests": "",
+    "Teaching Interests": "",
+    "Sustainability Contributions": "",
+    "Notes": "",
+    "id": "szamora24@csudh.edu"
+  },
+  {
+    "Name": "Shannon Roback",
+    "Campus": "Dominguez Hills",
+    "College": "College of Health, Human Services, and Nursing",
+    "Department": "Public Health",
+    "Title": "Lecturer",
+    "Email": "sroback@csudh.edu",
+    "Research Interests": "Mitigation of emerging contaminants and toxic disinfection byproduct formation at drinking water, recycled water and advanced water treatment plants, identification of new toxic contaminants and transformation products and developing and improving treatment strategies for these contaminants",
+    "Teaching Interests": "Environmental Health Science\nIntro to Public Health",
+    "Sustainability Contributions": "Work with regional water agencies to develop interventions and strategies to combat toxic water pollutants\nImpacts of research on environmental health and water safety",
+    "Notes": "",
+    "id": "sroback@csudh.edu"
+  },
+  {
+    "Name": "Sonal Singhal",
+    "Campus": "Dominguez Hills",
+    "College": "",
+    "Department": "Biology",
+    "Title": "",
+    "Email": "",
+    "Research Interests": "General Biology\nEvolution\nBioinformatics\nBig data",
+    "Teaching Interests": "",
+    "Sustainability Contributions": "Research project: Species Distribution Modeling of Threatened Bats in Global Biodiversity Hotspots",
+    "Notes": "",
+    "id": "sonal-singhal"
+  },
+  {
+    "Name": "Stephen McFarland",
+    "Campus": "Dominguez Hills",
+    "College": "College of Arts & Humanities",
+    "Department": "Labor Studies",
+    "Title": "Professor and Chair of Labor Studies",
+    "Email": "smcfarland@csudh.edu",
+    "Research Interests": "Labor geography, geographic information systems, cartography, urban social movements, labor history, labor and climate justice, race and labor",
+    "Teaching Interests": "",
+    "Sustainability Contributions": "Research on labor movements and urban social impacts, with implications on environmental heatlh for industrial employees and unionization",
+    "Notes": "",
+    "id": "smcfarland@csudh.edu"
   },
   {
     "Name": "Tat Acharya",
@@ -377,6 +819,32 @@
     "id": "tacharya@csub.edu"
   },
   {
+    "Name": "Terry McGlynn",
+    "Campus": "Dominguez Hills",
+    "College": "",
+    "Department": "Biology",
+    "Title": "",
+    "Email": "",
+    "Research Interests": "Tropical ecology\nBehavioral ecology",
+    "Teaching Interests": "",
+    "Sustainability Contributions": "",
+    "Notes": "",
+    "id": "terry-mcglynn"
+  },
+  {
+    "Name": "Thomas Norman",
+    "Campus": "Dominguez Hills",
+    "College": "",
+    "Department": "Business Administration and Public Policy",
+    "Title": "",
+    "Email": "",
+    "Research Interests": "",
+    "Teaching Interests": "",
+    "Sustainability Contributions": "Research project: Building socially responsive businesses in Eastern Europe following the UN's Sustainable Development Goals",
+    "Notes": "",
+    "id": "thomas-norman"
+  },
+  {
     "Name": "Vince Carter",
     "Campus": "Bakersfield",
     "College": "Business and Public Administration",
@@ -390,6 +858,19 @@
     "id": "ecarter2@csub.edu"
   },
   {
+    "Name": "Vivian Price",
+    "Campus": "Dominguez Hills",
+    "College": "College of Arts & Humanities",
+    "Department": "Labor Studies",
+    "Title": "Professor of Interdisciplinary Studies\nLabor Studies Affiliate",
+    "Email": "vprice@csudh.edu",
+    "Research Interests": "Intersection of construction, industry, and military workers with environmental justice and climate change",
+    "Teaching Interests": "",
+    "Sustainability Contributions": "Founded the Labor, Social, and Environmental Justice Fair\nPublications:\n\"Build It Green,\" a publication on how construction training in Europe, the US, and Canada incorporates climate literaay\n\"Just Transition in the Defense Industry\" studies how workers in military industries in the US and the UK view the need to decarbonize and convert their workplaces towards more civilian purposes\n\"Work, Labour, and Greening the Economy\" is a Norwegian based project on how oil workers/unions in Norway, Nigeria, and North America view the phasing out of oil",
+    "Notes": "",
+    "id": "vprice@csudh.edu"
+  },
+  {
     "Name": "William (Chris) Krugh",
     "Campus": "Bakersfield",
     "College": "Natural Sciences, Mathematics, and Engineering",
@@ -401,6 +882,19 @@
     "Sustainability Contributions": "",
     "Notes": "",
     "id": "wkrugh@csub.edu"
+  },
+  {
+    "Name": "Xun (Peter) Xu",
+    "Campus": "Dominguez Hills",
+    "College": "",
+    "Department": "Information Systems & Operations Management",
+    "Title": "",
+    "Email": "",
+    "Research Interests": "Service operations management, supply chain management and coordination, supply chain finance, e-commerce, sustainability, data and text mining, and hospitality and tourism management",
+    "Teaching Interests": "",
+    "Sustainability Contributions": "",
+    "Notes": "",
+    "id": "xun-(peter)-xu"
   },
   {
     "Name": "Yize Li",
