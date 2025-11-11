@@ -1,333 +1,326 @@
 #!/usr/bin/env python3
 """
-Build script for the member Portal
-Processes YAML member files and generates static site
+Build script for a simple Faculty Directory site
+
+- Expects one YAML file per faculty member in data/members/*.yml
+- Each file can include fields like:
+    name: "Dr. Ada Lovelace"
+    email: "ada@university.edu"
+    campus: "CSU Example"
+    college: "Engineering"
+    department: "Computer Science"
+    research_focus: ["Compilers", "Numerical Analysis"]
+    photo: "static/photos/ada.jpg"   # optional
+    website: "https://adalovelace.example.edu"  # optional
+
+- Generates a static site under ./site with:
+    - /index.html (directory listing with search/filter)
+    - /members/<slug>/index.html (profile pages)
+    - /members.json (JSON API of all members)
+
+Templates:
+- If ./templates/index.html and ./templates/member.html exist, they'll be used.
+- Otherwise, minimal built-in templates are used as a fallback.
+
+This script intentionally focuses on a minimal, flat structure—no separate course/lesson slugs.
 """
+
+from __future__ import annotations
 
 import os
 import json
-import yaml
 import shutil
+from dataclasses import dataclass, asdict
 from pathlib import Path
+from typing import Dict, Any, List
+
+import yaml
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-import urllib.parse
-from pathlib import PurePosixPath
+# ---------------------------
+# Configuration
+# ---------------------------
+ROOT = Path(__file__).parent.resolve()
+DATA_DIR = ROOT / "data" / "members"
+TEMPLATES_DIR = ROOT / "templates"
+SITE_DIR = ROOT / "site"
+MEMBERS_DIR = SITE_DIR / "members"
+STATIC_DIR = ROOT / "static"  # Optional; copied recursively to site/static if present
+
+# ---------------------------
+# Helpers
+# ---------------------------
+
+def load_yaml_file(filepath: Path) -> Dict[str, Any]:
+    with open(filepath, "r", encoding="utf-8") as f:
+        return yaml.safe_load(f) or {}
 
 
-# Shared instructor repository - same for all members
-INSTRUCTOR_REPO = "csu-climate/members"  # Replace with your instructor repo
+def slugify(text: str) -> str:
+    import re
+    text = (text or "").strip().lower()
+    # Keep alphanumerics, replace spaces and separators with '-'
+    text = re.sub(r"[^a-z0-9\s-_]", "", text)
+    text = re.sub(r"[\s_]+", "-", text)
+    text = re.sub(r"-+", "-", text).strip("-")
+    return text or "member"
 
-def load_yaml_file(filepath):
-    """Load and parse a YAML file"""
-    with open(filepath, 'r', encoding='utf-8') as f:
-        return yaml.safe_load(f)
 
-def get_member_id_from_filename(filename):
-    """Extract member ID from YAML filename"""
-    return Path(filename).stem
+@dataclass
+class Member:
+    id: str
+    name: str
+    email: str | None = None
+    campus: str | None = None
+    college: str | None = None
+    department: str | None = None
+    research_focus: List[str] | str | None = None
+    photo: str | None = None
+    website: str | None = None
+    extras: Dict[str, Any] | None = None  # capture any other fields
 
-def process_member_data(member_data, member_id):
-    """Process member data and add computed fields"""
-    member_data['id'] = member_id
-    
-    # Add shared instructor repo
-    member_data['instructor_repo'] = INSTRUCTOR_REPO
-    
-    # Automatically set instructor repo path to match member ID
-    member_data['instructor_repo_path'] = member_id
-    
-    # Use fallback for instructor email if not specified
-    if 'instructor_email' not in member_data:
-        member_data['instructor_email'] = "N/A"
-    
-    # All members must now use the materials format with explicit URLs
-    # Legacy formats (notebook/notebooks) are no longer supported
-    if 'materials' not in member_data:
-        if 'notebook' in member_data or 'notebooks' in member_data:
-            print(f"Warning: member {member_id} uses legacy format. Please convert to materials format with explicit URLs.")
-            return None
-        else:
-            print(f"Error: member {member_id} has no materials section.")
-            return None
+    @property
+    def slug(self) -> str:
+        return self.id
 
-    # Generate chemcompute launch from public_repo_url
+    @property
+    def email_href(self) -> str | None:
+        return f"mailto:{self.email}" if self.email else None
 
-    if "ChemCompute" in member_data["platforms"]:
-        stub = "https://chemcompute.org/jupyterhub_internal/hub/user-redirect/git-pull?repo="
-        
-        # Parse the GitHub repo URL
-        repo_url = member_data['public_repo_url']
-        parsed = urllib.parse.urlparse(repo_url)
-        repo_path = PurePosixPath(parsed.path).stem
+    @property
+    def research_focus_list(self) -> List[str]:
+        if self.research_focus is None:
+            return []
+        if isinstance(self.research_focus, list):
+            return [str(x) for x in self.research_focus]
+        return [str(self.research_focus)]
 
-        repo_url_encoded = urllib.parse.quote(repo_url)
-        urlpath = f"lab/tree/{repo_path}/"
-        urlpath_encoded = urllib.parse.quote(urlpath)
 
-        # Construct full launch URL
-        member_data['chemcompute_launch'] = (
-            f"{stub}{repo_url_encoded}"
-            f"&branch=main"
-            f"&urlpath={urlpath_encoded}"
-        )  
-    
-    return member_data
+# ---------------------------
+# Template environment with graceful fallbacks
+# ---------------------------
+FALLBACK_INDEX_TEMPLATE = """
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Faculty Directory</title>
+  <link rel="stylesheet" href="/static/style.css" />
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 2rem; }
+    header { display:flex; align-items:center; justify-content:space-between; gap:1rem; flex-wrap: wrap; }
+    .grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; margin-top:1rem; }
+    .card { border: 1px solid #e5e7eb; border-radius: 12px; padding: 1rem; }
+    .card h3 { margin: 0 0 .5rem; font-size: 1.1rem; }
+    .muted { color:#6b7280; font-size:.9rem; }
+    .search { padding:.6rem .8rem; border:1px solid #d1d5db; border-radius: 10px; min-width: 260px; }
+    a { color:#2563eb; text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    img.thumb { width: 100%; height: 140px; object-fit: cover; border-radius: 8px; background:#f3f4f6; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Faculty Directory</h1>
+    <input id="q" class="search" placeholder="Search name, dept, campus, college, research focus" />
+  </header>
+  <div id="count" class="muted">{{ members|length }} members</div>
 
-def build_members_json(members_dir, output_dir):
-    """Build the members.json file from all YAML files"""
-    members = []
-    
-    # Process all YAML files in members directory
-    for yaml_file in Path(members_dir).glob('*.yml'):
-        print(f"Processing {yaml_file.name}...")
-        
-        member_data = load_yaml_file(yaml_file)
-        member_id = get_member_id_from_filename(yaml_file.name)
-        processed_member = process_member_data(member_data, member_id)
-        
-        if processed_member is not None:
-            members.append(processed_member)
-        else:
-            print(f"Skipping {yaml_file.name} due to processing errors")
-    
-    # Sort members by title
-    members.sort(key=lambda x: x['title'])
-    
-    # Write members.json
-    output_file = Path(output_dir) / 'members.json'
-    with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(members, f, indent=2, ensure_ascii=False)
-    
-    print(f"Generated {output_file} with {len(members)} members")
-    return members
+  <section class="grid" id="cards">
+    {% for m in members %}
+    <article class="card" data-text="{{ (m.name ~ ' ' ~ (m.department or '') ~ ' ' ~ (m.college or '') ~ ' ' ~ (m.campus or '') ~ ' ' ~ m.research_focus_list|join(' ')) | lower }}">
+      {% if m.photo %}<img class="thumb" src="/{{ m.photo }}" alt="{{ m.name }}" />{% endif %}
+      <h3><a href="/members/{{ m.slug }}/">{{ m.name }}</a></h3>
+      {% if m.department %}<div class="muted">{{ m.department }}</div>{% endif %}
+      {% if m.college or m.campus %}
+        <div class="muted">{{ [m.college, m.campus]|select|join(' · ') }}</div>
+      {% endif %}
+      {% if m.research_focus_list %}<div>{{ m.research_focus_list|join(', ') }}</div>{% endif %}
+    </article>
+    {% endfor %}
+  </section>
 
-def build_member_pages(members, templates_dir, output_dir):
-    """Build individual member pages from template"""
-    
-    # Setup Jinja2 environment
-    env = Environment(
-        loader=FileSystemLoader(templates_dir),
-        autoescape=select_autoescape(['html', 'xml'])
-    )
-    
-    # Load member template
-    template = env.get_template('member.html')
-    
-    for member in members:
-        print(f"Building member page for {member['id']}...")
-        
-        # Create member directory
-        member_dir = Path(output_dir) / 'members' / member['id']
-        member_dir.mkdir(parents=True, exist_ok=True)
-        
-        # Prepare template context - just member data
-        context = member
-        
-        # Render template
-        html_content = template.render(context)
-        
-        # Write member page
-        member_file = member_dir / 'index.html'
-        with open(member_file, 'w', encoding='utf-8') as f:
-            f.write(html_content)
-        
-        print(f"Generated {member_file}")
+  <script>
+    const q = document.getElementById('q');
+    const cards = Array.from(document.querySelectorAll('#cards .card'));
+    const count = document.getElementById('count');
+    q.addEventListener('input', () => {
+      const term = q.value.trim().toLowerCase();
+      let visible = 0;
+      cards.forEach((el) => {
+        const hay = el.getAttribute('data-text');
+        const show = !term || hay.includes(term);
+        el.style.display = show ? '' : 'none';
+        if (show) visible++;
+      });
+      count.textContent = `${visible} members`;
+    });
+  </script>
+</body>
+</html>
+"""
 
-def copy_static_files(source_dir, output_dir):
-    """Copy index.html and any static assets"""
-    
-    # Copy index.html directly
-    index_source = Path(source_dir) / 'index.html'
-    index_dest = Path(output_dir) / 'index.html'
+FALLBACK_MEMBER_TEMPLATE = """
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ m.name }} · Faculty Profile</title>
+  <link rel="stylesheet" href="/static/style.css" />
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 2rem; max-width: 900px; }
+    .back { margin-bottom: 1rem; display:inline-block; }
+    .wrap { display:grid; grid-template-columns: 180px 1fr; gap: 1.25rem; align-items: start; }
+    img.portrait { width: 180px; height: 180px; object-fit: cover; border-radius: 12px; background:#f3f4f6; }
+    .muted { color:#6b7280; }
+    ul.tags { list-style:none; padding:0; display:flex; gap:.5rem; flex-wrap:wrap; }
+    ul.tags li { background:#eef2ff; color:#3730a3; padding:.25rem .5rem; border-radius: 999px; font-size:.85rem; }
+  </style>
+</head>
+<body>
+  <a class="back" href="/">← All members</a>
+  <article>
+    <div class="wrap">
+      {% if m.photo %}<img class="portrait" src="/{{ m.photo }}" alt="{{ m.name }}" />{% endif %}
+      <header>
+        <h1>{{ m.name }}</h1>
+        <div class="muted">
+          {{ [m.department, m.college, m.campus]|select|join(' · ') }}
+        </div>
+        <p>
+          {% if m.email_href %}<a href="{{ m.email_href }}">{{ m.email }}</a>{% endif %}
+          {% if m.website %} · <a href="{{ m.website }}" rel="noopener">Website</a>{% endif %}
+        </p>
+      </header>
+    </div>
 
-    css_source = Path(source_dir) / 'theme.css'
-    css_dest = Path(output_dir) / 'theme.css'
+    {% if m.research_focus_list %}
+      <h2>Research focus</h2>
+      <ul class="tags">
+        {% for tag in m.research_focus_list %}<li>{{ tag }}</li>{% endfor %}
+      </ul>
+    {% endif %}
 
-    logo_source = Path(source_dir) / 'act-cms-logo.svg'
-    logo_dest = Path(output_dir) / 'act-cms-logo.svg'
-    
-    if index_source.exists():
-        shutil.copy2(index_source, index_dest)
-        print(f"Copied {index_source} to {index_dest}")
-    else:
-        print(f"Warning: {index_source} not found")
+    {% if m.extras %}
+      <h2>Additional information</h2>
+      <pre>{{ m.extras | tojson(indent=2) }}</pre>
+    {% endif %}
+  </article>
+</body>
+</html>
+"""
 
-    if css_source.exists():
-        shutil.copy2(css_source, css_dest)
-        print(f"Copied {css_source} to {css_dest}") 
-    else:
-        print(f"Warning: {css_source} not found")
 
-    if logo_source.exists():
-        shutil.copy2(logo_source, logo_dest)
-        print(f"Copied {logo_source} to {logo_dest}")
-    else:
-        print(f"Warning: {logo_source} not found")   
-    
-    # Copy static directory if it exists
-    static_source = Path(source_dir) / 'static'
-    static_dest = Path(output_dir) / 'static'
-    
-    if static_source.exists():
-        if static_dest.exists():
-            shutil.rmtree(static_dest)
-        shutil.copytree(static_source, static_dest)
-        print(f"Copied static files from {static_source} to {static_dest}")
+def get_env() -> Environment:
+    if TEMPLATES_DIR.exists():
+        loader = FileSystemLoader(str(TEMPLATES_DIR))
+        env = Environment(loader=loader, autoescape=select_autoescape(["html", "xml"]))
+        return env
+    # Fallback: construct an env and register in-memory templates
+    env = Environment(autoescape=select_autoescape(["html", "xml"]))
+    env.globals["fallback_index"] = FALLBACK_INDEX_TEMPLATE
+    env.globals["fallback_member"] = FALLBACK_MEMBER_TEMPLATE
+    return env
 
-def validate_member_data(member_data, filename):
-    """Validate member data has required fields"""
-    required_fields = [
-        'title', 'description', 'programming_skill', 'primary_course',
-        'authors', 'format', 'scientific_objectives', 
-        'cyberinfrastructure_objectives', 'platforms', 'materials',
-        'public_repo_url'
-    ]
-    
-    # Optional instructor fields that should be validated if present
-    optional_instructor_fields = {
-        'student_level': str,
-        'students_piloted': (int, float),
-        'instructor_notes': str,
-        'related_modules': list
-    }
-    
-    missing_fields = []
-    for field in required_fields:
-        if field not in member_data:
-            missing_fields.append(field)
-    
-    if missing_fields:
-        print(f"Error: {filename} is missing required fields: {missing_fields}")
-        return False
-    
-    # Validate optional instructor fields if present
-    for field, expected_type in optional_instructor_fields.items():
-        if field in member_data:
-            value = member_data[field]
-            if not isinstance(value, expected_type):
-                print(f"Error: {filename} field '{field}' should be {expected_type.__name__ if hasattr(expected_type, '__name__') else expected_type}")
-                return False
-    
-    # Validate related_modules if present
-    if 'related_modules' in member_data:
-        if not all(isinstance(module, str) for module in member_data['related_modules']):
-            print(f"Error: {filename} related_modules should be a list of strings")
-            return False
-    
-    # Check for legacy formats and reject them
-    if 'notebook' in member_data or 'notebooks' in member_data:
-        print(f"Error: {filename} uses legacy notebook/notebooks format. Please convert to materials format with explicit URLs.")
-        return False
-    
-    # Validate materials structure
-    if not isinstance(member_data['materials'], list):
-        print(f"Error: {filename} materials field must be a list")
-        return False
-    
-    if len(member_data['materials']) == 0:
-        print(f"Error: {filename} materials list cannot be empty")
-        return False
-    
-    for i, material in enumerate(member_data['materials']):
-        required_material_fields = ['title', 'description', 'type', 'duration']
-        for field in required_material_fields:
-            if field not in material:
-                print(f"Error: {filename} material {i+1} is missing required field: {field}")
-                return False
-        
-        # Require at least one URL (github_url or colab_url)
-        if 'github_url' not in material and 'colab_url' not in material:
-            print(f"Error: {filename} material {i+1} must have either github_url or colab_url")
-            return False
-        
-        # Validate URL format if present
-        for url_field in ['github_url', 'colab_url']:
-            if url_field in material:
-                url = material[url_field]
-                if not isinstance(url, str) or not url.startswith('http'):
-                    print(f"Error: {filename} material {i+1} {url_field} must be a valid HTTP/HTTPS URL")
-                    return False
-    
-    # Validate authors field
-    if 'authors' in member_data:
-        authors = member_data['authors']
-        if not isinstance(authors, (list, str)):
-            print(f"Error: {filename} authors field must be a list or string")
-            return False
-    
-    return True
 
-def main():
-    """Main build process"""
-    print("Building Member Directory ...")
-    print("Note: Only materials format with explicit URLs is now supported.")
-    
-    # Define paths
-    script_dir = Path(__file__).parent
-    project_root = script_dir.parent
-    
-    members_dir = project_root / 'members'
-    templates_dir = project_root / 'templates'
-    output_dir = project_root / 'site'  # This will be pushed to gh-pages
-    
-    # Create output directory
-    output_dir.mkdir(exist_ok=True)
-    
-    # Validate required directories exist
-    if not members_dir.exists():
-        print(f"Error: Member directory {members_dir} not found")
-        return 1
-    
-    if not templates_dir.exists():
-        print(f"Error: Templates directory {templates_dir} not found")
-        return 1
-    
-    # Check for YAML files
-    yaml_files = list(members_dir.glob('*.yml'))
-    if not yaml_files:
-        print(f"Error: No .yml files found in {members_dir}")
-        return 1
-    
-    print(f"Found {len(yaml_files)} member files")
-    
-    # Validate all member files first
-    valid_members = True
-    for yaml_file in yaml_files:
-        member_data = load_yaml_file(yaml_file)
-        if not validate_member_data(member_data, yaml_file.name):
-            valid_members = False
-    
-    if not valid_members:
-        print("Error: Some member files have validation errors")
-        print("Please fix the errors above and run the build again.")
-        return 1
-    
+def render_template(env: Environment, name: str, **ctx) -> str:
+    """Render template by filename or fallback constant."""
     try:
-        # Build members.json
-        members = build_members_json(members_dir, output_dir)
-        
-        if len(members) == 0:
-            print("Error: No valid members found after processing")
-            return 1
-        
-        # Build individual member pages
-        build_member_pages(members, templates_dir, output_dir)
-        
-        # Copy static files
-        copy_static_files(project_root, output_dir)
-        
-        print(f"\n✅ Build complete! Site generated in {output_dir}")
-        print(f"📄 Generated {len(members)} member pages")
-        print(f"🔗 Members available at: /members/[member-id]/")
-        
-        return 0
-        
-    except Exception as e:
-        print(f"❌ Build failed: {e}")
-        import traceback
-        traceback.print_exc()
-        return 1
+        tmpl = env.get_template(f"{name}.html")
+        return tmpl.render(**ctx)
+    except Exception:
+        # Use fallbacks baked into this script
+        if name == "index":
+            return env.from_string(FALLBACK_INDEX_TEMPLATE).render(**ctx)
+        elif name == "member":
+            return env.from_string(FALLBACK_MEMBER_TEMPLATE).render(**ctx)
+        raise
 
-if __name__ == '__main__':
-    exit(main())
+
+# ---------------------------
+# Core building logic
+# ---------------------------
+
+def collect_members() -> List[Member]:
+    if not DATA_DIR.exists():
+        raise SystemExit(f"Data directory not found: {DATA_DIR}")
+
+    members: List[Member] = []
+    for yml in sorted(DATA_DIR.glob("*.yml")):
+        raw = load_yaml_file(yml)
+        # Prefer explicit id/slug, else derive from name, else filename stem
+        preferred = raw.get("id") or raw.get("slug") or raw.get("name") or yml.stem
+        member_id = slugify(str(preferred))
+
+        known = {
+            "name": raw.get("name", "Unnamed Member"),
+            "email": raw.get("email"),
+            "campus": raw.get("campus") or raw.get("campus_name") or raw.get("campus_dept"),
+            "college": raw.get("college"),
+            "department": raw.get("department") or raw.get("dept") or raw.get("campus_dept"),
+            "research_focus": raw.get("research_focus") or raw.get("research") or raw.get("focus"),
+            "photo": raw.get("photo"),
+            "website": raw.get("website"),
+        }
+        # Extras: keep any keys we didn't normalize
+        extras = {k: v for k, v in raw.items() if k not in set(known.keys()) | {"id", "slug"}}
+
+        members.append(
+            Member(
+                id=member_id,
+                extras=extras if extras else None,
+                **known,
+            )
+        )
+
+    # Sort by last name if possible, otherwise by name
+    def sort_key(m: Member):
+        parts = (m.name or "").split()
+        return (parts[-1].lower() if parts else m.name.lower(), m.name.lower())
+
+    return sorted(members, key=sort_key)
+
+
+def write_json(members: List[Member]):
+    SITE_DIR.mkdir(parents=True, exist_ok=True)
+    data = [asdict(m) | {"slug": m.slug, "email_href": m.email_href, "research_focus_list": m.research_focus_list} for m in members]
+    (SITE_DIR / "members.json").write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+
+
+def write_index(env: Environment, members: List[Member]):
+    html = render_template(env, "index", members=members)
+    SITE_DIR.mkdir(parents=True, exist_ok=True)
+    (SITE_DIR / "index.html").write_text(html, encoding="utf-8")
+
+
+def write_member_pages(env: Environment, members: List[Member]):
+    MEMBERS_DIR.mkdir(parents=True, exist_ok=True)
+    for m in members:
+        html = render_template(env, "member", m=m)
+        out_dir = MEMBERS_DIR / m.slug
+        out_dir.mkdir(parents=True, exist_ok=True)
+        (out_dir / "index.html").write_text(html, encoding="utf-8")
+
+
+def copy_static():
+    if STATIC_DIR.exists():
+        dst = SITE_DIR / "static"
+        if dst.exists():
+            shutil.rmtree(dst)
+        shutil.copytree(STATIC_DIR, dst)
+
+
+def build():
+    env = get_env()
+    members = collect_members()
+    write_index(env, members)
+    write_member_pages(env, members)
+    write_json(members)
+    copy_static()
+    print(f"Built {len(members)} member pages to {SITE_DIR}")
+
+
+if __name__ == "__main__":
+    build()

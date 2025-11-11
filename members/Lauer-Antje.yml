@@ -5,8 +5,8 @@
 # Remove any sections that don't apply to your lesson
 
 # BASIC METADATA (REQUIRED)
-# Use a clear, descriptive title that includes the main topic
-title: "Antje Lauer"
+# Member's name
+name: "Antje Lauer"
 
 # Brief description for search results (1-2 sentences)
 description: "Calculations to guide reagent use when preparing a buffer solution at a given pH."
