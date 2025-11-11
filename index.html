@@ -5,109 +5,211 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Members Directory</title>
   <link rel="stylesheet" href="theme.css" />
-  <style>
-    .filters { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap: 12px; margin-bottom: 16px; }
-    .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
-    .card { border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); background: white; }
-    .name { font-weight: 600; font-size: 1.1rem; margin-bottom: 4px; }
-    .meta { font-size: 0.9rem; color: #374151; margin-bottom: 6px; }
-    .pill { display: inline-block; font-size: 0.75rem; padding: 2px 8px; border-radius: 999px; background: #f3f4f6; margin-right: 6px; margin-bottom: 6px; }
-    .muted { color: #6b7280; font-size: 0.85rem; }
-    .header { display:flex; justify-content: space-between; align-items:center; margin: 24px 0; }
-    .header h1 { margin:0; font-size: 1.5rem; }
-    .count { font-size:0.9rem; }
-    input, select { width: 100%; padding: 8px; border: 1px solid #e5e7eb; border-radius: 8px; }
-    body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; background:#f9fafb; margin:0; }
-    .container { max-width: 1100px; margin: 0 auto; padding: 20px; }
-  </style>
 </head>
 <body>
   <div class="container">
     <div class="header">
+      <div class="header-left">
+        <img src="climate-directory-logo.png" alt="CSU-Climate Directory Logo" class="logo">
+      </div>
       <h1>Members Directory</h1>
-      <div class="count" id="count"></div>
+      <button class="theme-toggle" onclick="toggleTheme()" id="themeToggle">
+        <svg class="theme-icon" id="themeIcon" viewBox="0 0 24 24">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+        <span id="themeText">Dark Mode</span>
+      </button>
     </div>
-    <div class="filters">
-      <input id="q" type="search" placeholder="Search name, interests, notes..."/>
-      <select id="college"><option value="">All Colleges</option></select>
-      <select id="department"><option value="">All Departments</option></select>
-      <select id="title"><option value="">All Titles</option></select>
+
+    <div class="search-section">
+      <input 
+        type="text" 
+        class="search-bar" 
+        placeholder="Search members by name, interests, notes..." 
+        id="searchInput"
+      >
+
+      <div class="filters">
+        <div class="filter-group">
+          <label for="college">College</label>
+          <select class="filter-select" id="college">
+            <option value="">All Colleges</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="department">Department</label>
+          <select class="filter-select" id="department">
+            <option value="">All Departments</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="title">Title</label>
+          <select class="filter-select" id="title">
+            <option value="">All Titles</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="filter-tags" id="activeFilters"></div>
     </div>
-    <div class="cards" id="cards"></div>
+
+    <div class="results-header">
+      <h2>Members</h2>
+      <div class="results-count" id="resultsCount">Loading...</div>
+    </div>
+
+    <div class="lessons-grid" id="cardsGrid"></div>
+
+    <footer class="footer">
+      <p>Accelerating Curricular Transformation in the Computational Molecular Sciences (ACT-CMS).</p>
+    </footer>
   </div>
 
-  <script>
-    let MEMBERS = [];
-    const el = (id) => document.getElementById(id);
-
-    function uniq(values) {
-      return [...new Set(values.filter(Boolean).map(v => v.trim()))].sort((a,b)=>a.localeCompare(b));
+<script>
+  // === Theme management (mirrors original index.html) ===
+  function setThemeUI(isDark) {
+    const themeIcon = document.getElementById('themeIcon');
+    const themeText = document.getElementById('themeText');
+    if (isDark) {
+      // Sun icon indicates you can switch back to light
+      themeIcon.innerHTML = '<circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>';
+      themeText.textContent = 'Light Mode';
+    } else {
+      // Moon icon indicates you can switch to dark
+      themeIcon.innerHTML = '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>';
+      themeText.textContent = 'Dark Mode';
     }
+  }
 
-    function renderOptions(select, values) {
-      const current = select.value;
-      const first = select.querySelector("option:first-child");
-      select.innerHTML = "";
-      select.appendChild(first);
-      for (const v of values) {
-        const opt = document.createElement("option");
-        opt.value = v;
-        opt.textContent = v;
-        select.appendChild(opt);
-      }
-      if (uniq(values).includes(current)) select.value = current;
-    }
+  function toggleTheme() {
+    const body = document.body;
+    const willBeDark = !body.classList.contains('dark-theme');
+    body.classList.toggle('dark-theme', willBeDark);
+    localStorage.setItem('theme', willBeDark ? 'dark' : 'light');
+    setThemeUI(willBeDark);
+  }
 
-    function card(m) {
-      const interests = [m["Research Interests"], m["Teaching Interests"]].filter(Boolean);
-      const pills = interests.flatMap(s => s.split(/[,;]+/)).map(s => s.trim()).filter(Boolean).slice(0,6);
-      return `
-        <div class="card">
-          <div class="name">${m["Name"]}</div>
-          <div class="meta">${m["Title"] || ""}${m["Title"] && (m["Department"]||m["College"]) ? " · " : ""}${m["Department"] || ""}${m["Department"] && m["College"] ? " · " : ""}${m["College"] || ""}</div>
-          <div class="muted">${m["Email"] ? `<a href="mailto:${m["Email"]}">${m["Email"]}</a>` : ""}</div>
-          ${pills.length ? `<div style="margin-top:8px;">${pills.map(p=>`<span class="pill">${p}</span>`).join("")}</div>` : ""}
-          ${m["Sustainability Contributions"] ? `<div class="muted" style="margin-top:8px;"><strong>Sustainability:</strong> ${m["Sustainability Contributions"]}</div>` : ""}
-          ${m["Notes"] ? `<div class="muted" style="margin-top:8px;"><strong>Notes:</strong> ${m["Notes"]}</div>` : ""}
-        </div>
-      `;
-    }
+  function loadTheme() {
+    const savedTheme = localStorage.getItem('theme');
+    const isDark = savedTheme === 'dark';
+    document.body.classList.toggle('dark-theme', isDark);
+    setThemeUI(isDark);
+  }
 
-    function filterMembers() {
-      const q = el("q").value.toLowerCase();
-      const college = el("college").value;
-      const department = el("department").value;
-      const title = el("title").value;
+  // === Directory logic ===
+  let MEMBERS = [];
 
-      const filtered = MEMBERS.filter(m => {
-        const blob = [m["Name"], m["Research Interests"], m["Teaching Interests"], m["Notes"], m["Sustainability Contributions"]].join(" ").toLowerCase();
-        if (q && !blob.includes(q)) return false;
-        if (college && m["College"] !== college) return false;
-        if (department && m["Department"] !== department) return false;
-        if (title && m["Title"] !== title) return false;
-        return true;
+  function uniq(values) {
+    return [...new Set(values.filter(Boolean).map(v => v.trim()))].sort((a,b)=>a.localeCompare(b));
+  }
+
+  function pillize(str) {
+    if (!str) return [];
+    return str.split(/[,;]+/).map(s => s.trim()).filter(Boolean);
+  }
+
+  function createMemberCard(m) {
+    const interests = [...pillize(m['Research Interests']), ...pillize(m['Teaching Interests'])].slice(0, 8);
+    const emailHTML = m['Email'] ? `<a href="mailto:${m['Email']}">${m['Email']}</a>` : '';
+    const metaBits = [m['Title'], m['Department'], m['College']].filter(Boolean).join(' · ');
+
+    const card = document.createElement('div');
+    card.className = 'lesson-card'; // reuse existing card styling
+    card.innerHTML = `
+      <div class="lesson-title">${m['Name'] || '(No name)'}</div>
+      <div class="lesson-description">${metaBits}</div>
+      <div class="lesson-meta">
+        ${emailHTML ? `<div class="meta-item"><span class="meta-label">Email:</span><span class="meta-value">${emailHTML}</span></div>` : ''}
+        ${m['Sustainability Contributions'] ? `<div class="meta-item"><span class="meta-label">Sustainability:</span><span class="meta-value">${m['Sustainability Contributions']}</span></div>` : ''}
+        ${m['Notes'] ? `<div class="meta-item"><span class="meta-label">Notes:</span><span class="meta-value">${m['Notes']}</span></div>` : ''}
+      </div>
+      ${interests.length ? `<div class="lesson-tags">${interests.map(t=>`<span class="tag">${t}</span>`).join('')}</div>` : ''}
+    `;
+    return card;
+  }
+
+  function applyFilters() {
+    const q = document.getElementById('searchInput').value.toLowerCase();
+    const college = document.getElementById('college').value;
+    const department = document.getElementById('department').value;
+    const title = document.getElementById('title').value;
+
+    const filtered = MEMBERS.filter(m => {
+      const blob = [
+        m['Name'], m['Research Interests'], m['Teaching Interests'],
+        m['Notes'], m['Sustainability Contributions'], m['College'],
+        m['Department'], m['Title'], m['Email']
+      ].join(' ').toLowerCase();
+      if (q && !blob.includes(q)) return false;
+      if (college && m['College'] !== college) return false;
+      if (department && m['Department'] !== department) return false;
+      if (title && m['Title'] !== title) return false;
+      return true;
+    });
+
+    const grid = document.getElementById('cardsGrid');
+    grid.innerHTML = '';
+    filtered.forEach(m => grid.appendChild(createMemberCard(m)));
+
+    document.getElementById('resultsCount').textContent = `${filtered.length} of ${MEMBERS.length}`;
+
+    // Render active filter tags
+    const tagsEl = document.getElementById('activeFilters');
+    tagsEl.innerHTML = '';
+    const active = [
+      college ? {label:'College', value:college, id:'college'} : null,
+      department ? {label:'Department', value:department, id:'department'} : null,
+      title ? {label:'Title', value:title, id:'title'} : null
+    ].filter(Boolean);
+
+    active.forEach(f => {
+      const t = document.createElement('span');
+      t.className = 'filter-tag';
+      t.innerHTML = `<strong>${f.label}:</strong> ${f.value} <button class="remove" aria-label="Clear ${f.label}">&times;</button>`;
+      t.querySelector('button').addEventListener('click', () => {
+        document.getElementById(f.id).value = '';
+        applyFilters();
       });
+      tagsEl.appendChild(t);
+    });
+  }
 
-      el("cards").innerHTML = filtered.map(card).join("");
-      el("count").textContent = `${filtered.length} of ${MEMBERS.length}`;
+  async function init() {
+    loadTheme();
+    const resp = await fetch('data/members.json', {cache: 'no-store'});
+    MEMBERS = await resp.json();
+
+    // Populate filter options
+    const colleges = uniq(MEMBERS.map(m => m['College']));
+    const departments = uniq(MEMBERS.map(m => m['Department']));
+    const titles = uniq(MEMBERS.map(m => m['Title']));
+
+    function fill(selectId, values) {
+      const sel = document.getElementById(selectId);
+      const current = sel.value;
+      // Keep first option
+      const first = sel.querySelector('option:first-child');
+      sel.innerHTML = '';
+      sel.appendChild(first);
+      values.forEach(v => {
+        const o = document.createElement('option');
+        o.value = v; o.textContent = v;
+        sel.appendChild(o);
+      });
+      if (values.includes(current)) sel.value = current;
+      sel.addEventListener('change', applyFilters);
     }
 
-    async function init() {
-      const resp = await fetch("data/members.json", {cache:"no-store"});
-      MEMBERS = await resp.json();
+    fill('college', colleges);
+    fill('department', departments);
+    fill('title', titles);
 
-      // Populate filters
-      renderOptions(el("college"), uniq(MEMBERS.map(m=>m["College"])));
-      renderOptions(el("department"), uniq(MEMBERS.map(m=>m["Department"])));
-      renderOptions(el("title"), uniq(MEMBERS.map(m=>m["Title"])));
+    document.getElementById('searchInput').addEventListener('input', applyFilters);
 
-      // Wire up events
-      ["q","college","department","title"].forEach(id => el(id).addEventListener("input", filterMembers));
-      ["college","department","title"].forEach(id => el(id).addEventListener("change", filterMembers));
+    applyFilters();
+  }
 
-      filterMembers();
-    }
-    init();
-  </script>
+  init();
+</script>
 </body>
 </html>

@@ -1,0 +1,14 @@
+[
+  {
+    "Name": "Ada Lovelace",
+    "College": "Engineering",
+    "Department": "Computer Science",
+    "Title": "Professor",
+    "Email": "ada.lovelace@example.edu",
+    "Research Interests": "Algorithms; Computation; History of computing",
+    "Teaching Interests": "Programming, Ethics in CS",
+    "Sustainability Contributions": "Lead on sustainable computing initiative",
+    "Notes": "Advises ACM student chapter",
+    "id": "ada.lovelace@example.edu"
+  }
+]
