@@ -278,6 +278,7 @@ def _write_index(env: Environment, members: List[Member], base_path: str):
     SITE_DIR.mkdir(parents=True, exist_ok=True)
     html = _render_index(env, members, base_path)
     (SITE_DIR / "index.html").write_text(html, encoding="utf-8")
+    
 
 def _copy_static():
     if STATIC_DIR.exists():
