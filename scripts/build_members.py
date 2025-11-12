@@ -98,7 +98,7 @@ RECOMMENDED_FIELDS = ["Name", "Email", "Campus", "College", "Department", "Title
 
 def _slugify(text: str) -> str:
     text = (text or "").strip().lower()
-    text = re.sub(r"[^a-z0-9\s-_]", "", text)
+    text = re.sub(r"[^a-z0-9\\s\\-_]", "", text)
     text = re.sub(r"[\s_]+", "-", text)
     text = re.sub(r"-+", "-", text).strip("-")
     return text or "member"
