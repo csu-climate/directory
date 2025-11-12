@@ -10,6 +10,14 @@ from pathlib import Path
 
 REQUIRED_FIELDS = ["Name","Campus","College","Department","Title","Email","Research Interests","Teaching Interests","Sustainability Contributions","Notes"]
 
+def write_index(env, members, base_path=""):
+    html = render_template(env, "index", members=members, base_path=base_path)
+    # ...
+
+def write_member_pages(env, members, base_path=""):
+    for m in members:
+        html = render_template(env, "member", m=m, base_path=base_path)
+    
 def build():
     env = get_env()
     base_path = os.getenv("BASE_PATH", "")  # e.g. "/directory" on GitHub Pages
@@ -20,14 +28,6 @@ def build():
     copy_static()
     print(f"Built {len(members)} member pages to {SITE_DIR}")
 
-def write_index(env, members, base_path=""):
-    html = render_template(env, "index", members=members, base_path=base_path)
-    # ...
-
-def write_member_pages(env, members, base_path=""):
-    for m in members:
-        html = render_template(env, "member", m=m, base_path=base_path)
-    
 def load_yaml(p: Path):
     with p.open("r", encoding="utf-8") as f:
         return yaml.safe_load(f) or {}
