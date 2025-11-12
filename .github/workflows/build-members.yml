@@ -60,17 +60,16 @@ jobs:
       env:
         BASE_PATH: "/${{ github.event.repository.name }}"
       run: |
-          python scripts/build_members.py
-          echo "Built with BASE_PATH=$BASE_PATH"
-          test -f site/index.html
-          ls -la site
-          ls -la site/static || true
-          sed -n '1,40p' site/index.html
-
+        python scripts/build_members.py
+        echo "Built with BASE_PATH=$BASE_PATH"
+        test -f site/index.html
+        ls -la site
+        ls -la site/static || true
+        sed -n '1,40p' site/index.html
+        
     - name: Deploy Site
-      if: github.ref == 'refs/heads/main'
       uses: JamesIves/github-pages-deploy-action@v4
       with:
-        branch: gh-pages         # optional if default
-        folder: site             # "folder: ./site" also OK
+        branch: gh-pages
+        folder: site
         clean: true
