@@ -66,7 +66,17 @@ jobs:
         ls -la site
         ls -la site/static || true
         sed -n '1,40p' site/index.html
-        
+
+    - name: Verify site output
+      run: |
+        echo "== site listing =="
+        ls -la site
+        echo "== must-exist checks =="
+        test -f site/index.html || (echo "❌ site/index.html missing" && exit 1)
+        test -f site/members.json || (echo "❌ site/members.json missing" && exit 1)
+        echo "== first lines of built index =="
+        sed -n '1,60p' site/index.html
+    
     - name: Deploy Site
       uses: JamesIves/github-pages-deploy-action@v4
       with:
