@@ -26,7 +26,7 @@
       <input 
         type="text" 
         class="search-bar" 
-        placeholder="Search members by name, department, interests ..." 
+        placeholder="Search members by name, interests ..." 
         id="searchInput"
       >
 
@@ -188,9 +188,16 @@
 
   async function init() {
     loadTheme();
-    const resp = await fetch('/directory/members.json', {cache: 'no-store'});
-    MEMBERS = await resp.json();
-
+    try {
+      const resp = await fetch('/directory/members.json', { cache: 'no-store' });
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+      MEMBERS = await resp.json();
+    } catch (e) {
+      console.error('Failed to load members.json:', e);
+      document.getElementById('resultsCount').textContent = 'Failed to load data';
+      return;
+    }
+    
     // Populate filter options
     const colleges = uniq(MEMBERS.map(m => m['College']));
     const departments = uniq(MEMBERS.map(m => m['Department']));
