@@ -65,6 +65,7 @@ jobs:
           test -f site/index.html
           ls -la site
           ls -la site/static || true
+          sed -n '1,40p' site/index.html
 
     - name: Deploy Site
       if: github.ref == 'refs/heads/main'
