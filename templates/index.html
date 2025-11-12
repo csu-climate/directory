@@ -188,35 +188,61 @@
 
   async function init() {
     loadTheme();
+    const url = '{{ base_path }}/members.json?v=' + Date.now();  // cache-bust to avoid 304 edge cases
+    console.log('Fetching members from:', url);
+
+    let resp;
     try {
-      const resp = await fetch('{{ base_path }}/members.json', { cache: 'no-store' });
-      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-      MEMBERS = await resp.json();
+      resp = await fetch(url, {
+        cache: 'no-store',
+        headers: { 'Accept': 'application/json' }
+      });
+      if (!resp.ok) throw new Error(`HTTP ${resp.status} ${resp.statusText}`);
     } catch (e) {
-      console.error('Failed to load members.json:', e);
+      console.error('Failed to fetch members.json:', e);
       document.getElementById('resultsCount').textContent = 'Failed to load data';
       return;
     }
-    
-    // Populate filter options
+
+    let data;
+    try {
+      data = await resp.json();
+    } catch (e) {
+      console.error('members.json is not valid JSON:', e);
+      document.getElementById('resultsCount').textContent = 'Bad data';
+      return;
+    }
+
+    // Normalize keys so either "Research Interests" or "Research_Interests" works
+    const normalize = (m) => ({
+      ...m,
+      Name: m.Name ?? m.name ?? '',
+      Email: m.Email ?? m.email ?? '',
+      Campus: m.Campus ?? m.campus ?? '',
+      College: m.College ?? m.college ?? '',
+      Department: m.Department ?? m.department ?? '',
+      Title: m.Title ?? m.title ?? '',
+      // allow both spellings
+      'Research Interests': m['Research Interests'] ?? m.Research_Interests ?? '',
+      'Teaching Interests': m['Teaching Interests'] ?? m.Teaching_Interests ?? '',
+      'Sustainability Contributions': m['Sustainability Contributions'] ?? m.Sustainability_Contributions ?? '',
+      Notes: m.Notes ?? ''
+    });
+
+    MEMBERS = data.map(normalize);
+
+    // ...your existing filter setup...
+    const uniq = (arr) => [...new Set(arr.filter(Boolean).map(v => v.trim()))].sort((a,b)=>a.localeCompare(b));
     const colleges = uniq(MEMBERS.map(m => m['College']));
     const departments = uniq(MEMBERS.map(m => m['Department']));
     const titles = uniq(MEMBERS.map(m => m['Title']));
     const campuses = uniq(MEMBERS.map(m => m['Campus']));
 
-    function fill(selectId, values) {
-      const sel = document.getElementById(selectId);
-      const current = sel.value;
-      // Keep first option
+    function fill(id, values) {
+      const sel = document.getElementById(id);
       const first = sel.querySelector('option:first-child');
-      sel.innerHTML = '';
-      sel.appendChild(first);
-      values.forEach(v => {
-        const o = document.createElement('option');
-        o.value = v; o.textContent = v;
-        sel.appendChild(o);
-      });
-      if (values.includes(current)) sel.value = current;
+      sel.innerHTML = ''; sel.appendChild(first);
+      values.forEach(v => { const o = document.createElement('option'); o.value = v; o.textContent = v; sel.appendChild(o); });
       sel.addEventListener('change', applyFilters);
     }
 
@@ -226,7 +252,6 @@
     fill('campus', campuses);
 
     document.getElementById('searchInput').addEventListener('input', applyFilters);
-
     applyFilters();
   }
 
