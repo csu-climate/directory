@@ -30,11 +30,17 @@
         id="searchInput"
       >
 
-      <div class="filters">
+      <!--<div class="filters">
         <div class="filter-group">
           <label for="college">College</label>
           <select class="filter-select" id="college">
             <option value="">All Colleges</option>
+          </select>
+        </div>-->
+        <div class="filter-group">
+          <label for="campus">Campus</label>
+          <select class="filter-select" id="campus">
+            <option value="">All Campuses</option>
           </select>
         </div>
         <div class="filter-group">
@@ -43,18 +49,13 @@
             <option value="">All Departments</option>
           </select>
         </div>
-        <div class="filter-group">
+        <!--<div class="filter-group">
           <label for="title">Title</label>
           <select class="filter-select" id="title">
             <option value="">All Titles</option>
           </select>
-        </div>
-        <div class="filter-group">
-          <label for="campus">Campus</label>
-          <select class="filter-select" id="campus">
-            <option value="">All Campuses</option>
-          </select>
-        </div>
+        </div>-->
+        
       </div>
 
       <div class="filter-tags" id="activeFilters"></div>
@@ -185,30 +186,52 @@
     });
   }
 
+  async function loadMembersJSON() {
+    const candidates = [
+      "{{ base_path }}/members.json",
+      // runtime fallback: infer repo base from current path
+      location.pathname.split('/').slice(0, 2).join('/') + "/members.json",
+      "members.json"
+    ].filter(Boolean);
+
+    let lastErr = null;
+    for (const url of candidates) {
+      try {
+        console.log("Trying data URL:", url);
+        const r = await fetch(url, { cache: "no-store" });
+        if (r.ok) return r.json();
+        lastErr = new Error(`HTTP ${r.status} on ${url}`);
+      } catch (e) {
+        lastErr = e;
+      }
+    }
+    throw lastErr || new Error("Could not load members.json");
+  }
+
   async function init() {
     loadTheme();
-    const resp = await fetch('{{ base_path }}/members.json', {cache: 'no-store'});
-    MEMBERS = await resp.json();
+    let MEMBERS_DATA;
+    try {
+      MEMBERS_DATA = await loadMembersJSON();
+    } catch (e) {
+      console.error("Failed to load members.json:", e);
+      document.getElementById("resultsCount").textContent = "Failed to load data";
+      return; // stop here so the UI doesn’t stay on “Loading…”
+    }
 
-    // Populate filter options
-    const colleges = uniq(MEMBERS.map(m => m['College']));
-    const departments = uniq(MEMBERS.map(m => m['Department']));
-    const titles = uniq(MEMBERS.map(m => m['Title']));
-    const campuses = uniq(MEMBERS.map(m => m['Campus']));
+    MEMBERS = MEMBERS_DATA;
 
-    function fill(selectId, values) {
-      const sel = document.getElementById(selectId);
-      const current = sel.value;
-      // Keep first option
+    // ... keep your existing populate+filter code unchanged ...
+    const colleges = [...new Set(MEMBERS.map(m => m['College']).filter(Boolean))].sort();
+    const departments = [...new Set(MEMBERS.map(m => m['Department']).filter(Boolean))].sort();
+    const titles = [...new Set(MEMBERS.map(m => m['Title']).filter(Boolean))].sort();
+    const campuses = [...new Set(MEMBERS.map(m => m['Campus']).filter(Boolean))].sort();
+
+    function fill(id, values) {
+      const sel = document.getElementById(id);
       const first = sel.querySelector('option:first-child');
-      sel.innerHTML = '';
-      sel.appendChild(first);
-      values.forEach(v => {
-        const o = document.createElement('option');
-        o.value = v; o.textContent = v;
-        sel.appendChild(o);
-      });
-      if (values.includes(current)) sel.value = current;
+      sel.innerHTML = ''; sel.appendChild(first);
+      values.forEach(v => { const o = document.createElement('option'); o.value = v; o.textContent = v; sel.appendChild(o); });
       sel.addEventListener('change', applyFilters);
     }
 
@@ -218,7 +241,6 @@
     fill('campus', campuses);
 
     document.getElementById('searchInput').addEventListener('input', applyFilters);
-
     applyFilters();
   }
 
