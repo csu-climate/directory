@@ -187,7 +187,7 @@
 
   async function init() {
     loadTheme();
-    const resp = await fetch('data/members.json', {cache: 'no-store'});
+    const resp = await fetch('{{ base_path }}/members.json', {cache: 'no-store'});
     MEMBERS = await resp.json();
 
     // Populate filter options
