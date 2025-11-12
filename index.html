@@ -1,5 +1,4 @@
-
-<!DOCTYPE html><!-- BUILD-MARKER: members-JSON -->
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -13,7 +12,7 @@
       <div class="header-left">
         <img src="/directory/static/climate-directory-logo.png" alt="CSU Climate Directory Logo" class="logo">
       </div>
-      <h1>CSU Climate Faculty Directory</h1>
+      <h1>CSU-Climate Faculty Directory</h1>
       <button class="theme-toggle" onclick="toggleTheme()" id="themeToggle">
         <svg class="theme-icon" id="themeIcon" viewBox="0 0 24 24">
           <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
@@ -26,36 +25,23 @@
       <input 
         type="text" 
         class="search-bar" 
-        placeholder="Search members by name, interests ..." 
+        placeholder="Search members by name, interests, notes..." 
         id="searchInput"
       >
 
-      <!--<div class="filters">
-        <div class="filter-group">
-          <label for="college">College</label>
-          <select class="filter-select" id="college">
-            <option value="">All Colleges</option>
-          </select>
-        </div>-->
-        <div class="filter-group">
-          <label for="campus">Campus</label>
-          <select class="filter-select" id="campus">
-            <option value="">All Campuses</option>
-          </select>
-        </div>
+      <div class="filters">
         <div class="filter-group">
           <label for="department">Department</label>
           <select class="filter-select" id="department">
             <option value="">All Departments</option>
           </select>
         </div>
-        <!--<div class="filter-group">
-          <label for="title">Title</label>
-          <select class="filter-select" id="title">
-            <option value="">All Titles</option>
+        <div class="filter-group">
+          <label for="campus">Campus</label>
+          <select class="filter-select" id="campus">
+            <option value="">All Campuses</option>
           </select>
-        </div>-->
-        
+        </div>
       </div>
 
       <div class="filter-tags" id="activeFilters"></div>
@@ -75,16 +61,14 @@
   </div>
 
 <script>
-  // === Theme management (mirrors original index.html) ===
+  // === Theme management ===
   function setThemeUI(isDark) {
     const themeIcon = document.getElementById('themeIcon');
     const themeText = document.getElementById('themeText');
     if (isDark) {
-      // Sun icon indicates you can switch back to light
       themeIcon.innerHTML = '<circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>';
       themeText.textContent = 'Light Mode';
     } else {
-      // Moon icon indicates you can switch to dark
       themeIcon.innerHTML = '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>';
       themeText.textContent = 'Dark Mode';
     }
@@ -105,25 +89,24 @@
     setThemeUI(isDark);
   }
 
-  // === Directory logic ===
-  let MEMBERS = [];
-
+  // === Helpers ===
+  function $id(id) { return document.getElementById(id); }
   function uniq(values) {
     return [...new Set(values.filter(Boolean).map(v => v.trim()))].sort((a,b)=>a.localeCompare(b));
   }
-
   function pillize(str) {
     if (!str) return [];
     return str.split(/[,;]+/).map(s => s.trim()).filter(Boolean);
   }
 
+  // === Rendering ===
   function createMemberCard(m) {
     const interests = [...pillize(m['Research Interests']), ...pillize(m['Teaching Interests'])].slice(0, 8);
     const emailHTML = m['Email'] ? `<a href="mailto:${m['Email']}">${m['Email']}</a>` : '';
-    const metaBits = [m['Title'], m['Department'], m['College'], m['Campus']].filter(Boolean).join(' · ');
+    const metaBits = [m['Department'], m['Campus']].filter(Boolean).join(' · ');
 
     const card = document.createElement('div');
-    card.className = 'lesson-card'; // reuse existing card styling
+    card.className = 'lesson-card';
     card.innerHTML = `
       <div class="lesson-title">${m['Name'] || '(No name)'}</div>
       <div class="lesson-description">${metaBits}</div>
@@ -138,69 +121,60 @@
   }
 
   function applyFilters() {
-    const q = document.getElementById('searchInput').value.toLowerCase();
-    const college = document.getElementById('college').value;
-    const department = document.getElementById('department').value;
-    const title = document.getElementById('title').value;
-    const campus = document.getElementById('campus').value;
+    const q = ($id('searchInput')?.value || '').toLowerCase();
+    const department = $id('department') ? $id('department').value : '';
+    const campus = $id('campus') ? $id('campus').value : '';
 
     const filtered = MEMBERS.filter(m => {
       const blob = [
         m['Name'], m['Research Interests'], m['Teaching Interests'],
-        m['Notes'], m['Sustainability Contributions'], m['College'],
-        m['Department'], m['Title'], m['Campus'], m['Email']
+        m['Notes'], m['Sustainability Contributions'],
+        m['Department'], m['Campus'], m['Email']
       ].join(' ').toLowerCase();
       if (q && !blob.includes(q)) return false;
-      if (college && m['College'] !== college) return false;
       if (department && m['Department'] !== department) return false;
-      if (title && m['Title'] !== title) return false;
       if (campus && m['Campus'] !== campus) return false;
       return true;
     });
 
-    const grid = document.getElementById('cardsGrid');
+    const grid = $id('cardsGrid');
     grid.innerHTML = '';
     filtered.forEach(m => grid.appendChild(createMemberCard(m)));
+    $id('resultsCount').textContent = `${filtered.length} of ${MEMBERS.length}`;
 
-    document.getElementById('resultsCount').textContent = `${filtered.length} of ${MEMBERS.length}`;
-
-    // Render active filter tags
-    const tagsEl = document.getElementById('activeFilters');
+    const tagsEl = $id('activeFilters');
     tagsEl.innerHTML = '';
-    const active = [
-      college ? {label:'College', value:college, id:'college'} : null,
-      department ? {label:'Department', value:department, id:'department'} : null,
-      title ? {label:'Title', value:title, id:'title'} : null,
-      campus ? {label:'Campus', value:campus, id:'campus'} : null
-    ].filter(Boolean);
-
+    const active = [];
+    if ($id('department') && department) active.push({label:'Department', value:department, id:'department'});
+    if ($id('campus') && campus)       active.push({label:'Campus', value:campus, id:'campus'});
     active.forEach(f => {
       const t = document.createElement('span');
       t.className = 'filter-tag';
       t.innerHTML = `<strong>${f.label}:</strong> ${f.value} <button class="remove" aria-label="Clear ${f.label}">&times;</button>`;
       t.querySelector('button').addEventListener('click', () => {
-        document.getElementById(f.id).value = '';
+        $id(f.id).value = '';
         applyFilters();
       });
       tagsEl.appendChild(t);
     });
   }
 
+  // === App entry ===
+  let MEMBERS = [];
+
   async function init() {
     loadTheme();
-    const url = '/directory/members.json?v=' + Date.now();  // cache-bust to avoid 304 edge cases
+
+    const url = '/directory/members.json?v=' + Date.now();
     console.log('Fetching members from:', url);
 
     let resp;
     try {
-      resp = await fetch(url, {
-        cache: 'no-store',
-        headers: { 'Accept': 'application/json' }
-      });
+      resp = await fetch(url, { cache: 'no-store', headers: { 'Accept': 'application/json' } });
       if (!resp.ok) throw new Error(`HTTP ${resp.status} ${resp.statusText}`);
     } catch (e) {
       console.error('Failed to fetch members.json:', e);
-      document.getElementById('resultsCount').textContent = 'Failed to load data';
+      $id('resultsCount').textContent = 'Failed to load data';
       return;
     }
 
@@ -209,20 +183,16 @@
       data = await resp.json();
     } catch (e) {
       console.error('members.json is not valid JSON:', e);
-      document.getElementById('resultsCount').textContent = 'Bad data';
+      $id('resultsCount').textContent = 'Bad data';
       return;
     }
 
-    // Normalize keys so either "Research Interests" or "Research_Interests" works
     const normalize = (m) => ({
       ...m,
       Name: m.Name ?? m.name ?? '',
       Email: m.Email ?? m.email ?? '',
       Campus: m.Campus ?? m.campus ?? '',
-      College: m.College ?? m.college ?? '',
       Department: m.Department ?? m.department ?? '',
-      Title: m.Title ?? m.title ?? '',
-      // allow both spellings
       'Research Interests': m['Research Interests'] ?? m.Research_Interests ?? '',
       'Teaching Interests': m['Teaching Interests'] ?? m.Teaching_Interests ?? '',
       'Sustainability Contributions': m['Sustainability Contributions'] ?? m.Sustainability_Contributions ?? '',
@@ -231,27 +201,24 @@
 
     MEMBERS = data.map(normalize);
 
-    // ...your existing filter setup...
-    const uniq = (arr) => [...new Set(arr.filter(Boolean).map(v => v.trim()))].sort((a,b)=>a.localeCompare(b));
-    const colleges = uniq(MEMBERS.map(m => m['College']));
     const departments = uniq(MEMBERS.map(m => m['Department']));
-    const titles = uniq(MEMBERS.map(m => m['Title']));
-    const campuses = uniq(MEMBERS.map(m => m['Campus']));
+    const campuses    = uniq(MEMBERS.map(m => m['Campus']));
 
     function fill(id, values) {
-      const sel = document.getElementById(id);
+      const sel = $id(id);
+      if (!sel) return;
       const first = sel.querySelector('option:first-child');
-      sel.innerHTML = ''; sel.appendChild(first);
-      values.forEach(v => { const o = document.createElement('option'); o.value = v; o.textContent = v; sel.appendChild(o); });
+      sel.innerHTML = ''; if (first) sel.appendChild(first);
+      values.forEach(v => { const o=document.createElement('option'); o.value=v; o.textContent=v; sel.appendChild(o); });
       sel.addEventListener('change', applyFilters);
     }
 
-    fill('college', colleges);
-    fill('department', departments);
-    fill('title', titles);
-    fill('campus', campuses);
+    if ($id('department')) fill('department', departments);
+    if ($id('campus'))     fill('campus', campuses);
 
-    document.getElementById('searchInput').addEventListener('input', applyFilters);
+    const searchEl = $id('searchInput');
+    if (searchEl) searchEl.addEventListener('input', applyFilters);
+
     applyFilters();
   }
 
