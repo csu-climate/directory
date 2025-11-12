@@ -8,6 +8,14 @@ import os
 import json, yaml, sys
 from pathlib import Path
 
+# Repo root (one level up from scripts/)
+ROOT = Path(__file__).resolve().parent.parent
+# Your layout: /members/*.yml, /templates, /static
+DATA_DIR = ROOT / "members"
+TEMPLATES_DIR = ROOT / "templates"
+SITE_DIR = ROOT / "site"
+STATIC_DIR = ROOT / "static"
+
 REQUIRED_FIELDS = ["Name","Campus","College","Department","Title","Email","Research Interests","Teaching Interests","Sustainability Contributions","Notes"]
 
 def write_index(env, members, base_path=""):

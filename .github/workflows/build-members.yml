@@ -59,7 +59,12 @@ jobs:
     - name: Build members site
       env:
         BASE_PATH: "/${{ github.event.repository.name }}"
-      run: python scripts/build_members.py
+      run: |
+          python scripts/build_members.py
+          echo "Built with BASE_PATH=$BASE_PATH"
+          test -f site/index.html
+          ls -la site
+          ls -la site/static || true
 
     - name: Deploy Site
       if: github.ref == 'refs/heads/main'
