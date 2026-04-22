@@ -144,7 +144,7 @@ body {
 
 
 .lesson-title {
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 700;
     margin-bottom: 8px;
     color: var(--text-primary);
@@ -791,7 +791,7 @@ a:hover {
 }
 
 .department-line {
-  font-size: 16px;        /* bigger */
+  font-size: 18px;        /* bigger */
   font-weight: 500;       /* bold */
   color: var(--text-secondary);
   margin-bottom: 4px;
