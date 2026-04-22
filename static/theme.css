@@ -145,7 +145,7 @@ body {
 
 .lesson-title {
     font-size: 36px;
-    font-weight: 1000;
+    font-weight: 700;
     margin-bottom: 16px;
     color: var(--text-primary);
 }
@@ -782,12 +782,6 @@ a:hover {
     color: inherit;
 }
 
-.lesson-title {
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 8px;
-    color: var(--text-primary);
-}
 
 .lesson-description {
     color: var(--text-secondary);
@@ -798,8 +792,8 @@ a:hover {
 
 .department-line {
   font-size: 18px;        /* bigger */
-  font-weight: 800;       /* bold */
-  color: var(--text-primary);
+  font-weight: 600;       /* bold */
+  color: var(--text-secondary);
   margin-bottom: 4px;
 }
 
