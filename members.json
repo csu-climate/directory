@@ -1,26 +1,5 @@
 [
   {
-    "id": "suzannewechslercsulbedu",
-    "Name": "Suzanna Perlitsh (Wechsler)",
-    "Email": "Suzanne.Wechsler@csulb.edu",
-    "Campus": "Long Beach",
-    "College": "College of Liberal Arts",
-    "Department": "Geography",
-    "Title": "Department Chair, Geography",
-    "Research_Interests": "Geographic information science (gisci), Spatial analysis, Terrain analysis, Watershed hydrology",
-    "Teaching_Interests": "Teaching Interests: Introduction to geospatial techniques, Geographic information science for natural sciences, Environmental applications of geographic information science, Gis professionalism, Applied gis",
-    "Sustainability_Contributions": "Applications of GIS research on spatial and conservation questions.",
-    "Notes": null,
-    "Photo": null,
-    "Website": null,
-    "extras": null,
-    "slug": "suzannewechslercsulbedu",
-    "email_href": "mailto:Suzanne.Wechsler@csulb.edu",
-    "Research_Interests_List": [
-      "Geographic information science (gisci), Spatial analysis, Terrain analysis, Watershed hydrology"
-    ]
-  },
-  {
     "id": "1",
     "Name": "Ryan Abman",
     "Email": "1",
@@ -13859,6 +13838,27 @@
     "email_href": "mailto:eperez1@cpp.edu",
     "Research_Interests_List": [
       "Urban ecology, Environmental justice, Public space design"
+    ]
+  },
+  {
+    "id": "suzannewechslercsulbedu",
+    "Name": "Suzanna (Wechsler) Perlitsh",
+    "Email": "Suzanne.Wechsler@csulb.edu",
+    "Campus": "Long Beach",
+    "College": "College of Liberal Arts",
+    "Department": "Geography",
+    "Title": "Department Chair, Geography",
+    "Research_Interests": "Geographic information science (gisci), Spatial analysis, Terrain analysis, Watershed hydrology",
+    "Teaching_Interests": "Teaching Interests: Introduction to geospatial techniques, Geographic information science for natural sciences, Environmental applications of geographic information science, Gis professionalism, Applied gis",
+    "Sustainability_Contributions": "Applications of GIS research on spatial and conservation questions.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "suzannewechslercsulbedu",
+    "email_href": "mailto:Suzanne.Wechsler@csulb.edu",
+    "Research_Interests_List": [
+      "Geographic information science (gisci), Spatial analysis, Terrain analysis, Watershed hydrology"
     ]
   },
   {
