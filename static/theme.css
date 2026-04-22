@@ -146,7 +146,7 @@ body {
 .lesson-title {
     font-size: 36px;
     font-weight: 700;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
     color: var(--text-primary);
 }
 
