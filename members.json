@@ -1,8 +1,8 @@
 [
   {
-    "id": "ryanabman",
+    "id": "rabmansdsuedu",
     "Name": "Ryan Abman",
-    "Email": null,
+    "Email": "rabman@sdsu.edu",
     "Campus": "San Diego",
     "College": "College of Arts and Letters",
     "Department": "Economics",
@@ -14,8 +14,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "slug": "ryanabman",
-    "email_href": null,
+    "slug": "rabmansdsuedu",
+    "email_href": "mailto:rabman@sdsu.edu",
     "Research_Interests_List": [
       "Environmental and natural resource economics, Applied econometrics, Political economy, Economics of deforestation and conservation policies, Current research examines the role of local politics and institutions in deforestation and environmental regulation"
     ]
