@@ -804,7 +804,7 @@ a:hover {
 .lesson-meta {
     display: flex;
     flex-direction: column;
-    gap: 2px;
+    gap: 4px;
     margin-bottom: 16px;
 }
 
@@ -908,7 +908,7 @@ a:hover {
 }
 
 .teaching-block {
-  margin-top: 8px;   /* adjust to taste */
+  margin-top: 10px;   /* adjust to taste */
 }
 
 
