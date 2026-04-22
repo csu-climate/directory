@@ -108,14 +108,14 @@
   function createMemberCard(m) {
     const emailHTML = m['Email'] ? `<a href="mailto:${m['Email']}">${m['Email']}</a>` : '';
   
-    const deptLine = m['Department'] ? `<div class="lesson-description">Department: ${m['Department']}</div>` : '';
+    const deptLine = m['Department'] ? `<div class="department-line">Department: ${m['Department']}</div>` : '';
     const campusLine = m['Campus'] ? `<div class="lesson-description">Campus: ${m['Campus']}</div>` : '';
   
     function block(label, value) {
       if (!value) return '';
       return `
         <div class="meta-block">
-          <div class="meta-block-label">${label}</div>
+          <div class="meta-label">${label}</div>
           <div class="meta-block-value">${value}</div>
         </div>
       `;
@@ -130,7 +130,7 @@
   
       <div class="lesson-meta">
         ${emailHTML ? `<div class="meta-item"><span class="meta-label">Email:</span><span class="meta-value">${emailHTML}</span></div>` : ''}
-        ${block('<span class="meta-label">Research Interests</span>', m['Research Interests'])}
+        ${block('Research Interests', m['Research Interests'])}
         ${block('Teaching Interests', m['Teaching Interests'])}
         ${block('Sustainability Contributions', m['Sustainability Contributions'])}
         ${block('Notes', m['Notes'])}
