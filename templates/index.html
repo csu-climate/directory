@@ -108,7 +108,7 @@
   function createMemberCard(m) {
     const emailHTML = m['Email'] ? `<a href="mailto:${m['Email']}">${m['Email']}</a>` : '';
   
-    const deptLine = m['Department'] ? `<div class="department-line">Department: ${m['Department']}</div>` : '';
+    const deptLine = m['Department'] ? `<div class="department-line">${m['Department']}</div>` : '';
     const campusLine = m['Campus'] ? `<div class="lesson-description">Campus: ${m['Campus']}</div>` : '';
   
     function block(label, value) {
