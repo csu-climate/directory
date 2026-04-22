@@ -1145,6 +1145,27 @@
     "Research_Interests_List": []
   },
   {
+    "id": "dfernandezcsumbedu",
+    "Name": "Daniel Fernandez",
+    "Email": "dfernandez@csumb.edu",
+    "Campus": "Monterey Bay",
+    "College": "College of Science",
+    "Department": "Applied Environmental Science",
+    "Title": "Professor",
+    "Research_Interests": "Research Interests: Fog research, Systems research",
+    "Teaching_Interests": "Teaching Interests: Physics, Sustainability systems, Infrastructure systems, Environmental studies capstone.",
+    "Sustainability_Contributions": "Fog researcher and a fog water collector. Interested in the possible use of collected fog water to promote carbon sequestration through enhanced vegetated growth and the use of fog water in general as a means of climate adaptation. As well, focused on understanding the impact of fog formation in light of climate change. Also teaches systems thinking and is interested in systems approaches to examining various scenarios for climate change mitigation and adaptation.",
+    "Notes": "https://csumb.edu/fernandezlab/ ;  https://csumb.edu/news/experts-directory/daniel-fernandez/",
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "dfernandezcsumbedu",
+    "email_href": "mailto:dfernandez@csumb.edu",
+    "Research_Interests_List": [
+      "Research Interests: Fog research, Systems research"
+    ]
+  },
+  {
     "id": "cflowerssaclinkcsusedu",
     "Name": "Christine Flowers",
     "Email": "cflowers@saclink.csus.edu",
@@ -1719,27 +1740,6 @@
     "slug": "codyhowardcsusedu",
     "email_href": "mailto:cody.howard@csus.edu",
     "Research_Interests_List": []
-  },
-  {
-    "id": "dfernandezcsumbedu",
-    "Name": "Daniel Fernandez  https://csumb.edu/fernandezlab/ ;  https://csumb.edu/news/experts-directory/daniel-fernandez/",
-    "Email": "dfernandez@csumb.edu",
-    "Campus": "Monterey Bay",
-    "College": "College of Science",
-    "Department": "Applied Environmental Science",
-    "Title": "Professor",
-    "Research_Interests": "Research Interests: Fog research, Systems research",
-    "Teaching_Interests": "Teaching Interests: Physics, Sustainability systems, Infrastructure systems, Environmental studies capstone.",
-    "Sustainability_Contributions": "Fog researcher and a fog water collector. Interested in the possible use of collected fog water to promote carbon sequestration through enhanced vegetated growth and the use of fog water in general as a means of climate adaptation. As well, focused on understanding the impact of fog formation in light of climate change. Also teaches systems thinking and is interested in systems approaches to examining various scenarios for climate change mitigation and adaptation.",
-    "Notes": null,
-    "Photo": null,
-    "Website": null,
-    "extras": null,
-    "slug": "dfernandezcsumbedu",
-    "email_href": "mailto:dfernandez@csumb.edu",
-    "Research_Interests_List": [
-      "Research Interests: Fog research, Systems research"
-    ]
   },
   {
     "id": "brenthughessonomaedu",
