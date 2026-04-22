@@ -555,6 +555,14 @@ body {
     font-size: 14px;
 }
 
+.footer-logo {
+  height: 30px;      /* adjust to taste (30–60px works well) */
+  width: auto;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+
 /* Links */
 a {
     color: var(--primary-color);
