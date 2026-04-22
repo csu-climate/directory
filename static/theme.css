@@ -909,6 +909,11 @@ a:hover {
     align-items: start;
 }
 
+.teaching-block {
+  margin-top: 10px;   /* adjust to taste */
+}
+
+
 /* Sidebar TOC */
 .sidebar-toc {
     position: sticky;
