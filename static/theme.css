@@ -555,11 +555,34 @@ body {
     font-size: 14px;
 }
 
+.footer-brand {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
 .footer-logo {
-  height: 30px;      /* adjust to taste (30–60px works well) */
-  width: auto;
-  vertical-align: middle;
-  margin-right: 10px;
+  display: block;
+  height: 48px !important;
+  width: auto !important;
+  max-width: min(90vw, 420px) !important;
+  object-fit: contain;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .footer-logo {
+    height: 40px !important;
+    max-width: min(92vw, 340px) !important;
+  }
+}
+
+/* Phone */
+@media (max-width: 600px) {
+  .footer-logo {
+    height: 32px !important;
+    max-width: min(94vw, 260px) !important;
+  }
 }
 
 
