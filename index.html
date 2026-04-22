@@ -107,30 +107,33 @@
   // === Rendering ===
   function createMemberCard(m) {
     const emailHTML = m['Email'] ? `<a href="mailto:${m['Email']}">${m['Email']}</a>` : '';
-
+  
     const deptLine = m['Department'] ? `<div class="lesson-description">${m['Department']}</div>` : '';
     const campusLine = m['Campus'] ? `<div class="lesson-description">${m['Campus']}</div>` : '';
-
-    const researchHTML = m['Research Interests']
-      ? `<div class="meta-item"><span class="meta-label">Research Interests:</span><span class="meta-value">${m['Research Interests']}</span></div>`
-      : '';
-
-    const teachingHTML = m['Teaching Interests']
-      ? `<div class="meta-item"><span class="meta-label">Teaching Interests:</span><span class="meta-value">${m['Teaching Interests']}</span></div>`
-      : '';
-
+  
+    function block(label, value) {
+      if (!value) return '';
+      return `
+        <div class="meta-block">
+          <div class="meta-block-label">${label}</div>
+          <div class="meta-block-value">${value}</div>
+        </div>
+      `;
+    }
+  
     const card = document.createElement('div');
     card.className = 'lesson-card';
     card.innerHTML = `
       <div class="lesson-title">${m['Name'] || '(No name)'}</div>
       ${deptLine}
       ${campusLine}
+  
       <div class="lesson-meta">
         ${emailHTML ? `<div class="meta-item"><span class="meta-label">Email:</span><span class="meta-value">${emailHTML}</span></div>` : ''}
-        ${m['Sustainability Contributions'] ? `<div class="meta-item"><span class="meta-label">Sustainability:</span><span class="meta-value">${m['Sustainability Contributions']}</span></div>` : ''}
-        ${researchHTML}
-        ${teachingHTML}
-        ${m['Notes'] ? `<div class="meta-item"><span class="meta-label">Notes:</span><span class="meta-value">${m['Notes']}</span></div>` : ''}
+        ${block('Sustainability', m['Sustainability Contributions'])}
+        ${block('Research Interests', m['Research Interests'])}
+        ${block('Teaching Interests', m['Teaching Interests'])}
+        ${block('Notes', m['Notes'])}
       </div>
     `;
     return card;
