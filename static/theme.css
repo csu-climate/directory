@@ -165,8 +165,10 @@ body {
 
 .meta-item {
     display: flex;
+    justify-content: space-between;
+    font-size: 13px;
     flex-direction: column;
-    padding: 0;
+    padding: 4px;
 }
 
 .meta-item + .meta-item {
@@ -806,12 +808,6 @@ a:hover {
     flex-direction: column;
     gap: 4px;
     margin-bottom: 16px;
-}
-
-.meta-item {
-    display: flex;
-    justify-content: space-between;
-    font-size: 13px;
 }
 
 .meta-label {
