@@ -166,7 +166,11 @@ body {
 .meta-item {
     display: flex;
     flex-direction: column;
-    padding: 12px 0;
+    padding: 0;
+}
+
+.meta-item + .meta-item {
+    margin-top: 6px;
 }
 
 .meta-label {
@@ -800,7 +804,7 @@ a:hover {
 .lesson-meta {
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 2px;
     margin-bottom: 16px;
 }
 
@@ -904,7 +908,7 @@ a:hover {
 }
 
 .teaching-block {
-  margin-top: 2px;   /* adjust to taste */
+  margin-top: 8px;   /* adjust to taste */
 }
 
 
