@@ -273,6 +273,27 @@
     ]
   },
   {
+    "id": "oliviayipsjsuedu",
+    "Name": "Olivia Yip (linkedin)",
+    "Email": "olivia.yip@sjsu.edu",
+    "Campus": "San Jose",
+    "College": "Charles W. Davidson College of Engineering",
+    "Department": "Civil And Environmental Engineering",
+    "Title": "Assistant Professor",
+    "Research_Interests": "Research Interests: Environmental fluid mechanics, Estuarine hydrodynamics, Climate change, Extreme precipitation, Stormwater modeling",
+    "Teaching_Interests": "Teaching Interests: Hydraulics, Hydrology, Water resources engineering, Python for data analysis",
+    "Sustainability_Contributions": "Sea level rise, Groundwater.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "oliviayipsjsuedu",
+    "email_href": "mailto:olivia.yip@sjsu.edu",
+    "Research_Interests_List": [
+      "Research Interests: Environmental fluid mechanics, Estuarine hydrodynamics, Climate change, Extreme precipitation, Stormwater modeling"
+    ]
+  },
+  {
     "id": "johndelacruzsjsuedu",
     "Name": "John Delacruz (website)",
     "Email": "john.delacruz@sjsu.edu",
@@ -352,6 +373,27 @@
     "email_href": "mailto:dpadams@fullerton.edu",
     "Research_Interests_List": [
       "Research Interests: Environmental governance and public management (institutions, Capacity, Resilience), Water policy, Especially surface-water quality and watershed governance, Energy and environmental regulation, Including oil and gas oversight and regulatory disparities, Cross-sector and interagency collaboration, Equity and environmental justice, Program evaluation, Including equity-oriented assessment of california climate investments (cci)"
+    ]
+  },
+  {
+    "id": "nicolealsfsuedu",
+    "Name": "Nicole Adenstein",
+    "Email": "nicoleal@sfsu.edu",
+    "Campus": "San Francisco",
+    "College": "Science and Engineering",
+    "Department": "Chemistry and Biochemistry",
+    "Title": "Adjunct Professor",
+    "Research_Interests": "Research Interests: Understanding and improving materials for electrochemical technologies, With a focus on li-ion batteries. studies atomic-scale processes, Such as diffusion, In battery materials, Using first-principles (quantum mechanics) simulations.",
+    "Teaching_Interests": "Teaching Interests: Chemistry, Programming, Data science.",
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "nicolealsfsuedu",
+    "email_href": "mailto:nicoleal@sfsu.edu",
+    "Research_Interests_List": [
+      "Research Interests: Understanding and improving materials for electrochemical technologies, With a focus on li-ion batteries. studies atomic-scale processes, Such as diffusion, In battery materials, Using first-principles (quantum mechanics) simulations."
     ]
   },
   {
@@ -790,6 +832,27 @@
     ]
   },
   {
+    "id": "anfinsonsonomaedu",
+    "Name": "Owen Anfinson",
+    "Email": "anfinson@sonoma.edu",
+    "Campus": "Sonoma",
+    "College": "College of Science, Technology, and Business",
+    "Department": "Geology",
+    "Title": "Assistant Professor",
+    "Research_Interests": "Research Interests: Tectonic sedimentologist: research utilizes tools like detrital geochronology and thermochronology to understand tectonic problems. locally working on franciscan complex and landslide reconstruction",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": "Developed climate-informed classroom redesigns for Structural Geology; integrates sensor and UAV tech; contributes to environmental hazard understanding.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "anfinsonsonomaedu",
+    "email_href": "mailto:anfinson@sonoma.edu",
+    "Research_Interests_List": [
+      "Research Interests: Tectonic sedimentologist: research utilizes tools like detrital geochronology and thermochronology to understand tectonic problems. locally working on franciscan complex and landslide reconstruction"
+    ]
+  },
+  {
     "id": "antinorisfsuedu",
     "Name": "Camille Antinori",
     "Email": "antinori@sfsu.edu",
@@ -850,6 +913,27 @@
     "email_href": "mailto:aranda@csus.edu",
     "Research_Interests_List": [
       "Research Interests: Environmental justice and health assessment, Focus on conducting community-based participatory research (cbpr) to collaboratively assess health risks and protect environmental public health"
+    ]
+  },
+  {
+    "id": "monicaargandonacsulbedu",
+    "Name": "Monica Argandoña",
+    "Email": "Monica.Argandona@csulb.edu",
+    "Campus": "Long Beach",
+    "College": "College of Liberal Arts",
+    "Department": "Environmental Science & Policy",
+    "Title": "Program Director, M.S. in Sustainability Management & Policy",
+    "Research_Interests": "Research Interests: Public lands, Environmental policy, Cattle ranchers",
+    "Teaching_Interests": "Teaching Interests: Environmental politics, Public land management and stakeholder conflicts, Environmental assessment, California environmental issues",
+    "Sustainability_Contributions": "Affiliated Faculty for Environmental Science & Policy Led the design and execution of a strategic, interdisciplinary Master's program focused on sustainability, driving successful student outcomes and fostering a collaborative, people-centered culture Program Director for the MS in Sustainability Management & Policy Developed a sustainability professional advisory board for our MS program Previous work in non-profit environmental advocacy and Congressional policy experience.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "monicaargandonacsulbedu",
+    "email_href": "mailto:Monica.Argandona@csulb.edu",
+    "Research_Interests_List": [
+      "Research Interests: Public lands, Environmental policy, Cattle ranchers"
     ]
   },
   {
@@ -916,6 +1000,27 @@
     ]
   },
   {
+    "id": "maschenbrenercsuchicoedu",
+    "Name": "Mollie Aschenbrener",
+    "Email": "maschenbrener@csuchico.edu",
+    "Campus": "Chico",
+    "College": "College of Agriculture",
+    "Department": "Agriculture",
+    "Title": "Professor",
+    "Research_Interests": "Research Interests: Her research interests include teacher education, Creativity and effective teaching, And leadership.",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": "She is a faculty affiliate for the Center for Regenerative Agriculture & Resilient Systems.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "maschenbrenercsuchicoedu",
+    "email_href": "mailto:maschenbrener@csuchico.edu",
+    "Research_Interests_List": [
+      "Research Interests: Her research interests include teacher education, Creativity and effective teaching, And leadership."
+    ]
+  },
+  {
     "id": "manzaatkinsonsonomaedu",
     "Name": "Manza Atkinson",
     "Email": "manza.atkinson@sonoma.edu",
@@ -935,6 +1040,46 @@
     "Research_Interests_List": [
       "Research Interests: Waterway contamination, Development of solid-state organic materials, Applications of magnetic levitation"
     ]
+  },
+  {
+    "id": "1",
+    "Name": "Peter Atterton",
+    "Email": "1",
+    "Campus": "San Diego",
+    "College": "College of Arts and Letters",
+    "Department": "Philosophy",
+    "Title": "Professor of Philosophy, Affiliated Faculty of Jewish Studies",
+    "Research_Interests": "Research Interests: 20th-century european philosophy (esp. heidegger, Levinas, & derrida), Phenomenology, Philosophical darwinism, Animal philosophy, Has written works on darwin, Heidegger, Nietzsche, Kant, Michel foucault, Jacques derrida, Shakespeare, Psychoanalysis, Human rights, Human extinction, Animal ethics, And the sci-fi movie blade runner, Has done extensive work on emmanuel levinas",
+    "Teaching_Interests": "Teaching Interests: Environmental ethics, Existentialism, Bio-medical ethics, 20th-century continental philosophy, Philosophy of technology",
+    "Sustainability_Contributions": "Face-to-Face with Animals: Levinas and the Animal Question (co-edited with Tamra Wright) (Albany: SUNY Press, 2019). Animal Philosophy: Essential Readings in Continental Thought (co-edited with Matthew Calarco, and with a preface by Peter Singer) (New York: Continuum, 2004).",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "1",
+    "email_href": "mailto:1",
+    "Research_Interests_List": [
+      "Research Interests: 20th-century european philosophy (esp. heidegger, Levinas, & derrida), Phenomenology, Philosophical darwinism, Animal philosophy, Has written works on darwin, Heidegger, Nietzsche, Kant, Michel foucault, Jacques derrida, Shakespeare, Psychoanalysis, Human rights, Human extinction, Animal ethics, And the sci-fi movie blade runner, Has done extensive work on emmanuel levinas"
+    ]
+  },
+  {
+    "id": "amauzennecsuchicoedu",
+    "Name": "Michele Auzenne",
+    "Email": "amauzenne@csuchico.edu",
+    "Campus": "Chico",
+    "College": null,
+    "Department": "The Center For Regenerative Agriculture & Resilient Systems",
+    "Title": "Associate Director",
+    "Research_Interests": null,
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "amauzennecsuchicoedu",
+    "email_href": "mailto:amauzenne@csuchico.edu",
+    "Research_Interests_List": []
   },
   {
     "id": "bavantmailfresnostateedu",
@@ -1183,6 +1328,27 @@
     ]
   },
   {
+    "id": "morganbarkerhumboldtedu",
+    "Name": "Morgan Barker",
+    "Email": "morgan.barker@humboldt.edu",
+    "Campus": "Humboldt",
+    "College": null,
+    "Department": "University Library",
+    "Title": "Sustainability Librarian",
+    "Research_Interests": "Research Interests: Sustainability in academics and research, Nuance, And literacies",
+    "Teaching_Interests": "Teaching Interests: Integrating sustainability across the curriculums in work, Life, Community.",
+    "Sustainability_Contributions": "Sustainable Library Certification: the Library is diligently working towards functional sustainability as a Sustainable Library Certification member library. Central to this work is the support of sustainability information seeking, use and literacies at the university and in the surrounding community.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "morganbarkerhumboldtedu",
+    "email_href": "mailto:morgan.barker@humboldt.edu",
+    "Research_Interests_List": [
+      "Research Interests: Sustainability in academics and research, Nuance, And literacies"
+    ]
+  },
+  {
     "id": "1",
     "Name": "Jessica Barlow",
     "Email": "1",
@@ -1306,6 +1472,27 @@
     "email_href": "mailto:mbanuelos22@csufresno.edu",
     "Research_Interests_List": [
       "Research Interests: Genomic anomaly detection & clustering: developing optimization and recommender system approaches to identify genomic variation and quantify non-additive effects of groups of mutations. environmental predictors & public health: combining environmental data and machine learning, This work models valley fever to understand how the climate impacts community health."
+    ]
+  },
+  {
+    "id": "maxbeachcsulbedu",
+    "Name": "Max Beach",
+    "Email": "max.beach@csulb.edu",
+    "Campus": "Long Beach",
+    "College": "College of the Arts",
+    "Department": "Design",
+    "Title": "Part-Time Lecturer",
+    "Research_Interests": "Research Interests: Product design, Brand experience, Environmental design, Exhibit development",
+    "Teaching_Interests": "Teaching Interests: Industrial design, Rapid visualization, Advanced form study, Senior industrial design studio",
+    "Sustainability_Contributions": "At Linespace, Beach directs the studio’s 3D and visualization capabilities and has led projects ranging from recreational watercraft and electric vehicle charging systems to consumer electronics and branded environments His work has supported clients such as AeroVironment, EVgo, and BTCPower in delivering solutions for global OEMs including Nissan, Toyota, Audi, and BMW.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "maxbeachcsulbedu",
+    "email_href": "mailto:max.beach@csulb.edu",
+    "Research_Interests_List": [
+      "Research Interests: Product design, Brand experience, Environmental design, Exhibit development"
     ]
   },
   {
@@ -1456,6 +1643,48 @@
     ]
   },
   {
+    "id": "melissaberesfordsjsuedu",
+    "Name": "Melissa Beresford",
+    "Email": "melissa.beresford@sjsu.edu",
+    "Campus": "San Jose",
+    "College": "College of Social Sciences",
+    "Department": "Anthropology",
+    "Title": "Associate Professor",
+    "Research_Interests": "Research Interests: Water insecurity, Resource distribution, Social norms, Institutional economics, Field methods, Qualitative data analysis, Cross-cultural research",
+    "Teaching_Interests": "Teaching Interests: Beresford’s primary teaching foci include research methods training, Experiential learning (undergraduate research experiences), And ecological, Economic, And applied anthropology.",
+    "Sustainability_Contributions": "Dr. Beresford investigates the norms and social infrastructures that enable people adapt to water and other resources insecurities, especially in the context of the global water crisis and accelerating climate change. Funded by an NSF CAREER grant, she is currently leading an international group of scholars researching how “moral economies” (a specific type of norm-based social system) allow people to cope with and adapt to water insecurity cross-culturally. Additionally, she collaborates within the Water Insecurity Community of Practice (WISE-CP), working to develop new experiential metrics for household water insecurity in United States and other high-income contexts. As an ethnographer and methodologist who specializes in field methods and qualitative data analysis, she grounds her scholarship in community-based mixed-methods field work with water insecure households in California and the broader U.S. West.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "melissaberesfordsjsuedu",
+    "email_href": "mailto:melissa.beresford@sjsu.edu",
+    "Research_Interests_List": [
+      "Research Interests: Water insecurity, Resource distribution, Social norms, Institutional economics, Field methods, Qualitative data analysis, Cross-cultural research"
+    ]
+  },
+  {
+    "id": "mechellebestcsunedu",
+    "Name": "Mechelle Best",
+    "Email": "mechelle.best@csun.edu",
+    "Campus": "NorthridgeCSUN",
+    "College": "Health & Human Development",
+    "Department": "Recreation And Tourism Management",
+    "Title": "Dean; Professor",
+    "Research_Interests": "Research Interests: Sustainable tourism, Recreation management, Community development.",
+    "Teaching_Interests": "Teaching Interests: Sustainable tourism, Recreation planning",
+    "Sustainability_Contributions": "She works with campus housing in making campus living more sustainable and is involved in conducting energy and water audits of local community businesses.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "mechellebestcsunedu",
+    "email_href": "mailto:mechelle.best@csun.edu",
+    "Research_Interests_List": [
+      "Research Interests: Sustainable tourism, Recreation management, Community development."
+    ]
+  },
+  {
     "id": "1",
     "Name": "Asfaw Beyene",
     "Email": "1",
@@ -1498,6 +1727,27 @@
     ]
   },
   {
+    "id": "naomibickcsufresnoedu",
+    "Name": "Naomi Bick",
+    "Email": "naomibick@csufresno.edu",
+    "Campus": "Fresno State",
+    "College": "Social Sciences",
+    "Department": "Political Science",
+    "Title": "Assistant Professor, Director of Master's in Public Administration",
+    "Research_Interests": "Research Interests: Public policy, With an emphasis in climate change, Urban politics, And local political institutions. current research projects explore municipal climate change governance, Using a mixed methods approach (regressions, Surveys, Interviews, And case studies).",
+    "Teaching_Interests": "Teaching Interests: Public policy, American government, State and local politics, And environmental policy.",
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "naomibickcsufresnoedu",
+    "email_href": "mailto:naomibick@csufresno.edu",
+    "Research_Interests_List": [
+      "Research Interests: Public policy, With an emphasis in climate change, Urban politics, And local political institutions. current research projects explore municipal climate change governance, Using a mixed methods approach (regressions, Surveys, Interviews, And case studies)."
+    ]
+  },
+  {
     "id": "jblaircppedu",
     "Name": "James Blair",
     "Email": "jblair@cpp.edu",
@@ -1537,6 +1787,27 @@
     "email_href": "mailto:jblecha@sfsu.edu",
     "Research_Interests_List": [
       "Research Interests: Food justice, Urban agriculture, Waste and waste prevention, Public policy, Critical animal geographies, Feminist and critical race geographies"
+    ]
+  },
+  {
+    "id": "nathanielbogiesjsuedu",
+    "Name": "Nathaniel  Bogie",
+    "Email": "nathaniel.bogie@sjsu.edu",
+    "Campus": "San Jose",
+    "College": "College of Science",
+    "Department": "Geology",
+    "Title": "Assistant Professor",
+    "Research_Interests": "Research Interests: Professor bogie's research focuses on how the traditional practice of intercropping with deep rooted native shrubs in the west african sahel can serve as pumps to transfer water from deep, Moist soil layers to shallow-rooted food crops growing nearby during extreme drought. his work in california involves studying links between geology and stream behavior in salmonid-bearing coastal watersheds as well as how the use of winter cover crops affects soil hydraulic properties and groundwater recharge.",
+    "Teaching_Interests": "Teaching Interests: Hydrogeology, Vadose zone hydrology, Sustainability",
+    "Sustainability_Contributions": "Research on irrigation and crop growth for California's Central Valley. Research on geologic controls on streamflow behavior in salmonid-bearing watersheds.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "nathanielbogiesjsuedu",
+    "email_href": "mailto:nathaniel.bogie@sjsu.edu",
+    "Research_Interests_List": [
+      "Research Interests: Professor bogie's research focuses on how the traditional practice of intercropping with deep rooted native shrubs in the west african sahel can serve as pumps to transfer water from deep, Moist soil layers to shallow-rooted food crops growing nearby during extreme drought. his work in california involves studying links between geology and stream behavior in salmonid-bearing coastal watersheds as well as how the use of winter cover crops affects soil hydraulic properties and groundwater recharge."
     ]
   },
   {
@@ -1729,6 +2000,27 @@
     ]
   },
   {
+    "id": "cnferdoncsuchicoedu",
+    "Name": "Noelle Ferdon Brimlow",
+    "Email": "cnferdon@csuchico.edu",
+    "Campus": "Chico",
+    "College": "College of Behavioral and Social Sciences",
+    "Department": "Political Science And Criminal Justice",
+    "Title": "Professor",
+    "Research_Interests": "Research Interests: Professor brimlow has worked on local food and agriculture policy, And disability rights and prisoner's rights advocacy.",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": "She has taught Environmental Politics and Policy, Environmental Policy and the Law and is a co-founder of the North Valley Food Hub which connects small and underserved farmers to consumers like restaurants and businesses, all while producing sustainably. She is also a faculty affiliate for the Center for Regenerative Agriculture & Resilient Systems.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "cnferdoncsuchicoedu",
+    "email_href": "mailto:cnferdon@csuchico.edu",
+    "Research_Interests_List": [
+      "Research Interests: Professor brimlow has worked on local food and agriculture policy, And disability rights and prisoner's rights advocacy."
+    ]
+  },
+  {
     "id": "kdbrowncppedu",
     "Name": "Kyle D. Brown",
     "Email": "kdbrown@cpp.edu",
@@ -1748,6 +2040,25 @@
     "Research_Interests_List": [
       "Research Interests: Regenerative communities and sustainable resource management within landscape architecture., Community-based economic development, Environmental education, And participatory processes., Environmental justice, Climate change action, And ecological resilience in design and planning."
     ]
+  },
+  {
+    "id": "cwbrowncsumedu",
+    "Name": "Mr. Chris Brown",
+    "Email": "cwbrown@csum.edu",
+    "Campus": "Maritime",
+    "College": null,
+    "Department": "Research & Innovation & Golden Bear Research Center",
+    "Title": "Associate Vice President, Research & Innovation Office / Director, Golden Bear Research Center",
+    "Research_Interests": null,
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": "Principal Investigator for Feasibility Study on Future Energy Options for Commercial Harbor Crafts (CHC) in California.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "cwbrowncsumedu",
+    "email_href": "mailto:cwbrown@csum.edu",
+    "Research_Interests_List": []
   },
   {
     "id": "liambsfsuedu",
@@ -1935,6 +2246,48 @@
     ]
   },
   {
+    "id": "michaelcarlsoncsulbedu",
+    "Name": "Michael Carlson",
+    "Email": "Michael.Carlson@csulb.edu",
+    "Campus": "Long Beach",
+    "College": "College of Natural Sciences and Mathematics",
+    "Department": "Biological Sciences",
+    "Title": "Assistant Professor",
+    "Research_Interests": "Research Interests: Evaluating impact of algal-virus interactions on ocean ecosystems, Characterizing features that define the success of viruses in a changing ocean, Charting and predicting the viral load of picocyanobacterial populations in the oceans",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": "Applications of research on ocean conservation.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "michaelcarlsoncsulbedu",
+    "email_href": "mailto:Michael.Carlson@csulb.edu",
+    "Research_Interests_List": [
+      "Research Interests: Evaluating impact of algal-virus interactions on ocean ecosystems, Characterizing features that define the success of viruses in a changing ocean, Charting and predicting the viral load of picocyanobacterial populations in the oceans"
+    ]
+  },
+  {
+    "id": "ncarmonasfsuedu",
+    "Name": "Nancy Carmona",
+    "Email": "ncarmona@sfsu.edu",
+    "Campus": "San Francisco",
+    "College": "Health & Social Sciences",
+    "Department": "Public Health",
+    "Title": "Assistant Professor",
+    "Research_Interests": "Research Interests: Community-engaged research for environmental justice, Environmental health education, And environmental epidemiology.",
+    "Teaching_Interests": "Teaching Interests: Public health, Epidemiology",
+    "Sustainability_Contributions": "Environmental health disparities, air pollution, exposure science, and public policy.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "ncarmonasfsuedu",
+    "email_href": "mailto:ncarmona@sfsu.edu",
+    "Research_Interests_List": [
+      "Research Interests: Community-engaged research for environmental justice, Environmental health education, And environmental epidemiology."
+    ]
+  },
+  {
     "id": "ecarpentsfsuedu",
     "Name": "Edward Carpenter",
     "Email": "ecarpent@sfsu.edu",
@@ -2103,6 +2456,27 @@
     ]
   },
   {
+    "id": "1",
+    "Name": "Miranda Chase",
+    "Email": "1",
+    "Campus": "San Diego",
+    "College": "College of Arts and Letters",
+    "Department": "Political Science",
+    "Title": "Assistant Professor of Political Science",
+    "Research_Interests": "Research Interests: Intersection of political science, Economics, Sustainability, Climate change, Latin american and environmental studies, Specializes in the amazon region, How environmental social movements influence policymakers",
+    "Teaching_Interests": "Teaching Interests: Environmental politics, Political economy of environmental governance, Carbon markets, International development, Latin american politics, Socio-ecological systems",
+    "Sustainability_Contributions": "Has been working the Brazilian Amazon for 10+ years with indigenous and traditional communities, investigating how environmental social movements influence policymakers.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "1",
+    "email_href": "mailto:1",
+    "Research_Interests_List": [
+      "Research Interests: Intersection of political science, Economics, Sustainability, Climate change, Latin american and environmental studies, Specializes in the amazon region, How environmental social movements influence policymakers"
+    ]
+  },
+  {
     "id": "achaudhrycsuchicoedu",
     "Name": "Anita Chaudhry",
     "Email": "achaudhry@csuchico.edu",
@@ -2163,6 +2537,27 @@
     "email_href": "mailto:ascheng@sfsu.edu",
     "Research_Interests_List": [
       "Research Interests: Thermodynamics, Combustion, Internal combustion engines, Fluid mechanics, Fuels, And air quality engineering."
+    ]
+  },
+  {
+    "id": "pchhetricsudhedu",
+    "Name": "Parveen Chhetri",
+    "Email": "pchhetri@csudh.edu",
+    "Campus": "Dominguez Hills",
+    "College": "College of Natural and Behavioral Sciences",
+    "Department": "Earth Science",
+    "Title": "Associate Professor",
+    "Research_Interests": "Research Interests: Biogeography and vegetation dynamics, Spatial modeling, And geospatial technology",
+    "Teaching_Interests": "Teaching Interests: Gis, Remote sensing, Natural resources, Biogeography, Physical geography, Earth science for teachers",
+    "Sustainability_Contributions": "Applications of research in the tree-ring lab, with specific emphasis on trees in the Nepal Himalayas Mentorship of student researchers Research on Energy and Climate Issues related to CSUDH (LINK) Efforts in environmental pollution, climate change and vegetation response research Faculty Co-Chair for Research, CSUDH Center for Sustainability & the Environment.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "pchhetricsudhedu",
+    "email_href": "mailto:pchhetri@csudh.edu",
+    "Research_Interests_List": [
+      "Research Interests: Biogeography and vegetation dynamics, Spatial modeling, And geospatial technology"
     ]
   },
   {
@@ -2479,6 +2874,27 @@
     ]
   },
   {
+    "id": "pcornejowarnercsuchicoedu",
+    "Name": "Pablo K. Cornejo-Warner",
+    "Email": "pcornejo-warner@csuchico.edu",
+    "Campus": "Chico",
+    "College": "College of Engineering, Computer Science, and Construction Management",
+    "Department": "Civil Engineering",
+    "Title": "Assistant Professor",
+    "Research_Interests": "Research Interests: Professor cornejo-warner's research focuses on life cycle environmental impacts of wastewater and resource recovery management strategies, As well as multi-criteria decision support frameworks for sustainable drinking water treatment systems. other research interests include greenhouse gas models for water reuse and desalination facilities, The water-energy-food nexus, And water and sanitation issues in the developing world.",
+    "Teaching_Interests": "Teaching Interests: Teaching interests include environmental engineering, Sustainability, Engineering economic analysis.",
+    "Sustainability_Contributions": "Professor Cornejo is working on sustainable water and wastewater management issues in the Civil Engineering Department.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "pcornejowarnercsuchicoedu",
+    "email_href": "mailto:pcornejo-warner@csuchico.edu",
+    "Research_Interests_List": [
+      "Research Interests: Professor cornejo-warner's research focuses on life cycle environmental impacts of wastewater and resource recovery management strategies, As well as multi-criteria decision support frameworks for sustainable drinking water treatment systems. other research interests include greenhouse gas models for water reuse and desalination facilities, The water-energy-food nexus, And water and sanitation issues in the developing world."
+    ]
+  },
+  {
     "id": "jencottoncsunedu",
     "Name": "Jennifer M Cotton",
     "Email": "jen.cotton@csun.edu",
@@ -2792,6 +3208,48 @@
     ]
   },
   {
+    "id": "mdanfurasfsuedu",
+    "Name": "Mays Danfoura",
+    "Email": "mdanfura@sfsu.edu",
+    "Campus": "San Francisco",
+    "College": "Science and Engineering",
+    "Department": "Environment",
+    "Title": "Lecturer",
+    "Research_Interests": "Research Interests: Groundwater, Hydrogeology, And stormwater management in the urban environment. low impact development (lid) and the selection and design of best management practices (bmps) that control recharge rates and important geochemical processes that affect many potential groundwater contaminants",
+    "Teaching_Interests": "Teaching Interests: Geologic change, Water resources",
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "mdanfurasfsuedu",
+    "email_href": "mailto:mdanfura@sfsu.edu",
+    "Research_Interests_List": [
+      "Research Interests: Groundwater, Hydrogeology, And stormwater management in the urban environment. low impact development (lid) and the selection and design of best management practices (bmps) that control recharge rates and important geochemical processes that affect many potential groundwater contaminants"
+    ]
+  },
+  {
+    "id": "mdangicsufresnoedu",
+    "Name": "Mohan Dangi",
+    "Email": "mdangi@csufresno.edu",
+    "Campus": "Fresno State",
+    "College": "Social Sciences",
+    "Department": "Geography And City & Regional Planning",
+    "Title": "Professor",
+    "Research_Interests": "Research Interests: Circular economy, Curriculum development, Emerging technologies in solid waste management, Environmental quality in the himalaya municipal solid waste, Sociotechnical systems, Solid waste engineering, And solid waste management in developing countries.",
+    "Teaching_Interests": "Teaching Interests: Cultural landscape and environmental change in the himalaya, Environmental impact assessment in nepal for sustainable waste management, Environmental policy management, Pollution, Global environmental change, Environmental engineering, Environmental entrepreneurship.",
+    "Sustainability_Contributions": "Helped produce ten memoranda of understanding between the U.S. and international universities and has developed nine courses and two engineering curricula, drafted a K-12 Renewable Energy Curriculum, and promotion of environmental science and engineering education in South Asia.",
+    "Notes": "Contributor to: share the directory to him when published; For teaching interests, wants; Cultural landscape and environmental change in the Himalaya, environmental impact assessment, environmental impact assessment in Nepal for sustainable waste management, environmental policy management, environmental pollution, environmental quality in the Himalaya, global environmental change, implementing solid waste management in developing countries, introduction to environmental engineering, introduction to environmental entrepreneurship, people and places: a global perspective, pollution control technology, and solid waste engineering.",
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "mdangicsufresnoedu",
+    "email_href": "mailto:mdangi@csufresno.edu",
+    "Research_Interests_List": [
+      "Research Interests: Circular economy, Curriculum development, Emerging technologies in solid waste management, Environmental quality in the himalaya municipal solid waste, Sociotechnical systems, Solid waste engineering, And solid waste management in developing countries."
+    ]
+  },
+  {
     "id": "jeffdanielscsueastbayedu",
     "Name": "Jeffrey Daniels",
     "Email": "jeff.daniels@csueastbay.edu",
@@ -2975,6 +3433,27 @@
     ]
   },
   {
+    "id": "mayadevriessjsuedu",
+    "Name": "Maya deVries",
+    "Email": "maya.devries@sjsu.edu",
+    "Campus": "San Jose",
+    "College": "College of Science",
+    "Department": "Biological Sciences",
+    "Title": "Assistant Professor",
+    "Research_Interests": "Research Interests: Predation in marine invertebrates, Key macroinvertebrate predators on coral reefs",
+    "Teaching_Interests": "Teaching Interests: Promote independent thought and to cultivate critical inquiry",
+    "Sustainability_Contributions": "Studies how environmental disturbances, such as ocean acidification and ocean warming, can disrupt links between diet and morphology. Studied how climate change, specifically ocean acidification and ocean warming affects Mantis shrimp exoskeletons and mechanics.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "mayadevriessjsuedu",
+    "email_href": "mailto:maya.devries@sjsu.edu",
+    "Research_Interests_List": [
+      "Research Interests: Predation in marine invertebrates, Key macroinvertebrate predators on coral reefs"
+    ]
+  },
+  {
     "id": "cdeweycsumedu",
     "Name": "Colin Dewey",
     "Email": "cdewey@csum.edu",
@@ -2993,6 +3472,27 @@
     "email_href": "mailto:cdewey@csum.edu",
     "Research_Interests_List": [
       "Research Interests: Research focuses on british literature, Critical theory, Maritime culture and the oceanic humanities, With recent work on maritime autonomy, The infrastructure of global shipping, And the cultural history of seafaring"
+    ]
+  },
+  {
+    "id": "minghuidiaosjsuedu",
+    "Name": "Minghui Diao",
+    "Email": "minghui.diao@sjsu.edu",
+    "Campus": "San Jose",
+    "College": "College of Science",
+    "Department": "Meteorology And Climate Science",
+    "Title": "Interim Department Chair\nAssociate Professor",
+    "Research_Interests": "Research Interests: Climate impacts and resilience in california, Clouds and aerosols in a changing climate",
+    "Teaching_Interests": "Teaching Interests: Physical meteorology",
+    "Sustainability_Contributions": "Research on how aerosols have impacted cloud formation and how clouds impact the warming of the planet; impacts of heat, pollution, and wildfire smoke on California communities.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "minghuidiaosjsuedu",
+    "email_href": "mailto:minghui.diao@sjsu.edu",
+    "Research_Interests_List": [
+      "Research Interests: Climate impacts and resilience in california, Clouds and aerosols in a changing climate"
     ]
   },
   {
@@ -3119,6 +3619,27 @@
     "email_href": "mailto:cdrake@csustan.edu",
     "Research_Interests_List": [
       "Research Interests: Broadly, Her research interests are based on educators addressing the social/academic advancement and learner rights of k–12 public school students from ethnically, Culturally, Linguistically and socioeconomically diverse communities."
+    ]
+  },
+  {
+    "id": "mdrake2csustanedu",
+    "Name": "Michael Drake",
+    "Email": "mdrake2@csustan.edu",
+    "Campus": "Stanislaus",
+    "College": "College of Science",
+    "Department": "Chemistry",
+    "Title": "Professor",
+    "Research_Interests": "Research Interests: Organic and physical organic chemistry, Green chemistry",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": "Professor Drake is doing research on Environmentally Friendly Oxidation Catalysts.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "mdrake2csustanedu",
+    "email_href": "mailto:mdrake2@csustan.edu",
+    "Research_Interests_List": [
+      "Research Interests: Organic and physical organic chemistry, Green chemistry"
     ]
   },
   {
@@ -3267,6 +3788,27 @@
     ]
   },
   {
+    "id": "meldeebcsufresnoedu",
+    "Name": "Mazen Eldeeb",
+    "Email": "meldeeb@csufresno.edu",
+    "Campus": "Fresno State",
+    "College": "Lyles College of Engineering",
+    "Department": "Mechanical Engineering",
+    "Title": "Associate Professor",
+    "Research_Interests": "Research Interests: Experimental characterization of the auto-ignition behavior of pure second-generation biofuels and their blends with gasoline surrogates. developing chemical kinetic model reduction methods, Such as the stochastic species elimination (sse) and species propensity (sp) methods. recent work focuses on the characterization of the environmental footprint of electrifying agricultural equipment in the central valley and beyond.",
+    "Teaching_Interests": "Teaching Interests: Thermodynamics, Heat and mass transfer.",
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "meldeebcsufresnoedu",
+    "email_href": "mailto:meldeeb@csufresno.edu",
+    "Research_Interests_List": [
+      "Research Interests: Experimental characterization of the auto-ignition behavior of pure second-generation biofuels and their blends with gasoline surrogates. developing chemical kinetic model reduction methods, Such as the stochastic species elimination (sse) and species propensity (sp) methods. recent work focuses on the characterization of the environmental footprint of electrifying agricultural equipment in the central valley and beyond."
+    ]
+  },
+  {
     "id": "davidensmingersjsuedu",
     "Name": "David Ensminger",
     "Email": "david.ensminger@sjsu.edu",
@@ -3307,6 +3849,27 @@
     "Research_Interests_List": []
   },
   {
+    "id": "nerbecsudhedu",
+    "Name": "Nancy Erbe",
+    "Email": "nerbe@csudh.edu",
+    "Campus": "Dominguez Hills",
+    "College": "College of Arts & Humanities",
+    "Department": "Negotiation, Conflict Resolution, And Peacebuilding",
+    "Title": "Professor of Negotiation, Conflict Resolution, and Peacebuilding",
+    "Research_Interests": "Research Interests: Organizational diversity and innovation, International and cross-cultural leadership, Nonviolence and reducing violence in schools, Legal and feminist studies on human trafficking",
+    "Teaching_Interests": "Teaching Interests: Climate justice, How negotiation, Advocacy and conflict resolution skills in partnership with trustworthy allies, Especially lawyers, Can be used to create and catalyze daily justice in the most toxic organizations and communities, How these same skills and processes are being used around the world to create cross cultural and interfaith peace along with the theories social psychologists and other academics have found that explain our worst conflict and challenge",
+    "Sustainability_Contributions": "Publications on mediation's role with global governance, with major implications on environmental mediation and litigation Works with the Beahrs Environmental Leadership School.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "nerbecsudhedu",
+    "email_href": "mailto:nerbe@csudh.edu",
+    "Research_Interests_List": [
+      "Research Interests: Organizational diversity and innovation, International and cross-cultural leadership, Nonviolence and reducing violence in schools, Legal and feminist studies on human trafficking"
+    ]
+  },
+  {
     "id": "austinerikssoncsunedu",
     "Name": "Austin Eriksson",
     "Email": "austin.eriksson@csun.edu",
@@ -3325,6 +3888,27 @@
     "email_href": "mailto:austin.eriksson@csun.edu",
     "Research_Interests_List": [
       "Research Interests: Applied sustainability, Energy conservation, Fault detection and diagnostics, Ghg reduction, Advanced analytics, Electrification."
+    ]
+  },
+  {
+    "id": "mescobarcsusmedu",
+    "Name": "Matthew Escobar",
+    "Email": "mescobar@csusm.edu",
+    "Campus": "San Marcos",
+    "College": "College of Science, Technology, Engineering & Mathematics",
+    "Department": "Biological Sciences",
+    "Title": "Professor",
+    "Research_Interests": "Research Interests: Plant biotechnology, Plant-microbe interactions, Biofuels",
+    "Teaching_Interests": "Teaching Interests: Introduction to molecular and cellular biology, Molecular biotechnology, Plant physiology, Plant biotechnology, Modern molecular biology and genetics",
+    "Sustainability_Contributions": "Research in biofuels and plant biotechnology with applications for sustainability and energy conservation.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "mescobarcsusmedu",
+    "email_href": "mailto:mescobar@csusm.edu",
+    "Research_Interests_List": [
+      "Research Interests: Plant biotechnology, Plant-microbe interactions, Biofuels"
     ]
   },
   {
@@ -3492,6 +4076,27 @@
     "Research_Interests_List": []
   },
   {
+    "id": "pfashingfullertonedu",
+    "Name": "Peter Fashing",
+    "Email": "pfashing@fullerton.edu",
+    "Campus": "Fullerton",
+    "College": "College of Humanities and Social Sciences",
+    "Department": "Anthropology",
+    "Title": "Professor",
+    "Research_Interests": "Research Interests: Behavior, Ecology, And conservation of nonhuman primates (and other wildlife), Tropical rain forest ecology and conservation, With a regional focus on east africa (ethiopia, Kenya, And rwanda)",
+    "Teaching_Interests": "Teaching Interests: Introduction to biological anthropology, Primate behavior, Primate conservation, Advanced primate behavior, Environmental issues and approaches",
+    "Sustainability_Contributions": "Research on primate (and other wildlife) conservation, including studies of distribution and abundance, ecological flexibility, impacts of forest fragmentation and other forms of habitat disturbance including agroforestry, and human-wildlife conflict. Research on the impacts of disturbance on rain forest ecology and conservation, including the impacts of bark harvesting on a medicinal tree species (African cherry tree, Prunus africana) Affiliated faculty in the Environmental Studies Program.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "pfashingfullertonedu",
+    "email_href": "mailto:pfashing@fullerton.edu",
+    "Research_Interests_List": [
+      "Research Interests: Behavior, Ecology, And conservation of nonhuman primates (and other wildlife), Tropical rain forest ecology and conservation, With a regional focus on east africa (ethiopia, Kenya, And rwanda)"
+    ]
+  },
+  {
     "id": "jfeneloncsusbedu",
     "Name": "James Fenelon",
     "Email": "jfenelon@csusb.edu",
@@ -3553,6 +4158,25 @@
     "Research_Interests_List": []
   },
   {
+    "id": "mfidellcsusedu",
+    "Name": "Megan Fidell",
+    "Email": "m.fidell@csus.edu",
+    "Campus": "Sacramento State",
+    "College": "Social Sciences & Interdisciplinary Studies",
+    "Department": "Environmental Studies",
+    "Title": "Lecturer",
+    "Research_Interests": null,
+    "Teaching_Interests": "Teaching Interests: Introduction to environmental science",
+    "Sustainability_Contributions": "Previously worked as a water resources engineer Presentations about people and water conservation.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "mfidellcsusedu",
+    "email_href": "mailto:m.fidell@csus.edu",
+    "Research_Interests_List": []
+  },
+  {
     "id": "kevinfingermanhumboldtedu",
     "Name": "Kevin Fingerman",
     "Email": "Kevin.Fingerman@humboldt.edu",
@@ -3571,6 +4195,27 @@
     "email_href": "mailto:Kevin.Fingerman@humboldt.edu",
     "Research_Interests_List": [
       "Research Interests: Water/energy nexus, Bioenergy, Life cycle assessment (lca). research is driven by an interest in the broad-based environmental and social impacts of energy technologies and policies"
+    ]
+  },
+  {
+    "id": "mdf15humboldtedu",
+    "Name": "Mike Fisher",
+    "Email": "mdf15@humboldt.edu",
+    "Campus": "Humboldt",
+    "College": null,
+    "Department": "Administrative Affairs",
+    "Title": "Chair & Interim Associate Vice President",
+    "Research_Interests": "Research Interests: Actively involved in climate-resilient landscaping on campus and implementing sustainability initiatives",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": "Served on the Advisory Committee on Sustainability as AVP of Facilities in 2024 Led a grant-backed project (via Second Nature Foundation) to create a Climate Resilient Landscaping Demonstration Project, a living-lab designed with native, pollinator-friendly plants and student engagement in environmental resilience. Chair of the Working Group on Resources Stewardship & Sustainability.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "mdf15humboldtedu",
+    "email_href": "mailto:mdf15@humboldt.edu",
+    "Research_Interests_List": [
+      "Research Interests: Actively involved in climate-resilient landscaping on campus and implementing sustainability initiatives"
     ]
   },
   {
@@ -3902,6 +4547,27 @@
     ]
   },
   {
+    "id": "mgalligancsumbedu",
+    "Name": "Monica Galligan",
+    "Email": "mgalligan@csumb.edu",
+    "Campus": "Monterey Bay",
+    "College": "College of Science",
+    "Department": "Applied Environmental Science",
+    "Title": "Lecturer",
+    "Research_Interests": "Research Interests: Socioeconomics of commercial marine fisheries, Environmental economies, Environmental policy, Geographic information systems",
+    "Teaching_Interests": "Teaching Interests: Environmental economics & policy, Geographic information systems",
+    "Sustainability_Contributions": "Founding board member of Monterey Bay Fisheries Trust, a nonprofit promoting sustainable small scale fisheries.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "mgalligancsumbedu",
+    "email_href": "mailto:mgalligan@csumb.edu",
+    "Research_Interests_List": [
+      "Research Interests: Socioeconomics of commercial marine fisheries, Environmental economies, Environmental policy, Geographic information systems"
+    ]
+  },
+  {
     "id": "aganjisfsuedu",
     "Name": "Ahmad Ganji",
     "Email": "aganji@sfsu.edu",
@@ -4002,6 +4668,27 @@
     "email_href": "mailto:luke.gardner@sjsu.edu",
     "Research_Interests_List": [
       "Research Interests: Sustainable aquaculture"
+    ]
+  },
+  {
+    "id": "ngarzacsudhedu",
+    "Name": "Nestor Garza",
+    "Email": "ngarza@csudh.edu",
+    "Campus": "Dominguez Hills",
+    "College": "College of Business Administration and Public Policy",
+    "Department": "Accounting, Finance, & Economics",
+    "Title": "Associate Professor",
+    "Research_Interests": "Research Interests: Spatial economic analysis, Including but not limited to geographic information systems applied to land markets, Regulation and taxation, Climate change economics, Land concentration and food insecurity: the colombian case",
+    "Teaching_Interests": "Teaching Interests: Microeconomics, Macroeconomics",
+    "Sustainability_Contributions": "Applications of spatial economic analysis on urban studies and land use policy Publications including \"Armed conflict, institutions and deforestation: A dynamic spatiotemporal analysis of Colombia 2000–2018\" and \"Urban economic-environmental dilemmas in Latin American cities,\" among others.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "ngarzacsudhedu",
+    "email_href": "mailto:ngarza@csudh.edu",
+    "Research_Interests_List": [
+      "Research Interests: Spatial economic analysis, Including but not limited to geographic information systems applied to land markets, Regulation and taxation, Climate change economics, Land concentration and food insecurity: the colombian case"
     ]
   },
   {
@@ -4377,6 +5064,27 @@
     ]
   },
   {
+    "id": "michaelgrahamsjsuedu",
+    "Name": "Michael Graham",
+    "Email": "michael.graham@sjsu.edu",
+    "Campus": "San Jose",
+    "College": "College of Science",
+    "Department": "Moss Landing Marine Laboratories",
+    "Title": "Department Chair",
+    "Research_Interests": "Research Interests: Seaweed ecology and physiology, Kelp forest ecology, Climate change and kelp systems, Historical ecology, Life history evolution, Integrated multi-trophic aquaculture, Statistics",
+    "Teaching_Interests": "Teaching Interests: Scientific methods, Biology of seaweeds, Aquaculture",
+    "Sustainability_Contributions": "Research on the impacts of climate change on kelp populations.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "michaelgrahamsjsuedu",
+    "email_href": "mailto:michael.graham@sjsu.edu",
+    "Research_Interests_List": [
+      "Research Interests: Seaweed ecology and physiology, Kelp forest ecology, Climate change and kelp systems, Historical ecology, Life history evolution, Integrated multi-trophic aquaculture, Statistics"
+    ]
+  },
+  {
     "id": "ggrancocppedu",
     "Name": "Gabriel Granco",
     "Email": "ggranco@cpp.edu",
@@ -4395,6 +5103,27 @@
     "email_href": "mailto:ggranco@cpp.edu",
     "Research_Interests_List": [
       "Research Interests: Human-environment geography: sustainability, Land use, Water, Global environmental change, Geospatial & agent-based modelling."
+    ]
+  },
+  {
+    "id": "maximegrandsjsuedu",
+    "Name": "Maxime Grand",
+    "Email": "maxime.grand@sjsu.edu",
+    "Campus": "San Jose",
+    "College": "College of Science",
+    "Department": "Moss Landing Marine Laboratories",
+    "Title": "Faculty Member",
+    "Research_Interests": "Research Interests: Marine biogeochemistry of trace metals, Nutrient dynamics in coastal systems, Chemical sensors (nutrients, Trace metals, Carbonate parameters), Ocean observing systems, Seaweed aquaculture (nutrient removal, Bromo carbon emissions)",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": "Professor Grand's Chemical Oceanography Lab studies the environmental benefits and impacts of seaweed aquaculture and collaborates with other research groups at MLML to quantify the nutrient removal capacity of various passive nutrient removal technologies.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "maximegrandsjsuedu",
+    "email_href": "mailto:maxime.grand@sjsu.edu",
+    "Research_Interests_List": [
+      "Research Interests: Marine biogeochemistry of trace metals, Nutrient dynamics in coastal systems, Chemical sensors (nutrients, Trace metals, Carbonate parameters), Ocean observing systems, Seaweed aquaculture (nutrient removal, Bromo carbon emissions)"
     ]
   },
   {
@@ -5024,6 +5753,27 @@
     ]
   },
   {
+    "id": "phauseltcsustanedu",
+    "Name": "Peggy Hauselt",
+    "Email": "phauselt@csustan.edu",
+    "Campus": "Stanislaus",
+    "College": "College of Science",
+    "Department": "Geography & Environmental Resources",
+    "Title": "Professor of Geography and Chair of Anthropology, Geography, and Ethnic Studies",
+    "Research_Interests": "Research Interests: Dr. hauselt research interests are related to water use modeling in rice production, Land cover and land use change, And agricultural geography.",
+    "Teaching_Interests": "Teaching Interests: She has taught gis, Advanced gis, Sustainable agriculture, Field methods, Wine geography, And others.",
+    "Sustainability_Contributions": "Water expert for CSU-WATER.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "phauseltcsustanedu",
+    "email_href": "mailto:phauselt@csustan.edu",
+    "Research_Interests_List": [
+      "Research Interests: Dr. hauselt research interests are related to water use modeling in rice production, Land cover and land use change, And agricultural geography."
+    ]
+  },
+  {
     "id": "jhazeltonboylemailfresnostateedu",
     "Name": "Josephine Hazelton-Boyle",
     "Email": "jhazeltonboyle@mail.fresnostate.edu",
@@ -5229,6 +5979,27 @@
     "email_href": "mailto:j.hereford@csus.edu",
     "Research_Interests_List": [
       "Research Interests: Machine learning, Gis, Statistical models, Previous research at uc davis on thermal adaptation to climate change in plants, Machine learning to predict plant growth and map growth at thousands of locations, Developed methods to statistically compare growth curves using nonlinear regression"
+    ]
+  },
+  {
+    "id": "mherman2csubedu",
+    "Name": "Matthew Herman",
+    "Email": "mherman2@csub.edu",
+    "Campus": "Bakersfield",
+    "College": "Natural Sciences, Mathematics, and Engineering",
+    "Department": "Geology",
+    "Title": "Assistant Professor of Geology",
+    "Research_Interests": "Research Interests: Lithospheric applications of finite elements, Stress changes and earthquake triggering, Seismo-geodesy, Regional seismic source characterization",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": "Research and publications related to tracking carbon capture and storage, geologic storage of hydrogen, earthquake seismotectonics Publications with the US Geological Survey.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "mherman2csubedu",
+    "email_href": "mailto:mherman2@csub.edu",
+    "Research_Interests_List": [
+      "Research Interests: Lithospheric applications of finite elements, Stress changes and earthquake triggering, Seismo-geodesy, Regional seismic source characterization"
     ]
   },
   {
@@ -5438,6 +6209,27 @@
     "Research_Interests_List": []
   },
   {
+    "id": "mdhossainfullertonedu",
+    "Name": "Md Noman Hossain",
+    "Email": "mdhossain@fullerton.edu",
+    "Campus": "Fullerton",
+    "College": "College of Business and Economics",
+    "Department": "Finance",
+    "Title": "Assistant Professor",
+    "Research_Interests": "Research Interests: Corporate finance, Corporate governance, Behavioral finance, Investments, Machine learning, Artificial intelligence, Esg, Carbon emission, Wage theft, Information asymmetry, Biodiversity risk",
+    "Teaching_Interests": "Teaching Interests: Corporate finance, Banking, Financial markets and institutions, Financial management, International finance, Investments, Financial modeling, Financial statement analysis, Risk management",
+    "Sustainability_Contributions": "Research on biodiversity risk and carbon emissions (more detail would be appreciated!).",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "mdhossainfullertonedu",
+    "email_href": "mailto:mdhossain@fullerton.edu",
+    "Research_Interests_List": [
+      "Research Interests: Corporate finance, Corporate governance, Behavioral finance, Investments, Machine learning, Artificial intelligence, Esg, Carbon emission, Wage theft, Information asymmetry, Biodiversity risk"
+    ]
+  },
+  {
     "id": "ehoukcsuchicoedu",
     "Name": "Eric Houk",
     "Email": "ehouk@csuchico.edu",
@@ -5583,6 +6375,48 @@
     ]
   },
   {
+    "id": "pvirencsumbedu",
+    "Name": "Paige Viren  ; https://www.linkedin.com/in/paigeviren/",
+    "Email": "pviren@csumb.edu",
+    "Campus": "Monterey Bay",
+    "College": "College of Business",
+    "Department": "College Of Business",
+    "Title": "Executive Director of Sustainable Hospitality Management Program",
+    "Research_Interests": "Research Interests: Sustainability tourism: consumer behavior and adventure travel.",
+    "Teaching_Interests": "Teaching Interests: Led research team with unwto exploring climate change and traveler experiences: \"frequent travelers, Climate and what to do: travelers share their thoughts\"",
+    "Sustainability_Contributions": "Co-authored studies on environmental psychology and sustainable tourism, exploring restorative effects of \"blue spaces\" and how education around tourism affects eco-friendly travel practices. Chair of California Travel Association's Sustainability & Stewardship Committee, focusing on best practices in industry sustainability. Member of US Travel & Tourism Board since Jan 2025, where she brings academic and sustainable perspectives to national policy.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "pvirencsumbedu",
+    "email_href": "mailto:pviren@csumb.edu",
+    "Research_Interests_List": [
+      "Research Interests: Sustainability tourism: consumer behavior and adventure travel."
+    ]
+  },
+  {
+    "id": "phudsonfullertonedu",
+    "Name": "Paula Hudson",
+    "Email": "phudson@fullerton.edu",
+    "Campus": "Fullerton",
+    "College": "College of Natural Sciences and Mathematics",
+    "Department": "Chemistry And Biochemistry",
+    "Title": "Associate Professor\nUndergraduate Program Advisor",
+    "Research_Interests": "Research Interests: Studying aerosols' properties and interactions with man-made pollutants to understand atmospheric models related to climate change",
+    "Teaching_Interests": "Teaching Interests: General chemistry, Quantitative chemistry, Physical chemistry, Optical spectroscopy, Atmospheric chemistry",
+    "Sustainability_Contributions": "Applications of research on aerosols to climate change research.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "phudsonfullertonedu",
+    "email_href": "mailto:phudson@fullerton.edu",
+    "Research_Interests_List": [
+      "Research Interests: Studying aerosols' properties and interactions with man-made pollutants to understand atmospheric models related to climate change"
+    ]
+  },
+  {
     "id": "brenthughessonomaedu",
     "Name": "Brent Hughes",
     "Email": "brent.hughes@sonoma.edu",
@@ -5686,6 +6520,27 @@
     ]
   },
   {
+    "id": "mdarifiqbalicppedu",
+    "Name": "Md Arif Iqbal",
+    "Email": "mdarifiqbali@cpp.edu",
+    "Campus": "Pomona",
+    "College": "Huntley College of Agriculture",
+    "Department": "Apparel Merchandising And Management",
+    "Title": "Assistant Professor",
+    "Research_Interests": "Research Interests: Sustainable apparel production, Circular economy, Global supply chain ethics",
+    "Teaching_Interests": "Teaching Interests: Sustainable fashion, Apparel supply chain management",
+    "Sustainability_Contributions": "Promotes sustainability in the fashion industry through circular production models and responsible sourcing.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "mdarifiqbalicppedu",
+    "email_href": "mailto:mdarifiqbali@cpp.edu",
+    "Research_Interests_List": [
+      "Research Interests: Sustainable apparel production, Circular economy, Global supply chain ethics"
+    ]
+  },
+  {
     "id": "ctiveycsuchicoedu",
     "Name": "Chris Ivey",
     "Email": "ctivey@csuchico.edu",
@@ -5723,6 +6578,25 @@
     "extras": null,
     "slug": "lindaiveycsueastbayedu",
     "email_href": "mailto:linda.ivey@csueastbay.edu",
+    "Research_Interests_List": []
+  },
+  {
+    "id": "padmajaiyersjsuedu",
+    "Name": "Padmaja Iyer",
+    "Email": "padmaja.iyer@sjsu.edu",
+    "Campus": "San Jose",
+    "College": "College of Social Sciences",
+    "Department": "Humanities",
+    "Title": "Lecturer",
+    "Research_Interests": null,
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "padmajaiyersjsuedu",
+    "email_href": "mailto:padmaja.iyer@sjsu.edu",
     "Research_Interests_List": []
   },
   {
@@ -5789,6 +6663,25 @@
     ]
   },
   {
+    "id": "mostafajalalsjsuedu",
+    "Name": "Mostafa Jalal",
+    "Email": "mostafa.jalal@sjsu.edu",
+    "Campus": "San Jose",
+    "College": "College of Social Sciences",
+    "Department": "Humanities",
+    "Title": "Lecturer",
+    "Research_Interests": null,
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "mostafajalalsjsuedu",
+    "email_href": "mailto:mostafa.jalal@sjsu.edu",
+    "Research_Interests_List": []
+  },
+  {
     "id": "andresjaureguimailfresnostateedu",
     "Name": "Andres Jauregui",
     "Email": "andresjauregui@mail.fresnostate.edu",
@@ -5852,6 +6745,27 @@
     ]
   },
   {
+    "id": "1",
+    "Name": "Megan Jennings",
+    "Email": "1",
+    "Campus": "San Diego",
+    "College": "College of Sciences",
+    "Department": "Biology",
+    "Title": "Co-Director of the Institute for Ecological Monitoring and Management, Principal Investigator of the Collaborative of Native Nations for Climate Transformation and Stewardship, Assistant Adjunct Professor, Research Ecologist",
+    "Research_Interests": "Research Interests: Current research:, ​assessing the multiple benefits of conserving connecting landscapes for climate resilient communities, Advancing ecological, Cultural, And community resilience with tribal nations in southern california, Developing a climate-adapted conservation strategy for southern california's montane forests, Evaluating population persistence for desert bighorn sheep in the peninsular ranges of california, Monitoring across san diego county to determine the efficacy of an intergovernmental effort to manage pigs",
+    "Teaching_Interests": "Teaching Interests: Conservation ecology and management",
+    "Sustainability_Contributions": "Big Ideas Champion for the Center for Climate Equity and Resilience (Previously the Community Climate Action Network) Co-Director of SDSU's Institute for Ecological Monitoring and Management Interim director of CSU-Adapt, a CSU-wide initiative by the chancellor's office focused on climate adaptation efforts, experience, and projects across CSU campuses.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "1",
+    "email_href": "mailto:1",
+    "Research_Interests_List": [
+      "Research Interests: Current research:, ​assessing the multiple benefits of conserving connecting landscapes for climate resilient communities, Advancing ecological, Cultural, And community resilience with tribal nations in southern california, Developing a climate-adapted conservation strategy for southern california's montane forests, Evaluating population persistence for desert bighorn sheep in the peninsular ranges of california, Monitoring across san diego county to determine the efficacy of an intergovernmental effort to manage pigs"
+    ]
+  },
+  {
     "id": "indumathijeyachandransjsuedu",
     "Name": "Indu Jeyachandran",
     "Email": "indumathi.jeyachandran@sjsu.edu",
@@ -5870,6 +6784,27 @@
     "email_href": "mailto:indumathi.jeyachandran@sjsu.edu",
     "Research_Interests_List": [
       "Research Interests: Sustainable urban infrastructure planning using remote sensing, Gis, Modeling and observation techniques, Urban systems sustainability, Water stress analysis"
+    ]
+  },
+  {
+    "id": "1",
+    "Name": "Pascale Joassart-Marcelli",
+    "Email": "1",
+    "Campus": "San Diego",
+    "College": "College of Arts and Letters",
+    "Department": "Geography",
+    "Title": "Professor of Geography, Urban Studies Program Director, Food Studies Program Director",
+    "Research_Interests": "Research Interests: Urban poverty and social justice, Urban geographies of food, Especially the relationship between place, Ethnicity and food, Urban foodscapes food-related gentrification, Urban agriculture and environmental justice",
+    "Teaching_Interests": "Teaching Interests: Geography of food, Urban geography, Food justice research courses, Sustainable food, Community-based research",
+    "Sustainability_Contributions": "Collaborates with several community-based organizations in SD that are working towards a just, healthy, and environmentally-sound food system Written many works about food, place, and ethnicity, two of her books are award winners Research funded by the US Department of Agriculture, National Science Foundation, the US Department of Housing and Urban Development, and the Robert Wood Johnson Foundation Co-Director of the Center for Better Food Futures at SDSU Co-project Director of SDSU Nextgen, an interdisciplinary team of professionals with a systemic perspective to food security, sustainability and regenerative agriculture which integrates humanities and social, nutritional, and natural sciences.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "1",
+    "email_href": "mailto:1",
+    "Research_Interests_List": [
+      "Research Interests: Urban poverty and social justice, Urban geographies of food, Especially the relationship between place, Ethnicity and food, Urban foodscapes food-related gentrification, Urban agriculture and environmental justice"
     ]
   },
   {
@@ -5952,6 +6887,48 @@
     "email_href": "mailto:anjones@mail.fresnostate.edu",
     "Research_Interests_List": [
       "Research Interests: Social theory, Cultural sociology, Mass media, Environmental sociology, Political economy, And political sociology. media framing of environmental issues, In particular climate destabilization, And their impact on social perceptions. interactions between water policy, Residential water use, And urban biodiversity."
+    ]
+  },
+  {
+    "id": "njuecsumbedu",
+    "Name": "Nathaniel Jue",
+    "Email": "njue@csumb.edu",
+    "Campus": "Monterey Bay",
+    "College": "College of Science",
+    "Department": "Biology & Chemistry",
+    "Title": "Associate Professor",
+    "Research_Interests": "Research Interests: Functional, Evolutionary, And ecological genomics, Bioinformatics, Pesticide bioremediation.",
+    "Teaching_Interests": "Teaching Interests: Practical computing, Bioinformatics, Comparative genomics.",
+    "Sustainability_Contributions": "Sustainability efforts in agriculture and environmental health. 1.Microbial Bioremediation for Agriculture: project funded by CA Department of Pesticide Regulation to investigate use of naturally occurring bacteria to remediate pesticide contamination in agricultural runoff.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "njuecsumbedu",
+    "email_href": "mailto:njue@csumb.edu",
+    "Research_Interests_List": [
+      "Research Interests: Functional, Evolutionary, And ecological genomics, Bioinformatics, Pesticide bioremediation."
+    ]
+  },
+  {
+    "id": "mjungbluthsfsuedu",
+    "Name": "Michelle Jungbluth",
+    "Email": "mjungbluth@sfsu.edu",
+    "Campus": "San Francisco",
+    "College": "Science and Engineering",
+    "Department": "Biology",
+    "Title": "Adjunct Professor",
+    "Research_Interests": "Research Interests: Lower trophic level food web connections, Community diversity in restoring wetlands, And population dynamics and distributions of aquatic species in marine and estuarine environments.",
+    "Teaching_Interests": "Teaching Interests: Introductory oceanography. mentorship of graduates and undergraduates in the application of advanced molecular methods in environmental science.",
+    "Sustainability_Contributions": "Interests include researching the ecological impacts of wetland restoration actions on pelagic organisms, characterizing the diversity of life on earth through DNA barcoding, and contributing to studies that characterize how marine species diversity and distribution responds to climate change.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "mjungbluthsfsuedu",
+    "email_href": "mailto:mjungbluth@sfsu.edu",
+    "Research_Interests_List": [
+      "Research Interests: Lower trophic level food web connections, Community diversity in restoring wetlands, And population dynamics and distributions of aquatic species in marine and estuarine environments."
     ]
   },
   {
@@ -6182,6 +7159,27 @@
     "Research_Interests_List": []
   },
   {
+    "id": "nolakennedycsunedu",
+    "Name": "Nola J. Kennedy",
+    "Email": "nola.kennedy@csun.edu",
+    "Campus": "NorthridgeCSUN",
+    "College": "Health & Human Development, Env. & Occupational Health",
+    "Department": "Health & Human Development, Env. & Occupational Health",
+    "Title": "Professor & Dept Chair",
+    "Research_Interests": "Research Interests: Workplace and environmental health",
+    "Teaching_Interests": "Teaching Interests: Environmental health, Pollution risk",
+    "Sustainability_Contributions": "Leads EOH efforts on campus health-safe environments.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "nolakennedycsunedu",
+    "email_href": "mailto:nola.kennedy@csun.edu",
+    "Research_Interests_List": [
+      "Research Interests: Workplace and environmental health"
+    ]
+  },
+  {
     "id": "jkeyantashcsudhedu",
     "Name": "John Keyantash",
     "Email": "jkeyantash@csudh.edu",
@@ -6308,6 +7306,27 @@
     ]
   },
   {
+    "id": "morgankinghumboldtedu",
+    "Name": "Morgan King",
+    "Email": "Morgan.King@humboldt.edu",
+    "Campus": "Humboldt",
+    "College": "Administrative Affairs",
+    "Department": "Nan",
+    "Title": "Climate Action Analyst",
+    "Research_Interests": "Research Interests: Facilitates climate action and resiliency planning and program management, Advises students, And furthers the infusion of sustainability into campus operations and academics.",
+    "Teaching_Interests": "Teaching Interests: Chair of the sustainable transportation committee and a co-chair of the humboldt advisory committee on sustainability, The staff advisor for the waste reduction & resource awareness program and the bicycle learning center, And volunteer faculty in the college of natural resources and sciences. instructor/mentor for interns working on projects in the office of sustainability",
+    "Sustainability_Contributions": "Climate Action Plan, Climate Resilience Plan, greenhouse gas inventory reporting, integration of climate action into broader campus planning Sustainable Transportation programs Zero Waste planning and project implementation Sustainable Grounds programs - Bee Campus USA, Tree Campus Higher Education.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "morgankinghumboldtedu",
+    "email_href": "mailto:Morgan.King@humboldt.edu",
+    "Research_Interests_List": [
+      "Research Interests: Facilitates climate action and resiliency planning and program management, Advises students, And furthers the infusion of sustainability into campus operations and academics."
+    ]
+  },
+  {
     "id": "1",
     "Name": "Alicia Kinoshita",
     "Email": "1",
@@ -6326,6 +7345,27 @@
     "email_href": "mailto:1",
     "Research_Interests_List": [
       "Research Interests: Wildfire, Post-fire hydrology, Disturbance hydrology, Remote sensing applications"
+    ]
+  },
+  {
+    "id": "mkirbyfullertonedu",
+    "Name": "Matthew Kirby",
+    "Email": "mkirby@fullerton.edu",
+    "Campus": "Fullerton",
+    "College": "College of Natural Sciences and Mathematics",
+    "Department": "Geology",
+    "Title": "Professor\nChair, Department of Geology",
+    "Research_Interests": "Research Interests: Late quaternary paleoclimatology with a specific focus on the late-glacial/holocene transition and the present holocene epoch. lacustrine-based multi-proxy, Multi-disciplinary research that incorporates historical records of climate change as a calibration tool for assessing past climate states",
+    "Teaching_Interests": "Teaching Interests: Physical geology, Earth's atmosphere, Earth's environmental crises, Oceanography, Surface processes and hydrology, Paleoclimatology, Environmental geology and planning, Paleolimnology",
+    "Sustainability_Contributions": "Research on historical records of climate change with implications on the assessment of past climate states.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "mkirbyfullertonedu",
+    "email_href": "mailto:mkirby@fullerton.edu",
+    "Research_Interests_List": [
+      "Research Interests: Late quaternary paleoclimatology with a specific focus on the late-glacial/holocene transition and the present holocene epoch. lacustrine-based multi-proxy, Multi-disciplinary research that incorporates historical records of climate change as a calibration tool for assessing past climate states"
     ]
   },
   {
@@ -6472,6 +7512,27 @@
     ]
   },
   {
+    "id": "mkohoutcsusbedu",
+    "Name": "Mike Kohout",
+    "Email": "mkohout@csusb.edu",
+    "Campus": "San Bernadino",
+    "College": "College of Social & Behavioral Sciences",
+    "Department": "Geography And Environmental Studies",
+    "Title": "Professor",
+    "Research_Interests": "Research Interests: Urban studies and cultural geography in the inland empire, On the us-mexico border, Mexico, And europe",
+    "Teaching_Interests": "Teaching Interests: Human geography",
+    "Sustainability_Contributions": "Research and publications about green spaces, regional geographies, and sustainable development.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "mkohoutcsusbedu",
+    "email_href": "mailto:mkohout@csusb.edu",
+    "Research_Interests_List": [
+      "Research Interests: Urban studies and cultural geography in the inland empire, On the us-mexico border, Mexico, And europe"
+    ]
+  },
+  {
     "id": "kmk928humboldtedu",
     "Name": "Katie Koscielak",
     "Email": "kmk928@humboldt.edu",
@@ -6511,6 +7572,27 @@
     "email_href": "mailto:jkwon@csufresno.edu",
     "Research_Interests_List": [
       "Research Interests: Exposure assessment, Health effects of pollutants in the environment."
+    ]
+  },
+  {
+    "id": "mkwonfullertonedu",
+    "Name": "Myungjung \"M.J.\" Kwon",
+    "Email": "mkwon@fullerton.edu",
+    "Campus": "Fullerton",
+    "College": "College of Humanities and Social Sciences",
+    "Department": "Division Of Politics, Administration, And Justice",
+    "Title": "Professor, Public Administration",
+    "Research_Interests": "Research Interests: Sustainable development, Smartwork policy, Smart cities, Climate protection and energy sustainability  policy, Public management, Performance measurement, Human resource management",
+    "Teaching_Interests": "Teaching Interests: Human resources management, Administration resources and analysis, Public sector human resources management",
+    "Sustainability_Contributions": "Publications on sustainability plans and environmental planning.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "mkwonfullertonedu",
+    "email_href": "mailto:mkwon@fullerton.edu",
+    "Research_Interests_List": [
+      "Research Interests: Sustainable development, Smartwork policy, Smart cities, Climate protection and energy sustainability  policy, Public management, Performance measurement, Human resource management"
     ]
   },
   {
@@ -6574,6 +7656,69 @@
     "email_href": "mailto:juleen.lam@csueastbay.edu",
     "Research_Interests_List": [
       "Research Interests: Environmental epidemiology, Systematic review, Evaluation of population exposures to environmental contaminants, Assessment and communication of environmental risks, And reproductive/developmental health. specializes in analysis of environmental health data, Development and application of risk assessment methods, And the translation of scientific findings into making timely and informed decisions and policies."
+    ]
+  },
+  {
+    "id": "nicholaslamcsueastbayedu",
+    "Name": "Nicholas Lam",
+    "Email": "nicholas.lam@csueastbay.edu",
+    "Campus": "East Bay",
+    "College": "College of Health",
+    "Department": "Public Health",
+    "Title": "Assistant Professor",
+    "Research_Interests": "Research Interests: Health and welfare impacts of current and future energy practices in homes and businesses, Strategies to develop energy infrastructure to improve access to resilient health services. relationships between human health, Climate, And energy.",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": "Interested in electrification in California.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "nicholaslamcsueastbayedu",
+    "email_href": "mailto:nicholas.lam@csueastbay.edu",
+    "Research_Interests_List": [
+      "Research Interests: Health and welfare impacts of current and future energy practices in homes and businesses, Strategies to develop energy infrastructure to improve access to resilient health services. relationships between human health, Climate, And energy."
+    ]
+  },
+  {
+    "id": "nlambroucppedu",
+    "Name": "Nicole Lambrou",
+    "Email": "nlambrou@cpp.edu",
+    "Campus": "Pomona",
+    "College": "College of Environmental Design",
+    "Department": "Urban And Regional Planning",
+    "Title": "Assistant Professor",
+    "Research_Interests": "Research Interests: Climate risk, Disaster recovery, Wildfire resilience, Equity-centered planning",
+    "Teaching_Interests": "Teaching Interests: Urban planning, Climate adaptation, Community resilience",
+    "Sustainability_Contributions": "Develops climate-just planning strategies for vulnerable communities.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "nlambroucppedu",
+    "email_href": "mailto:nlambrou@cpp.edu",
+    "Research_Interests_List": [
+      "Research Interests: Climate risk, Disaster recovery, Wildfire resilience, Equity-centered planning"
+    ]
+  },
+  {
+    "id": "paullariscsulbedu",
+    "Name": "Paul Laris",
+    "Email": "paul.laris@csulb.edu",
+    "Campus": "Long Beach",
+    "College": "College of Liberal Arts",
+    "Department": "Geography",
+    "Title": "Professor \nChair, Geography",
+    "Research_Interests": "Research Interests: Savanna ecology: impacts of fire regimes, Agriculture and other disturbances on, Savanna vegetation, Seasonal-mosaic burning regimes, Biogeography: tree/grass dynamics in semi-arid zones, Landscape restoration, Land-use/land cover change, Critical physical geography, Political ecology, Remote sensing of fire and vegetation",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": "Affiliated Faculty for Environmental Science & Policy Publications on emissions reductions, geography, and anthropogenic disturbance regimes.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "paullariscsulbedu",
+    "email_href": "mailto:paul.laris@csulb.edu",
+    "Research_Interests_List": [
+      "Research Interests: Savanna ecology: impacts of fire regimes, Agriculture and other disturbances on, Savanna vegetation, Seasonal-mosaic burning regimes, Biogeography: tree/grass dynamics in semi-arid zones, Landscape restoration, Land-use/land cover change, Critical physical geography, Political ecology, Remote sensing of fire and vegetation"
     ]
   },
   {
@@ -6658,6 +7803,48 @@
     "email_href": "mailto:alauer@csub.edu",
     "Research_Interests_List": [
       "Research Interests: Valley fever, San joaquin kit fox conservation, Csub landscaping"
+    ]
+  },
+  {
+    "id": "1",
+    "Name": "Matthew Lauer",
+    "Email": "1",
+    "Campus": "San Diego",
+    "College": "College of Arts and Letters",
+    "Department": "Anthropology",
+    "Title": "Professor of Environmental and Ecological Anthropology, Anthropology Department Chair",
+    "Research_Interests": "Research Interests: Environmental change, Indigenous knowledge, Disasters in oceania, Current research: micro-ecology of coastal and marine resource use, Resilience and vulnerability of coastal communities to climate change and socio-ecological perturbations, And community-based resource management and development (has active projects in french polynesia, The solomon islands, And san diego)",
+    "Teaching_Interests": "Teaching Interests: Environmental change, Indigenous knowledge, Disasters in oceania",
+    "Sustainability_Contributions": "*Mainly research Team Member for the Center for Climate Equity and Resilience (Previously the Community Climate Action Network).",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "1",
+    "email_href": "mailto:1",
+    "Research_Interests_List": [
+      "Research Interests: Environmental change, Indigenous knowledge, Disasters in oceania, Current research: micro-ecology of coastal and marine resource use, Resilience and vulnerability of coastal communities to climate change and socio-ecological perturbations, And community-based resource management and development (has active projects in french polynesia, The solomon islands, And san diego)"
+    ]
+  },
+  {
+    "id": "matthewdeslaurierscsusbedu",
+    "Name": "Matthew Des Lauriers",
+    "Email": "matthew.deslauriers@csusb.edu",
+    "Campus": "San Bernadino",
+    "College": "College of Social and Behavioral Sciences",
+    "Department": "Anthropology",
+    "Title": "Professor & Director of the Applied Archaeology Program",
+    "Research_Interests": "Research Interests: Coastal archaeology of baja california, Initial arrival of humans in the americas, Rapid environmental change in arid environments, Human migration, Landscape learning, Transmission of knowledge",
+    "Teaching_Interests": "Teaching Interests: Cultural resources laws, Ethics, And procedures, California archaeology",
+    "Sustainability_Contributions": "Research and outreach regarding the ecological, economic, and social nature of island societies Wrote Island of Fogs, which focuses on the archaeology of Western North America, especially its desert regions; thematically he works on issues of hunting and gathering populations, migration, human ecology, ancient technologies, and traditional knowledge systems.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "matthewdeslaurierscsusbedu",
+    "email_href": "mailto:matthew.deslauriers@csusb.edu",
+    "Research_Interests_List": [
+      "Research Interests: Coastal archaeology of baja california, Initial arrival of humans in the americas, Rapid environmental change in arid environments, Human migration, Landscape learning, Transmission of knowledge"
     ]
   },
   {
@@ -7136,6 +8323,27 @@
     ]
   },
   {
+    "id": "mlivyfullertonedu",
+    "Name": "Mitchell Livy",
+    "Email": "mlivy@fullerton.edu",
+    "Campus": "Fullerton",
+    "College": "College of Business and Economics",
+    "Department": "Economics",
+    "Title": "Associate Professor",
+    "Research_Interests": "Research Interests: Environmental economics, Resource economics, Land use, Urban economics, And regional economics",
+    "Teaching_Interests": "Teaching Interests: Microeconomics, Environmental economics, Resource economics",
+    "Sustainability_Contributions": "Previous involvement in a research study on regional climate variability and patterns of urban development, where he was responsible for modeling the impact of environmental amenities on residential location choice.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "mlivyfullertonedu",
+    "email_href": "mailto:mlivy@fullerton.edu",
+    "Research_Interests_List": [
+      "Research Interests: Environmental economics, Resource economics, Land use, Urban economics, And regional economics"
+    ]
+  },
+  {
     "id": "angelalockscsulbedu",
     "Name": "Angela Locks",
     "Email": "angela.locks@csulb.edu",
@@ -7571,6 +8779,27 @@
     ]
   },
   {
+    "id": "mmartincsusbedu",
+    "Name": "Miguel Martin",
+    "Email": "mmartin@csusb.edu",
+    "Campus": "San Bernadino",
+    "College": null,
+    "Department": "Facilities Planning & Management",
+    "Title": "Energy and Sustainability Manager",
+    "Research_Interests": "Research Interests: Urban climate and building energy efficiency, Relationships between natural and built environment, Urban planning",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "mmartincsusbedu",
+    "email_href": "mailto:mmartin@csusb.edu",
+    "Research_Interests_List": [
+      "Research Interests: Urban climate and building energy efficiency, Relationships between natural and built environment, Urban planning"
+    ]
+  },
+  {
     "id": "lukematjascsuciedu",
     "Name": "Luka Matjas",
     "Email": "luke.matjas@csuci.edu",
@@ -7714,6 +8943,46 @@
     ]
   },
   {
+    "id": "mcduffiecsusmedu",
+    "Name": "Michael McDuffie",
+    "Email": "mcduffie@csusm.edu",
+    "Campus": "San Marcos",
+    "College": "College of Humanities, Arts, Behavioral & Social Sciences",
+    "Department": "Philosophy",
+    "Title": "Associate Professor and Department Chair",
+    "Research_Interests": "Research Interests: Bioethics, Clinical ethics",
+    "Teaching_Interests": "Teaching Interests: Not found",
+    "Sustainability_Contributions": "Faculty Affiliate for the Environmental Sciences Department.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "mcduffiecsusmedu",
+    "email_href": "mailto:mcduffie@csusm.edu",
+    "Research_Interests_List": [
+      "Research Interests: Bioethics, Clinical ethics"
+    ]
+  },
+  {
+    "id": "nmcgheecsumedu",
+    "Name": "Neil McGhee",
+    "Email": "nmcghee@csum.edu",
+    "Campus": "Maritime",
+    "College": null,
+    "Department": "Marine Programs - Training Ship Golden Bear",
+    "Title": "First Assistant Engineer",
+    "Research_Interests": null,
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "nmcgheecsumedu",
+    "email_href": "mailto:nmcghee@csum.edu",
+    "Research_Interests_List": []
+  },
+  {
     "id": "1",
     "Name": "Hilary McMillan",
     "Email": "1",
@@ -7816,6 +9085,27 @@
     "email_href": "mailto:kmeehan@csuchico.edu",
     "Research_Interests_List": [
       "Research Interests: Materials characterization, Device design and fabrication, And stem education with an emphasis on hands-on pedagogies"
+    ]
+  },
+  {
+    "id": "nmeekcsusbedu",
+    "Name": "Norman Meek",
+    "Email": "nmeek@csusb.edu",
+    "Campus": "San Bernadino",
+    "College": "College of Social & Behavioral Sciences",
+    "Department": "Geography And Environmental Studies",
+    "Title": "Professor",
+    "Research_Interests": "Research Interests: Drainage network evolution in the basin and range, Landscape evolution and tectonics of the mojave desert and inland empire, Desert landforms and processes, Geography and military operations since 1750",
+    "Teaching_Interests": "Teaching Interests: Physical geography, The science of climate change, Geomorphology, Military geography for national security studies",
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "nmeekcsusbedu",
+    "email_href": "mailto:nmeek@csusb.edu",
+    "Research_Interests_List": [
+      "Research Interests: Drainage network evolution in the basin and range, Landscape evolution and tectonics of the mojave desert and inland empire, Desert landforms and processes, Geography and military operations since 1750"
     ]
   },
   {
@@ -7945,6 +9235,27 @@
     ]
   },
   {
+    "id": "myersnisonomaedu",
+    "Name": "Nicole Meyers",
+    "Email": "myersni@sonoma.edu",
+    "Campus": "Sonoma",
+    "College": "College of Science, Technology, and Business",
+    "Department": "Geology",
+    "Title": "Lecturer",
+    "Research_Interests": "Research Interests: Dinosaurs & natural disasters",
+    "Teaching_Interests": "Teaching Interests: Earth sciences: meteorology, Climatology, Natural disasters, Geology of climate change, General geology and paleontology",
+    "Sustainability_Contributions": "Directly educates students on Earth system dynamics and climate science; courses foster awareness of climate impacts.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "myersnisonomaedu",
+    "email_href": "mailto:myersni@sonoma.edu",
+    "Research_Interests_List": [
+      "Research Interests: Dinosaurs & natural disasters"
+    ]
+  },
+  {
     "id": "kristymichaudcsunedu",
     "Name": "Kristy Michaud",
     "Email": "kristy.michaud@csun.edu",
@@ -7983,6 +9294,27 @@
     "slug": "michelksonomaedu",
     "email_href": "mailto:michelk@sonoma.edu",
     "Research_Interests_List": []
+  },
+  {
+    "id": "nmichiekacsubedu",
+    "Name": "Nyakundi Michieka",
+    "Email": "nmichieka@csub.edu",
+    "Campus": "Bakersfield",
+    "College": "Business and Public Administration",
+    "Department": "Economics",
+    "Title": "Director Center for Economic Education and Research\nAssociate Professor of Economics: Energy Economics, Environmental Economics",
+    "Research_Interests": "Research Interests: Energy economics, Energy policy, Energy demand, Renewable, And non-renewable energy, Regional economics, Economic development, And poverty, Spatial econometrics and time series analysis",
+    "Teaching_Interests": "Teaching Interests: Quantitative methods for economics, Microeconomics, Energy economics, Environmental economics",
+    "Sustainability_Contributions": "Courses and publications on topics such as natural energy resources, urbanization, carbon emissions, oil price dynamics, and environmental policy.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "nmichiekacsubedu",
+    "email_href": "mailto:nmichieka@csub.edu",
+    "Research_Interests_List": [
+      "Research Interests: Energy economics, Energy policy, Energy demand, Renewable, And non-renewable energy, Regional economics, Economic development, And poverty, Spatial econometrics and time series analysis"
+    ]
   },
   {
     "id": "dgmillercsuchicoedu",
@@ -8048,6 +9380,27 @@
     ]
   },
   {
+    "id": "mystynmillscsulbedu",
+    "Name": "Mystyn Mills",
+    "Email": "Mystyn.Mills@csulb.edu",
+    "Campus": "Long Beach",
+    "College": "College of Liberal Arts",
+    "Department": "Geography",
+    "Title": "Professor",
+    "Research_Interests": "Research Interests: Biogeography, Landscape behavioral ecology, Wildlife monitoring, Re-wilding",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": "Affiliated Faculty for Environmental Science & Policy Lead of the WILDeR (Wildlife Interactions, Landscapes, Data & ecological Restoration) Lab.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "mystynmillscsulbedu",
+    "email_href": "mailto:Mystyn.Mills@csulb.edu",
+    "Research_Interests_List": [
+      "Research Interests: Biogeography, Landscape behavioral ecology, Wildlife monitoring, Re-wilding"
+    ]
+  },
+  {
     "id": "dminovitzcsumbedu",
     "Name": "David Minovitz",
     "Email": "dminovitz@csumb.edu",
@@ -8087,6 +9440,27 @@
     "email_href": "mailto:jmirocha@csustan.edu",
     "Research_Interests_List": [
       "Research Interests: Atmospheric sciences and wind energy"
+    ]
+  },
+  {
+    "id": "1",
+    "Name": "Natalie Mladenov",
+    "Email": "1",
+    "Campus": "San Diego",
+    "College": "College of Engineering",
+    "Department": "Civil, Construction, And Environmental Engineering",
+    "Title": "Professor, P.E., William E. Leonhard, Jr. Chair, Director of the Water Innovation and Reuse Lab",
+    "Research_Interests": "Research Interests: Biogeochemical processes influencing pollutant fate and transport in natural and engineered systems, Anaerobic processes for decentralized  wastewater treatment, Nutrient removal and energy recovery, Research focuses on fundamental processes driving photochemical and biological degradation and mobilization of contaminants and applies optical spectroscopic techniques for monitoring organic contaminants",
+    "Teaching_Interests": "Teaching Interests: Designing solutions for environmental problems, Environmental engineering, Physical and chemical processes of water pollution control, Biological processes and bioremediation",
+    "Sustainability_Contributions": "Sustainable water reuse Net zero energy and reducing nutrient-rich discharges from wastewater treatment Mitigating urban water pollution.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "1",
+    "email_href": "mailto:1",
+    "Research_Interests_List": [
+      "Research Interests: Biogeochemical processes influencing pollutant fate and transport in natural and engineered systems, Anaerobic processes for decentralized  wastewater treatment, Nutrient removal and energy recovery, Research focuses on fundamental processes driving photochemical and biological degradation and mobilization of contaminants and applies optical spectroscopic techniques for monitoring organic contaminants"
     ]
   },
   {
@@ -8251,6 +9625,27 @@
     "email_href": "mailto:amr.morsy@csulb.edu",
     "Research_Interests_List": [
       "Research Interests: Geotechnical infrastructure deterioration and asset management, Climate change impacts on geotechnical and geoenvironmental infrastructure, Geosynthetics applications in geotechnical engineering, And engineering solutions for sustainable built environment"
+    ]
+  },
+  {
+    "id": "mohammadmozumdarcsulbedu",
+    "Name": "Mohammad Mozumdar",
+    "Email": "mohammad.mozumdar@csulb.edu",
+    "Campus": "Long Beach",
+    "College": "College of Engineering",
+    "Department": "Electrical Engineering",
+    "Title": "Professor",
+    "Research_Interests": "Research Interests: Methodologies and tools for embedded systems, Especially in the domain of sensor networks, Energy efficient building information and control system design, Cyber physical systems, Methodology for the design of distributed embedded systems typically subjected to high real time, Safety and reliability constraints",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": "Impact of energy efficient building information and control system design on sustainable practices in engineering and industrial communities.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "mohammadmozumdarcsulbedu",
+    "email_href": "mailto:mohammad.mozumdar@csulb.edu",
+    "Research_Interests_List": [
+      "Research Interests: Methodologies and tools for embedded systems, Especially in the domain of sensor networks, Energy efficient building information and control system design, Cyber physical systems, Methodology for the design of distributed embedded systems typically subjected to high real time, Safety and reliability constraints"
     ]
   },
   {
@@ -8504,6 +9899,27 @@
     ]
   },
   {
+    "id": "nganguyenfullertonedu",
+    "Name": "Nga Nguyen",
+    "Email": "nganguyen@fullerton.edu",
+    "Campus": "Fullerton",
+    "College": "College of Humanities and Social Sciences",
+    "Department": "Anthropology",
+    "Title": "Professor",
+    "Research_Interests": "Research Interests: Evolutionary anthropology: nonhuman primate behavioral biology, Ecology, Endocrinology, And conservation biology, Parenting, Social relationships, Development, Disease, Regional foci: east africa (ethiopia, Kenya, Rwanda), Se asia (vietnam)",
+    "Teaching_Interests": "Teaching Interests: Introduction to biological anthropology, Primate behavior, Hormones & behavior, Environmental issues and approaches",
+    "Sustainability_Contributions": "Research on human-wildlife conflict and coexistence, threatened species, habitat loss and fragmentation, impacts on fitness and behavior.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "nganguyenfullertonedu",
+    "email_href": "mailto:nganguyen@fullerton.edu",
+    "Research_Interests_List": [
+      "Research Interests: Evolutionary anthropology: nonhuman primate behavioral biology, Ecology, Endocrinology, And conservation biology, Parenting, Social relationships, Development, Disease, Regional foci: east africa (ethiopia, Kenya, Rwanda), Se asia (vietnam)"
+    ]
+  },
+  {
     "id": "mahmoodnikbakhtzadehcsusbedu",
     "Name": "Mahmood Nikbakhtzadeh",
     "Email": "mahmood.nikbakhtzadeh@csusb.edu",
@@ -8583,6 +9999,27 @@
     "email_href": "mailto:dahyun.oh@sjsu.edu",
     "Research_Interests_List": [
       "Research Interests: Energy storage, Nanomaterials, Material design, Green technology, Sustainability, Lithium batteries, Nanofabrication, Biomaterials, Bioinspired materials synthesis, Nanopatterning"
+    ]
+  },
+  {
+    "id": "pattyoikawacsueastbayedu",
+    "Name": "Patty Oikawa",
+    "Email": "patty.oikawa@csueastbay.edu",
+    "Campus": "East Bay",
+    "College": "College of Science",
+    "Department": "Earth, Environmental And Sustainability Sciences",
+    "Title": "Associate Professor & Chair",
+    "Research_Interests": "Research Interests: Greenhouse gas measurements, Studying potential of wetland restoration to mitigate climate change, Minimizing negative impacts of managed lands on climate, Water, And air quality.",
+    "Teaching_Interests": "Teaching Interests: Atmospheric science and biogeochemistry both at undergraduate and graduate levels.",
+    "Sustainability_Contributions": "Co-authored greenhouse gas methodology for wetland restoration.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "pattyoikawacsueastbayedu",
+    "email_href": "mailto:patty.oikawa@csueastbay.edu",
+    "Research_Interests_List": [
+      "Research Interests: Greenhouse gas measurements, Studying potential of wetland restoration to mitigate climate change, Minimizing negative impacts of managed lands on climate, Water, And air quality."
     ]
   },
   {
@@ -8687,6 +10124,46 @@
     "Research_Interests_List": [
       "Research Interests: Urban planning, Green infrastructure"
     ]
+  },
+  {
+    "id": "pomettocsusmedu",
+    "Name": "Paola Ometto",
+    "Email": "pometto@csusm.edu",
+    "Campus": "San Marcos",
+    "College": "College of Business Administration",
+    "Department": "Management",
+    "Title": "Assistant Professor",
+    "Research_Interests": "Research Interests: Social enterprise, Business sustainability, Corporate social responsibility, Entrepreneurial ecosystems, Communities and markets, Emerging markets",
+    "Teaching_Interests": "Teaching Interests: Not found",
+    "Sustainability_Contributions": "Faculty Affiliate for the Environmental Sciences Department.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "pomettocsusmedu",
+    "email_href": "mailto:pometto@csusm.edu",
+    "Research_Interests_List": [
+      "Research Interests: Social enterprise, Business sustainability, Corporate social responsibility, Entrepreneurial ecosystems, Communities and markets, Emerging markets"
+    ]
+  },
+  {
+    "id": "meridithoramhumboldtedu",
+    "Name": "Meridith Oram",
+    "Email": "meridith.oram@humboldt.edu",
+    "Campus": "Humboldt",
+    "College": null,
+    "Department": "Nan",
+    "Title": "Academic and Career Advisor in Environmental Studies and Psychology",
+    "Research_Interests": null,
+    "Teaching_Interests": "Teaching Interests: Offers holistic academic advising to first and second-year students as well as first-semester transfers in environmental studies",
+    "Sustainability_Contributions": "Advises and mentors students in Environmental Studies, guiding early‑career majors in sustainability education and connecting them to climate‑related opportunities.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "meridithoramhumboldtedu",
+    "email_href": "mailto:meridith.oram@humboldt.edu",
+    "Research_Interests_List": []
   },
   {
     "id": "ericaorcuttcsusedu",
@@ -8876,6 +10353,27 @@
     ]
   },
   {
+    "id": "mpalomocppedu",
+    "Name": "Monica Palomo",
+    "Email": "mpalomo@cpp.edu",
+    "Campus": "Pomona",
+    "College": "College of Engineering",
+    "Department": "Civil Engineering",
+    "Title": "Professor",
+    "Research_Interests": "Research Interests: Surface and storm water quality, Drinking water quality, Low impact development, Water reclamation, Decentralized wastewater treatment, Resource recovery, Soil quality and remediation, Undergraduate research, Engineering education",
+    "Teaching_Interests": "Teaching Interests: Environmental engineering, Water resources, Hydraulic engineering, Hydraulic engineering laboratory, Water and wastewater engineering, Water and wastewater engineering laboratory, Groundwater, Solute, Transport and remediation, Project design principles and applications, Advance water treatment, Unit operation processes in environmental engineering, Environmental and water resources seminar",
+    "Sustainability_Contributions": "Research on natural treatment of surface and groundwater using ecological systems like woodchip reactors. Environmental remediation and soil quality, helping to find sustainable solutions for contaminated environments.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "mpalomocppedu",
+    "email_href": "mailto:mpalomo@cpp.edu",
+    "Research_Interests_List": [
+      "Research Interests: Surface and storm water quality, Drinking water quality, Low impact development, Water reclamation, Decentralized wastewater treatment, Resource recovery, Soil quality and remediation, Undergraduate research, Engineering education"
+    ]
+  },
+  {
     "id": "apanagopouloscsufresnoedu",
     "Name": "Athanasios (Thanos) Panagopoulos",
     "Email": "apanagopoulos@csufresno.edu",
@@ -8915,6 +10413,27 @@
     "email_href": "mailto:chris.papouchis@csus.edu",
     "Research_Interests_List": [
       "Research Interests: Wildlife biology and conservation, Research publications related to pumas, Mountain lions, Bighorn sheep, Cougars, Black bears and the relationship between people and sport hunting"
+    ]
+  },
+  {
+    "id": "parekhnsonomaedu",
+    "Name": "Nadiya Parekh",
+    "Email": "parekhn@sonoma.edu",
+    "Campus": "Sonoma",
+    "College": "Sustainable SSU Representative",
+    "Department": "Representing: Academic Senate",
+    "Title": "Assistant Professor of Management",
+    "Research_Interests": "Research Interests: Social entrepreneurship finance and sustainability, Sustainability of microfinance institutions",
+    "Teaching_Interests": "Teaching Interests: Social entrepreneurship, Sustainable business models, Impact finance",
+    "Sustainability_Contributions": "Educates future leaders in sustainable enterprise; research in sustainable financial inclusion underpins global resilience.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "parekhnsonomaedu",
+    "email_href": "mailto:parekhn@sonoma.edu",
+    "Research_Interests_List": [
+      "Research Interests: Social entrepreneurship finance and sustainability, Sustainability of microfinance institutions"
     ]
   },
   {
@@ -9084,6 +10603,25 @@
     "Research_Interests_List": [
       "Research Interests: Geodynamics, Geodesy, Crustal deformation, Applied geophysics, Remote sensing"
     ]
+  },
+  {
+    "id": "nicopecksfsuedu",
+    "Name": "Nico Peck",
+    "Email": "nicopeck@sfsu.edu",
+    "Campus": "San Francisco",
+    "College": "Liberal & Creative Arts",
+    "Department": "Communication Studies",
+    "Title": "Adjunct Professor?",
+    "Research_Interests": null,
+    "Teaching_Interests": "Teaching Interests: Oral communication, Communication and environmental justice",
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "nicopecksfsuedu",
+    "email_href": "mailto:nicopeck@sfsu.edu",
+    "Research_Interests_List": []
   },
   {
     "id": "kpelisarimailfresnostateedu",
@@ -9372,6 +10910,27 @@
     "slug": "popejoycsusedu",
     "email_href": "mailto:popejoy@csus.edu",
     "Research_Interests_List": []
+  },
+  {
+    "id": "mitzyfpbsfsuedu",
+    "Name": "Mitzy Porras",
+    "Email": "mitzyfpb@sfsu.edu",
+    "Campus": "San Francisco",
+    "College": "Science and Engineering",
+    "Department": "Biology",
+    "Title": "Assistant Professor",
+    "Research_Interests": "Research Interests: How abiotic and biotic stressors alter interactions among species (microbes, Plants, Invertebrates) and the implications on the structure and function of populations and communities. this work encompasses molecular biology, Physiology, Behavioral analysis, Population and community ecology, Gis, As well as electrical engineering. results are applied in species management strategies (e.g., Sterile insect technique).",
+    "Teaching_Interests": "Teaching Interests: Behavioral ecology, Principles of ecology, Entomology.",
+    "Sustainability_Contributions": "Research on sustainable agriculture and pest management under climate change scenarios (drought and heatwaves),.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "mitzyfpbsfsuedu",
+    "email_href": "mailto:mitzyfpb@sfsu.edu",
+    "Research_Interests_List": [
+      "Research Interests: How abiotic and biotic stressors alter interactions among species (microbes, Plants, Invertebrates) and the implications on the structure and function of populations and communities. this work encompasses molecular biology, Physiology, Behavioral analysis, Population and community ecology, Gis, As well as electrical engineering. results are applied in species management strategies (e.g., Sterile insect technique)."
+    ]
   },
   {
     "id": "jasonporth",
@@ -9977,6 +11536,27 @@
     ]
   },
   {
+    "id": "robertscsusedu",
+    "Name": "Miles Roberts",
+    "Email": "roberts@csus.edu",
+    "Campus": "Sacramento State",
+    "College": "College of Natural Sciences & Mathematics",
+    "Department": "Geography",
+    "Title": "Professor",
+    "Research_Interests": "Research Interests: Remote sensing, Gis, Ecology, Spatial statistics",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": "Research, courses, and publications.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "robertscsusedu",
+    "email_href": "mailto:roberts@csus.edu",
+    "Research_Interests_List": [
+      "Research Interests: Remote sensing, Gis, Ecology, Spatial statistics"
+    ]
+  },
+  {
     "id": "croblesbeilbycsumbedu",
     "Name": "Cristina Robles-Beilby",
     "Email": "crobles-beilby@csumb.edu",
@@ -9995,6 +11575,27 @@
     "email_href": "mailto:crobles-beilby@csumb.edu",
     "Research_Interests_List": [
       "Research Interests: Animal husbandry, Marine science, And conservation science"
+    ]
+  },
+  {
+    "id": "pmlarochecppedu",
+    "Name": "Pablo La Roche",
+    "Email": "pmlaroche@cpp.edu",
+    "Campus": "Pomona",
+    "College": "College of Environmental Design",
+    "Department": "Architecture",
+    "Title": "Professor",
+    "Research_Interests": "Research Interests: Sustainable architecture, Built-environment performance, Passive cooling systems, Low carbon design",
+    "Teaching_Interests": "Teaching Interests: Climate-responsive design, Sustainable architecture studios",
+    "Sustainability_Contributions": "Integrates sustainability, low carbon design and regenerative principles into architectural education.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "pmlarochecppedu",
+    "email_href": "mailto:pmlaroche@cpp.edu",
+    "Research_Interests_List": [
+      "Research Interests: Sustainable architecture, Built-environment performance, Passive cooling systems, Low carbon design"
     ]
   },
   {
@@ -10269,6 +11870,27 @@
     ]
   },
   {
+    "id": "msamifullertonedu",
+    "Name": "Mojgan Sami",
+    "Email": "msami@fullerton.edu",
+    "Campus": "Fullerton",
+    "College": "College of Health and Human Development",
+    "Department": "Public Health",
+    "Title": "Professor",
+    "Research_Interests": "Research Interests: Health equity and justice, Infrastructure and health outcomes, Climate change and health",
+    "Teaching_Interests": "Teaching Interests: Climate change and global health, Promoting health in diverse populations, Health in a global society, Community organizing for health",
+    "Sustainability_Contributions": "Research on urban heat island mitigation Research on climate change and infectious diseases Planetary Health Urban Health Planning.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "msamifullertonedu",
+    "email_href": "mailto:msami@fullerton.edu",
+    "Research_Interests_List": [
+      "Research Interests: Health equity and justice, Infrastructure and health outcomes, Climate change and health"
+    ]
+  },
+  {
     "id": "kasanchezcsudhedu",
     "Name": "Karina Sanchez",
     "Email": "kasanchez@csudh.edu",
@@ -10353,6 +11975,27 @@
     ]
   },
   {
+    "id": "nsato2csuchicoedu",
+    "Name": "Noriyuki Sato",
+    "Email": "nsato2@csuchico.edu",
+    "Campus": "Chico",
+    "College": "College of Behavioral and Social Sciences",
+    "Department": "Geography And Environmental Studies",
+    "Title": "Assoc. Professor & Chair",
+    "Research_Interests": "Research Interests: Applied climatology, Climate change and impacts, Transportation geography",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "nsato2csuchicoedu",
+    "email_href": "mailto:nsato2@csuchico.edu",
+    "Research_Interests_List": [
+      "Research Interests: Applied climatology, Climate change and impacts, Transportation geography"
+    ]
+  },
+  {
     "id": "dsatterwhitecsumedu",
     "Name": "David Satterwhite",
     "Email": "dsatterwhite@csum.edu",
@@ -10414,6 +12057,48 @@
     ]
   },
   {
+    "id": "maureenscharbergcsueastbayedu",
+    "Name": "Maureen Scharberg",
+    "Email": "maureen.scharberg@csueastbay.edu",
+    "Campus": "East Bay",
+    "College": "College of Science",
+    "Department": "Chemistry And Biochemistry",
+    "Title": "Professor",
+    "Research_Interests": "Research Interests: Teaching of chemistry to health science and non-science majors, Developing chemistry curriculum and providing research opportunities to investigate the chemistry and active components of food ingredients, Natural products, And plant chemistry traditionally used by the ohlone and bay miwok tribes.",
+    "Teaching_Interests": "Teaching Interests: Chemistry of spices, Health science chemistry for pre-nursing majors, Green chemistry and sustainable chemistry for non-stem majors.",
+    "Sustainability_Contributions": "Making sustainability through the lens of chemistry accessible to all through undergraduate curriculum development and course offerings.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "maureenscharbergcsueastbayedu",
+    "email_href": "mailto:maureen.scharberg@csueastbay.edu",
+    "Research_Interests_List": [
+      "Research Interests: Teaching of chemistry to health science and non-science majors, Developing chemistry curriculum and providing research opportunities to investigate the chemistry and active components of food ingredients, Natural products, And plant chemistry traditionally used by the ohlone and bay miwok tribes."
+    ]
+  },
+  {
+    "id": "michaelschmeltzcsueastbayedu",
+    "Name": "Michael Schmeltz",
+    "Email": "michael.schmeltz@csueastbay.edu",
+    "Campus": "East Bay",
+    "College": "College of Health",
+    "Department": "Public Health",
+    "Title": "Assistant Professor",
+    "Research_Interests": "Research Interests: Public health impacts of climate change, Environmental and climate justice, Risk communication and education, Geospatial (vulnerability mapping) and epidemiological methods for risk assessments, Climate change governance and policy development and environmental regulation, Extreme heat action plans, Greenhouse gas emissions mitigation - transportation and buildings, Electrification equity and decarbonization, Air quality (ambient and wildfires).",
+    "Teaching_Interests": "Teaching Interests: Climate equity, Health-in-all-policies, Environmental & occupational health policy.",
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "michaelschmeltzcsueastbayedu",
+    "email_href": "mailto:michael.schmeltz@csueastbay.edu",
+    "Research_Interests_List": [
+      "Research Interests: Public health impacts of climate change, Environmental and climate justice, Risk communication and education, Geospatial (vulnerability mapping) and epidemiological methods for risk assessments, Climate change governance and policy development and environmental regulation, Extreme heat action plans, Greenhouse gas emissions mitigation - transportation and buildings, Electrification equity and decarbonization, Air quality (ambient and wildfires)."
+    ]
+  },
+  {
     "id": "schmidmccsusedu",
     "Name": "Mathew Schmidtlein",
     "Email": "schmidmc@csus.edu",
@@ -10453,6 +12138,27 @@
     "email_href": "mailto:kseligson@csudh.edu",
     "Research_Interests_List": [
       "Research Interests: Understanding changing human environmental relationships and resource management practices in the hilly puuc region of the yucatan"
+    ]
+  },
+  {
+    "id": "nseymourexchangefullertonedu",
+    "Name": "Nicole Seymour",
+    "Email": "nseymour@exchange.fullerton.edu",
+    "Campus": "Fullerton",
+    "College": "College of Humanities and Social Sciences",
+    "Department": "English, Comparative Literature, And Linguistics",
+    "Title": "Professor",
+    "Research_Interests": "Research Interests: Contemporary anglophone literature, Culture, And media, Environmental humanities/ecocriticism, Gender and sexuality studies, Queer theory, Affect theory",
+    "Teaching_Interests": "Teaching Interests: Analysis of literary forms, Literature and the environment, Landscape in american literature, Graduate seminar: problems in criticism",
+    "Sustainability_Contributions": "Notable publications: Strange Natures: Futurity, Empathy, and the Queer Ecological Imagination; Bad Environmentalism: Affect and Dissent in the Ecological Age; and Glitter, an environmental-cultural history of that substance from Bloomsbury’s “Object Lessons” series Contributes to public activism projects, including Climate Change Theatre Action.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "nseymourexchangefullertonedu",
+    "email_href": "mailto:nseymour@exchange.fullerton.edu",
+    "Research_Interests_List": [
+      "Research Interests: Contemporary anglophone literature, Culture, And media, Environmental humanities/ecocriticism, Gender and sexuality studies, Queer theory, Affect theory"
     ]
   },
   {
@@ -10849,6 +12555,27 @@
     ]
   },
   {
+    "id": "msocsuchicoedu",
+    "Name": "Monica C. So",
+    "Email": "mso@csuchico.edu",
+    "Campus": "Chico",
+    "College": "College of Natural Sciences",
+    "Department": "Chemistry And Biochemistry",
+    "Title": "Associate Professor",
+    "Research_Interests": "Research Interests: The long-term research goals of the so lab are three-fold: (i) to study structure-property relationships of self-assembled materials, (ii) to characterize self-assembled materials on surfaces, And (iii) to study their optical, Photophysical, Electrochemical, And optoelectronic behaviors.",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": "The So Lab harnesses chemical intuition to approach fundamental challenges in physics and tackle sustainability problems. Their research has important environmental implications, such as improving the long-term stability of solar panels on our rooftop, improving the performance of Li-S batteries, and as well as more effectively cleaning up water after wildfires and oil spills. She is also the principal investigator for The BATTERIES Team which researches lithium sulfur batteries to create a greener world.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "msocsuchicoedu",
+    "email_href": "mailto:mso@csuchico.edu",
+    "Research_Interests_List": [
+      "Research Interests: The long-term research goals of the so lab are three-fold: (i) to study structure-property relationships of self-assembled materials, (ii) to characterize self-assembled materials on surfaces, And (iii) to study their optical, Photophysical, Electrochemical, And optoelectronic behaviors."
+    ]
+  },
+  {
     "id": "lsolomoncsusmedu",
     "Name": "Lucy Solomon",
     "Email": "lsolomon@csusm.edu",
@@ -11076,6 +12803,27 @@
     ]
   },
   {
+    "id": "pstappfullertonedu",
+    "Name": "Paul Stapp",
+    "Email": "pstapp@fullerton.edu",
+    "Campus": "Fullerton",
+    "College": "College of Natural Sciences and Mathematics",
+    "Department": "Biological Science",
+    "Title": "Professor\nDirector, Desert Studies Center",
+    "Research_Interests": "Research Interests: Wildlife behavioral, Population and community ecology, Species interactions and food webs, Wildlife-habitat relationships, Anthropogenic impacts on wildlife, Exotic and invasive species, Ecology of insular, Desert, Grassland and agroecosystems, Conservation biology, Urban ecology",
+    "Teaching_Interests": "Teaching Interests: Principles of ecology, Conservation biology, Mammalogy, Wildlife conservation",
+    "Sustainability_Contributions": "Research and courses on behavioral, population, and community ecology of wildlife species and conservation impacts.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "pstappfullertonedu",
+    "email_href": "mailto:pstapp@fullerton.edu",
+    "Research_Interests_List": [
+      "Research Interests: Wildlife behavioral, Population and community ecology, Species interactions and food webs, Wildlife-habitat relationships, Anthropogenic impacts on wildlife, Exotic and invasive species, Ecology of insular, Desert, Grassland and agroecosystems, Conservation biology, Urban ecology"
+    ]
+  },
+  {
     "id": "clarewormaldcsuciedu",
     "Name": "Clare Steel",
     "Email": "clare.wormald@csuci.edu",
@@ -11136,6 +12884,27 @@
     "email_href": "mailto:mstemen@csuchico.edu",
     "Research_Interests_List": [
       "Research Interests: Sustainability issues, Historical geography, Social change and resilience"
+    ]
+  },
+  {
+    "id": "stevensmsaclinkcsusedu",
+    "Name": "Michelle Stevens",
+    "Email": "stevensm@saclink.csus.edu",
+    "Campus": "Sacramento State",
+    "College": "Social Sciences & Interdisciplinary Studies",
+    "Department": "Environmental Studies",
+    "Title": "Professor",
+    "Research_Interests": "Research Interests: California wetland rapid assessment methodology level 2, Global hima framework for wana geographic area, Eco-cultural restoration of the mesopotamian marshes of southern iraq www.iraqfoundation.org, Historic ecology of the sacramento-san joaquin delta, Wetlands and riparian ecology and restoration, Conservation biology, Specializing in native flora, Ethnoecology: traditional resource management and traditional ecological knowledge, International conservation, Establishment of peace parks & transboundary conservation areas",
+    "Teaching_Interests": "Teaching Interests: Field methods, Restoration ecology, Watershed management, Ethnoecology",
+    "Sustainability_Contributions": "Executive Director at Hima Mesopotamia.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "stevensmsaclinkcsusedu",
+    "email_href": "mailto:stevensm@saclink.csus.edu",
+    "Research_Interests_List": [
+      "Research Interests: California wetland rapid assessment methodology level 2, Global hima framework for wana geographic area, Eco-cultural restoration of the mesopotamian marshes of southern iraq www.iraqfoundation.org, Historic ecology of the sacramento-san joaquin delta, Wetlands and riparian ecology and restoration, Conservation biology, Specializing in native flora, Ethnoecology: traditional resource management and traditional ecological knowledge, International conservation, Establishment of peace parks & transboundary conservation areas"
     ]
   },
   {
@@ -11283,6 +13052,27 @@
     "email_href": "mailto:cheng.su@sjsu.edu",
     "Research_Interests_List": [
       "Research Interests: Renewable energy policy, Carbon credit, Sustainable agriculture"
+    ]
+  },
+  {
+    "id": "michaelsullivancsunedu",
+    "Name": "Michael J. Sullivan",
+    "Email": "michael.sullivan@csun.edu",
+    "Campus": "NorthridgeCSUN",
+    "College": "Health & Human Development,",
+    "Department": "Env. & Occupational Health",
+    "Title": "Professor",
+    "Research_Interests": "Research Interests: Environmental health risk",
+    "Teaching_Interests": "Teaching Interests: Environmental policy, Safety",
+    "Sustainability_Contributions": "Professorial leadership in campus health initiatives.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "michaelsullivancsunedu",
+    "email_href": "mailto:michael.sullivan@csun.edu",
+    "Research_Interests_List": [
+      "Research Interests: Environmental health risk"
     ]
   },
   {
@@ -11473,6 +13263,27 @@
     "Research_Interests_List": []
   },
   {
+    "id": "mthaocsustanedu",
+    "Name": "My Lo Thao",
+    "Email": "mthao@csustan.edu",
+    "Campus": "Stanislaus",
+    "College": "College of Science",
+    "Department": "Biological Sciences",
+    "Title": "Professor",
+    "Research_Interests": "Research Interests: Genetics and evolution of endosymbiotic bacteria-insect associations, Environmental microbiology (bioremediation), And molecular biology.",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": "Water expert for CSU-WATER.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "mthaocsustanedu",
+    "email_href": "mailto:mthao@csustan.edu",
+    "Research_Interests_List": [
+      "Research Interests: Genetics and evolution of endosymbiotic bacteria-insect associations, Environmental microbiology (bioremediation), And molecular biology."
+    ]
+  },
+  {
     "id": "ktheisscsudhedu",
     "Name": "Kathryn Theiss",
     "Email": "ktheiss@csudh.edu",
@@ -11491,6 +13302,27 @@
     "email_href": "mailto:ktheiss@csudh.edu",
     "Research_Interests_List": [
       "Research Interests: Evolution of plant reproduction and how reproductive strategies mitigate or aggravate conservation issues, Including global climate change, Combining field work, Molecular biology, And greenhouse studies to understand plant response"
+    ]
+  },
+  {
+    "id": "mthomeycsubedu",
+    "Name": "Michell Thomey",
+    "Email": "mthomey@csub.edu",
+    "Campus": "Bakersfield",
+    "College": "Natural Sciences, Mathematics, and Engineering",
+    "Department": "Biology",
+    "Title": "Lecturer in Biology",
+    "Research_Interests": "Research Interests: Environmental plant physiology, Ecology, Global climate change",
+    "Teaching_Interests": "Teaching Interests: Human ecology, Plant biology",
+    "Sustainability_Contributions": "Research focused on environmental plant physiology, especially how climate patterns, such as changes in temperature and precipitation, impact plant response across ecosystems and components of the carbon cycle, such as photosynthesis and respiration Research with the USDA and UIUC on the impacts of heat stress and changes in atmospheric carbon dioxide on soybean production.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "mthomeycsubedu",
+    "email_href": "mailto:mthomey@csub.edu",
+    "Research_Interests_List": [
+      "Research Interests: Environmental plant physiology, Ecology, Global climate change"
     ]
   },
   {
@@ -11513,6 +13345,25 @@
     "Research_Interests_List": [
       "Research Interests: Politics of sustainable energy, With a focus on u.s. energy efficiency and conservation efforts."
     ]
+  },
+  {
+    "id": "mayuransfsuedu",
+    "Name": "Mayuran Tiruchelvam",
+    "Email": "mayuran@sfsu.edu",
+    "Campus": "San Francisco",
+    "College": "Liberal & Creative Studies",
+    "Department": "Cinema",
+    "Title": "Assistant Professor",
+    "Research_Interests": null,
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": "Worked on Climate HQ Earth Week FilmFest Climate HQ faculty.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "mayuransfsuedu",
+    "email_href": "mailto:mayuran@sfsu.edu",
+    "Research_Interests_List": []
   },
   {
     "id": "btiwarifullertonedu",
@@ -11599,6 +13450,27 @@
     ]
   },
   {
+    "id": "mtommerupfullertonedu",
+    "Name": "Megan Tommerup",
+    "Email": "mtommerup@fullerton.edu",
+    "Campus": "Fullerton",
+    "College": "College of Natural Sciences and Mathematics",
+    "Department": "Biological Science",
+    "Title": "Lecturer\nBiological Science Minor Advisor",
+    "Research_Interests": "Research Interests: Endangered species monitoring and restoration, Evolution of rare plant breeding systems, Science education",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": "Endangered species monitoring and restoration research.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "mtommerupfullertonedu",
+    "email_href": "mailto:mtommerup@fullerton.edu",
+    "Research_Interests_List": [
+      "Research Interests: Endangered species monitoring and restoration, Evolution of rare plant breeding systems, Science education"
+    ]
+  },
+  {
     "id": "jadesfsuedu",
     "Name": "Jadelys Tonos",
     "Email": "jade@sfsu.edu",
@@ -11638,6 +13510,46 @@
     "email_href": "mailto:jdelator@sfsu.edu",
     "Research_Interests_List": [
       "Research Interests: Ecology and evolution of microorganisms living in high temperature environments, Particularly terrestrial hot springs. exploring how environmental conditions (chemistry, Ph) and evolutionary history influence the composition, Function, And contribution to the carbon and nitrogen biogeochemical cycles by microbial communities in these extreme environments."
+    ]
+  },
+  {
+    "id": "nancitorrespoblanocsulbedu",
+    "Name": "Nanci Torres-Poblano",
+    "Email": "Nanci.Torres-Poblano@csulb.edu",
+    "Campus": "Long Beach",
+    "College": null,
+    "Department": "Facilities Services",
+    "Title": "Sustainability Specialist",
+    "Research_Interests": null,
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": "Gather data for annual GHG report/ STARS report Coordinate events for Earth Month and Sustainability Month Provide support to various programs (i.e. Sustainability Champions, Green Events, Sustainability Fellows, etc.) Support student interns, Fellows, and student assistants.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "nancitorrespoblanocsulbedu",
+    "email_href": "mailto:Nanci.Torres-Poblano@csulb.edu",
+    "Research_Interests_List": []
+  },
+  {
+    "id": "ptsournoscsuchicoedu",
+    "Name": "Pete Tsournos",
+    "Email": "ptsournos@csuchico.edu",
+    "Campus": "Chico",
+    "College": "College of Behavioral and Social Sciences",
+    "Department": "Economics",
+    "Title": "Professor",
+    "Research_Interests": "Research Interests: Economics, Energy, Water",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": "Since his arrival to Chico, Dr. Tsournos’ research has focused on water and renewable energy related work. He is also a faculty associate for the Center for Water and the Environment.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "ptsournoscsuchicoedu",
+    "email_href": "mailto:ptsournos@csuchico.edu",
+    "Research_Interests_List": [
+      "Research Interests: Economics, Energy, Water"
     ]
   },
   {
@@ -11786,6 +13698,27 @@
     ]
   },
   {
+    "id": "1",
+    "Name": "Meredith Vaughn",
+    "Email": "1",
+    "Campus": "San Diego",
+    "College": "College of Education",
+    "Department": "Teacher Education",
+    "Title": "Associate Professor of Education",
+    "Research_Interests": "Research Interests: Urban environmental education",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": "Team Member for the Center for Climate Equity and Resilience (Previously the Community Climate Action Network) Worked on study titled \"Urban High School Students’ Critical Science Agency: Conceptual Understandings and Environmental Actions Around Climate Change\" (LINK).",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "1",
+    "email_href": "mailto:1",
+    "Research_Interests_List": [
+      "Research Interests: Urban environmental education"
+    ]
+  },
+  {
     "id": "jagrutivedamatisjsuedu",
     "Name": "Jagruti Vedamati",
     "Email": "jagruti.vedamati@sjsu.edu",
@@ -11804,6 +13737,27 @@
     "email_href": "mailto:jagruti.vedamati@sjsu.edu",
     "Research_Interests_List": [
       "Research Interests: Ocean science, Climate change, Environmental education"
+    ]
+  },
+  {
+    "id": "1",
+    "Name": "Matthew Verbyla",
+    "Email": "1",
+    "Campus": "San Diego",
+    "College": "College of Engineering",
+    "Department": "Civil, Construction, And Environmental Engineering",
+    "Title": "Associate Professor of Environmental Engineering",
+    "Research_Interests": "Research Interests: Development of next generation methods to identify and monitor wastewater and surface waters for pathogens and their sources, Produce new data and analytics for web-based tools to measure and model pathogen reduction in sanitation and water reuse systems, Quantify the partitioning of pathogens to liquids and solids in wastewater to improve treatment system operation and design",
+    "Teaching_Interests": "Teaching Interests: Environmental engineering, Water and wastewater treatment systems, Microbiological principles of environmental engineering",
+    "Sustainability_Contributions": "Directs the Safe WaTER Lab, focused on understanding, characterizing, and controlling the occurrence, persistence, and resistance of pathogens in engineered and natural systems Research supports the development of sustainable water and sanitation solutions that meet local and regional needs in Southern California and address national and international priorities.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "1",
+    "email_href": "mailto:1",
+    "Research_Interests_List": [
+      "Research Interests: Development of next generation methods to identify and monitor wastewater and surface waters for pathogens and their sources, Produce new data and analytics for web-based tools to measure and model pathogen reduction in sanitation and water reuse systems, Quantify the partitioning of pathogens to liquids and solids in wastewater to improve treatment system operation and design"
     ]
   },
   {
@@ -12011,6 +13965,27 @@
     ]
   },
   {
+    "id": "1",
+    "Name": "Matthew Weingarten",
+    "Email": "1",
+    "Campus": "San Diego",
+    "College": "College of Sciences",
+    "Department": "Earth And Environmental Sciences",
+    "Title": "Associate Professor of Geological Sciences",
+    "Research_Interests": "Research Interests: Hydrogeology, Geomechanics, Induced seismicity, Fluid-fault interactions",
+    "Teaching_Interests": "Teaching Interests: Runs the weingarten lab at sdsu that uses hydrogeologic, Geophysical and geomechanical data to build computational models of the interaction between fluids and faults in the subsurface with an emphasis on understanding how fluid-fault interaction is involved in geohazards",
+    "Sustainability_Contributions": "Hydrology Water and Climate of the Desert Southwest Advanced Hydrology Field Hydrogeology.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "1",
+    "email_href": "mailto:1",
+    "Research_Interests_List": [
+      "Research Interests: Hydrogeology, Geomechanics, Induced seismicity, Fluid-fault interactions"
+    ]
+  },
+  {
     "id": "bweinmancsufresnoedu",
     "Name": "Beth Weinman",
     "Email": "bweinman@csufresno.edu",
@@ -12158,6 +14133,27 @@
     ]
   },
   {
+    "id": "nancywsfsuedu",
+    "Name": "Nancy Wilkinson",
+    "Email": "nancyw@sfsu.edu",
+    "Campus": "San Francisco",
+    "College": "Science and Engineering",
+    "Department": "Environment",
+    "Title": "Professor",
+    "Research_Interests": "Research Interests: Water resources, Perception, Environmental history.",
+    "Teaching_Interests": "Teaching Interests: Geography, Geography of environmental issues.",
+    "Sustainability_Contributions": "Stakeholder perspectives on California environmental issues, especially relating to water projects, watershed restoration, and agricultural preservation. Women's influences on California's environmental history.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "nancywsfsuedu",
+    "email_href": "mailto:nancyw@sfsu.edu",
+    "Research_Interests_List": [
+      "Research Interests: Water resources, Perception, Environmental history."
+    ]
+  },
+  {
     "id": "laurawingcsueastbayedu",
     "Name": "Laura Wing",
     "Email": "laura.wing@csueastbay.edu",
@@ -12219,6 +14215,27 @@
     ]
   },
   {
+    "id": "mintesnotwoldeamanuelcsunedu",
+    "Name": "Mintesnot G. Woldeamanuel",
+    "Email": "mintesnot.woldeamanuel@csun.edu",
+    "Campus": "NorthridgeCSUN",
+    "College": "Sci & Math",
+    "Department": "Urban Studies And Planning",
+    "Title": "Professor",
+    "Research_Interests": "Research Interests: Sustainable urban development",
+    "Teaching_Interests": "Teaching Interests: Urban sustainability education",
+    "Sustainability_Contributions": "Engages future planners on sustainable cities.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "mintesnotwoldeamanuelcsunedu",
+    "email_href": "mailto:mintesnot.woldeamanuel@csun.edu",
+    "Research_Interests_List": [
+      "Research Interests: Sustainable urban development"
+    ]
+  },
+  {
     "id": "jewongsfsuedu",
     "Name": "Jenna Wong",
     "Email": "jewong@sfsu.edu",
@@ -12258,6 +14275,27 @@
     "email_href": "mailto:erik.wood@sjsu.edu",
     "Research_Interests_List": [
       "Research Interests: Social vulnerability / community resilience, Climate change adaptation, Disaster management technology, Disaster ethics"
+    ]
+  },
+  {
+    "id": "mikewoodsjsuedu",
+    "Name": "Mike Wood",
+    "Email": "mike.wood@sjsu.edu",
+    "Campus": "San Jose",
+    "College": "College of Science",
+    "Department": "Moss Landing Marine Labs And Computer Science",
+    "Title": "Assistant Professor of Biological Oceanography",
+    "Research_Interests": "Research Interests: Ice-ocean interactions, Sea level rise, Numerical ocean modeling, Remote sensing",
+    "Teaching_Interests": "Teaching Interests: Remote sensing, Numerical modeling, And machine learning.",
+    "Sustainability_Contributions": "Professor Wood's Computational Oceanography lab uses models and remote measurements to understand changes in our ocean including those due to global climate change.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "mikewoodsjsuedu",
+    "email_href": "mailto:mike.wood@sjsu.edu",
+    "Research_Interests_List": [
+      "Research Interests: Ice-ocean interactions, Sea level rise, Numerical ocean modeling, Remote sensing"
     ]
   },
   {
@@ -12530,6 +14568,27 @@
     "Research_Interests_List": []
   },
   {
+    "id": "nzayascsumbedu",
+    "Name": "Natalie Zayas",
+    "Email": "nzayas@csumb.edu",
+    "Campus": "Monterey Bay",
+    "College": "College of Science",
+    "Department": "Applied Environmental Science",
+    "Title": "Lecturer",
+    "Research_Interests": "Research Interests: Environmental education",
+    "Teaching_Interests": "Teaching Interests: Areas of expertise: environmental education",
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "nzayascsumbedu",
+    "email_href": "mailto:nzayas@csumb.edu",
+    "Research_Interests_List": [
+      "Research Interests: Environmental education"
+    ]
+  },
+  {
     "id": "annazelayacsusbedu",
     "Name": "Anna Zelaya",
     "Email": "anna.zelaya@csusb.edu",
@@ -12548,6 +14607,27 @@
     "email_href": "mailto:anna.zelaya@csusb.edu",
     "Research_Interests_List": [
       "Research Interests: Microbial ecology, Stem education, How environmental factors, Such as contamination, Toxicity, And stress affect microbial community diversity and function"
+    ]
+  },
+  {
+    "id": "noahzerbehumboldtedu",
+    "Name": "Noah Zerbe",
+    "Email": "noah.zerbe@humboldt.edu",
+    "Campus": "Humboldt",
+    "College": "College of Arts, Humanities & Social Sciences",
+    "Department": "Politics",
+    "Title": "Professor",
+    "Research_Interests": "Research Interests: Intersection of politics, Economics, Technology, And food systems. topics include: gm agriculture, Local food movements, Globalization, And food politics.",
+    "Teaching_Interests": "Teaching Interests: International relations, Comparative politics, Politics of science & technology, Global environmental politics, Food politics. award-winning model united nations course (intercollegiate competitions). econ 620: globalism, Capitalism & environment via environmental studies.",
+    "Sustainability_Contributions": "Research on alternative/local food systems and environmental policy, exploring sustainability in agriculture and food sovereignty Active in Model UN initiatives, facilitating student engagement with global sustainability issues and problem-solving Cross-disciplinary integration of economics, politics, and environment through teaching and research.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "noahzerbehumboldtedu",
+    "email_href": "mailto:noah.zerbe@humboldt.edu",
+    "Research_Interests_List": [
+      "Research Interests: Intersection of politics, Economics, Technology, And food systems. topics include: gm agriculture, Local food movements, Globalization, And food politics."
     ]
   },
   {
