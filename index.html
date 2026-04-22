@@ -113,10 +113,13 @@
   
     function block(label, value) {
       if (!value) return '';
+      
+      const extraClass = (label === 'Teaching Interests') ? ' teaching-block' : '';
+
       return `
-        <div class="meta-block">
-          <div class="meta-label">${label}</div>
-          <div class="meta-block-value">${value}</div>
+        <div class="meta-item${extraClass}">
+          <span class="meta-label">${label}:</span>
+          <span class="meta-value">${value}</span>
         </div>
       `;
     }
