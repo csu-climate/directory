@@ -1,26 +1,5 @@
 [
   {
-    "id": "johndelacruzsjsuedu",
-    "Name": "John Delacruz (website)",
-    "Email": "john.delacruz@sjsu.edu",
-    "Campus": "San Jose",
-    "College": "College of Humanities and the Arts",
-    "Department": "School Of Journalism And Mass Communications",
-    "Title": "Director and Professor",
-    "Research_Interests": "His research interests focus around teaching, Learning and creativity, Principally how experiential learning spaces impact on the creative disciplines, As well as mentorship/peer learning in creative teams",
-    "Teaching_Interests": null,
-    "Sustainability_Contributions": "Professor Delacruz is an involved ocean steward and environmental advocate helping grass roots non profit organizations promote their ideas through crafted communications campaigns.",
-    "Notes": null,
-    "Photo": null,
-    "Website": null,
-    "extras": null,
-    "slug": "johndelacruzsjsuedu",
-    "email_href": "mailto:john.delacruz@sjsu.edu",
-    "Research_Interests_List": [
-      "His research interests focus around teaching, Learning and creativity, Principally how experiential learning spaces impact on the creative disciplines, As well as mentorship/peer learning in creative teams"
-    ]
-  },
-  {
     "id": "suzannewechslercsulbedu",
     "Name": "Suzanna Perlitsh (Wechsler)",
     "Email": "Suzanne.Wechsler@csulb.edu",
@@ -4317,6 +4296,27 @@
     "email_href": "mailto:kelly.decker@csueastbay.edu",
     "Research_Interests_List": [
       "Urban ecology, Teaching methods in ecology and environmental science, Soil microbial ecology, Biogeochemistry, Ecosystems."
+    ]
+  },
+  {
+    "id": "johndelacruzsjsuedu",
+    "Name": "John Delacruz",
+    "Email": "john.delacruz@sjsu.edu",
+    "Campus": "San Jose",
+    "College": "College of Humanities and the Arts",
+    "Department": "School Of Journalism And Mass Communications",
+    "Title": "Director and Professor",
+    "Research_Interests": "His research interests focus around teaching, Learning and creativity, Principally how experiential learning spaces impact on the creative disciplines, As well as mentorship/peer learning in creative teams",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": "Professor Delacruz is an involved ocean steward and environmental advocate helping grass roots non profit organizations promote their ideas through crafted communications campaigns.",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "johndelacruzsjsuedu",
+    "email_href": "mailto:john.delacruz@sjsu.edu",
+    "Research_Interests_List": [
+      "His research interests focus around teaching, Learning and creativity, Principally how experiential learning spaces impact on the creative disciplines, As well as mentorship/peer learning in creative teams"
     ]
   },
   {
