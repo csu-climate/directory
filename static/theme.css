@@ -791,8 +791,8 @@ a:hover {
 }
 
 .department-line {
-  font-size: 18px;        /* bigger */
-  font-weight: 600;       /* bold */
+  font-size: 16px;        /* bigger */
+  font-weight: 500;       /* bold */
   color: var(--text-secondary);
   margin-bottom: 4px;
 }
