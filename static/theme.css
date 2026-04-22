@@ -558,30 +558,32 @@ body {
 .footer-brand {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-bottom: 12px;
 }
 
-.footer-logo {
-  display: block;
-  height: 48px !important;
+.footer .footer-logo {
+  display: block !important;
+  height: 40px !important;
   width: auto !important;
-  max-width: min(90vw, 420px) !important;
+  max-width: 280px !important;
   object-fit: contain;
+  margin: 0 auto;
 }
 
 /* Tablet */
 @media (max-width: 900px) {
-  .footer-logo {
-    height: 40px !important;
-    max-width: min(92vw, 340px) !important;
+  .footer .footer-logo {
+    height: 32px !important;
+    max-width: 220px !important;
   }
 }
 
 /* Phone */
 @media (max-width: 600px) {
-  .footer-logo {
-    height: 32px !important;
-    max-width: min(94vw, 260px) !important;
+  .footer .footer-logo {
+    height: 24px !important;
+    max-width: 180px !important;
   }
 }
 
