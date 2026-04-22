@@ -456,6 +456,27 @@
     ]
   },
   {
+    "id": "salexandercsumbedu",
+    "Name": "Susan Alexander",
+    "Email": "salexander@csumb.edu",
+    "Campus": "Monterey Bay",
+    "College": "College of Science",
+    "Department": "Applied Environmental Science",
+    "Title": "Professor, Department Chair AY",
+    "Research_Interests": "Ecology(population & community ecology), Environmental science, Ecosystem processes.",
+    "Teaching_Interests": "Teaching Interests: Ecology, Graduate internship.",
+    "Sustainability_Contributions": null,
+    "Notes": "https://csumb.edu/directory/3613874661/ ;  https://csumb.edu/environmentalscience/faculty/",
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "salexandercsumbedu",
+    "email_href": "mailto:salexander@csumb.edu",
+    "Research_Interests_List": [
+      "Ecology(population & community ecology), Environmental science, Ecosystem processes."
+    ]
+  },
+  {
     "id": "aalexandroucsufresnoedu",
     "Name": "Athanasios \"Alex\" Alexandrou",
     "Email": "aalexandrou@csufresno.edu",
@@ -577,6 +598,27 @@
     "email_href": "mailto:andrea.alstone@humboldt.edu",
     "Research_Interests_List": [
       "Monitors campus energy use, Works to find ways to reduce it, And helps in planning for a more sustainable energy future."
+    ]
+  },
+  {
+    "id": "ealtercsumbedu",
+    "Name": "Elizabeth (Liz) Alter",
+    "Email": "ealter@csumb.edu",
+    "Campus": "Monterey Bay",
+    "College": "College of Science",
+    "Department": "Biology & Chemistry",
+    "Title": "Associate Professor",
+    "Research_Interests": "Molecular ecology and population genomics of aquatic organisms (fish & marine mammals), Environmental dna, And phylogenetics.",
+    "Teaching_Interests": "Teaching Interests: Masters degree focused on ecological and evolutionary genomics of fish. advises undergraduate research opportunities. project includes k-12 teacher training in evolutionary biology & research to foster science education across monterey bay county.",
+    "Sustainability_Contributions": "NSF Career Grant Recipient: National science foundation CAREER grant to study evolutionary patterns driving biodiversity in rockfishes to enhance species conservation and biodiversity understanding. Collaborative Water Resilience Project: $210,000 project aimed at improving water system resilience to climate change, contributing to sustainable water management practices.",
+    "Notes": "https://mlml.sjsu.edu/consortium-faculty/liz-alter/",
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "ealtercsumbedu",
+    "email_href": "mailto:ealter@csumb.edu",
+    "Research_Interests_List": [
+      "Molecular ecology and population genomics of aquatic organisms (fish & marine mammals), Environmental dna, And phylogenetics."
     ]
   },
   {
@@ -2132,7 +2174,7 @@
     "Research_Interests": null,
     "Teaching_Interests": null,
     "Sustainability_Contributions": "Executive Director of CSU-WATER. Develops and strengthens water research and scholarship across CSU campuses, focused on critical agricultural, urban, and environmental water issues in California, with an awareness of governmental and societal roles in the allocation of overprescribed and stressed water resources.",
-    "Notes": "Contributor to: https://www.calstate.edu/impact-of-the-csu/research/water/Pages/about-us.aspx; Research Interests: Topics include fish ecology and population dynamics, fish predation and bioenergetics, aquatic food webs, water supply and quality. Research has focused on headwater streams in the Sierra, foothill rivers, reservoirs, and watersheds, the San Joaquin River, flooded Ag fields as conservation habitat in the Central Valley, and the SF Bay-Delta.; Teaching interests: Ecology, aquatic ecology, ichthyology, plant disease ecology, biostatistics.; I believe he requested that these two sections be blank, so that students don't use this directory to ask him for research positions.",
+    "Notes": "Contributor to: https://www.calstate.edu/impact-of-the-csu/research/water/Pages/about-us.aspx",
     "Photo": null,
     "Website": null,
     "extras": null,
@@ -4696,6 +4738,27 @@
     ]
   },
   {
+    "id": "jdundoreariascsumbedu",
+    "Name": "Jose Pablo Dundore-Arias",
+    "Email": "jdundorearias@csumb.edu",
+    "Campus": "Monterey Bay",
+    "College": "College of Science",
+    "Department": "Biology & Chemistry",
+    "Title": "Associate Professor",
+    "Research_Interests": "Plant pathology, Phytobiomes, Plant and soil health.",
+    "Teaching_Interests": "Teaching Interests: \"to spark enthusiasm for agriculture\" and explore how pathogens impact agricultural production.",
+    "Sustainability_Contributions": "Named Bob and Sue Johnson Professorship, recognizing notable research connected to the local agriculture industry and contributions to sustainability. Led multiple grant funded research projects (federal and state) focused on sustainable management of soilborne pathogens and enhancing soil health.",
+    "Notes": "https://csumb.edu/news/experts-directory/jp-dundore-arias/",
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "jdundoreariascsumbedu",
+    "email_href": "mailto:jdundorearias@csumb.edu",
+    "Research_Interests_List": [
+      "Plant pathology, Phytobiomes, Plant and soil health."
+    ]
+  },
+  {
     "id": "iandunhamsfsuedu",
     "Name": "Ian Dunham",
     "Email": "iandunham@sfsu.edu",
@@ -6493,6 +6556,27 @@
     ]
   },
   {
+    "id": "lonnyhumboldtedu",
+    "Name": "Lonny Grafman",
+    "Email": "lonny@humboldt.edu",
+    "Campus": "Humboldt",
+    "College": "College of Engineering",
+    "Department": "Environmental Resources Engineering",
+    "Title": "Lecturer",
+    "Research_Interests": "Renewable energy and water, Design, International development, Innovation, Social entrepreneurship",
+    "Teaching_Interests": "Teaching Interests: Known for integrating experiential learning and sustainability values into engineering education. active in promoting social entrepreneurship and innovation through engineering projects",
+    "Sustainability_Contributions": "Practivistas: founded this immersive program where students collaborate with communities in Latin America to design and implement sustainable technologies. Projects include building classrooms from plastic bottles in the Dominican Republic, showcasing practical applications of appropriate technology. Swale: as a project manager, contributes to this floating food forest in New York City, providing free, public access to healthy food and promoting urban agriculture. Waterpod, Flock House, WetLand: advised and managed these \"ephemeral architecture\" projects, which explored sustainable living solutions through art and design.",
+    "Notes": "https://www.humboldt.edu/forever-humboldt/lonny-grafman",
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "lonnyhumboldtedu",
+    "email_href": "mailto:lonny@humboldt.edu",
+    "Research_Interests_List": [
+      "Renewable energy and water, Design, International development, Innovation, Social entrepreneurship"
+    ]
+  },
+  {
     "id": "jamesgrahamhumboldtedu",
     "Name": "James Graham",
     "Email": "james.graham@humboldt.edu",
@@ -8031,153 +8115,6 @@
     "slug": "codyhowardcsusedu",
     "email_href": "mailto:cody.howard@csus.edu",
     "Research_Interests_List": []
-  },
-  {
-    "id": "salexandercsumbedu",
-    "Name": "Susan Alexander ; https://csumb.edu/directory/3613874661/ ;  https://csumb.edu/environmentalscience/faculty/",
-    "Email": "salexander@csumb.edu",
-    "Campus": "Monterey Bay",
-    "College": "College of Science",
-    "Department": "Applied Environmental Science",
-    "Title": "Professor, Department Chair AY",
-    "Research_Interests": "Ecology(population & community ecology), Environmental science, Ecosystem processes.",
-    "Teaching_Interests": "Teaching Interests: Ecology, Graduate internship.",
-    "Sustainability_Contributions": null,
-    "Notes": null,
-    "Photo": null,
-    "Website": null,
-    "extras": null,
-    "slug": "salexandercsumbedu",
-    "email_href": "mailto:salexander@csumb.edu",
-    "Research_Interests_List": [
-      "Ecology(population & community ecology), Environmental science, Ecosystem processes."
-    ]
-  },
-  {
-    "id": "jdundoreariascsumbedu",
-    "Name": "Jose Pablo Dundore-Arias ; https://csumb.edu/news/experts-directory/jp-dundore-arias/",
-    "Email": "jdundorearias@csumb.edu",
-    "Campus": "Monterey Bay",
-    "College": "College of Science",
-    "Department": "Biology & Chemistry",
-    "Title": "Associate Professor",
-    "Research_Interests": "Plant pathology, Phytobiomes, Plant and soil health.",
-    "Teaching_Interests": "Teaching Interests: \"to spark enthusiasm for agriculture\" and explore how pathogens impact agricultural production.",
-    "Sustainability_Contributions": "Named Bob and Sue Johnson Professorship, recognizing notable research connected to the local agriculture industry and contributions to sustainability. Led multiple grant funded research projects (federal and state) focused on sustainable management of soilborne pathogens and enhancing soil health.",
-    "Notes": null,
-    "Photo": null,
-    "Website": null,
-    "extras": null,
-    "slug": "jdundoreariascsumbedu",
-    "email_href": "mailto:jdundorearias@csumb.edu",
-    "Research_Interests_List": [
-      "Plant pathology, Phytobiomes, Plant and soil health."
-    ]
-  },
-  {
-    "id": "ealtercsumbedu",
-    "Name": "Elizabeth (Liz) Alter ; https://mlml.sjsu.edu/consortium-faculty/liz-alter/",
-    "Email": "ealter@csumb.edu",
-    "Campus": "Monterey Bay",
-    "College": "College of Science",
-    "Department": "Biology & Chemistry",
-    "Title": "Associate Professor",
-    "Research_Interests": "Molecular ecology and population genomics of aquatic organisms (fish & marine mammals), Environmental dna, And phylogenetics.",
-    "Teaching_Interests": "Teaching Interests: Masters degree focused on ecological and evolutionary genomics of fish. advises undergraduate research opportunities. project includes k-12 teacher training in evolutionary biology & research to foster science education across monterey bay county.",
-    "Sustainability_Contributions": "NSF Career Grant Recipient: National science foundation CAREER grant to study evolutionary patterns driving biodiversity in rockfishes to enhance species conservation and biodiversity understanding. Collaborative Water Resilience Project: $210,000 project aimed at improving water system resilience to climate change, contributing to sustainable water management practices.",
-    "Notes": null,
-    "Photo": null,
-    "Website": null,
-    "extras": null,
-    "slug": "ealtercsumbedu",
-    "email_href": "mailto:ealter@csumb.edu",
-    "Research_Interests_List": [
-      "Molecular ecology and population genomics of aquatic organisms (fish & marine mammals), Environmental dna, And phylogenetics."
-    ]
-  },
-  {
-    "id": "dermartincsumbedu",
-    "Name": "Derek Martin  https://www.linkedin.com/in/derek-martin-58161112/ ; https://sustainability.ucsc.edu/news-events/profiles/nov-2024-scm-derek-martin.html",
-    "Email": "dermartin@csumb.edu",
-    "Campus": "Monterey Bay",
-    "College": "Safety, Risk, and Sustainability",
-    "Department": "Sustainability",
-    "Title": "Associate Director",
-    "Research_Interests": "Possible ways to remove carbon dioxide from the atmosphere. different evaluation techniques to determine rates of deforestation between protected and non-protected lands can impact outcome of the evaluation.",
-    "Teaching_Interests": null,
-    "Sustainability_Contributions": "Oversees sustainability activities on campus to implement sustainability plans, engage community, and improve AASHE STARS rating.",
-    "Notes": null,
-    "Photo": null,
-    "Website": null,
-    "extras": null,
-    "slug": "dermartincsumbedu",
-    "email_href": "mailto:dermartin@csumb.edu",
-    "Research_Interests_List": [
-      "Possible ways to remove carbon dioxide from the atmosphere. different evaluation techniques to determine rates of deforestation between protected and non-protected lands can impact outcome of the evaluation."
-    ]
-  },
-  {
-    "id": "lonnyhumboldtedu",
-    "Name": "Lonny Grafman  https://www.humboldt.edu/forever-humboldt/lonny-grafman",
-    "Email": "lonny@humboldt.edu",
-    "Campus": "Humboldt",
-    "College": "College of Engineering",
-    "Department": "Environmental Resources Engineering",
-    "Title": "Lecturer",
-    "Research_Interests": "Renewable energy and water, Design, International development, Innovation, Social entrepreneurship",
-    "Teaching_Interests": "Teaching Interests: Known for integrating experiential learning and sustainability values into engineering education. active in promoting social entrepreneurship and innovation through engineering projects",
-    "Sustainability_Contributions": "Practivistas: founded this immersive program where students collaborate with communities in Latin America to design and implement sustainable technologies. Projects include building classrooms from plastic bottles in the Dominican Republic, showcasing practical applications of appropriate technology. Swale: as a project manager, contributes to this floating food forest in New York City, providing free, public access to healthy food and promoting urban agriculture. Waterpod, Flock House, WetLand: advised and managed these \"ephemeral architecture\" projects, which explored sustainable living solutions through art and design.",
-    "Notes": null,
-    "Photo": null,
-    "Website": null,
-    "extras": null,
-    "slug": "lonnyhumboldtedu",
-    "email_href": "mailto:lonny@humboldt.edu",
-    "Research_Interests_List": [
-      "Renewable energy and water, Design, International development, Innovation, Social entrepreneurship"
-    ]
-  },
-  {
-    "id": "pvirencsumbedu",
-    "Name": "Paige Viren  ; https://www.linkedin.com/in/paigeviren/",
-    "Email": "pviren@csumb.edu",
-    "Campus": "Monterey Bay",
-    "College": "College of Business",
-    "Department": "College Of Business",
-    "Title": "Executive Director of Sustainable Hospitality Management Program",
-    "Research_Interests": "Sustainability tourism: consumer behavior and adventure travel.",
-    "Teaching_Interests": "Teaching Interests: Led research team with unwto exploring climate change and traveler experiences: \"frequent travelers, Climate and what to do: travelers share their thoughts\"",
-    "Sustainability_Contributions": "Co-authored studies on environmental psychology and sustainable tourism, exploring restorative effects of \"blue spaces\" and how education around tourism affects eco-friendly travel practices. Chair of California Travel Association's Sustainability & Stewardship Committee, focusing on best practices in industry sustainability. Member of US Travel & Tourism Board since Jan 2025, where she brings academic and sustainable perspectives to national policy.",
-    "Notes": null,
-    "Photo": null,
-    "Website": null,
-    "extras": null,
-    "slug": "pvirencsumbedu",
-    "email_href": "mailto:pviren@csumb.edu",
-    "Research_Interests_List": [
-      "Sustainability tourism: consumer behavior and adventure travel."
-    ]
-  },
-  {
-    "id": "sworcestercsumbedu",
-    "Name": "Suzy Worcester  https://csumb.edu/aes/suzy-worcester-interview/ ; https://www.linkedin.com/in/suzanne-worcester-347a8874/",
-    "Email": "sworcester@csumb.edu",
-    "Campus": "Monterey Bay",
-    "College": "College of Science",
-    "Department": "Applied Environmental Science",
-    "Title": "Professor",
-    "Research_Interests": "Climate change and environmental restoration.",
-    "Teaching_Interests": "Teaching Interests: Climate change solutions and justice, Environmental biology.",
-    "Sustainability_Contributions": "Co-chair of Campus Sustainability Committee: oversees and participates in campus STARs accreditation. Runs annual symposium on sustainability since 2008.",
-    "Notes": null,
-    "Photo": null,
-    "Website": null,
-    "extras": null,
-    "slug": "sworcestercsumbedu",
-    "email_href": "mailto:sworcester@csumb.edu",
-    "Research_Interests_List": [
-      "Climate change and environmental restoration."
-    ]
   },
   {
     "id": "phudsonfullertonedu",
@@ -11521,6 +11458,27 @@
     ]
   },
   {
+    "id": "dermartincsumbedu",
+    "Name": "Derek Martin",
+    "Email": "dermartin@csumb.edu",
+    "Campus": "Monterey Bay",
+    "College": "Safety, Risk, and Sustainability",
+    "Department": "Sustainability",
+    "Title": "Associate Director",
+    "Research_Interests": "Possible ways to remove carbon dioxide from the atmosphere. different evaluation techniques to determine rates of deforestation between protected and non-protected lands can impact outcome of the evaluation.",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": "Oversees sustainability activities on campus to implement sustainability plans, engage community, and improve AASHE STARS rating.",
+    "Notes": "  https://www.linkedin.com/in/derek-martin-58161112/ ; https://sustainability.ucsc.edu/news-events/profiles/nov-2024-scm-derek-martin.html",
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "dermartincsumbedu",
+    "email_href": "mailto:dermartin@csumb.edu",
+    "Research_Interests_List": [
+      "Possible ways to remove carbon dioxide from the atmosphere. different evaluation techniques to determine rates of deforestation between protected and non-protected lands can impact outcome of the evaluation."
+    ]
+  },
+  {
     "id": "edwardmartincsulbedu",
     "Name": "Edward Martin",
     "Email": "Edward.Martin@csulb.edu",
@@ -13729,7 +13687,7 @@
     "Research_Interests": "Integrated water and land management tool development, Water-land use carbon and cost analysis under climate pressures",
     "Teaching_Interests": "Teaching Interests: Conservation planning, Gis analysis & land use planning",
     "Sustainability_Contributions": "Co-developed climate-relevant decision-support tool (Integrated Water and Land Management Tool) with SSU’s CSC, helping planners assess carbon outcomes, water use, and development tradeoffs to enhance water-resilient design.",
-    "Notes": null,
+    "Notes": "https://www.linkedin.com/in/elizabeth-patterson-94510/",
     "Photo": null,
     "Website": null,
     "extras": null,
@@ -18125,6 +18083,27 @@
     "Research_Interests_List": []
   },
   {
+    "id": "pvirencsumbedu",
+    "Name": "Paige Viren",
+    "Email": "pviren@csumb.edu",
+    "Campus": "Monterey Bay",
+    "College": "College of Business",
+    "Department": "College Of Business",
+    "Title": "Executive Director of Sustainable Hospitality Management Program",
+    "Research_Interests": "Sustainability tourism: consumer behavior and adventure travel.",
+    "Teaching_Interests": "Teaching Interests: Led research team with unwto exploring climate change and traveler experiences: \"frequent travelers, Climate and what to do: travelers share their thoughts\"",
+    "Sustainability_Contributions": "Co-authored studies on environmental psychology and sustainable tourism, exploring restorative effects of \"blue spaces\" and how education around tourism affects eco-friendly travel practices. Chair of California Travel Association's Sustainability & Stewardship Committee, focusing on best practices in industry sustainability. Member of US Travel & Tourism Board since Jan 2025, where she brings academic and sustainable perspectives to national policy.",
+    "Notes": "https://www.linkedin.com/in/paigeviren/",
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "pvirencsumbedu",
+    "email_href": "mailto:pviren@csumb.edu",
+    "Research_Interests_List": [
+      "Sustainability tourism: consumer behavior and adventure travel."
+    ]
+  },
+  {
     "id": "tammievisintainersjsuedu",
     "Name": "Tammie Visintainer",
     "Email": "tammie.visintainer@sjsu.edu",
@@ -18828,6 +18807,27 @@
     "email_href": "mailto:mike.wood@sjsu.edu",
     "Research_Interests_List": [
       "Ice-ocean interactions, Sea level rise, Numerical ocean modeling, Remote sensing"
+    ]
+  },
+  {
+    "id": "sworcestercsumbedu",
+    "Name": "Suzy Worcester",
+    "Email": "sworcester@csumb.edu",
+    "Campus": "Monterey Bay",
+    "College": "College of Science",
+    "Department": "Applied Environmental Science",
+    "Title": "Professor",
+    "Research_Interests": "Climate change and environmental restoration.",
+    "Teaching_Interests": "Teaching Interests: Climate change solutions and justice, Environmental biology.",
+    "Sustainability_Contributions": "Co-chair of Campus Sustainability Committee: oversees and participates in campus STARs accreditation. Runs annual symposium on sustainability since 2008.",
+    "Notes": "https://csumb.edu/aes/suzy-worcester-interview/ ; https://www.linkedin.com/in/suzanne-worcester-347a8874/",
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "sworcestercsumbedu",
+    "email_href": "mailto:sworcester@csumb.edu",
+    "Research_Interests_List": [
+      "Climate change and environmental restoration."
     ]
   },
   {
