@@ -82,6 +82,27 @@
     "Research_Interests_List": []
   },
   {
+    "id": "aadams45calpolyedu",
+    "Name": "Brie Adams",
+    "Email": "aadams45@calpoly.edu",
+    "Campus": "San Luis Obispo",
+    "College": "College of Liberal Arts",
+    "Department": "Communications",
+    "Title": null,
+    "Research_Interests": "New media, digital games, game-based learning, environmental communication",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "aadams45calpolyedu",
+    "email_href": "mailto:aadams45@calpoly.edu",
+    "Research_Interests_List": [
+      "New media, digital games, game-based learning, environmental communication"
+    ]
+  },
+  {
     "id": "dpadamsfullertonedu",
     "Name": "David Adams",
     "Email": "dpadams@fullerton.edu",
@@ -620,6 +641,27 @@
     "Research_Interests_List": []
   },
   {
+    "id": "evelynacalstatelaedu",
+    "Name": "Evelyn Alvarez",
+    "Email": "evelyna@calstatela.edu",
+    "Campus": "Los Angeles",
+    "College": "Rongxiang Xu College of Health and Human Services",
+    "Department": "Public Health",
+    "Title": "Assistant Professor",
+    "Research_Interests": "Environmental health, geospatial science, environmental justice, community science applications",
+    "Teaching_Interests": "Environmental health science, public health",
+    "Sustainability_Contributions": "Focuses on environmental justice, promotes climate change literacy through community projects, and integrates wearable technology in environmental health research",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "evelynacalstatelaedu",
+    "email_href": "mailto:evelyna@calstatela.edu",
+    "Research_Interests_List": [
+      "Environmental health, geospatial science, environmental justice, community science applications"
+    ]
+  },
+  {
     "id": "xochitlalvizocsunedu",
     "Name": "Xóchitl Alvizo",
     "Email": "xochitl.alvizo@csun.edu",
@@ -659,6 +701,27 @@
     "email_href": "mailto:ebrahim.amiri@csulb.edu",
     "Research_Interests_List": [
       "Design, Development and analytical/semi-analytical modeling of electrical machinery (e.g., Ipm and spm machines), And electromagnetic devices (e.g., Fault current limiter), Power electronics converters in motor drive, And renewable energy applications (e.g., Grid connected inverter based resources)"
+    ]
+  },
+  {
+    "id": "daveamoscalpolyedu",
+    "Name": "Dave Amos",
+    "Email": "daveamos@calpoly.edu",
+    "Campus": "San Luis Obispo",
+    "College": "College of Architecture and Environmental Design",
+    "Department": "City and Regional Planning",
+    "Title": null,
+    "Research_Interests": "Land use planning, urban design, active transportation, public planning education",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "daveamoscalpolyedu",
+    "email_href": "mailto:daveamos@calpoly.edu",
+    "Research_Interests_List": [
+      "Land use planning, urban design, active transportation, public planning education"
     ]
   },
   {
@@ -797,7 +860,7 @@
     "Title": "Associate Professor",
     "Research_Interests": "Committed to sustainability and scientific literacy in both teaching and research.",
     "Teaching_Interests": null,
-    "Sustainability_Contributions": "Co authored Beaches on the Edge.",
+    "Sustainability_Contributions": "co-authored Beaches on the Edge.",
     "Notes": null,
     "Photo": null,
     "Website": null,
@@ -1305,6 +1368,48 @@
     "Research_Interests_List": []
   },
   {
+    "id": "chrisbachmancalstatelaedu",
+    "Name": "Chris Bachman",
+    "Email": "Chris.Bachman@calstatela.edu",
+    "Campus": "Los Angeles",
+    "College": "College of Engineering, Computer Science, and Technology",
+    "Department": "Mechanical Engineering",
+    "Title": "Interim Chair and Associate Professor, Department of Mechanical Engineering",
+    "Research_Interests": "Batteries, fuel cells, electrolyzers, supercapacitors, vehicle design, electrochemical 3D printing, sustainable engineering, and education",
+    "Teaching_Interests": "Introduction to Engineering\nHuman-Centered Design\nMechanical Design\nThermodynamics\nVehicle Design",
+    "Sustainability_Contributions": "Principal Investigator of Sustainable Technology Lab\nFaculty Member of NSF CREST Center for Advancement Toward Sustainable Urban Systems at Cal State LA",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "chrisbachmancalstatelaedu",
+    "email_href": "mailto:Chris.Bachman@calstatela.edu",
+    "Research_Interests_List": [
+      "Batteries, fuel cells, electrolyzers, supercapacitors, vehicle design, electrochemical 3D printing, sustainable engineering, and education"
+    ]
+  },
+  {
+    "id": "aelbadawcalpolyedu",
+    "Name": "Amro El Badawy",
+    "Email": "aelbadaw@calpoly.edu",
+    "Campus": "San Luis Obispo",
+    "College": "College of Engineering",
+    "Department": "Environmental Engineering",
+    "Title": null,
+    "Research_Interests": "Environmental implications of nanotechnology, fate and transport of emerging contaminants, nanosensors for environmental monitoring, and membrane-based solutions for water desalination and reclamation",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "aelbadawcalpolyedu",
+    "email_href": "mailto:aelbadaw@calpoly.edu",
+    "Research_Interests_List": [
+      "Environmental implications of nanotechnology, fate and transport of emerging contaminants, nanosensors for environmental monitoring, and membrane-based solutions for water desalination and reclamation"
+    ]
+  },
+  {
     "id": "bbadecsusmedu",
     "Name": "Bonnie Bade",
     "Email": "bbade@csusm.edu",
@@ -1452,6 +1557,27 @@
     ]
   },
   {
+    "id": "dcbaltimocalpolyedu",
+    "Name": "Craig Baltimore",
+    "Email": "dcbaltimo@calpoly.edu",
+    "Campus": "San Luis Obispo",
+    "College": "College of Architecture and Environmental Design",
+    "Department": "Architectural Engineering",
+    "Title": null,
+    "Research_Interests": "Sustainable Practices with Natural Pozzolans as Partial Cement Replacement, Concentrated Solar Energy, Resilient Practices with Concrete Masonry",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "dcbaltimocalpolyedu",
+    "email_href": "mailto:dcbaltimo@calpoly.edu",
+    "Research_Interests_List": [
+      "Sustainable Practices with Natural Pozzolans as Partial Cement Replacement, Concentrated Solar Energy, Resilient Practices with Concrete Masonry"
+    ]
+  },
+  {
     "id": "sankhabcsufresnoedu",
     "Name": "Sankha Banerjee",
     "Email": "sankhab@csufresno.edu",
@@ -1461,8 +1587,8 @@
     "Title": "Associate Professor",
     "Research_Interests": "Electro-active composite materials towards developing flexible devices in energy harvesting and scavenging for applications in biometric identification in electronic devices, Plasma based processing and surface modification of multiphasic polymer based flexible composites, Water purification using micro-plasma and graphene/graphene oxide membranes and filter stacks, Perovskite materials based energy harvesting devices towards applications in wearable medical devices.",
     "Teaching_Interests": "Mechanical engineering, Finite element analysis, Mechatronics.",
-    "Sustainability_Contributions": null,
-    "Notes": "Author of: Water purification from brackish sources for agriculture from a materials perspective.",
+    "Sustainability_Contributions": "Water purification from brackish sources for agriculture from a materials perspective",
+    "Notes": null,
     "Photo": null,
     "Website": null,
     "extras": null,
@@ -1659,6 +1785,27 @@
     "email_href": "mailto:chhandak.basu@csun.edu",
     "Research_Interests_List": [
       "Plant biotechnology, Genetically engineered plants, Biofuel and biodiesel production"
+    ]
+  },
+  {
+    "id": "gwbatescalpolyedu",
+    "Name": "Guy W. Bates",
+    "Email": "gwbates@calpoly.edu",
+    "Campus": "San Luis Obispo",
+    "College": "College of Agriculture, Food, and Environmental Sciences",
+    "Department": "BioResource and  Agricultural Engineering Department",
+    "Title": null,
+    "Research_Interests": "Water quality, resource conservation, systems modeling, and optimization",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "gwbatescalpolyedu",
+    "email_href": "mailto:gwbates@calpoly.edu",
+    "Research_Interests_List": [
+      "Water quality, resource conservation, systems modeling, and optimization"
     ]
   },
   {
@@ -2122,6 +2269,27 @@
     ]
   },
   {
+    "id": "blekhmancalstatelaedu",
+    "Name": "David Blekhman",
+    "Email": "blekhman@calstatela.edu",
+    "Campus": "Los Angeles",
+    "College": "College of Engineering, Computer Science, and Technology",
+    "Department": "Technology",
+    "Title": "Professor",
+    "Research_Interests": "Alternative and renewable energy, hydrogen fuel cell technology, electric vehicles",
+    "Teaching_Interests": "Renewable energy systems, sustainable transportation",
+    "Sustainability_Contributions": "Leads research in hydrogen fuel cell technology and sustainable energy systems\nFaculty Member of NSF CREST Center for Advancement Toward Sustainable Urban Systems at Cal State LA",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "blekhmancalstatelaedu",
+    "email_href": "mailto:blekhman@calstatela.edu",
+    "Research_Interests_List": [
+      "Alternative and renewable energy, hydrogen fuel cell technology, electric vehicles"
+    ]
+  },
+  {
     "id": "sblumenscsufresnoedu",
     "Name": "Steve Blumenshine",
     "Email": "sblumens@csufresno.edu",
@@ -2139,6 +2307,27 @@
     "slug": "sblumenscsufresnoedu",
     "email_href": "mailto:sblumens@csufresno.edu",
     "Research_Interests_List": []
+  },
+  {
+    "id": "ebockmoncalpolyedu",
+    "Name": "Emily Bockmon",
+    "Email": "ebockmon@calpoly.edu",
+    "Campus": "San Luis Obispo",
+    "College": "Bailey College of Science and Mathematics",
+    "Department": "Chemistry",
+    "Title": null,
+    "Research_Interests": "Marine Chemistry, characterizing the seawater carbon dioxide chemistry of local environments. Depth profiles of carbonate chemistry at the Cal Poly Pier. Spatial and temporal understanding of the chemistry of Morro Bay\nInstrumentation development for carbonate chemistry characterization. Ocean acidification\nImpacts of changing seawater chemistry on organisms. Interactions and relationships between carbon, oxygen, and nutrients",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "ebockmoncalpolyedu",
+    "email_href": "mailto:ebockmon@calpoly.edu",
+    "Research_Interests_List": [
+      "Marine Chemistry, characterizing the seawater carbon dioxide chemistry of local environments. Depth profiles of carbonate chemistry at the Cal Poly Pier. Spatial and temporal understanding of the chemistry of Morro Bay\nInstrumentation development for carbonate chemistry characterization. Ocean acidification\nImpacts of changing seawater chemistry on organisms. Interactions and relationships between carbon, oxygen, and nutrients"
+    ]
   },
   {
     "id": "nathanielbogiesjsuedu",
@@ -2159,6 +2348,27 @@
     "email_href": "mailto:nathaniel.bogie@sjsu.edu",
     "Research_Interests_List": [
       "Professor bogie's research focuses on how the traditional practice of intercropping with deep rooted native shrubs in the west african sahel can serve as pumps to transfer water from deep, Moist soil layers to shallow-rooted food crops growing nearby during extreme drought. his work in california involves studying links between geology and stream behavior in salmonid-bearing coastal watersheds as well as how the use of winter cover crops affects soil hydraulic properties and groundwater recharge."
+    ]
+  },
+  {
+    "id": "gbohrcalpolyedu",
+    "Name": "Greg Bohr",
+    "Email": "gbohr@calpoly.edu",
+    "Campus": "San Luis Obispo",
+    "College": "College of Liberal Arts",
+    "Department": "Social Science",
+    "Title": null,
+    "Research_Interests": "Snow pack, Climatology, Global change, Extreme weather",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "gbohrcalpolyedu",
+    "email_href": "mailto:gbohr@calpoly.edu",
+    "Research_Interests_List": [
+      "Snow pack, Climatology, Global change, Extreme weather"
     ]
   },
   {
@@ -2380,7 +2590,7 @@
     "Research_Interests": "Restoration and conservation of coastal habitats, Primarily in salt marshes and seagrass beds, Mainly with vascular plants, Macroalgae, And invertebrates as well as the water and sediments on and in which they live. this work is mostly experimental, Conducted in field, Greenhouse, And outdoor mesocosm (tank or pot) settings.",
     "Teaching_Interests": "Marine science, Marine ecology.",
     "Sustainability_Contributions": "Habitat restoration in an era of changing climate, with a focus on protecting shorelines, increasing carbon sequestration, and reducing ocean acidification, as well as increasing equity and agency in shoreline restoration outcomes for low-lying underserved communities. Lead scientist on living shorelines projects that restore habitats such as eelgrass and native oysters. Contributed to the Resilient by Design Bay Area Challenge. Co-project lead on an effort to restore eelgrass and assess the habitat for spawning herring following the Cosco Busan oil spill.",
-    "Notes": "Author of:.",
+    "Notes": null,
     "Photo": null,
     "Website": null,
     "extras": null,
@@ -2574,6 +2784,27 @@
     ]
   },
   {
+    "id": "eburke02calpolyedu",
+    "Name": "Ellen Burke",
+    "Email": "eburke02@calpoly.edu",
+    "Campus": "San Luis Obispo",
+    "College": "College of Architecture and Environmental Design",
+    "Department": "Landscape Architecture",
+    "Title": null,
+    "Research_Interests": "Resilient/sustainable urbanism and landscape, urban ecology and restoration,  urban wilds, and landscape systems, including food systems",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "eburke02calpolyedu",
+    "email_href": "mailto:eburke02@calpoly.edu",
+    "Research_Interests_List": [
+      "Resilient/sustainable urbanism and landscape, urban ecology and restoration,  urban wilds, and landscape systems, including food systems"
+    ]
+  },
+  {
     "id": "hburklandcsusmedu",
     "Name": "Heather Burkland",
     "Email": "hburkland@csusm.edu",
@@ -2624,7 +2855,7 @@
     "Research_Interests": "How wnt signals are transported from wnt-producing cells to wint-responding cells in chick embryos, Relevant to birth defects and cancer. additionally, Dr. burrus is transitioning into studying the role of microbial communities in climate resilience, Specifically for oyster reef restoration in the san francisco bay.",
     "Teaching_Interests": "Intro biology, Cancer biology, Peer assistants for learning science, Climate justice practicum.",
     "Sustainability_Contributions": "Launched the certificate in climate change causes, impacts, and solutions. co-director of the Climate Justice Leaders Initiative. Co-director of Climate HQ.",
-    "Notes": "Author of: Additional website.",
+    "Notes": null,
     "Photo": null,
     "Website": null,
     "extras": null,
@@ -2693,6 +2924,27 @@
     "email_href": "mailto:wbyun@csusm.edu",
     "Research_Interests_List": [
       "Energy and power, Renewables, Sustainability and ai, Climate change, Biofuels, Microgrids, International finance, Chemicals, Law, Asia and emerging markets"
+    ]
+  },
+  {
+    "id": "campcalpolyedu",
+    "Name": "Dave Camp",
+    "Email": "camp@calpoly.edu",
+    "Campus": "San Luis Obispo",
+    "College": "Bailey College of Science and Mathematics",
+    "Department": "Mathematics",
+    "Title": null,
+    "Research_Interests": "Climate dynamics, paleoclimatology, mathematical modeling, time series analysis techniques, nonlinear dynamical systems",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "campcalpolyedu",
+    "email_href": "mailto:camp@calpoly.edu",
+    "Research_Interests_List": [
+      "Climate dynamics, paleoclimatology, mathematical modeling, time series analysis techniques, nonlinear dynamical systems"
     ]
   },
   {
@@ -3124,7 +3376,7 @@
     "Research_Interests": "Thermodynamics, Combustion, Internal combustion engines, Fluid mechanics, Fuels, And air quality engineering.",
     "Teaching_Interests": "Thermodynamics, Thermal power systems, Heat transfer, Alternative and renewable energy.",
     "Sustainability_Contributions": null,
-    "Notes": "Author of: He did get someone else's recommendation.",
+    "Notes": null,
     "Photo": null,
     "Website": null,
     "extras": null,
@@ -3187,7 +3439,7 @@
     "Research_Interests": "Artificial intelligence, Machine learning, Data analytics, Mobile computing.",
     "Teaching_Interests": "Artificial intelligence, Machine learning.",
     "Sustainability_Contributions": "Determinations of various chemical presences in underground water.",
-    "Notes": "Author of: this isn't climate related? maybe it's just not on record. he has used mahcine learning for solar arrays once but that's about if for reserach.",
+    "Notes": null,
     "Photo": null,
     "Website": null,
     "extras": null,
@@ -3208,7 +3460,7 @@
     "Research_Interests": "Sustainable supply chain management, Wine industry analysis, Sustainable distribution systems.",
     "Teaching_Interests": "Sustainable supply chain management, Project management, Spreadsheet-based decision modelling.",
     "Sustainability_Contributions": "A founder of the Bay Area Green Supply Chain Forum, serving on the the Board of Directors of PulpWorks, Inc, a startup providing greener and safer alternatives to plastic packaging, and former director of the Center for Ethical and Sistainable Business at the SFSU Lam Family College of Business.",
-    "Notes": "Author of: you can double check sustainable business group for people.",
+    "Notes": null,
     "Photo": null,
     "Website": null,
     "extras": null,
@@ -4278,6 +4530,27 @@
     ]
   },
   {
+    "id": "cdecockcalpolyedu",
+    "Name": "Charlotte Decock",
+    "Email": "cdecock@calpoly.edu",
+    "Campus": "San Luis Obispo",
+    "College": "College of Agriculture, Food, and Environmental Sciences",
+    "Department": "Natural Resources Management and Environmental Sciences",
+    "Title": null,
+    "Research_Interests": "Soil health and fertility assessment; Soil conservation; Fertilizer management; Sustainable agriculture",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "cdecockcalpolyedu",
+    "email_href": "mailto:cdecock@calpoly.edu",
+    "Research_Interests_List": [
+      "Soil health and fertility assessment; Soil conservation; Fertilizer management; Sustainable agriculture"
+    ]
+  },
+  {
     "id": "johndelacruzsjsuedu",
     "Name": "John Delacruz",
     "Email": "john.delacruz@sjsu.edu",
@@ -4317,6 +4590,27 @@
     "email_href": "mailto:benoit.delaveau@gmail.com",
     "Research_Interests_List": [
       "Main focus has been climate change with a focus on energy conservation in buildings. behavioral conservation and adoption of energy efficient new technologies are his two favorite research topics."
+    ]
+  },
+  {
+    "id": "adelaycalpolyedu",
+    "Name": "Ann DeLay",
+    "Email": "adelay@calpoly.edu",
+    "Campus": "San Luis Obispo",
+    "College": "College of Agriculture, Food, and Environmental Sciences",
+    "Department": "Agricultural Education and Communication",
+    "Title": null,
+    "Research_Interests": "Teacher education",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "adelaycalpolyedu",
+    "email_href": "mailto:adelay@calpoly.edu",
+    "Research_Interests_List": [
+      "Teacher education"
     ]
   },
   {
@@ -4380,6 +4674,27 @@
     "email_href": "mailto:gdesa@sfsu.edu",
     "Research_Interests_List": [
       "Resource mobilization and venture development in the technology and social entrepreneurship sector."
+    ]
+  },
+  {
+    "id": "ddeturricalpolyedu",
+    "Name": "Dianne DeTurris",
+    "Email": "ddeturri@calpoly.edu",
+    "Campus": "San Luis Obispo",
+    "College": "College of Engineering",
+    "Department": "Aerospace Engineering",
+    "Title": null,
+    "Research_Interests": "Propulsion and Systems Thinking",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "ddeturricalpolyedu",
+    "email_href": "mailto:ddeturri@calpoly.edu",
+    "Research_Interests_List": [
+      "Propulsion and Systems Thinking"
     ]
   },
   {
@@ -4488,6 +4803,27 @@
     ]
   },
   {
+    "id": "cdicuscalpolyedu",
+    "Name": "Chris Dicus",
+    "Email": "cdicus@calpoly.edu",
+    "Campus": "San Luis Obispo",
+    "College": "College of Agriculture, Food, and Environmental Sciences",
+    "Department": "Natural Resources Management and Environmental Sciences",
+    "Title": null,
+    "Research_Interests": "Wildland Fire; Fuels Management",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "cdicuscalpolyedu",
+    "email_href": "mailto:cdicus@calpoly.edu",
+    "Research_Interests_List": [
+      "Wildland Fire; Fuels Management"
+    ]
+  },
+  {
     "id": "geoffreydillycsuciedu",
     "Name": "Geoff Dilly",
     "Email": "geoffrey.dilly@csuci.edu",
@@ -4591,6 +4927,27 @@
     ]
   },
   {
+    "id": "dsdolancalpolyedu",
+    "Name": "Dale Dolan",
+    "Email": "dsdolan@calpoly.edu",
+    "Campus": "San Luis Obispo",
+    "College": "College of Engineering",
+    "Department": "Electrical Engineering",
+    "Title": null,
+    "Research_Interests": "Sustainable/Renewable energy generation, Wind Energy Generation\nPower systems\nElectromagnetics\nPower electronic applications for distributed generation\nGrid connection impacts of renewable generation, Sustainable energy project economics, Sustainability of technologies, Energy policy promoting widespread implementation of sustainable power generation",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "dsdolancalpolyedu",
+    "email_href": "mailto:dsdolan@calpoly.edu",
+    "Research_Interests_List": [
+      "Sustainable/Renewable energy generation, Wind Energy Generation\nPower systems\nElectromagnetics\nPower electronic applications for distributed generation\nGrid connection impacts of renewable generation, Sustainable energy project economics, Sustainability of technologies, Energy policy promoting widespread implementation of sustainable power generation"
+    ]
+  },
+  {
     "id": "rdonatellocsuchicoedu",
     "Name": "Robin Donatello",
     "Email": "rdonatello@csuchico.edu",
@@ -4675,6 +5032,27 @@
     ]
   },
   {
+    "id": "edrapercalstatelaedu",
+    "Name": "Elaine Draper",
+    "Email": "edraper@calstatela.edu",
+    "Campus": "Los Angeles",
+    "College": "College of Natural and Social Sciences",
+    "Department": "Sociology",
+    "Title": "Professor",
+    "Research_Interests": "Law and Society; Health and Health Policy; Environmental and Workplace Hazards; New Genetic and Biomedical Technologies; Women in the Workplace; Bioethics; and Government and Corporate Policy.",
+    "Teaching_Interests": "Sociology of Law; Work and Occupations; Environmental Policy, Law, and Society; Medical Sociology and Bioethics; Sociology of the Professions; Sociology of Science and Technology; Organizations.",
+    "Sustainability_Contributions": "Research on the policies of environmental hazards, genetic information, and safety\nCreated the Environmental Law, Policy, and Society course focused on themes, doctrines, and research in environmental policy and law, including the public trust doctrine, environmental justice, EPA regulation, and toxic torts, along with questions of economic incentives and equity\nServed on the American Sociological Association Task Force on Sociology and Global Climate Change\nServed as contributing editor of a special issue of International Journal of Sociology and Social Policy on “Science and Technology” that addressed environmental issues\nPublished The Company Doctor: Risk, Responsibility, and Corporate Professionalism and Risky Business: Genetic Testing and Exclusionary Practices in the Hazardous Workplace\nServed on award committees responsible for evaluating environmental research and publications\nOrganized and chaired conference sessions and presented for multiple legal, sociological, and public health organizations as an Environmental Policy and Research Session Organizer and Chair\nServed as CEaS, CEA-CREST, and Hydrology Affiliated Faculty",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "edrapercalstatelaedu",
+    "email_href": "mailto:edraper@calstatela.edu",
+    "Research_Interests_List": [
+      "Law and Society; Health and Health Policy; Environmental and Workplace Hazards; New Genetic and Biomedical Technologies; Women in the Workplace; Bioethics; and Government and Corporate Policy."
+    ]
+  },
+  {
     "id": "jeffreyducloscsunedu",
     "Name": "Jeff Duclos",
     "Email": "jeffrey.duclos@csun.edu",
@@ -4694,6 +5072,25 @@
     "Research_Interests_List": [
       "Public relations, Environmental communication, Media advocacy"
     ]
+  },
+  {
+    "id": "cduffysmcalpolyedu",
+    "Name": "Colleen Duffy",
+    "Email": "cduffysm@calpoly.edu",
+    "Campus": "San Luis Obispo",
+    "College": "Orfalea College of Business",
+    "Department": "Accounting & Law",
+    "Title": null,
+    "Research_Interests": null,
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "cduffysmcalpolyedu",
+    "email_href": "mailto:cduffysm@calpoly.edu",
+    "Research_Interests_List": []
   },
   {
     "id": "rdugdalesfsuedu",
@@ -5162,7 +5559,7 @@
     "Research_Interests": "Environmental economics, Applied econometrics, Climate change and natural disasters. examining regional economic impacts of climate change by considering feedback from different markets and updating human behavioral changes.",
     "Teaching_Interests": "Microeconomics, Environmental economics, Urban and regional economics, Managerial economics.",
     "Sustainability_Contributions": null,
-    "Notes": "Author of: fresno interview.",
+    "Notes": null,
     "Photo": null,
     "Website": null,
     "extras": null,
@@ -5191,6 +5588,27 @@
     "email_href": "mailto:fangk@sonoma.edu",
     "Research_Interests_List": [
       "Geography of cities"
+    ]
+  },
+  {
+    "id": "afarahm2calstatelaedu",
+    "Name": "Alireza Farahmand",
+    "Email": "afarahm2@calstatela.edu",
+    "Campus": "Los Angeles",
+    "College": "College of Natural and Social Sciences",
+    "Department": "Geography, Geology and the Environment",
+    "Title": "Assistant Professor & Graduate Program Advisor",
+    "Research_Interests": "Climate extremes, drought, hydrology, remote sensing, statistical climate modeling",
+    "Teaching_Interests": "Spatial statistics, GIS, global climate change, watershed hydrology",
+    "Sustainability_Contributions": "Leads NASA/JPL-funded drought and wildfire projects to support water resilience and hazard monitoring",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "afarahm2calstatelaedu",
+    "email_href": "mailto:afarahm2@calstatela.edu",
+    "Research_Interests_List": [
+      "Climate extremes, drought, hydrology, remote sensing, statistical climate modeling"
     ]
   },
   {
@@ -5333,6 +5751,27 @@
     "slug": "mfidellcsusedu",
     "email_href": "mailto:m.fidell@csus.edu",
     "Research_Interests_List": []
+  },
+  {
+    "id": "gfiegelcalpolyedu",
+    "Name": "Gregg Fiegel",
+    "Email": "gfiegel@calpoly.edu",
+    "Campus": "San Luis Obispo",
+    "College": "College of Engineering",
+    "Department": "Civil and Environmental Engineering",
+    "Title": null,
+    "Research_Interests": "Geotechnical Engineering, Foundation Design, Field and Laboratory Testing, Geotechnical Earthquake Engineering",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "gfiegelcalpolyedu",
+    "email_href": "mailto:gfiegel@calpoly.edu",
+    "Research_Interests_List": [
+      "Geotechnical Engineering, Foundation Design, Field and Laboratory Testing, Geotechnical Earthquake Engineering"
+    ]
   },
   {
     "id": "sfingalfullertonedu",
@@ -5686,6 +6125,27 @@
     ]
   },
   {
+    "id": "africkercalpolyedu",
+    "Name": "Andrew Fricker",
+    "Email": "africker@calpoly.edu",
+    "Campus": "San Luis Obispo",
+    "College": "College of Liberal Arts",
+    "Department": "Social Science",
+    "Title": null,
+    "Research_Interests": "GIS, remote sensing, spatial ecology, biogeography, deep learning, wildfire",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "africkercalpolyedu",
+    "email_href": "mailto:africker@calpoly.edu",
+    "Research_Interests_List": [
+      "GIS, remote sensing, spatial ecology, biogeography, deep learning, wildfire"
+    ]
+  },
+  {
     "id": "alcidesfuentessfsuedu",
     "Name": "Alcides Fuentes",
     "Email": "alcidesfuentes@sfsu.edu",
@@ -5696,7 +6156,7 @@
     "Research_Interests": null,
     "Teaching_Interests": null,
     "Sustainability_Contributions": "Climate justice advocacy, climate education, activism, art, and filmmaking.",
-    "Notes": "Author of: Climate HQ website; LinkedIn.",
+    "Notes": "Author of: Climate HQ website.",
     "Photo": null,
     "Website": null,
     "extras": null,
@@ -5839,7 +6299,7 @@
     "Research_Interests": "1) how wnt signals are transported in chick embryos, And the role of microbial communities in climate resilience. 2) microbial communities in oyster reef restoration as indicators of climate resilience in the san francisco bay.",
     "Teaching_Interests": null,
     "Sustainability_Contributions": "Climate HQ Budget Specialist, Lab Manager of Kai Burrus Lab.",
-    "Notes": "Author of: Does not teach.",
+    "Notes": "Does not teach.",
     "Photo": null,
     "Website": null,
     "extras": null,
@@ -5902,7 +6362,7 @@
     "Research_Interests": "Thermal fluids, Energy.",
     "Teaching_Interests": "Thermal fluids and energy related courses including renewable energy systems, Energy resources and sustainability, Energy assessment, Measurement and verification.",
     "Sustainability_Contributions": "Energy engineering, engineering-environmental evaluation, analysis, design of energy systems, and thermal-fluids. Director of SFSU's Industrial Assessment Center (IAC), which evaluates energy and water efficiency/conservation in industrial facilities.",
-    "Notes": "Author of: LinkedIn?.",
+    "Notes": null,
     "Photo": null,
     "Website": null,
     "extras": null,
@@ -6829,6 +7289,27 @@
     ]
   },
   {
+    "id": "agrevecalpolyedu",
+    "Name": "Adrienne Greve",
+    "Email": "agreve@calpoly.edu",
+    "Campus": "San Luis Obispo",
+    "College": "College of Architecture and Environmental Design",
+    "Department": "City and Regional Planning",
+    "Title": null,
+    "Research_Interests": "Climate change planning (GHG & adaptation), climate-smart infrastructure, urban hydrology (green infrastructure)",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "agrevecalpolyedu",
+    "email_href": "mailto:agreve@calpoly.edu",
+    "Research_Interests_List": [
+      "Climate change planning (GHG & adaptation), climate-smart infrastructure, urban hydrology (green infrastructure)"
+    ]
+  },
+  {
     "id": "rjgriffinnolancsuchicoedu",
     "Name": "Robert Griffin-Nolan",
     "Email": "rjgriffin-nolan@csuchico.edu",
@@ -7087,7 +7568,7 @@
     "Research_Interests": "Foster startup growth, Improve economic development, And provide specialized support to entrepreneurs.",
     "Teaching_Interests": "Business incubation and acceleration",
     "Sustainability_Contributions": "The WET Center engages with early stage entrepreneurs to commercialize their ideas or accelerate their existing ventures. We focus on cultivating entrepreneurs in the water, energy, and agricultural sectors. The WET Center has engaged with more than 500 individual entrepreneurs and accelerated more than 85 companies. Collectively, these companies have raised $450 million in public, private, and institutional investments and have been responsible for more than 840 new jobs - many of them based in the immediate Central Valley.",
-    "Notes": "Author of: I was given the same response to use for both Eric Hadden and Kent Pelisari.",
+    "Notes": null,
     "Photo": null,
     "Website": null,
     "extras": null,
@@ -7306,6 +7787,27 @@
     ]
   },
   {
+    "id": "hhashemcalstatelaedu",
+    "Name": "Hassan Hashemian",
+    "Email": "hhashem@calstatela.edu",
+    "Campus": "Los Angeles",
+    "College": "College of Engineering, Computer Science, and Technology",
+    "Department": "City Planning / Transportation",
+    "Title": "Professor",
+    "Research_Interests": "Transportation planning, sustainable mobility",
+    "Teaching_Interests": "Planning courses integrating city sustainability",
+    "Sustainability_Contributions": "Research into sustainable transport systems",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "hhashemcalstatelaedu",
+    "email_href": "mailto:hhashem@calstatela.edu",
+    "Research_Interests_List": [
+      "Transportation planning, sustainable mobility"
+    ]
+  },
+  {
     "id": "darrdhgreenenergycom",
     "Name": "Darr Hashempour",
     "Email": "darr@DHGreenEnergy.com",
@@ -7345,6 +7847,27 @@
     "email_href": "mailto:aseemhasnain@mail.fresnostate.edu",
     "Research_Interests_List": [
       "Ideology, Identity politics, Environmentalism, Foodways, Labor, Social movements."
+    ]
+  },
+  {
+    "id": "ahassbecalstatelaedu",
+    "Name": "Analena Hope Hassberg",
+    "Email": "ahassbe@calstatela.edu",
+    "Campus": "Los Angeles",
+    "College": "College of Natural and Social Sciences",
+    "Department": "Sociology",
+    "Title": "Associate Professor",
+    "Research_Interests": "Race & Ethnicity, Food & Environmental Justice, Sustainability, Gentrification, Community Health & Wellness",
+    "Teaching_Interests": "Not found (more specifics would be appreciated!)",
+    "Sustainability_Contributions": "Not found (more specifics would be appreciated!)",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "ahassbecalstatelaedu",
+    "email_href": "mailto:ahassbe@calstatela.edu",
+    "Research_Interests_List": [
+      "Race & Ethnicity, Food & Environmental Justice, Sustainability, Gentrification, Community Health & Wellness"
     ]
   },
   {
@@ -8401,6 +8924,27 @@
     "Research_Interests_List": []
   },
   {
+    "id": "arashjamehbozorgcalstatelaedu",
+    "Name": "Arash Jamehbozorg",
+    "Email": "Arash.Jamehbozorg@calstatela.edu",
+    "Campus": "Los Angeles",
+    "College": "College of Engineering, Computer Science, and Technology",
+    "Department": "Electrical & Computer Engineering",
+    "Title": "Advisor",
+    "Research_Interests": "Power systems dynamics\nRenewable energy sources\nPower systems modeling and analysis\nEnergy storage systems\nSmart grids",
+    "Teaching_Interests": "Power Systems Stability\nPower Systems Distribution\nRenewable Energy Sources in Power Systems",
+    "Sustainability_Contributions": "Applications of research on smart grids and renewable energy, including wind and PV systems",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "arashjamehbozorgcalstatelaedu",
+    "email_href": "mailto:Arash.Jamehbozorg@calstatela.edu",
+    "Research_Interests_List": [
+      "Power systems dynamics\nRenewable energy sources\nPower systems modeling and analysis\nEnergy storage systems\nSmart grids"
+    ]
+  },
+  {
     "id": "sagiljamesfullertonedu",
     "Name": "Sagil James",
     "Email": "sagiljames@fullerton.edu",
@@ -8474,7 +9018,7 @@
     "Research_Interests": "Real estate finance, Real estate economics, Housing economics, Environmental economics, Public economics, Spatial econometrics, Geographic information systems, Water issues, Biodiversity loss. linkages between real estate and environmental issues, Particularly related to water and biodiversity loss.",
     "Teaching_Interests": "Real estate, Economics, And business.",
     "Sustainability_Contributions": "Member of the Board of Directors of the U.S. Green Building Council Central California Chapter.",
-    "Notes": "Author of: recommended Dr. Le Zhao and Dr. Mohammadali Fallah.",
+    "Notes": null,
     "Photo": null,
     "Website": null,
     "extras": null,
@@ -9004,6 +9548,27 @@
     ]
   },
   {
+    "id": "akathuricalpolyedu",
+    "Name": "Ajay Kathuria",
+    "Email": "akathuri@calpoly.edu",
+    "Campus": "San Luis Obispo",
+    "College": "Orfalea College of Business",
+    "Department": "Industrial Technology and Packaging",
+    "Title": null,
+    "Research_Interests": "Biomaterials, Bioplastics, Bioderived high surface area porous compounds, Green Chemistry",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "akathuricalpolyedu",
+    "email_href": "mailto:akathuri@calpoly.edu",
+    "Research_Interests_List": [
+      "Biomaterials, Bioplastics, Bioderived high surface area porous compounds, Green Chemistry"
+    ]
+  },
+  {
     "id": "farzankazemifarsjsuedu",
     "Name": "Farzan Kazemifar",
     "Email": "farzan.kazemifar@sjsu.edu",
@@ -9022,6 +9587,27 @@
     "email_href": "mailto:farzan.kazemifar@sjsu.edu",
     "Research_Interests_List": [
       "Energy systems, Energy efficiency in industrial and commercial buildings"
+    ]
+  },
+  {
+    "id": "akeancalpolyedu",
+    "Name": "Andrew Kean",
+    "Email": "akean@calpoly.edu",
+    "Campus": "San Luis Obispo",
+    "College": "College of Engineering",
+    "Department": "Mechanical Engineering",
+    "Title": null,
+    "Research_Interests": "Combustion and Pollution Emissions, Energy, Sustainability",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "akeancalpolyedu",
+    "email_href": "mailto:akean@calpoly.edu",
+    "Research_Interests_List": [
+      "Combustion and Pollution Emissions, Energy, Sustainability"
     ]
   },
   {
@@ -9228,6 +9814,27 @@
     "email_href": "mailto:bilal.khan@csusb.edu",
     "Research_Interests_List": [
       "Develop analytical and advanced machine/deep learning approaches for causal analysis and decision support modeling for autonomous and smart water treatment, Human behavioral analysis using computer vision, Real-time embedded systems (sensor networks and iot) for resource management, Data science (big/time-series data) for water consumption/supply and water use prediction for small disadvantaged communities, Safer design and use of nanotechnology (nanotoxicology & nanomaterial exposure assessment) using machine learning, Predictive modeling and data mining approaches, Mobile and web application development, Water treatment technology - cyber-infrastructure for virtual water treatment systems"
+    ]
+  },
+  {
+    "id": "akhodaycalstatelaedu",
+    "Name": "Arezoo Khodayari",
+    "Email": "akhoday@calstatela.edu",
+    "Campus": "Los Angeles",
+    "College": "College of Engineering, Computer Science, and Technology",
+    "Department": "Civil Engineering",
+    "Title": "Associate Professor",
+    "Research_Interests": "Development of sustainable engineering solutions for the prevention and control of water and air pollution\nWastewater treatment, reuse, and resource recovery\nAir quality analysis and climate modeling\nEnergy–water–climate nexus\nEnvironmental impact assessment and systems analysis",
+    "Teaching_Interests": "Environmental Engineering\nEnvironmental Sustainability and Renewable Energy\nEnvironmental Mass Transport\nTechnological Aspects of the Urban Environment\nCommunication for Civil Engineers\nMentoring Student Teams in Environmental Engineering Design Competitions",
+    "Sustainability_Contributions": "Founding Director of the Environmental Sustainability and Pollution Control Research Laboratory\nCo-Founder of the Astrobiology and Environmental Engineering Initiative, an interdisciplinary effort that integrates planetary science and environmental engineering to advance sustainable solutions for wastewater treatment and resource recovery\nDirector of Urban Sustainability Minor at Cal State Los Angeles",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "akhodaycalstatelaedu",
+    "email_href": "mailto:akhoday@calstatela.edu",
+    "Research_Interests_List": [
+      "Development of sustainable engineering solutions for the prevention and control of water and air pollution\nWastewater treatment, reuse, and resource recovery\nAir quality analysis and climate modeling\nEnergy–water–climate nexus\nEnvironmental impact assessment and systems analysis"
     ]
   },
   {
@@ -9542,6 +10149,27 @@
     ]
   },
   {
+    "id": "armenkochariancalstatelaedu",
+    "Name": "Armen Kocharian",
+    "Email": "armen.kocharian@calstatela.edu",
+    "Campus": "Los Angeles",
+    "College": "College of Natural and Social Sciences",
+    "Department": "Physics and Astronomy",
+    "Title": "Professor",
+    "Research_Interests": "Condensed matter physics\nStrongly correlated electrons in high TC superconductors\nQuantum magnetism and mixed valence states\nSpin dependent transport and light transmission in multilayered nanostructures",
+    "Teaching_Interests": "Physics for Life Sciences \nMechanics\nElectromagnetism",
+    "Sustainability_Contributions": "Research on carbon-based nanomaterials\nFaculty Member of NSF CREST Center for Advancement Toward Sustainable Urban Systems at Cal State LA",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "armenkochariancalstatelaedu",
+    "email_href": "mailto:armen.kocharian@calstatela.edu",
+    "Research_Interests_List": [
+      "Condensed matter physics\nStrongly correlated electrons in high TC superconductors\nQuantum magnetism and mixed valence states\nSpin dependent transport and light transmission in multilayered nanostructures"
+    ]
+  },
+  {
     "id": "kkohcsustanedu",
     "Name": "Kyu Han Koh",
     "Email": "kkoh@csustan.edu",
@@ -9741,7 +10369,7 @@
     "Research_Interests": "Exposure assessment, Health effects of pollutants in the environment.",
     "Teaching_Interests": "Environmental and occupational health, Air pollution and human health, Risk assessment.",
     "Sustainability_Contributions": "Exposure assessment; air quality monitoring; water quality; environmental and occupational health.",
-    "Notes": "Author of: linkedIn; environmental/occupational health isn't exactly climate/sustainability. lots of air quality stuff.",
+    "Notes": null,
     "Photo": null,
     "Website": null,
     "extras": null,
@@ -10678,7 +11306,7 @@
     "Research_Interests": "Social movements, Political sociology, Comparative sociology, Nonprofit organizations, Leadership, Environment, Labor, Mixed methods, Civic participation.",
     "Teaching_Interests": "Social/environmental movements, Research methods, Urban sociology.",
     "Sustainability_Contributions": "Lin, Jean Yen-Chun. 2023. A Spark in the Smokestacks: Environmental Organizing in Beijing Middle-Class Communities. New York: Columbia University Press. (Winner, 2024 Robert E. Park Book Award, Section on Community and Urban Sociology, American Sociological Association). A Spark in the Smokestacks explores how everyday community civic life cultivates organizing capacity against environmental threats, and tells the story of how a pivot to citizen science engagement and environmental data collection helped a rising urban middle class overcome institutional barriers in an authoritarian context.",
-    "Notes": "Author of: she asked for the sustainabiltiy contributions to be the super long citation and description of the book if possible.",
+    "Notes": null,
     "Photo": null,
     "Website": null,
     "extras": null,
@@ -10804,7 +11432,7 @@
     "Research_Interests": "Water resources and environmental engineering, Mainly to improve the capability of water retention and nutrients in agricultural soil and to understand nearshore processes in the inland water system and the transport of pathogens in the environment. specific research has been in the areas of reactive transport and the fate of contaminants in surface water and groundwater, Environmental process modeling, Groundwater bioremediation, Subsurface characterization, And soil remediation.",
     "Teaching_Interests": "Civil engineering, Hydraulics, Hydrology, Urban stormwater management, Environmental engineering, Groundwater engineering, Contaminant fate and transport.",
     "Sustainability_Contributions": null,
-    "Notes": "Author of: other bio.",
+    "Notes": null,
     "Photo": null,
     "Website": null,
     "extras": null,
@@ -10936,6 +11564,27 @@
     "email_href": "mailto:clogan@csumb.edu",
     "Research_Interests_List": [
       "Marine ecological physiology, Climate change biology"
+    ]
+  },
+  {
+    "id": "btlohmarcalpolyedu",
+    "Name": "Bryan Lohmar",
+    "Email": "btlohmar@calpoly.edu",
+    "Campus": "San Luis Obispo",
+    "College": "College of Agriculture, Food, and Environmental Sciences",
+    "Department": "Agribusiness",
+    "Title": null,
+    "Research_Interests": "Agricultural trade and develop area, with a focus on China",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "btlohmarcalpolyedu",
+    "email_href": "mailto:btlohmar@calpoly.edu",
+    "Research_Interests_List": [
+      "Agricultural trade and develop area, with a focus on China"
     ]
   },
   {
@@ -11117,7 +11766,7 @@
     "Research_Interests": null,
     "Teaching_Interests": null,
     "Sustainability_Contributions": "Sustainability and Energy Project Manager, manages campus Sustainability Capital projects.",
-    "Notes": "Author of: This website could be all her.",
+    "Notes": null,
     "Photo": null,
     "Website": null,
     "extras": null,
@@ -11250,6 +11899,27 @@
     ]
   },
   {
+    "id": "bmalamacalpolyedu",
+    "Name": "Bwalya Malama",
+    "Email": "bmalama@calpoly.edu",
+    "Campus": "San Luis Obispo",
+    "College": "College of Agriculture, Food, and Environmental Sciences",
+    "Department": "Natural Resources Management and Environmental Sciences",
+    "Title": null,
+    "Research_Interests": "Soil Biophysics; Groundwater Hydrogeology; Hydrogeophysics; Contaminant Transport",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "bmalamacalpolyedu",
+    "email_href": "mailto:bmalama@calpoly.edu",
+    "Research_Interests_List": [
+      "Soil Biophysics; Groundwater Hydrogeology; Hydrogeophysics; Contaminant Transport"
+    ]
+  },
+  {
     "id": "jillianmaloney",
     "Name": "Jillian Maloney",
     "Email": null,
@@ -11344,7 +12014,7 @@
     "Research_Interests": "Sustainable textile practices.",
     "Teaching_Interests": "Textiles, Consumer behavior, Research methods.",
     "Sustainability_Contributions": "Work in the Diverting Fashion from Landfill projects.",
-    "Notes": "Author of: Portfolium Website.",
+    "Notes": "Portfolium Website",
     "Photo": null,
     "Website": null,
     "extras": null,
@@ -12037,6 +12707,27 @@
     "email_href": "mailto:sergio.mendez@csulb.edu",
     "Research_Interests_List": [
       "Polymer solutions, Nano-structured materials, Molecular computational modeling, And green engineering"
+    ]
+  },
+  {
+    "id": "gmenezecalstatelaedu",
+    "Name": "Gustavo Menezes",
+    "Email": "gmeneze@calstatela.edu",
+    "Campus": "Los Angeles",
+    "College": "College of Engineering, Computer Science, and Technology",
+    "Department": "Civil Engineering",
+    "Title": "Professor\nInterim Associate Provost of Undergraduate Student Success",
+    "Research_Interests": "Subsurface water quality and availability\nPhysicochemical processes related to water infiltration through the vadose zone using lab experiments and computer models\nUsing steady-state centrifugation methods to simulate and investigate flow conditions in unsaturated soils",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": "Publications in sustainability journals related to Eco-STEM educational opportunities, recycled materials in embankments, bioswale revetments, and hydroelectric power, among other topics",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "gmenezecalstatelaedu",
+    "email_href": "mailto:gmeneze@calstatela.edu",
+    "Research_Interests_List": [
+      "Subsurface water quality and availability\nPhysicochemical processes related to water infiltration through the vadose zone using lab experiments and computer models\nUsing steady-state centrifugation methods to simulate and investigate flow conditions in unsaturated soils"
     ]
   },
   {
@@ -13145,7 +13836,7 @@
     "Research_Interests": "Interactions between earth's surface and its atmosphere, Including exchanges of energy, Water and carbon, And how they change over space and time. primarily involves field-based observations using micrometeorological methods. current projects include mountain meadow carbon cycling, Monitoring emissions from healthy soils projects, And ongoing projects on urban and microclimates of the san francisco bay area.",
     "Teaching_Interests": "Climate, Climate change, Bioclimatology, Physical environment, Field methods.",
     "Sustainability_Contributions": "Carbon sustainability, urban climate mitigation, montane meadow carbon restoration.",
-    "Notes": "Author of: Other faculty website.",
+    "Notes": null,
     "Photo": null,
     "Website": null,
     "extras": null,
@@ -13404,6 +14095,27 @@
     ]
   },
   {
+    "id": "apachecocalstatelaedu",
+    "Name": "Arturo Pacheco-Vega",
+    "Email": "apacheco@calstatela.edu",
+    "Campus": "Los Angeles",
+    "College": "College of Engineering, Computer Science, and Technology",
+    "Department": "Mechanical Engineering",
+    "Title": "Professor",
+    "Research_Interests": "Simulation and control of thermal systems\nSoft computing technologies (artificial intelligence)\nSystem and process optimization\nHeat and fluid flow data analysis\nNonlinear dynamical systems\nAnalytical and numerical methods for PDEs\nMicro-scale fluid flow and heat transfer\nElectronic cooling\nThermal synchronization\nEnergy efficiency in building systems\nFractional differential equations and applications\nBiologically-inspired systems and techniques",
+    "Teaching_Interests": "Heat Conduction\nHeat Convection\nEnergy Systems\nMechanical Engineering Analysis\nAdvanced Mechanical Engineering Analysis\nDynamics I\nThermodynamics II\nControl of Mechanical Systems\nFluid Mechanics I and Laboratory\nHeat Transfer I\nMatrix Algebra for Engineers\nIntroduction to Numerical Methods for Engineers I",
+    "Sustainability_Contributions": "Director of the Sikand Center for Sustainable and Intelligent Infrastructure (SITI)\nDirector of the CREST Center for Advancement toward Sustainable Urban Systems (CATSUS)\nPrevious Director of the CREST Center for Energy and Sustainability (CEaS)",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "apachecocalstatelaedu",
+    "email_href": "mailto:apacheco@calstatela.edu",
+    "Research_Interests_List": [
+      "Simulation and control of thermal systems\nSoft computing technologies (artificial intelligence)\nSystem and process optimization\nHeat and fluid flow data analysis\nNonlinear dynamical systems\nAnalytical and numerical methods for PDEs\nMicro-scale fluid flow and heat transfer\nElectronic cooling\nThermal synchronization\nEnergy efficiency in building systems\nFractional differential equations and applications\nBiologically-inspired systems and techniques"
+    ]
+  },
+  {
     "id": "apadsfsuedu",
     "Name": "Aarthi Padmanabhan",
     "Email": "apad@sfsu.edu",
@@ -13498,7 +14210,7 @@
     "Research_Interests": "Computer science, Machine learning, Artificial intelligence, Optimization, Control theory, Multiagent systems and intelligent systems with an emphasis on computational sustainability. specific topics include agriculture, Energy, And artificial intelligence.",
     "Teaching_Interests": "Computer science, Machine learning, Game development.",
     "Sustainability_Contributions": null,
-    "Notes": "Author of: probably applying ai to sustainability-related topics.",
+    "Notes": null,
     "Photo": null,
     "Website": null,
     "extras": null,
@@ -13506,6 +14218,27 @@
     "email_href": "mailto:apanagopoulos@csufresno.edu",
     "Research_Interests_List": [
       "Computer science, Machine learning, Artificial intelligence, Optimization, Control theory, Multiagent systems and intelligent systems with an emphasis on computational sustainability. specific topics include agriculture, Energy, And artificial intelligence."
+    ]
+  },
+  {
+    "id": "apandecalpolyedu",
+    "Name": "Anurag Pande",
+    "Email": "apande@calpoly.edu",
+    "Campus": "San Luis Obispo",
+    "College": "College of Engineering",
+    "Department": "Civil Engineering",
+    "Title": null,
+    "Research_Interests": "Safety of active travel mode (bicyclists/pedestrians), Vehicle-Miles Traveled (VMT) Modeling, Traffic Simulation, Intelligent Transportation Systems, Transportation Sustainability and Resilience, Statistical/Data Mining applications in Transportation Safety, Community-based Learning",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "apandecalpolyedu",
+    "email_href": "mailto:apande@calpoly.edu",
+    "Research_Interests_List": [
+      "Safety of active travel mode (bicyclists/pedestrians), Vehicle-Miles Traveled (VMT) Modeling, Traffic Simulation, Intelligent Transportation Systems, Transportation Sustainability and Resilience, Statistical/Data Mining applications in Transportation Safety, Community-based Learning"
     ]
   },
   {
@@ -13623,7 +14356,7 @@
     "Title": "Department Chair and Associate Professor",
     "Research_Interests": "Current research focuses on coastal geomorphology and processes, Shoreline hazard assessment, Sediment budgets analysis, Sea cliff and beach erosion, Reductions in the natural supply of sediment to the coast, Coastal armoring, And coastal access equity along the california coast",
     "Teaching_Interests": "Beaches and coastal geomorphology, Physical oceanography, And geospatial analysis, Emphasizing hands-on fieldwork, Uav monitoring, And clear, Audience-ready maps for california coastal settings.",
-    "Sustainability_Contributions": "Studying how coasts are and will be affected by climate change and human activity including erosion and sea level rise. Co authored Beaches on the Edge.",
+    "Sustainability_Contributions": "Studying how coasts are and will be affected by climate change and human activity including erosion and sea level rise. Co-authored Beaches on the Edge.",
     "Notes": null,
     "Photo": null,
     "Website": null,
@@ -13695,6 +14428,27 @@
     "email_href": "mailto:mepatterson@csuchico.edu",
     "Research_Interests_List": [
       "Sustainable construction, Energy conservation and efficiency, Lean construction, Construction workforce development"
+    ]
+  },
+  {
+    "id": "epearsecalpolyedu",
+    "Name": "Erin Pearse",
+    "Email": "epearse@calpoly.edu",
+    "Campus": "San Luis Obispo",
+    "College": "Bailey College of Science and Mathematics",
+    "Department": "Mathematics",
+    "Title": null,
+    "Research_Interests": "Fractal geometry and connections to convex geometry and curvature. Fractal analysis, discrete harmonic analysis, energy measures. Resistance forms, infinite networks, and operator-theoretic approaches to their analysis; geometry and curvature of large networks, asymptotic properties of networks. Network-based methods of data analysis, nonlinear dimensionality reduction methods.",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "epearsecalpolyedu",
+    "email_href": "mailto:epearse@calpoly.edu",
+    "Research_Interests_List": [
+      "Fractal geometry and connections to convex geometry and curvature. Fractal analysis, discrete harmonic analysis, energy measures. Resistance forms, infinite networks, and operator-theoretic approaches to their analysis; geometry and curvature of large networks, asymptotic properties of networks. Network-based methods of data analysis, nonlinear dimensionality reduction methods."
     ]
   },
   {
@@ -14057,7 +14811,7 @@
     "Research_Interests": "Sustainability in design and education, New media art, Social justice and inclusive design, Collaborative and experiential learning.",
     "Teaching_Interests": null,
     "Sustainability_Contributions": "Made the project Guerrilla Grafters that grafts fruit-bearing branches onto ornamental city trees, addressing sustainability and food access.",
-    "Notes": "Author of: I don't know why Jessica Santone said art and design instead of just art for the department.",
+    "Notes": null,
     "Photo": null,
     "Website": null,
     "extras": null,
@@ -14534,7 +15288,7 @@
     "Research_Interests": "Collaborations that lead to water solutions.",
     "Teaching_Interests": "Water resources management.",
     "Sustainability_Contributions": "Delivering water management solutions through education, collaboration, and research. Creating a nexus between academia and practical research applications by connecting Fresno State researchers to the community as Interim Director of the California Water Institute's Division of Research and Education.",
-    "Notes": "Author of: CWI; linkedIn.",
+    "Notes": null,
     "Photo": null,
     "Website": null,
     "extras": null,
@@ -14617,7 +15371,7 @@
     "Title": "Department Chair and Professor",
     "Research_Interests": "Role of emotions in environmental and climate justice and politics. attention to emotions, Mindsets, And collective wisdom on climate justice activism, Especially among younger generations.",
     "Teaching_Interests": null,
-    "Sustainability_Contributions": "Author of \"A Field Guide to Climate Anxiety: How to Keep Your Cool on a Warming Planet\".",
+    "Sustainability_Contributions": "A Field Guide to Climate Anxiety: How to Keep Your Cool on a Warming Planet",
     "Notes": null,
     "Photo": null,
     "Website": null,
@@ -14750,6 +15504,27 @@
     "email_href": "mailto:dan.reineman@csuci.edu",
     "Research_Interests_List": [
       "Coastal access research: analyzing the distribution of coastal access points, Different demographic groups of californians, And projections of environmental change to measure inequities in \"access to access, \" to understand the implications of climate change for environmental justice, And to generate management-relevant policy recommendations to address these issues.surfing research, Relationships between local knowledge, Sense of place, And resource stewardship—each of these has implications for sustainability—and the potential role of coastal resources users in management"
+    ]
+  },
+  {
+    "id": "ejreynolcalpolyedu",
+    "Name": "Beth Reynolds",
+    "Email": "ejreynol@calpoly.edu",
+    "Campus": "San Luis Obispo",
+    "College": "College of Agriculture, Food, and Environmental Sciences",
+    "Department": "Animal Science",
+    "Title": null,
+    "Research_Interests": "Grazing, solar grazing, fire prevention/WUI grazing",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "ejreynolcalpolyedu",
+    "email_href": "mailto:ejreynol@calpoly.edu",
+    "Research_Interests_List": [
+      "Grazing, solar grazing, fire prevention/WUI grazing"
     ]
   },
   {
@@ -15337,6 +16112,27 @@
     ]
   },
   {
+    "id": "bruttenbcalpolyedu",
+    "Name": "Ben Ruttenberg",
+    "Email": "bruttenb@calpoly.edu",
+    "Campus": "San Luis Obispo",
+    "College": "Bailey College of Science and Mathematics",
+    "Department": "Biology",
+    "Title": null,
+    "Research_Interests": "Applied marine ecology, fisheries, and the blue economy—sustainable aquaculture, offshore wind and renewable energy",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "bruttenbcalpolyedu",
+    "email_href": "mailto:bruttenb@calpoly.edu",
+    "Research_Interests_List": [
+      "Applied marine ecology, fisheries, and the blue economy—sustainable aquaculture, offshore wind and renewable energy"
+    ]
+  },
+  {
     "id": "sakaricmsfsuedu",
     "Name": "Charli Sakari",
     "Email": "sakaricm@sfsu.edu",
@@ -15776,6 +16572,27 @@
     ]
   },
   {
+    "id": "cschroetcalpolyedu",
+    "Name": "Christiane Schroeter",
+    "Email": "cschroet@calpoly.edu",
+    "Campus": "San Luis Obispo",
+    "College": "College of Agriculture, Food, and Environmental Sciences",
+    "Department": "Agribusiness",
+    "Title": null,
+    "Research_Interests": "Innovation & Entrepreneurship,  Economics of Obesity, Nutrition Labeling & Health Claims",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "cschroetcalpolyedu",
+    "email_href": "mailto:cschroet@calpoly.edu",
+    "Research_Interests_List": [
+      "Innovation & Entrepreneurship,  Economics of Obesity, Nutrition Labeling & Health Claims"
+    ]
+  },
+  {
     "id": "dianaseahsjsuedu",
     "Name": "Diana Seah",
     "Email": "diana.seah@sjsu.edu",
@@ -15857,6 +16674,27 @@
     "email_href": null,
     "Research_Interests_List": [
       "Broad areas of nonlinear control, Adaptive approximation based control, And applications to machines/drives, And renewable energy technologies (photovoltaics, Wind energy systems and storage), Current research projects:, Control for battery management systems, Hybrid energy storage systems (hess) for grid integration of renewables, Hybrid and nonlinear control of power converters, Power optimization and control for pv and wind energy conversion systems (wecs), Distributed wide-area control of power systems"
+    ]
+  },
+  {
+    "id": "asettlecalpolyedu",
+    "Name": "Allen Settle",
+    "Email": "asettle@calpoly.edu",
+    "Campus": "San Luis Obispo",
+    "College": "College of Liberal Arts",
+    "Department": "Political Science",
+    "Title": null,
+    "Research_Interests": "American Constitutional law, Civil Rights, American Government, Urban and State and Local Government, Public Finance, Public Personnel Administration",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "asettlecalpolyedu",
+    "email_href": "mailto:asettle@calpoly.edu",
+    "Research_Interests_List": [
+      "American Constitutional law, Civil Rights, American Government, Urban and State and Local Government, Public Finance, Public Personnel Administration"
     ]
   },
   {
@@ -16097,7 +16935,7 @@
     "Research_Interests": "Science and policy intersections of climate change, Ecosystem restoration, Resilience, Coupled human-natural systems, And regional land use planning. focus is on estuarine and coastal tidal wetlands and lagoons, Their associated ecosystem, Complexes, And the adjacent human landscapes protected by these natural systems. geographic focus is mostly the san francisco estuary.",
     "Teaching_Interests": null,
     "Sustainability_Contributions": "Coastal Resilience Specialist for the San Francisco Bay National Estuarine Research Reserve. Environmental consulting as President of Siegel Environmental. Faculty at SFSU Estuary & Ocean Science (EOS) Center.",
-    "Notes": "Author of: LinkedIn.",
+    "Notes": null,
     "Photo": null,
     "Website": null,
     "extras": null,
@@ -16629,6 +17467,27 @@
     "Research_Interests_List": []
   },
   {
+    "id": "asomozancalpolyedu",
+    "Name": "Andrea Somoza-Norton",
+    "Email": "asomozan@calpoly.edu",
+    "Campus": "San Luis Obispo",
+    "College": "Bailey College of Science and Mathematics",
+    "Department": "Education,  LEED Green Associate, Member of  UC-CSU Environmental and Climate Change Literacy Projects Research Committee",
+    "Title": null,
+    "Research_Interests": "Biomimetic Leadership. Educational Leadership and Climate Change. Educational Technology",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "asomozancalpolyedu",
+    "email_href": "mailto:asomozan@calpoly.edu",
+    "Research_Interests_List": [
+      "Biomimetic Leadership. Educational Leadership and Climate Change. Educational Technology"
+    ]
+  },
+  {
     "id": "lsong1csubedu",
     "Name": "Liaosha Song",
     "Email": "lsong1@csub.edu",
@@ -16744,7 +17603,7 @@
     "Research_Interests": "How ambient environments, Cyber-physical systems, And intelligent frameworks can transform the way interiors are conceived and experienced. explores the intersection of interior design, Emerging technologies, And human experience in design. proposed new models for integrating experiential typologies into design thinking through scholarship, Reflecting a critical shift from 20th-century to 21st-century approaches.",
     "Teaching_Interests": "Intelligent design, Sustainability, Adaptive reuse and placemaking, Heat mitigation through advanced technologies, And design research.",
     "Sustainability_Contributions": "Worked on Fresno City Bike Campus Design Development, designing bike shelters that mitigate the heat island effect. Bus stop design for Fresno Area Express: heat mitigation and placemaking.",
-    "Notes": "Author of: some info here.",
+    "Notes": null,
     "Photo": null,
     "Website": null,
     "extras": null,
@@ -17173,6 +18032,27 @@
     ]
   },
   {
+    "id": "csurfleecalpolyedu",
+    "Name": "Chris Surfleet",
+    "Email": "csurflee@calpoly.edu",
+    "Campus": "San Luis Obispo",
+    "College": "College of Agriculture, Food, and Environmental Sciences",
+    "Department": "Natural Resources Management and Environmental Sciences",
+    "Title": null,
+    "Research_Interests": "Hydrologic Change due to Land Management; Water Quality; Watershed Assessment and Monitoring; Hydrologic modeling; Hydrologic Effects due to Climate Change",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "csurfleecalpolyedu",
+    "email_href": "mailto:csurflee@calpoly.edu",
+    "Research_Interests_List": [
+      "Hydrologic Change due to Land Management; Water Quality; Watershed Assessment and Monitoring; Hydrologic modeling; Hydrologic Effects due to Climate Change"
+    ]
+  },
+  {
     "id": "sswansoncsusmedu",
     "Name": "Shannon Switzer Swanson",
     "Email": "sswanson@csusm.edu",
@@ -17404,6 +18284,27 @@
     ]
   },
   {
+    "id": "atelesetcalpolyedu",
+    "Name": "Anastasia Telesetsky",
+    "Email": "ateleset@calpoly.edu",
+    "Campus": "San Luis Obispo",
+    "College": "College of Agriculture, Food, and Environmental Sciences",
+    "Department": "Natural Resources Management and Environmental Sciences",
+    "Title": null,
+    "Research_Interests": "Environmental Law; International Environmental Law; Ocean Governance; Fisheries Law; Ecological Restoration; Climate Change Law; International Disaster Law",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "atelesetcalpolyedu",
+    "email_href": "mailto:ateleset@calpoly.edu",
+    "Research_Interests_List": [
+      "Environmental Law; International Environmental Law; Ocean Governance; Fisheries Law; Ecological Restoration; Climate Change Law; International Disaster Law"
+    ]
+  },
+  {
     "id": "fengkt1csufresnoedu",
     "Name": "Feng Teter",
     "Email": "fengkt1@csufresno.edu",
@@ -17462,6 +18363,27 @@
     "email_href": "mailto:ktheiss@csudh.edu",
     "Research_Interests_List": [
       "Evolution of plant reproduction and how reproductive strategies mitigate or aggravate conservation issues, Including global climate change, Combining field work, Molecular biology, And greenhouse studies to understand plant response"
+    ]
+  },
+  {
+    "id": "mthoma40calstatelaedu",
+    "Name": "Chief Michael Thomas",
+    "Email": "mthoma40@calstatela.edu",
+    "Campus": "Los Angeles",
+    "College": "College of Engineering, Computer Science, and Technology",
+    "Department": "Technology",
+    "Title": "Associate Professor",
+    "Research_Interests": "Fire protection administration\nFire safety and prevention\nFire technology\nFirst responder training\nMetro rail safety",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": "Faculty Member of NSF CREST Center for Advancement Toward Sustainable Urban Systems at Cal State LA",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "mthoma40calstatelaedu",
+    "email_href": "mailto:mthoma40@calstatela.edu",
+    "Research_Interests_List": [
+      "Fire protection administration\nFire safety and prevention\nFire technology\nFirst responder training\nMetro rail safety"
     ]
   },
   {
@@ -17824,7 +18746,7 @@
     "Research_Interests": "Construction finance, Transportation construction, Construction workforce development, Construction education, And emerging technologies in construction, Including use of artificial intelligence for applications in the construction industry.",
     "Teaching_Interests": "Construction materials & basic building systems, Construction documents, Advanced construction operations.",
     "Sustainability_Contributions": null,
-    "Notes": "Contributor to: he co authored this paper on flood-resistant homes, in the context of climate change.; other than that, I can't say what he has or hasn't done for sustainability. So I suppose I should email him just to see?.",
+    "Notes": "Contributor to: he co-authored this paper on flood-resistant homes, in the context of climate change.; other than that, I can't say what he has or hasn't done for sustainability. So I suppose I should email him just to see?.",
     "Photo": null,
     "Website": null,
     "extras": null,
@@ -18238,7 +19160,7 @@
     "Research_Interests": "Natural hazard mitigation, Land-use and transportation modeling, Gis and spatial statistics, And optimization.",
     "Teaching_Interests": "Environmental planning, Economics for planners, Planning theory, World geography, Gis.",
     "Sustainability_Contributions": "Compact urban development, climate change induced hazard mitigation, accessibility equality, home price resilience.",
-    "Notes": "Author of: link random cv; he has done some research it seems that touches on climate change.",
+    "Notes": null,
     "Photo": null,
     "Website": null,
     "extras": null,
@@ -18246,6 +19168,27 @@
     "email_href": "mailto:cwang@csufresno.edu",
     "Research_Interests_List": [
       "Natural hazard mitigation, Land-use and transportation modeling, Gis and spatial statistics, And optimization."
+    ]
+  },
+  {
+    "id": "ywang11calstatelaedu",
+    "Name": "Curtis Wang",
+    "Email": "ywang11@calstatela.edu",
+    "Campus": "Los Angeles",
+    "College": "College of Engineering, Computer Science, and Technology",
+    "Department": "Electrical & Computer Engineering",
+    "Title": "Professor",
+    "Research_Interests": "Embedded systems and high-performance computing, with applications for biomedical engineering\nReversing the computations in the mammalian spinal cord",
+    "Teaching_Interests": "Intro to Engineering\nComputation\nEmbedded Systems Programming\nAdvanced Embedded Systems",
+    "Sustainability_Contributions": "Co-Advisor for the Charing Eagles student competition team for the Battery Workforce Challenge, a cross-campus competition to design, build, test, and integrate an advanced electric vehicle (EV) battery pack into a production Stellantis vehicle\nFaculty Member of NSF CREST Center for Advancement Toward Sustainable Urban Systems at Cal State LA",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "ywang11calstatelaedu",
+    "email_href": "mailto:ywang11@calstatela.edu",
+    "Research_Interests_List": [
+      "Embedded systems and high-performance computing, with applications for biomedical engineering\nReversing the computations in the mammalian spinal cord"
     ]
   },
   {
@@ -18499,6 +19442,27 @@
     ]
   },
   {
+    "id": "cwhite31calpolyedu",
+    "Name": "Crow White",
+    "Email": "cwhite31@calpoly.edu",
+    "Campus": "San Luis Obispo",
+    "College": "Bailey College of Science and Mathematics",
+    "Department": "Biology",
+    "Title": null,
+    "Research_Interests": "Causes and consequences of spatial and temporal population dynamics of coastal marine species, trophic processes among species in communities and ecosystems, and interactions between marine ecological communities and human users of the ocean, including fisheries, renewable energy and aquaculture industries, and conservationists",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "cwhite31calpolyedu",
+    "email_href": "mailto:cwhite31@calpoly.edu",
+    "Research_Interests_List": [
+      "Causes and consequences of spatial and temporal population dynamics of coastal marine species, trophic processes among species in communities and ecosystems, and interactions between marine ecological communities and human users of the ocean, including fisheries, renewable energy and aquaculture industries, and conservationists"
+    ]
+  },
+  {
     "id": "jessicawhiteside",
     "Name": "Jessica Whiteside",
     "Email": null,
@@ -18675,7 +19639,7 @@
     "Research_Interests": null,
     "Teaching_Interests": "American politics, California politics, Environmental law",
     "Sustainability_Contributions": null,
-    "Notes": "Author of: very little info; appeared in east bay climate thing briefly.",
+    "Notes": null,
     "Photo": null,
     "Website": null,
     "extras": null,
@@ -18744,6 +19708,27 @@
     "email_href": "mailto:mintesnot.woldeamanuel@csun.edu",
     "Research_Interests_List": [
       "Sustainable urban development"
+    ]
+  },
+  {
+    "id": "dwonexchangecalstatelaedu",
+    "Name": "Deborah Won",
+    "Email": "dwon@exchange.calstatela.edu",
+    "Campus": "Los Angeles",
+    "College": "College of Engineering, Computer Science, and Technology",
+    "Department": "Electrical & Computer Engineering",
+    "Title": "Professor",
+    "Research_Interests": "Acquiring, interpreting, and modulating electrical signals in the body\nDeveloping mobile health technology to enable and encourage regular exercise for individuals with lower mobility impairment and who use wheelchairs",
+    "Teaching_Interests": "Sensors, Instrumentation, and Data Acquisition; Biomedical Devices; Biomedical Signal Processing; and Neural Networks and Computation",
+    "Sustainability_Contributions": "Faculty Member of NSF CREST Center for Advancement Toward Sustainable Urban Systems at Cal State LA",
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "dwonexchangecalstatelaedu",
+    "email_href": "mailto:dwon@exchange.calstatela.edu",
+    "Research_Interests_List": [
+      "Acquiring, interpreting, and modulating electrical signals in the body\nDeveloping mobile health technology to enable and encourage regular exercise for individuals with lower mobility impairment and who use wheelchairs"
     ]
   },
   {
@@ -18996,6 +19981,27 @@
     "email_href": "mailto:ayatawara@csub.edu",
     "Research_Interests_List": [
       "Financial econometrics, Time series analysis, Volatility modeling, And developing and applying statistical models and methods in environmental sciences, Engineering, And biology"
+    ]
+  },
+  {
+    "id": "hye2calstatelaedu",
+    "Name": "Hengchun Ye",
+    "Email": "hye2@calstatela.edu",
+    "Campus": "Los Angeles",
+    "College": "College of Natural and Social Sciences",
+    "Department": "Geography, Geology and the Environment",
+    "Title": "Professor",
+    "Research_Interests": "Variability and change in atmospheric water vapor, precipitation characteristics, snow accumulation, river discharges and their connections to major atmospheric circulation patterns and sea surface temperature anomalies",
+    "Teaching_Interests": null,
+    "Sustainability_Contributions": null,
+    "Notes": null,
+    "Photo": null,
+    "Website": null,
+    "extras": null,
+    "slug": "hye2calstatelaedu",
+    "email_href": "mailto:hye2@calstatela.edu",
+    "Research_Interests_List": [
+      "Variability and change in atmospheric water vapor, precipitation characteristics, snow accumulation, river discharges and their connections to major atmospheric circulation patterns and sea surface temperature anomalies"
     ]
   },
   {
