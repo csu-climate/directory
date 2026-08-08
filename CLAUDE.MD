@@ -12,6 +12,9 @@ This repo delivers a directory at http://csu-climate.github.io/directory/ that p
   `Name, Campus, College, Department, Title, Email, Research Interests, Teaching Interests,
   Sustainability Contributions, Notes` (also optional `Photo`, `Website`, `id`/`slug`, and an
   optional `Area of Specialization` override — see below). `member_template.yaml` is the blank form.
+- `scripts/normalize_member_text.py` — one-shot-but-re-runnable cleanup of the three prose
+  fields in `members/*.yml` (see "Prose fields" below). Not part of the build; run it by hand
+  after a scrape adds new members.
 - `scripts/build_members.py` — the whole build. Reads `members/*.yml`, normalizes keys
   (case-insensitive via `KEY_MAP`, unknown keys are preserved under `extras`), derives Areas of
   Specialization, renders `templates/index.html`, and writes `site/index.html`,
@@ -53,6 +56,40 @@ which made it useless (280 distinct department strings across 984 members). The 
 
 When editing `AREA_PATTERNS`, re-run the build and diff the derived areas before committing; it's
 easy to add a pattern that quietly swallows unrelated departments.
+
+## Prose fields (Research / Teaching Interests, Sustainability Contributions)
+
+The scraped data arrived Title-Cased after every comma and with proper nouns lowercased
+("Applied econometrics, Political economy" / "california environmental quality act (ceqa)").
+`scripts/normalize_member_text.py` rewrites these three fields to one house style:
+
+- sentence case — only the first word of a sentence keeps its capital, so list items after the
+  first are lowercase unless they are proper nouns or acronyms
+- a list item that is really a sentence ("Current research examines ...") is split off with a
+  period; every value ends with a period
+- proper nouns, acronyms and course codes are restored from curated lists in the script
+  (`PROPER_TERMS`, `ACRONYMS`), and an acronym in parentheses title-cases its expansion when
+  the initials line up
+- `Sustainability Contributions` keeps its internal capitals — those are mostly organization
+  names — and only gets punctuation and proper-noun fixes
+
+The script is idempotent and preserves each file apart from those three scalars. It has a
+`--dry-run` mode; use it, and check the report, before writing. Its guard rails matter: the
+"same letters, ignoring case and punctuation" invariant is what proves nothing was lost.
+
+Judgment calls live in the curated lists, so when a new campus's data lands, expect to add a
+few proper nouns rather than to change the rules. Bare adjectives are deliberately absent from
+`PROPER_TERMS` ("black bears", "southern India" and "native plant" are all correct lowercase),
+which is why phrases like "Black geographies" are listed in full.
+
+## Campus names
+
+`members/*.yml` carry the short campus name ("Northridge"). `CAMPUS_NAMES` in
+`scripts/build_members.py` maps it to the name that campus actually goes by, which is not
+uniform across the CSU — "CSU Northridge", "Chico State", "Cal Poly Humboldt",
+"San Diego State University", "Cal Poly, SLO", "Cal State LA". The card shows that name with no
+"Campus:" label, and the filter dropdown uses it too. Keep the YAML short names; add mappings
+here instead.
 
 ## Coding conventions
 
