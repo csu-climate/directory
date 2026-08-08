@@ -34,6 +34,110 @@ STATIC_DIR = ROOT / "static"
 DATA_DIR = ROOT / "data"
 
 # ---------------------------
+# Area of Specialization
+# ---------------------------
+# Campuses name their departments differently ("Accountancy", "Accounting & Law",
+# "Accounting, Law, and Finance", ...), which made the Department filter useless.
+# Each department string is mapped to one or more canonical areas; a member shows
+# up under every area their department touches. The Department string itself is
+# untouched and still what the card displays.
+#
+# Ambiguous phrases are neutralized first: "construction management" should not
+# make someone a Business person, "facilities planning" not an urban planner.
+DECOY_SUBS = [
+    (r"\b(construction|facilit\w+|natural resources?|resources?|rangeland|fire|tourism|"
+     r"recreation|land|waste|emergency|project|environmental|energy|wildlife|marine|"
+     r"watershed)\s+((\w+|&|,)\s+){0,2}management\b", r"\1"),
+    (r"\b(facilit\w+|capital|resources?|financial|event|space|strategic)\s+planning\b", r"\1"),
+]
+
+AREA_PATTERNS = [
+    ("Accounting", r"accountanc|accounting"),
+    ("Agriculture", r"agricultur|agribusiness|regenerative agriculture|irrigation|"
+                    r"animal science|plant science|viticultur|food (science|industry)|nutrition, food"),
+    ("Anthropology", r"anthropolog"),
+    ("Architecture", r"architectur"),
+    ("Art & Design", r"\bart\b|\barts\b|\bdesign\b|apparel|interiors|\bcinema\b|creative arts"),
+    ("Biology", r"biolog|ecology|botan|zoolog|microbiolog|molecular"),
+    ("Business & Management", r"business|\bmanagement\b|marketing|entrepreneur|logistics|"
+                              r"supply chain|decision science|merchandising|global innovation"),
+    ("Chemical & Materials Engineering", r"chemical (and|&) material|chemical engineering"),
+    ("Chemistry", r"chemistry|biochem"),
+    ("City & Regional Planning", r"urban|regional planning|city planning|city (and|&) regional|"
+                                 r"\bplanning\b"),
+    ("Civil & Environmental Engineering", r"civil|environmental (and )?\w*\s?engineering|"
+                                          r"environmental resources engineering|structural engineering"),
+    ("Communication & Media", r"communicat|journalism|\bmedia\b|broadcast"),
+    ("Computer Science & Information Systems", r"computer science|computing|information system|"
+                                               r"information technolog|information studies|"
+                                               r"informatics|data science|software|^technology$"),
+    ("Construction Management", r"construction"),
+    ("Economics", r"econom"),
+    ("Education", r"education|teaching|teacher|liberal studies|curriculum"),
+    ("Electrical & Computer Engineering", r"electrical|electronic engineering"),
+    ("Energy", r"\benergy\b|\bsolar\b"),
+    ("Engineering", r"engineering|mechatronic"),
+    ("English & Literature", r"\benglish\b|literature|writing|linguistic"),
+    ("Environmental Science", r"environment|research station"),
+    ("Ethnic & Indigenous Studies", r"native american|american indian|indian tribal|africana|"
+                                    r"chicana|chicano|latina|latino|asian american|ethnic studies|"
+                                    r"race (&|,)|critical race|american studies"),
+    ("Facilities & Operations", r"facilit|grounds|capital planning|purchasing|parking|housing|"
+                                r"culinary|conference & event"),
+    ("Finance", r"finance|financial|real estate"),
+    ("Forestry & Natural Resources", r"forestry|rangeland|natural resource|\bfire\b|wildlife"),
+    ("Gender & Sexuality Studies", r"gender|women|sexuality|feminist"),
+    ("Geography", r"geograph|spatial analysis"),
+    ("Geology & Earth Science", r"geolog|earth science|earth (and|,) environmental|geoscience"),
+    ("Health Sciences", r"health|nursing|kinesiolog|nutrition|exercise|audiolog|gerontolog|"
+                        r"human ecology"),
+    ("History", r"histor"),
+    ("Humanities", r"humanities|global cultures|global studies|culture and communication|"
+                   r"interdisciplinary studies"),
+    ("Landscape Architecture", r"landscape"),
+    ("Law", r"\blaw\b|legal|criminal justice|justice\b"),
+    ("Library & Information Studies", r"librar"),
+    ("Marine Science", r"marine|oceanograph|aquacultur|moss landing|\bmlml\b|training ship"),
+    ("Mathematics & Statistics", r"mathematic|statistic|statics"),
+    ("Mechanical & Aerospace Engineering", r"mechanical|mehanical|aerospace|industrial technology|"
+                                           r"manufacturing"),
+    ("Meteorology & Climate Science", r"meteorolog|climate science|atmospheric"),
+    ("Music & Performing Arts", r"\bmusic\b|theatre|theater|dance|performing"),
+    ("Philosophy", r"philosoph|ethic"),
+    ("Physics & Astronomy", r"physics|astronom|physical science"),
+    ("Political Science", r"political science|\bpolitics\b|government|international relations|"
+                          r"peacebuilding|conflict resolution"),
+    ("Psychology", r"psycholog"),
+    ("Public Administration & Policy", r"public (policy|administration|affairs)|\bpolicy\b|"
+                                       r"civic engagement"),
+    ("Public Health", r"public health|occupational health|epidemiolog"),
+    ("Religious Studies", r"religio|theolog"),
+    ("Social Work", r"social work"),
+    ("Sociology", r"sociolog|social science|labor studies"),
+    ("Sustainability", r"sustainab|regenerative|resilient systems"),
+    ("Tourism & Recreation", r"tourism|recreation|hospitality"),
+    ("University Administration", r"academic senate|provost|academic affairs|administrative affairs|"
+                                  r"office of research|sponsored programs|\bstaff\b|human resources|"
+                                  r"advancement|research & innovation|representing:"),
+]
+
+_DECOY_SUBS = [(re.compile(p, re.I), r) for p, r in DECOY_SUBS]
+_AREA_PATTERNS = [(area, re.compile(pat, re.I)) for area, pat in AREA_PATTERNS]
+
+OTHER_AREA = "Other"
+
+
+def areas_for_department(dept: str | None) -> List[str]:
+    """Map a free-text department name to canonical Areas of Specialization."""
+    text = (dept or "").strip()
+    if not text:
+        return []
+    for rx, repl in _DECOY_SUBS:
+        text = rx.sub(repl, text)
+    areas = [area for area, rx in _AREA_PATTERNS if rx.search(text)]
+    return areas or [OTHER_AREA]
+
+# ---------------------------
 # Data model
 # ---------------------------
 @dataclass
@@ -44,6 +148,7 @@ class Member:
     Campus: str | None = None
     College: str | None = None
     Department: str | None = None
+    Areas: List[str] | None = None
     Title: str | None = None
     Research_Interests: List[str] | str | None = None
     Teaching_Interests: List[str] | str | None = None
@@ -62,6 +167,10 @@ class Member:
         return f"mailto:{self.Email}" if self.Email else None
 
     @property
+    def Areas_List(self) -> List[str]:
+        return list(self.Areas or [])
+
+    @property
     def Research_Interests_List(self) -> List[str]:
         v = self.Research_Interests
         if v is None:
@@ -76,6 +185,11 @@ KEY_MAP = {
     "college": "College",
     "department": "Department",
     "dept": "Department",
+    # Optional per-member override of the derived areas
+    "area of specialization": "Areas",
+    "areas of specialization": "Areas",
+    "areas": "Areas",
+    "area": "Areas",
     "title": "Title",
     "research interests": "Research_Interests",
     "research_interests": "Research_Interests",
@@ -132,13 +246,23 @@ def _normalize_member(d: Dict[str, Any]) -> Tuple[Member, List[str]]:
         if not (str(norm.get(rf) or "").strip()):
             warnings.append(f"missing {rf}")
 
+    department = norm.get("Department") or None
+
+    # Explicit "Area of Specialization" in the YAML wins; otherwise derive it
+    # from the department name.
+    override = norm.get("Areas")
+    if isinstance(override, str):
+        override = [s.strip() for s in re.split(r"[,;]+", override) if s.strip()]
+    areas = override or areas_for_department(department)
+
     m = Member(
         id=mid,
         Name=name or "Unnamed Member",
         Email=email or None,
         Campus=(norm.get("Campus") or None),
         College=(norm.get("College") or None),
-        Department=(norm.get("Department") or None),
+        Department=department,
+        Areas=(sorted(set(areas)) or None),
         Title=(norm.get("Title") or None),
         Research_Interests=(norm.get("Research_Interests") or None),
         Teaching_Interests=(norm.get("Teaching_Interests") or None),
@@ -208,7 +332,7 @@ FALLBACK_INDEX = """<!doctype html>
 
   <section class="grid" id="cards">
     {% for m in members %}
-    <article class="card" data-text="{{ (m.Name ~ ' ' ~ (m.Department or '') ~ ' ' ~ (m.College or '') ~ ' ' ~ (m.Campus or '') ~ ' ' ~ m.Research_Interests_List|join(' ')) | lower }}">
+    <article class="card" data-text="{{ (m.Name ~ ' ' ~ (m.Department or '') ~ ' ' ~ m.Areas_List|join(' ') ~ ' ' ~ (m.College or '') ~ ' ' ~ (m.Campus or '') ~ ' ' ~ m.Research_Interests_List|join(' ')) | lower }}">
       {% if m.Photo %}<img class="thumb" src="{{ base_path }}/{{ m.Photo }}" alt="{{ m.Name }}">{% endif %}
       <h3>{{ m.Name }}</h3>
       {% if m.Title %}<div class="muted">{{ m.Title }}</div>{% endif %}
@@ -268,6 +392,7 @@ def _write_json(members: List[Member]):
             "slug": m.slug,
             "email_href": m.email_href,
             "Research_Interests_List": m.Research_Interests_List,
+            "Areas_List": m.Areas_List,
         }
         for m in members
     ]
