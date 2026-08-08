@@ -2,6 +2,9 @@ Name: Ada Lovelace
 Campus: Main Campus
 College: Engineering
 Department: Computer Science
+# Optional. Areas of Specialization are derived from Department automatically;
+# set this only to override them, e.g. "Computer Science; Sustainability"
+# Area of Specialization: ''
 Title: Professor
 Email: ada.lovelace@example.edu
 Research Interests: Algorithms; Computation; History of computing
