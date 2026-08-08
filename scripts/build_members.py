@@ -127,6 +127,49 @@ _AREA_PATTERNS = [(area, re.compile(pat, re.I)) for area, pat in AREA_PATTERNS]
 OTHER_AREA = "Other"
 
 
+# ---------------------------
+# Campus names
+# ---------------------------
+# Member files carry the short campus name ("Northridge"). The site shows the
+# name each campus is actually known by, which is not uniform across the CSU --
+# some go by "CSU X", some by "X State", the polytechnics by "Cal Poly X".
+CAMPUS_NAMES = {
+    "bakersfield": "CSU Bakersfield",
+    "channel islands": "CSU Channel Islands",
+    "chico": "Chico State",
+    "dominguez hills": "CSU Dominguez Hills",
+    "east bay": "CSU East Bay",
+    "fresno state": "Fresno State",
+    "fresno": "Fresno State",
+    "fullerton": "CSU Fullerton",
+    "humboldt": "Cal Poly Humboldt",
+    "long beach": "CSU Long Beach",
+    "los angeles": "Cal State LA",
+    "maritime": "Cal Maritime",
+    "monterey bay": "CSU Monterey Bay",
+    "northridge": "CSU Northridge",
+    "pomona": "Cal Poly Pomona",
+    "sacramento state": "Sacramento State",
+    "sacramento": "Sacramento State",
+    "san bernardino": "CSU San Bernardino",
+    "san bernadino": "CSU San Bernardino",   # misspelling seen in older files
+    "san diego": "San Diego State University",
+    "san francisco": "San Francisco State University",
+    "san jose": "San José State University",
+    "san luis obispo": "Cal Poly, SLO",
+    "san marcos": "CSU San Marcos",
+    "sonoma": "Sonoma State University",
+    "stanislaus": "Stanislaus State",
+}
+
+
+def campus_name(campus: str | None) -> str | None:
+    """Short campus name from the YAML -> the name that campus goes by."""
+    if not campus or not campus.strip():
+        return None
+    return CAMPUS_NAMES.get(campus.strip().lower(), campus.strip())
+
+
 def areas_for_department(dept: str | None) -> List[str]:
     """Map a free-text department name to canonical Areas of Specialization."""
     text = (dept or "").strip()
@@ -259,7 +302,7 @@ def _normalize_member(d: Dict[str, Any]) -> Tuple[Member, List[str]]:
         id=mid,
         Name=name or "Unnamed Member",
         Email=email or None,
-        Campus=(norm.get("Campus") or None),
+        Campus=campus_name(norm.get("Campus")),
         College=(norm.get("College") or None),
         Department=department,
         Areas=(sorted(set(areas)) or None),
