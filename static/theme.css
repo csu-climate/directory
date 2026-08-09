@@ -4,7 +4,12 @@
     /* Brand colors */
     --primary-color: #ed1c24;
     --primary-light: rgba(237, 28, 36, 0.1);
-    
+
+    /* Email links: deep forest green on light, lightened for dark so it stays
+       legible against the dark card background */
+    --light-email: #1b4d3e;
+    --dark-email: #86ccaa;
+
     /* Light theme */
     --light-background: #fafafa;
     --light-surface: #f5f5f5;
@@ -33,6 +38,7 @@ body {
     --text-secondary: var(--light-text-secondary);
     --border: var(--light-border);
     --shadow: var(--light-shadow);
+    --email: var(--light-email);
 }
 
 /* Dark theme */
@@ -44,6 +50,7 @@ body.dark-theme {
     --text-secondary: var(--dark-text-secondary);
     --border: var(--dark-border);
     --shadow: var(--dark-shadow);
+    --email: var(--dark-email);
 }
 
 * {
@@ -801,6 +808,45 @@ a:hover {
   font-weight: 500;       /* bold */
   color: var(--text-secondary);
   margin-bottom: 4px;
+}
+
+/* Member card: name / department / campus / email read as one tight block,
+   with the breathing room saved for the interest sections below. */
+.card-identity {
+    margin-bottom: 16px;
+}
+
+.lesson-card .lesson-title {
+    font-size: 21px;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+    margin-bottom: 2px;
+}
+
+.lesson-card .department-line {
+    font-size: 15px;
+    line-height: 1.35;
+    margin-bottom: 0;
+}
+
+.campus-line {
+    font-size: 13px;
+    line-height: 1.35;
+    color: var(--text-secondary);
+}
+
+.card-email {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 1.35;
+    font-weight: 500;
+    color: var(--email);
+    word-break: break-word;
+}
+
+.card-email:hover {
+    color: var(--email);
+    text-decoration: underline;
 }
 
 .lesson-meta {

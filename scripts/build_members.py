@@ -156,7 +156,7 @@ CAMPUS_NAMES = {
     "san diego": "San Diego State University",
     "san francisco": "San Francisco State University",
     "san jose": "San José State University",
-    "san luis obispo": "Cal Poly, SLO",
+    "san luis obispo": "Cal Poly SLO",
     "san marcos": "CSU San Marcos",
     "sonoma": "Sonoma State University",
     "stanislaus": "Stanislaus State",

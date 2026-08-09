@@ -87,7 +87,7 @@ which is why phrases like "Black geographies" are listed in full.
 `members/*.yml` carry the short campus name ("Northridge"). `CAMPUS_NAMES` in
 `scripts/build_members.py` maps it to the name that campus actually goes by, which is not
 uniform across the CSU — "CSU Northridge", "Chico State", "Cal Poly Humboldt",
-"San Diego State University", "Cal Poly, SLO", "Cal State LA". The card shows that name with no
+"San Diego State University", "Cal Poly SLO", "Cal State LA". The card shows that name with no
 "Campus:" label, and the filter dropdown uses it too. Keep the YAML short names; add mappings
 here instead.
 
