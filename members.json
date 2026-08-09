@@ -89,7 +89,9 @@
     "Campus": "CSU San Marcos",
     "College": "Safety, Health & Sustainability",
     "Department": null,
-    "Areas": null,
+    "Areas": [
+      "Sustainability"
+    ],
     "Title": "Zero Waste and Sustainability Specialist",
     "Research_Interests": null,
     "Teaching_Interests": null,
@@ -101,7 +103,9 @@
     "slug": "macostacsusmedu",
     "email_href": "mailto:macosta@csusm.edu",
     "Research_Interests_List": [],
-    "Areas_List": []
+    "Areas_List": [
+      "Sustainability"
+    ]
   },
   {
     "id": "aadams45calpolyedu",
@@ -136,7 +140,7 @@
     "Email": "dpadams@fullerton.edu",
     "Campus": "CSU Fullerton",
     "College": "College of Humanities and Social Sciences",
-    "Department": "Division Of Politics, Administration, and Justice",
+    "Department": "Division of Politics, Administration, and Justice",
     "Areas": [
       "Law",
       "Political Science"
@@ -659,12 +663,12 @@
     "Email": "yazeed.alhiyari@csun.edu",
     "Campus": "CSU Northridge",
     "College": "Health & Human Development,",
-    "Department": "Env. & Occupational Health (Lecturer)",
+    "Department": "Env. & Occupational Health",
     "Areas": [
       "Health Sciences",
       "Public Health"
     ],
-    "Title": null,
+    "Title": "Lecturer",
     "Research_Interests": "Occupational safety.",
     "Teaching_Interests": "Environmental safety, hazard classes.",
     "Sustainability_Contributions": "Teaches environmental safety to EOH students.",
@@ -742,7 +746,7 @@
     "Email": "andrea.alstone@humboldt.edu",
     "Campus": "Cal Poly Humboldt",
     "College": null,
-    "Department": "Office Of Sustainability, Energy, and Grounds",
+    "Department": "Office of Sustainability, Energy, and Grounds",
     "Areas": [
       "Energy",
       "Facilities & Operations",
@@ -1607,7 +1611,7 @@
     "Email": "amauzenne@csuchico.edu",
     "Campus": "Chico State",
     "College": null,
-    "Department": "The Center For Regenerative Agriculture & Resilient Systems",
+    "Department": "The Center for Regenerative Agriculture & Resilient Systems",
     "Areas": [
       "Agriculture",
       "Sustainability"
@@ -1987,7 +1991,7 @@
     "Email": "csb357@humboldt.edu",
     "Campus": "Cal Poly Humboldt",
     "College": "College of Arts, Humanities & Social Sciences",
-    "Department": "Department Of Native American Studies",
+    "Department": "Department of Native American Studies",
     "Areas": [
       "Ethnic & Indigenous Studies"
     ],
@@ -2672,7 +2676,7 @@
     "Email": "lisa.bentley@sonoma.edu",
     "Campus": "Sonoma State University",
     "College": "College of Science, Technology, and Business",
-    "Department": "Department Of Biology",
+    "Department": "Department of Biology",
     "Areas": [
       "Biology"
     ],
@@ -3124,27 +3128,6 @@
     ]
   },
   {
-    "id": "vbolanoscsusmedu",
-    "Name": "Victor Bolanos",
-    "Email": "vbolanos@csusm.edu",
-    "Campus": "CSU San Marcos",
-    "College": "Safety, Health & Sustainability",
-    "Department": null,
-    "Areas": null,
-    "Title": "Environmental Health and Safety Specialist",
-    "Research_Interests": null,
-    "Teaching_Interests": null,
-    "Sustainability_Contributions": "Removed at Kalea's request.",
-    "Notes": null,
-    "Photo": null,
-    "Website": null,
-    "extras": null,
-    "slug": "vbolanoscsusmedu",
-    "email_href": "mailto:vbolanos@csusm.edu",
-    "Research_Interests_List": [],
-    "Areas_List": []
-  },
-  {
     "id": "alessandrabonazzicsulbedu",
     "Name": "Alessandra Bonazzi",
     "Email": "Alessandra.Bonazzi@csulb.edu",
@@ -3455,7 +3438,7 @@
     "Email": "zjbrigham@csuchico.edu",
     "Campus": "Chico State",
     "College": null,
-    "Department": "The Center For Regenerative Agriculture & Resilient Systems",
+    "Department": "The Center for Regenerative Agriculture & Resilient Systems",
     "Areas": [
       "Agriculture",
       "Sustainability"
@@ -3879,7 +3862,7 @@
     "Email": "llc33@humboldt.edu",
     "Campus": "Cal Poly Humboldt",
     "College": "College of Arts, Humanities & Social Sciences",
-    "Department": "Department Of Critical Race, Gender, & Sexuality Studies",
+    "Department": "Department of Critical Race, Gender, & Sexuality Studies",
     "Areas": [
       "Ethnic & Indigenous Studies",
       "Gender & Sexuality Studies"
@@ -4099,7 +4082,7 @@
     "Email": "jcarroll@fullerton.edu",
     "Campus": "CSU Fullerton",
     "College": "College of Humanities and Social Sciences",
-    "Department": "Geography and The Environment",
+    "Department": "Geography and the Environment",
     "Areas": [
       "Environmental Science",
       "Geography"
@@ -5270,7 +5253,7 @@
     "Email": "EMAIL?",
     "Campus": "CSU Northridge",
     "College": "Social & Behavioral Sciences",
-    "Department": "Institute For Sustainability",
+    "Department": "Institute for Sustainability",
     "Areas": [
       "Sustainability"
     ],
@@ -5654,7 +5637,7 @@
     "Email": "cdaley@csuchico.edu",
     "Campus": "Chico State",
     "College": "College of Agriculture",
-    "Department": "Center For Regenerative Agriculture & Resilient Systems",
+    "Department": "Center for Regenerative Agriculture & Resilient Systems",
     "Areas": [
       "Agriculture",
       "Sustainability"
@@ -5856,7 +5839,10 @@
     "Campus": "Cal Maritime",
     "College": null,
     "Department": null,
-    "Areas": null,
+    "Areas": [
+      "Environmental Science",
+      "Health Sciences"
+    ],
     "Title": "Manager of Environmental Health \n& Safety",
     "Research_Interests": null,
     "Teaching_Interests": null,
@@ -5868,7 +5854,10 @@
     "slug": "cdawsoncsum",
     "email_href": "mailto:cdawson@csum",
     "Research_Interests_List": [],
-    "Areas_List": []
+    "Areas_List": [
+      "Environmental Science",
+      "Health Sciences"
+    ]
   },
   {
     "id": "gopaldayanenisfsuedu",
@@ -5984,7 +5973,7 @@
     "Email": "john.delacruz@sjsu.edu",
     "Campus": "San José State University",
     "College": "College of Humanities and the Arts",
-    "Department": "School Of Journalism and Mass Communications",
+    "Department": "School of Journalism and Mass Communications",
     "Areas": [
       "Communication & Media"
     ],
@@ -7265,7 +7254,10 @@
     "Campus": "San Diego State University",
     "College": "Office of Energy and Sustainability",
     "Department": null,
-    "Areas": null,
+    "Areas": [
+      "Energy",
+      "Sustainability"
+    ],
     "Title": "Sustainability Analyst, Point of Contact for Office of Energy and Sustainability",
     "Research_Interests": null,
     "Teaching_Interests": null,
@@ -7277,7 +7269,10 @@
     "slug": "madeleinefalco",
     "email_href": null,
     "Research_Interests_List": [],
-    "Areas_List": []
+    "Areas_List": [
+      "Energy",
+      "Sustainability"
+    ]
   },
   {
     "id": "twfalstadcppedu",
@@ -7831,7 +7826,7 @@
     "Email": "kacie.flynn@humboldt.edu",
     "Campus": "Cal Poly Humboldt",
     "College": null,
-    "Department": "Office Of Research & Sponsored Programs",
+    "Department": "Office of Research & Sponsored Programs",
     "Areas": [
       "University Administration"
     ],
@@ -8025,7 +8020,10 @@
     "Campus": "CSU San Marcos",
     "College": "Safety, Health & Sustainability",
     "Department": null,
-    "Areas": null,
+    "Areas": [
+      "Health Sciences",
+      "Sustainability"
+    ],
     "Title": "Senior Director of Safety, Health, and Sustainability",
     "Research_Interests": null,
     "Teaching_Interests": null,
@@ -8037,7 +8035,10 @@
     "slug": "rfrascacsusmedu",
     "email_href": "mailto:rfrasca@csusm.edu",
     "Research_Interests_List": [],
-    "Areas_List": []
+    "Areas_List": [
+      "Health Sciences",
+      "Sustainability"
+    ]
   },
   {
     "id": "elainefreyfullertonedu",
@@ -8045,7 +8046,7 @@
     "Email": "elainefrey@fullerton.edu",
     "Campus": "CSU Fullerton",
     "College": "College of Humanities and Social Sciences",
-    "Department": "Division Of Politics, Administration, and Justice",
+    "Department": "Division of Politics, Administration, and Justice",
     "Areas": [
       "Law",
       "Political Science"
@@ -8102,7 +8103,9 @@
     "Campus": "San Francisco State University",
     "College": null,
     "Department": null,
-    "Areas": null,
+    "Areas": [
+      "Communication & Media"
+    ],
     "Title": "Climate HQ Program and Communications Specialist",
     "Research_Interests": null,
     "Teaching_Interests": null,
@@ -8114,7 +8117,9 @@
     "slug": "alcidesfuentessfsuedu",
     "email_href": "mailto:alcidesfuentes@sfsu.edu",
     "Research_Interests_List": [],
-    "Areas_List": []
+    "Areas_List": [
+      "Communication & Media"
+    ]
   },
   {
     "id": "fullershsonomaedu",
@@ -8259,7 +8264,7 @@
     "Email": "tjgailey@csuchico.edu",
     "Campus": "Chico State",
     "College": null,
-    "Department": "The Center For Regenerative Agriculture & Resilient Systems",
+    "Department": "The Center for Regenerative Agriculture & Resilient Systems",
     "Areas": [
       "Agriculture",
       "Sustainability"
@@ -8940,7 +8945,7 @@
     "Email": "gomes@sonoma.edu",
     "Campus": "Sonoma State University",
     "College": "College of Humanities, Social Sciences, and the Arts",
-    "Department": "Department Of Psychology",
+    "Department": "Department of Psychology",
     "Areas": [
       "Psychology"
     ],
@@ -8994,7 +8999,7 @@
     "Email": "angelgonzalez2@csumb.edu",
     "Campus": "CSU Monterey Bay",
     "College": "College of Business",
-    "Department": "School Of Business",
+    "Department": "School of Business",
     "Areas": [
       "Business & Management"
     ],
@@ -9048,7 +9053,7 @@
     "Email": "l.gonzalez-ospina@csus.edu",
     "Campus": "Sacramento State",
     "College": null,
-    "Department": "Office Of Sustainability",
+    "Department": "Office of Sustainability",
     "Areas": [
       "Sustainability"
     ],
@@ -9101,7 +9106,9 @@
     "Campus": "CSU San Marcos",
     "College": "Safety, Health & Sustainability and Climate Action and Sustainability Center",
     "Department": null,
-    "Areas": null,
+    "Areas": [
+      "Sustainability"
+    ],
     "Title": "Director, Sustainability and Climate Justice and Co-Director of the Climate Action and Sustainability Center",
     "Research_Interests": null,
     "Teaching_Interests": null,
@@ -9113,7 +9120,9 @@
     "slug": "jgmorriscsusmedu",
     "email_href": "mailto:jgmorris@csusm.edu",
     "Research_Interests_List": [],
-    "Areas_List": []
+    "Areas_List": [
+      "Sustainability"
+    ]
   },
   {
     "id": "mgoodmancsumedu",
@@ -9370,7 +9379,7 @@
     "Email": "legrant@cpp.edu",
     "Campus": "Cal Poly Pomona",
     "College": "College of Environmental Design",
-    "Department": "Lyle Center For Regenerative Studies",
+    "Department": "Lyle Center for Regenerative Studies",
     "Areas": [
       "Sustainability"
     ],
@@ -9480,7 +9489,7 @@
     "Email": "ddigregorio@csumb.edu",
     "Campus": "CSU Monterey Bay",
     "College": "College of Business",
-    "Department": "School Of Business",
+    "Department": "School of Business",
     "Areas": [
       "Business & Management"
     ],
@@ -9567,7 +9576,7 @@
     "Email": "kgressitt@csusm.edu",
     "Campus": "CSU San Marcos",
     "College": "College of Humanities, Arts, Behavioral & Social Sciences",
-    "Department": "Women'S, Gender, and Sexuality Studies",
+    "Department": "Women's, Gender, and Sexuality Studies",
     "Areas": [
       "Gender & Sexuality Studies"
     ],
@@ -9648,7 +9657,7 @@
     "Email": "sgrist@csuchico.edu",
     "Campus": "Chico State",
     "College": null,
-    "Department": "The Center For Regenerative Agriculture & Resilient Systems",
+    "Department": "The Center for Regenerative Agriculture & Resilient Systems",
     "Areas": [
       "Agriculture",
       "Sustainability"
@@ -10148,7 +10157,7 @@
     "Email": "jhaney2@csuchico.edu",
     "Campus": "Chico State",
     "College": null,
-    "Department": "The Center For Regenerative Agriculture & Resilient Systems",
+    "Department": "The Center for Regenerative Agriculture & Resilient Systems",
     "Areas": [
       "Agriculture",
       "Sustainability"
@@ -10231,7 +10240,7 @@
     "Email": "christopher.harden@csun.edu",
     "Campus": "CSU Northridge",
     "College": "Health & Human Development",
-    "Department": "Env. & Occupational Health (Lecturer)",
+    "Department": "Env. & Occupational Health",
     "Areas": [
       "Health Sciences",
       "Public Health"
@@ -10692,9 +10701,9 @@
     "Email": "ahellgrennilsson@csudh.edu",
     "Campus": "CSU Dominguez Hills",
     "College": "Office of Sustainability",
-    "Department": "Staff",
+    "Department": null,
     "Areas": [
-      "University Administration"
+      "Sustainability"
     ],
     "Title": "Sustainability Coordinator",
     "Research_Interests": null,
@@ -10708,7 +10717,7 @@
     "email_href": "mailto:ahellgrennilsson@csudh.edu",
     "Research_Interests_List": [],
     "Areas_List": [
-      "University Administration"
+      "Sustainability"
     ]
   },
   {
@@ -10966,7 +10975,7 @@
     "Email": "jhersko@csusm.edu",
     "Campus": "CSU San Marcos",
     "College": "College of Humanities, Arts, Behavioral & Social Sciences",
-    "Department": "School Of Arts - Art, Media, and Design",
+    "Department": "School of Arts - Art, Media, and Design",
     "Areas": [
       "Art & Design",
       "Communication & Media"
@@ -10995,7 +11004,7 @@
     "Email": "lhethcote@csuchico.edu",
     "Campus": "Chico State",
     "College": "College of Agriculture and College of Natural Sciences",
-    "Department": "The Center For Regenerative Agriculture & Resilient Systems",
+    "Department": "The Center for Regenerative Agriculture & Resilient Systems",
     "Areas": [
       "Agriculture",
       "Sustainability"
@@ -11024,7 +11033,7 @@
     "Email": "hillyer@mail.fresnostate.edu",
     "Campus": "Fresno State",
     "College": "Jordan College of Agricultural Sciences and Technology",
-    "Department": "Center For Irrigation Technology",
+    "Department": "Center for Irrigation Technology",
     "Areas": [
       "Agriculture"
     ],
@@ -11079,7 +11088,9 @@
     "Campus": "Sonoma State University",
     "College": "Sustainable SSU Representative",
     "Department": null,
-    "Areas": null,
+    "Areas": [
+      "Finance"
+    ],
     "Title": "Administrative Manager/Executive Assistant Office of the Vice President for Administration & Finance",
     "Research_Interests": null,
     "Teaching_Interests": null,
@@ -11091,7 +11102,9 @@
     "slug": "hodenfiesonomaedu",
     "email_href": "mailto:hodenfie@sonoma.edu",
     "Research_Interests_List": [],
-    "Areas_List": []
+    "Areas_List": [
+      "Finance"
+    ]
   },
   {
     "id": "eunhahoh",
@@ -11641,7 +11654,7 @@
     "Email": "arne@humboldt.edu",
     "Campus": "Cal Poly Humboldt",
     "College": "College of Natural Resources and Sciences",
-    "Department": "School Of Engineering",
+    "Department": "School of Engineering",
     "Areas": [
       "Engineering"
     ],
@@ -11944,7 +11957,7 @@
     "Email": "wjen@csudh.edu",
     "Campus": "CSU Dominguez Hills",
     "College": "College of Health, Human Services and Nursing",
-    "Department": "School Of Public Health & Health Sciences",
+    "Department": "School of Public Health & Health Sciences",
     "Areas": [
       "Health Sciences",
       "Public Health"
@@ -12166,7 +12179,7 @@
     "Email": "sarah.johnson@csun.edu",
     "Campus": "CSU Northridge",
     "College": "Affiliated with the Institute for Sustainability",
-    "Department": "Institute For Sustainability",
+    "Department": "Institute for Sustainability",
     "Areas": [
       "Sustainability"
     ],
@@ -12713,27 +12726,6 @@
     ]
   },
   {
-    "id": "vkekoacsusmedu",
-    "Name": "Vance Kekoa",
-    "Email": "vkekoa@csusm.edu",
-    "Campus": "CSU San Marcos",
-    "College": "Safety, Health & Sustainability",
-    "Department": null,
-    "Areas": null,
-    "Title": "Environmental Health and Occupational Safety Specialist",
-    "Research_Interests": null,
-    "Teaching_Interests": null,
-    "Sustainability_Contributions": "Removed at Kalea's request.",
-    "Notes": null,
-    "Photo": null,
-    "Website": null,
-    "extras": null,
-    "slug": "vkekoacsusmedu",
-    "email_href": "mailto:vkekoa@csusm.edu",
-    "Research_Interests_List": [],
-    "Areas_List": []
-  },
-  {
     "id": "kkeller4csubedu",
     "Name": "Kane Keller",
     "Email": "kkeller4@csub.edu",
@@ -12903,7 +12895,7 @@
     "Email": "bilal.khan@csusb.edu",
     "Campus": "CSU San Bernardino",
     "College": "College of Natural Sciences",
-    "Department": "School Of Computer Science and Engineering",
+    "Department": "School of Computer Science and Engineering",
     "Areas": [
       "Computer Science & Information Systems",
       "Engineering"
@@ -13322,7 +13314,7 @@
     "Email": "lknottek@csumb.edu",
     "Campus": "CSU Monterey Bay",
     "College": "College of Science",
-    "Department": "Science/Marine Science; Center For Advising, Career, and Student Success",
+    "Department": "Science/Marine Science; Center for Advising, Career, and Student Success",
     "Areas": [
       "Marine Science"
     ],
@@ -13457,7 +13449,7 @@
     "Email": "tjkohut@cpp.edu",
     "Campus": "Cal Poly Pomona",
     "College": "College of Environmental Design",
-    "Department": "Department Of Architecture and Department Of Regenerative Studies",
+    "Department": "Department of Architecture and Department of Regenerative Studies",
     "Areas": [
       "Architecture",
       "Sustainability"
@@ -13571,7 +13563,7 @@
     "Email": "rkrach@csuchico.edu",
     "Campus": "Chico State",
     "College": null,
-    "Department": "The Center For Regenerative Agriculture & Resilient Systems",
+    "Department": "The Center for Regenerative Agriculture & Resilient Systems",
     "Areas": [
       "Agriculture",
       "Sustainability"
@@ -13687,7 +13679,7 @@
     "Email": "mkwon@fullerton.edu",
     "Campus": "CSU Fullerton",
     "College": "College of Humanities and Social Sciences",
-    "Department": "Division Of Politics, Administration, and Justice",
+    "Department": "Division of Politics, Administration, and Justice",
     "Areas": [
       "Law",
       "Political Science"
@@ -14241,7 +14233,7 @@
     "Email": "jlawston@csusm.edu",
     "Campus": "CSU San Marcos",
     "College": "College of Humanities, Arts, Behavioral & Social Sciences",
-    "Department": "Women'S, Gender and Sexuality Studies",
+    "Department": "Women's, Gender and Sexuality Studies",
     "Areas": [
       "Gender & Sexuality Studies"
     ],
@@ -14546,7 +14538,7 @@
     "Email": "marielma@mail.fresnostate.edu",
     "Campus": "Fresno State",
     "College": "Social Sciences",
-    "Department": "Women'S, Gender and Sexuality Studies",
+    "Department": "Women's, Gender and Sexuality Studies",
     "Areas": [
       "Gender & Sexuality Studies"
     ],
@@ -14681,7 +14673,7 @@
     "Email": "blewis5@csuchico.edu",
     "Campus": "Chico State",
     "College": null,
-    "Department": "The Center For Regenerative Agriculture & Resilient Systems",
+    "Department": "The Center for Regenerative Agriculture & Resilient Systems",
     "Areas": [
       "Agriculture",
       "Sustainability"
@@ -15017,7 +15009,7 @@
     "Email": null,
     "Campus": "San Diego State University",
     "College": "College of Sciences",
-    "Department": "Department Of Biology and Ecology",
+    "Department": "Department of Biology and Ecology",
     "Areas": [
       "Biology"
     ],
@@ -15044,7 +15036,7 @@
     "Email": null,
     "Campus": "San Diego State University",
     "College": "College of Health and Human Services",
-    "Department": "School Of Exercise and Nutritional Sciences",
+    "Department": "School of Exercise and Nutritional Sciences",
     "Areas": [
       "Health Sciences"
     ],
@@ -15512,7 +15504,10 @@
     "Campus": "CSU East Bay",
     "College": null,
     "Department": null,
-    "Areas": null,
+    "Areas": [
+      "Energy",
+      "Sustainability"
+    ],
     "Title": "Sustainability and Energy Project Manager",
     "Research_Interests": null,
     "Teaching_Interests": null,
@@ -15524,7 +15519,10 @@
     "slug": "evelynmunozcsueastbayedu",
     "email_href": "mailto:evelyn.munoz@csueastbay.edu",
     "Research_Interests_List": [],
-    "Areas_List": []
+    "Areas_List": [
+      "Energy",
+      "Sustainability"
+    ]
   },
   {
     "id": "smaaloufcsunedu",
@@ -15615,7 +15613,7 @@
     "Email": "joshuamaddox@csus.edu",
     "Campus": "Sacramento State",
     "College": null,
-    "Department": "Office Of Sustainability",
+    "Department": "Office of Sustainability",
     "Areas": [
       "Sustainability"
     ],
@@ -15895,7 +15893,7 @@
     "Email": "juan.c.marquez@csus.edu",
     "Campus": "Sacramento State",
     "College": null,
-    "Department": "Office Of Sustainability",
+    "Department": "Office of Sustainability",
     "Areas": [
       "Sustainability"
     ],
@@ -15920,7 +15918,7 @@
     "Email": "marshall@cpp.edu",
     "Campus": "Cal Poly Pomona",
     "College": "College of Science",
-    "Department": "Department Of Geological Sciences & Lyle Center For Regenerative Studies",
+    "Department": "Department of Geological Sciences & Lyle Center for Regenerative Studies",
     "Areas": [
       "Geology & Earth Science",
       "Sustainability"
@@ -15949,7 +15947,7 @@
     "Email": "marshall@cpp.edu",
     "Campus": "Cal Poly Pomona",
     "College": "College of Science",
-    "Department": "Geological Sciences & Lyle Center For Regenerative Studies",
+    "Department": "Geological Sciences & Lyle Center for Regenerative Studies",
     "Areas": [
       "Geology & Earth Science",
       "Sustainability"
@@ -15986,7 +15984,7 @@
     "Research_Interests": "Possible ways to remove carbon dioxide from the atmosphere. Different evaluation techniques to determine rates of deforestation between protected and non-protected lands can impact outcome of the evaluation.",
     "Teaching_Interests": null,
     "Sustainability_Contributions": "Oversees sustainability activities on campus to implement sustainability plans, engage community, and improve AASHE STARS rating.",
-    "Notes": "  https://www.linkedin.com/in/derek-martin-58161112/ ; https://sustainability.ucsc.edu/news-events/profiles/nov-2024-scm-derek-martin.html",
+    "Notes": "https://www.linkedin.com/in/derek-martin-58161112/ ; https://sustainability.ucsc.edu/news-events/profiles/nov-2024-scm-derek-martin.html",
     "Photo": null,
     "Website": null,
     "extras": null,
@@ -16113,7 +16111,7 @@
     "Email": "tmatheus@fullerton.edu",
     "Campus": "CSU Fullerton",
     "College": "College of Humanities and Social Sciences",
-    "Department": "Geography and The Environment",
+    "Department": "Geography and the Environment",
     "Areas": [
       "Environmental Science",
       "Geography"
@@ -17433,7 +17431,7 @@
     "Email": "eemoore@csuchico.edu",
     "Campus": "Chico State",
     "College": "College of Agriculture",
-    "Department": "The Center For Regenerative Agriculture & Resilient Systems",
+    "Department": "The Center for Regenerative Agriculture & Resilient Systems",
     "Areas": [
       "Agriculture",
       "Sustainability"
@@ -18278,7 +18276,7 @@
     "Email": "joolson@csumb.edu",
     "Campus": "CSU Monterey Bay",
     "College": "College of Science",
-    "Department": "Department Of Applied Environmental Science",
+    "Department": "Department of Applied Environmental Science",
     "Areas": [
       "Environmental Science"
     ],
@@ -18387,7 +18385,10 @@
     "Campus": "Cal Poly Humboldt",
     "College": null,
     "Department": null,
-    "Areas": null,
+    "Areas": [
+      "Environmental Science",
+      "Psychology"
+    ],
     "Title": "Academic and Career Advisor in Environmental Studies and Psychology",
     "Research_Interests": null,
     "Teaching_Interests": "Offers holistic academic advising to first and second-year students as well as first-semester transfers in environmental studies.",
@@ -18399,7 +18400,10 @@
     "slug": "meridithoramhumboldtedu",
     "email_href": "mailto:meridith.oram@humboldt.edu",
     "Research_Interests_List": [],
-    "Areas_List": []
+    "Areas_List": [
+      "Environmental Science",
+      "Psychology"
+    ]
   },
   {
     "id": "ericaorcuttcsusedu",
@@ -18464,7 +18468,9 @@
     "Campus": "Cal Poly Humboldt",
     "College": null,
     "Department": null,
-    "Areas": null,
+    "Areas": [
+      "Sustainability"
+    ],
     "Title": "Sustainability Faculty Fellow",
     "Research_Interests": "Position works closely with the office of sustainability in facilities management, the center for teaching and learning, colleges, and the office of the provost to implement and evaluate programs to support sustainability efforts.",
     "Teaching_Interests": "Sustainability certificate development, partnering with various stakeholders including the sustainability office in facilities management and academic affairs to design and implement initiatives to promote sustainability, partner with the office of the provost to continue work on best practices to designate sustainability-focused and sustainability -related courses in the catalog and to design and implement a plan for Institutional Learning Outcome (ILO) 1 & 2, develop and provide formal and informal training, attend and contribute to the Humboldt advisory committee on sustainability.",
@@ -18478,7 +18484,9 @@
     "Research_Interests_List": [
       "Position works closely with the office of sustainability in facilities management, the center for teaching and learning, colleges, and the office of the provost to implement and evaluate programs to support sustainability efforts."
     ],
-    "Areas_List": []
+    "Areas_List": [
+      "Sustainability"
+    ]
   },
   {
     "id": "anthonybakerortizhumboldtedu",
@@ -19283,9 +19291,9 @@
     "Email": "eperry@csudh.edu",
     "Campus": "CSU Dominguez Hills",
     "College": "Office of Sustainability",
-    "Department": "Staff",
+    "Department": null,
     "Areas": [
-      "University Administration"
+      "Sustainability"
     ],
     "Title": "Sustainability Director",
     "Research_Interests": null,
@@ -19299,7 +19307,7 @@
     "email_href": "mailto:eperry@csudh.edu",
     "Research_Interests_List": [],
     "Areas_List": [
-      "University Administration"
+      "Sustainability"
     ]
   },
   {
@@ -19730,7 +19738,7 @@
     "Email": "vprice@csudh.edu",
     "Campus": "CSU Dominguez Hills",
     "College": "College of Arts & Humanities",
-    "Department": "Women'S, Interdisciplinary, and Environmental Studies",
+    "Department": "Women's, Interdisciplinary, and Environmental Studies",
     "Areas": [
       "Environmental Science",
       "Gender & Sexuality Studies"
@@ -19869,7 +19877,7 @@
     "Email": null,
     "Campus": "San Diego State University",
     "College": "College of Arts and Letters",
-    "Department": "Anthropology/Center For Latin American Studies; Graduate Faculty In The Jdp Global Health; Graduate Faculty In Women'S Studies; Graduate Faculty In Journalism and Media Studies",
+    "Department": "Anthropology/Center for Latin American Studies; Graduate Faculty in the JDP Global Health; Graduate Faculty in Women's Studies; Graduate Faculty in Journalism and Media Studies",
     "Areas": [
       "Anthropology",
       "Communication & Media",
@@ -20069,7 +20077,9 @@
     "Campus": "CSU East Bay",
     "College": null,
     "Department": null,
-    "Areas": null,
+    "Areas": [
+      "Library & Information Studies"
+    ],
     "Title": "Librarian",
     "Research_Interests": "Information literacy, reading theory and instruction, learning theory, instructional design, economics and business research, online learning, financial literacy, argument and research, critical thinking, assessment, sustainability, environmental justice.",
     "Teaching_Interests": "Argumentation and information literacy for sustainability, sustainability and information literacy, business and sustainability.",
@@ -20083,7 +20093,9 @@
     "Research_Interests_List": [
       "Information literacy, reading theory and instruction, learning theory, instructional design, economics and business research, online learning, financial literacy, argument and research, critical thinking, assessment, sustainability, environmental justice."
     ],
-    "Areas_List": []
+    "Areas_List": [
+      "Library & Information Studies"
+    ]
   },
   {
     "id": "cratiucsusmedu",
@@ -20146,7 +20158,9 @@
     "Campus": "Fresno State",
     "College": null,
     "Department": null,
-    "Areas": null,
+    "Areas": [
+      "Education"
+    ],
     "Title": "Director of the California Water Institute's Division of Research and Education",
     "Research_Interests": "Collaborations that lead to water solutions.",
     "Teaching_Interests": "Water resources management.",
@@ -20160,7 +20174,9 @@
     "Research_Interests_List": [
       "Collaborations that lead to water solutions."
     ],
-    "Areas_List": []
+    "Areas_List": [
+      "Education"
+    ]
   },
   {
     "id": "costanzarampinisjsuedu",
@@ -20334,7 +20350,7 @@
     "Email": "kaitlin.reed@humboldt.edu",
     "Campus": "Cal Poly Humboldt",
     "College": null,
-    "Department": "Department Of Native American Studies",
+    "Department": "Department of Native American Studies",
     "Areas": [
       "Ethnic & Indigenous Studies"
     ],
@@ -20636,27 +20652,6 @@
     ]
   },
   {
-    "id": "vriveracsusmedu",
-    "Name": "Vanessa Rivera",
-    "Email": "vrivera@csusm.edu",
-    "Campus": "CSU San Marcos",
-    "College": "Safety, Health & Sustainability",
-    "Department": null,
-    "Areas": null,
-    "Title": "Environmental Health and Occupational Safety Specialist",
-    "Research_Interests": null,
-    "Teaching_Interests": null,
-    "Sustainability_Contributions": "Removed at Kalea's request.",
-    "Notes": null,
-    "Photo": null,
-    "Website": null,
-    "extras": null,
-    "slug": "vriveracsusmedu",
-    "email_href": "mailto:vrivera@csusm.edu",
-    "Research_Interests_List": [],
-    "Areas_List": []
-  },
-  {
     "id": "raquelrpsfsuedu",
     "Name": "Raquel Rivera-Pinderhughes",
     "Email": "raquelrp@sfsu.edu",
@@ -20749,7 +20744,7 @@
     "Email": "sroback@csudh.edu",
     "Campus": "CSU Dominguez Hills",
     "College": "College of Health, Human Services, and Nursing",
-    "Department": "School Of Public Health & Health Sciences",
+    "Department": "School of Public Health & Health Sciences",
     "Areas": [
       "Health Sciences",
       "Public Health"
@@ -21197,7 +21192,7 @@
     "Email": "arush@csus.edu",
     "Campus": "Sacramento State",
     "College": null,
-    "Department": "Office Of Sustainability",
+    "Department": "Office of Sustainability",
     "Areas": [
       "Sustainability"
     ],
@@ -21552,7 +21547,7 @@
     "Email": null,
     "Campus": "San Diego State University",
     "College": "College of Professional Studies and Fine Arts",
-    "Department": "L. Robert Payne School Of Hospitality and Tourism Management",
+    "Department": "L. Robert Payne School of Hospitality and Tourism Management",
     "Areas": [
       "Tourism & Recreation"
     ],
@@ -21768,7 +21763,7 @@
     "Email": null,
     "Campus": "San Diego State University",
     "College": "College of Sciences",
-    "Department": "Geology, Department Of Earth and Environmental Sciences",
+    "Department": "Geology, Department of Earth and Environmental Sciences",
     "Areas": [
       "Environmental Science",
       "Geology & Earth Science"
@@ -21882,7 +21877,7 @@
     "Email": "diana.seah@sjsu.edu",
     "Campus": "San José State University",
     "College": "College of Humanities and the Arts",
-    "Department": "Department Of Design",
+    "Department": "Department of Design",
     "Areas": [
       "Art & Design"
     ],
@@ -22561,9 +22556,10 @@
     "Email": "rachel.singleton@csun.edu",
     "Campus": "CSU Northridge",
     "College": null,
-    "Department": "N/A (Staff, Administration)",
+    "Department": null,
     "Areas": [
-      "University Administration"
+      "Energy",
+      "Sustainability"
     ],
     "Title": "Energy and Sustainability Analyst",
     "Research_Interests": "Energy systems, plastic waste reduction, engineering solutions for sustainability.",
@@ -22579,7 +22575,8 @@
       "Energy systems, plastic waste reduction, engineering solutions for sustainability."
     ],
     "Areas_List": [
-      "University Administration"
+      "Energy",
+      "Sustainability"
     ]
   },
   {
@@ -22970,7 +22967,7 @@
     "Email": "lsolomon@csusm.edu",
     "Campus": "CSU San Marcos",
     "College": "College of Humanities, Arts, Behavioral & Social Sciences",
-    "Department": "School Of Arts - Art, Media, and Design",
+    "Department": "School of Arts - Art, Media, and Design",
     "Areas": [
       "Art & Design",
       "Communication & Media"
@@ -23026,16 +23023,15 @@
     "Email": "asomozan@calpoly.edu",
     "Campus": "Cal Poly SLO",
     "College": "Bailey College of Science and Mathematics",
-    "Department": "Education, LEED Green Associate, Member of UC-CSU Environmental and Climate Change Literacy Projects Research Committee",
+    "Department": "Education",
     "Areas": [
-      "Education",
-      "Environmental Science"
+      "Education"
     ],
     "Title": null,
     "Research_Interests": "Biomimetic leadership. Educational leadership and climate change. Educational technology.",
     "Teaching_Interests": null,
     "Sustainability_Contributions": null,
-    "Notes": null,
+    "Notes": "LEED Green Associate, Member of UC-CSU Environmental and Climate Change Literacy Projects Research Committee",
     "Photo": null,
     "Website": null,
     "extras": null,
@@ -23045,8 +23041,7 @@
       "Biomimetic leadership. Educational leadership and climate change. Educational technology."
     ],
     "Areas_List": [
-      "Education",
-      "Environmental Science"
+      "Education"
     ]
   },
   {
@@ -23527,7 +23522,9 @@
     "Campus": "Cal Poly Humboldt",
     "College": null,
     "Department": null,
-    "Areas": null,
+    "Areas": [
+      "Public Administration & Policy"
+    ],
     "Title": "Executive Director of Initiatives & Chief Policy Advisor for CCRP",
     "Research_Interests": "Rural policy, broadband access, community health, sustainable economic development. Leads redwood coast connect, a regional broadband consortium for del norte, Humboldt & trinity. Member of aspen institute’s rural development innovation group.",
     "Teaching_Interests": null,
@@ -23541,7 +23538,9 @@
     "Research_Interests_List": [
       "Rural policy, broadband access, community health, sustainable economic development. Leads redwood coast connect, a regional broadband consortium for del norte, Humboldt & trinity. Member of aspen institute’s rural development innovation group."
     ],
-    "Areas_List": []
+    "Areas_List": [
+      "Public Administration & Policy"
+    ]
   },
   {
     "id": "stillmajsfsuedu",
@@ -23834,7 +23833,10 @@
     "Campus": "San Diego State University",
     "College": "School of Public Affairs, City Planning; Center for Regional Sustainability",
     "Department": null,
-    "Areas": null,
+    "Areas": [
+      "City & Regional Planning",
+      "Sustainability"
+    ],
     "Title": "Assistant Professor of City Planning, Associate Director of the Center for Regional Sustainability",
     "Research_Interests": "Environmental justice, land use planning, brownfield reuse, food systems, air quality, and gis-based methods.",
     "Teaching_Interests": "Environmental policy and planning, land use, GIS, research methods.",
@@ -23848,7 +23850,10 @@
     "Research_Interests_List": [
       "Environmental justice, land use planning, brownfield reuse, food systems, air quality, and gis-based methods."
     ],
-    "Areas_List": []
+    "Areas_List": [
+      "City & Regional Planning",
+      "Sustainability"
+    ]
   },
   {
     "id": "dtadessecsufresnoedu",
@@ -23997,7 +24002,7 @@
     "Email": "jstaylor@fullerton.edu",
     "Campus": "CSU Fullerton",
     "College": "College of Humanities and Social Sciences",
-    "Department": "Geography and The Environment",
+    "Department": "Geography and the Environment",
     "Areas": [
       "Environmental Science",
       "Geography"
@@ -24140,7 +24145,7 @@
     "Email": "fengkt1@csufresno.edu",
     "Campus": "Fresno State",
     "College": "Facilities Management / College of Science and Mathematics",
-    "Department": "Office Of The Provost / Earth and Environmental Sciences",
+    "Department": "Office of the Provost / Earth and Environmental Sciences",
     "Areas": [
       "Environmental Science",
       "Geology & Earth Science",
@@ -24331,7 +24336,7 @@
     "Email": "stibrewal@csustan.edu",
     "Campus": "Stanislaus State",
     "College": "College of Education, Kinesiology & Social Work",
-    "Department": "Master Of Social Work",
+    "Department": "Master of Social Work",
     "Areas": [
       "Social Work"
     ],
@@ -24493,7 +24498,7 @@
     "Email": "ryan.todd@csus.edu",
     "Campus": "Sacramento State",
     "College": null,
-    "Department": "Office Of Sustainability",
+    "Department": "Office of Sustainability",
     "Areas": [
       "Sustainability"
     ],
@@ -25035,7 +25040,7 @@
     "Email": "versola@csus.edu",
     "Campus": "Sacramento State",
     "College": null,
-    "Department": "Office Of Sustainability",
+    "Department": "Office of Sustainability",
     "Areas": [
       "Sustainability"
     ],
@@ -25060,7 +25065,7 @@
     "Email": "pviren@csumb.edu",
     "Campus": "CSU Monterey Bay",
     "College": "College of Business",
-    "Department": "College Of Business",
+    "Department": "College of Business",
     "Areas": [
       "Business & Management"
     ],
@@ -25114,7 +25119,7 @@
     "Email": "rvoeks@fullerton.edu",
     "Campus": "CSU Fullerton",
     "College": "College of Humanities and Social Sciences",
-    "Department": "Geography and The Environment",
+    "Department": "Geography and the Environment",
     "Areas": [
       "Environmental Science",
       "Geography"
@@ -25674,7 +25679,7 @@
     "Email": null,
     "Campus": "San Diego State University",
     "College": "College of Sciences",
-    "Department": "Department Of Earth and Environmental Sciences",
+    "Department": "Department of Earth and Environmental Sciences",
     "Areas": [
       "Environmental Science",
       "Geology & Earth Science"
@@ -25915,7 +25920,7 @@
     "Email": "winingek@sonoma.edu",
     "Campus": "Sonoma State University",
     "College": "Geography, Environment & Planning",
-    "Department": "Center For Environmental Inquiry",
+    "Department": "Center for Environmental Inquiry",
     "Areas": [
       "Environmental Science"
     ],
@@ -26135,7 +26140,7 @@
     "Email": "jindongwu@fullerton.edu",
     "Campus": "CSU Fullerton",
     "College": "College of Humanities and Social Sciences",
-    "Department": "Geography and The Environment",
+    "Department": "Geography and the Environment",
     "Areas": [
       "Environmental Science",
       "Geography"
@@ -26641,9 +26646,9 @@
     "Email": "szamora24@csudh.edu",
     "Campus": "CSU Dominguez Hills",
     "College": "Office of Sustainability",
-    "Department": "Staff",
+    "Department": null,
     "Areas": [
-      "University Administration"
+      "Sustainability"
     ],
     "Title": "Zero Waste Coordinator",
     "Research_Interests": null,
@@ -26657,7 +26662,7 @@
     "email_href": "mailto:szamora24@csudh.edu",
     "Research_Interests_List": [],
     "Areas_List": [
-      "University Administration"
+      "Sustainability"
     ]
   },
   {
@@ -26686,27 +26691,6 @@
     "Areas_List": [
       "English & Literature"
     ]
-  },
-  {
-    "id": "jzanetellcsusmedu",
-    "Name": "Jacob Zanetell",
-    "Email": "jzanetell@csusm.edu",
-    "Campus": "CSU San Marcos",
-    "College": "Safety, Health & Sustainability",
-    "Department": null,
-    "Areas": null,
-    "Title": "Environmental Health and Occupational Safety Specialist",
-    "Research_Interests": null,
-    "Teaching_Interests": null,
-    "Sustainability_Contributions": "Removed at Kalea's request.",
-    "Notes": null,
-    "Photo": null,
-    "Website": null,
-    "extras": null,
-    "slug": "jzanetellcsusmedu",
-    "email_href": "mailto:jzanetell@csusm.edu",
-    "Research_Interests_List": [],
-    "Areas_List": []
   },
   {
     "id": "nzayascsumbedu",
@@ -26741,7 +26725,7 @@
     "Email": "rick.zechman@humboldt.edu",
     "Campus": "Cal Poly Humboldt",
     "College": "College of Natural Resources & Sciences",
-    "Department": "Telonicher Marine Lab; Director and Associate Dean Overseeing Marine Operations",
+    "Department": "Telonicher Marine Lab",
     "Areas": [
       "Marine Science"
     ],
@@ -26849,7 +26833,7 @@
     "Email": null,
     "Campus": "San Diego State University",
     "College": "College of Health and Human Services",
-    "Department": "School Of Exercise and Nutritional Sciences",
+    "Department": "School of Exercise and Nutritional Sciences",
     "Areas": [
       "Health Sciences"
     ],
