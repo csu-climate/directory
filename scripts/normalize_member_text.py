@@ -131,7 +131,8 @@ PROPER_TERMS = [
     "Sustainable Groundwater Management Act", "Paris Agreement", "Green New Deal",
     "Title IX", "Fulbright",
     # places
-    "California", "Baja California", "Central Valley", "San Joaquin Valley",
+    "California", "Baja California", "Cali-Baja", "Baja", "Central Valley",
+    "San Joaquin Valley",
     "Salinas Valley", "Imperial Valley", "Sierra Nevada", "Central Coast",
     "Bay Area", "Monterey Bay", "Humboldt Bay", "Lake Tahoe", "Klamath",
     "Colorado River", "Mojave", "Yosemite", "Channel Islands", "Santa Barbara",
@@ -170,6 +171,12 @@ PROPER_TERMS.sort(key=len, reverse=True)
 # but "global environmental policy" does not.
 SINGLE_PROPER = {t.lower() for t in PROPER_TERMS if " " not in t} | set(ACRONYMS)
 MULTI_PROPER = [t for t in PROPER_TERMS if " " in t]
+
+# Honorifics keep their capital wherever they fall -- "..., Dr. Burrus is ..." must
+# not become "dr.". Held separately from PROPER_TERMS so they are only protected,
+# never used to capitalize a stray "dr" elsewhere in a sentence.
+HONORIFICS = {"dr", "mr", "mrs", "ms", "prof", "st", "jr", "sr"}
+SINGLE_PROPER |= HONORIFICS
 
 # An item starting with one of these is a continuation of the previous clause,
 # never a new sentence -- always lowercased.

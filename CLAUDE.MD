@@ -15,6 +15,11 @@ This repo delivers a directory at http://csu-climate.github.io/directory/ that p
 - `scripts/normalize_member_text.py` — one-shot-but-re-runnable cleanup of the three prose
   fields in `members/*.yml` (see "Prose fields" below). Not part of the build; run it by hand
   after a scrape adds new members.
+- `scripts/export_mail_list.py` — exports the mailing list for a mail merge. **Re-run it after
+  any change that could touch an address** — imports, merges, deletions, removal requests. The
+  export is a snapshot; if it goes stale, a mailing can reach someone who asked to be removed.
+  It writes outside the repo and refuses to write inside it, because the output is every
+  member's address in plain text and this repo is public.
 - `scripts/build_members.py` — the whole build. Reads `members/*.yml`, normalizes keys
   (case-insensitive via `KEY_MAP`, unknown keys are preserved under `extras`), derives Areas of
   Specialization, renders `templates/index.html`, and writes `site/index.html`,
@@ -137,11 +142,18 @@ so treat these addresses as public.
 ## Crawlers
 
 `robots.txt` is only honoured at a **domain root**. The site lives at
-`csu-climate.github.io/directory/`, so crawlers read `csu-climate.github.io/robots.txt` — a
-different repo's territory — and ignore `/directory/robots.txt` entirely. The `robots.txt` in
-this repo is therefore **inert today**; it is committed so it starts working the moment the site
-moves to its own domain, and the build copies it to the deployment root rather than under
-`static/`.
+`csu-climate.github.io/directory/`, so crawlers read `csu-climate.github.io/robots.txt` and
+ignore `/directory/robots.txt` entirely.
+
+The live policy therefore lives in a second repo, **`csu-climate/csu-climate.github.io`**,
+which GitHub Pages serves at the domain root. It governs every project page under that host,
+this directory included. That repo also carries a one-page landing site, so the root is not a
+404.
+
+The `robots.txt` in *this* repo is the **canonical copy** — edit it here first, then copy it
+across (the header comment differs between the two, since only one of them is live). It is not
+dead weight: the build copies it to the deployment root, so it takes over automatically if the
+site ever moves to its own domain.
 
 What does work per-page is the `<meta name="robots">` tag in `templates/index.html`. It is set to
 `index, follow, noarchive`: the directory is meant to be found, so indexing stays on, and

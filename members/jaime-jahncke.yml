@@ -4,7 +4,9 @@ College: Science and Engineering
 Department: Biology
 Title: Adjunct Professor, Department of Biology, San Francisco State University and
   Director, California Current Group, Point Blue Conservation Science
-Email: "jjahncke@pointblue.org, or \njahnckej@sfsu.edu"
+# He gave two addresses. Point Blue is his primary post; the SFSU one is for his
+# adjunct role there. Alternate: jahnckej@sfsu.edu
+Email: jjahncke@pointblue.org
 Research Interests: 'Climate change impacts on marine ecosystems, long-term ecological
   monitoring, seabird and marine mammal ecology, marine ecology and biological oceanography.
   Focuses on enhancing ocean resilience, supporting sustainable fisheries, and protecting

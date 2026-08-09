@@ -202,10 +202,89 @@
     return card;
   }
 
+  // Each filter holds a list of chosen values. Within a filter the values are
+  // OR'd (Biology *or* Marine Science); the two filters are AND'ed with each
+  // other and with the search box.
+  const ALL = { area: [], campus: [] };
+  const SELECTED = { area: [], campus: [] };
+  const FILTER_LABEL = { area: 'Area', campus: 'Campus' };
+
+  function renderSelect(id) {
+    const sel = $id(id);
+    if (!sel) return;
+    const remaining = ALL[id].filter(v => !SELECTED[id].includes(v));
+    const noun = id === 'area' ? 'area' : 'campus';
+    sel.innerHTML = '';
+    const first = document.createElement('option');
+    first.value = '';
+    first.textContent = SELECTED[id].length
+      ? `Add another ${noun}…`
+      : (id === 'area' ? 'All Areas' : 'All Campuses');
+    sel.appendChild(first);
+    remaining.forEach(v => {
+      const o = document.createElement('option');
+      o.value = v; o.textContent = v;
+      sel.appendChild(o);
+    });
+    sel.disabled = remaining.length === 0;
+  }
+
+  function addFilter(id, value) {
+    if (!value || SELECTED[id].includes(value)) return;
+    SELECTED[id] = [...SELECTED[id], value].sort((a, b) => a.localeCompare(b));
+    renderSelect(id);
+    applyFilters();
+  }
+
+  function removeFilter(id, value) {
+    SELECTED[id] = SELECTED[id].filter(v => v !== value);
+    renderSelect(id);
+    applyFilters();
+  }
+
+  // Clears the search box too, so "Clear all" means the same thing wherever it
+  // appears -- including the empty state, which a stray search term can cause.
+  function clearFilters() {
+    SELECTED.area = []; SELECTED.campus = [];
+    renderSelect('area'); renderSelect('campus');
+    const searchEl = $id('searchInput');
+    if (searchEl) searchEl.value = '';
+    applyFilters();
+  }
+
+  function clearAllButton() {
+    const b = document.createElement('button');
+    b.className = 'filter-clear';
+    b.type = 'button';
+    b.textContent = 'Clear all';
+    b.addEventListener('click', clearFilters);
+    return b;
+  }
+
+  function renderChips() {
+    const tagsEl = $id('activeFilters');
+    if (!tagsEl) return;
+    tagsEl.innerHTML = '';
+    const chips = ['area', 'campus'].flatMap(
+      id => SELECTED[id].map(value => ({ id, value })));
+
+    chips.forEach(({ id, value }) => {
+      const t = document.createElement('span');
+      t.className = 'filter-tag';
+      t.innerHTML =
+        `<strong>${FILTER_LABEL[id]}:</strong> ${value} ` +
+        `<button class="remove" aria-label="Remove ${value} filter">&times;</button>`;
+      t.querySelector('button').addEventListener('click', () => removeFilter(id, value));
+      tagsEl.appendChild(t);
+    });
+
+    if (chips.length > 1) tagsEl.appendChild(clearAllButton());
+  }
+
   function applyFilters() {
     const q = ($id('searchInput')?.value || '').toLowerCase();
-    const area = $id('area') ? $id('area').value : '';
-    const campus = $id('campus') ? $id('campus').value : '';
+    const areas = SELECTED.area;
+    const campuses = SELECTED.campus;
 
     const filtered = MEMBERS.filter(m => {
       const blob = [
@@ -214,31 +293,27 @@
         m['Department'], m['Areas'].join(' '), m['Campus']
       ].join(' ').toLowerCase();
       if (q && !blob.includes(q)) return false;
-      if (area && !m['Areas'].includes(area)) return false;
-      if (campus && m['Campus'] !== campus) return false;
+      if (areas.length && !areas.some(a => m['Areas'].includes(a))) return false;
+      if (campuses.length && !campuses.includes(m['Campus'])) return false;
       return true;
     });
 
     const grid = $id('cardsGrid');
     grid.innerHTML = '';
-    filtered.forEach(m => grid.appendChild(createMemberCard(m)));
+    if (filtered.length) {
+      filtered.forEach(m => grid.appendChild(createMemberCard(m)));
+    } else {
+      // Easy to reach now that filters combine, so say so rather than showing
+      // an empty grid that reads as a broken page.
+      const empty = document.createElement('div');
+      empty.className = 'empty-state';
+      empty.append('No members match these filters: remove a selection or ');
+      empty.appendChild(clearAllButton());
+      grid.appendChild(empty);
+    }
     $id('resultsCount').textContent = `${filtered.length} of ${MEMBERS.length}`;
 
-    const tagsEl = $id('activeFilters');
-    tagsEl.innerHTML = '';
-    const active = [];
-    if ($id('area') && area) active.push({label:'Area of Specialization', value:area, id:'area'});
-    if ($id('campus') && campus)       active.push({label:'Campus', value:campus, id:'campus'});
-    active.forEach(f => {
-      const t = document.createElement('span');
-      t.className = 'filter-tag';
-      t.innerHTML = `<strong>${f.label}:</strong> ${f.value} <button class="remove" aria-label="Clear ${f.label}">&times;</button>`;
-      t.querySelector('button').addEventListener('click', () => {
-        $id(f.id).value = '';
-        applyFilters();
-      });
-      tagsEl.appendChild(t);
-    });
+    renderChips();
   }
 
   // === App entry ===
@@ -287,20 +362,21 @@
 
     MEMBERS = data.map(normalize);
 
-    const areas    = uniq(MEMBERS.flatMap(m => m['Areas']));
-    const campuses = uniq(MEMBERS.map(m => m['Campus']));
+    ALL.area   = uniq(MEMBERS.flatMap(m => m['Areas']));
+    ALL.campus = uniq(MEMBERS.map(m => m['Campus']));
 
-    function fill(id, values) {
+    ['area', 'campus'].forEach(id => {
       const sel = $id(id);
       if (!sel) return;
-      const first = sel.querySelector('option:first-child');
-      sel.innerHTML = ''; if (first) sel.appendChild(first);
-      values.forEach(v => { const o=document.createElement('option'); o.value=v; o.textContent=v; sel.appendChild(o); });
-      sel.addEventListener('change', applyFilters);
-    }
-
-    if ($id('area'))   fill('area', areas);
-    if ($id('campus')) fill('campus', campuses);
+      renderSelect(id);
+      // Choosing a value adds it as a chip and resets the dropdown, so the next
+      // choice adds to the filter rather than replacing it.
+      sel.addEventListener('change', () => {
+        const value = sel.value;
+        sel.value = '';
+        addFilter(id, value);
+      });
+    });
 
     const searchEl = $id('searchInput');
     if (searchEl) searchEl.addEventListener('input', applyFilters);

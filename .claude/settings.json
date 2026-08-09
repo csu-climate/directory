@@ -4,7 +4,9 @@
       "Bash(.venv/bin/python scripts/build_members.py)",
       "Bash(.venv/bin/python scripts/normalize_member_text.py --dry-run)",
       "Bash(python3 -m http.server *)",
-      "Bash(curl -s http://localhost:*)"
+      "Bash(curl -s http://localhost:*)",
+      "WebSearch",
+      "WebFetch"
     ]
   }
 }
