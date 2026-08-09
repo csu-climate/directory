@@ -111,15 +111,38 @@
     const deptLine = m['Department'] ? `<div class="department-line">${m['Department']}</div>` : '';
     const campusLine = m['Campus'] ? `<div class="campus-line">${m['Campus']}</div>` : '';
   
+    // A Notes value that is nothing but URLs is a list of links, not a note.
+    function isLinksOnly(v) {
+      return !!v && !v.replace(/https?:\/\/\S+/g, '').replace(/[\s;,.]/g, '');
+    }
+
+    function escapeHTML(s) {
+      return String(s).replace(/[&<>"']/g, c => (
+        {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]
+      ));
+    }
+
+    // Turn bare URLs into links, showing the host rather than the raw URL.
+    function linkify(value) {
+      return escapeHTML(value).replace(/https?:\/\/[^\s;,]+/g, url => {
+        let label = url;
+        try { label = new URL(url).hostname.replace(/^www\./, ''); } catch (e) {}
+        return `<a class="note-link" href="${url}" target="_blank" rel="noopener noreferrer">${label}</a>`;
+      });
+    }
+
     function block(label, value) {
       if (!value) return '';
-      
+
       const extraClass = (label === 'Teaching Interests') ? ' teaching-block' : '';
+      const links = (label === 'Notes') && isLinksOnly(value);
+      const shown = links ? 'Links' : label;
+      const body = /https?:\/\//.test(value) ? linkify(value) : value;
 
       return `
         <div class="meta-item${extraClass}">
-          <span class="meta-label">${label}:</span>
-          <span class="meta-value">${value}</span>
+          <span class="meta-label">${shown}:</span>
+          <span class="meta-value">${body}</span>
         </div>
       `;
     }

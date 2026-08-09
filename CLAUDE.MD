@@ -74,10 +74,18 @@ The scraped data arrived Title-Cased after every comma and with proper nouns low
   names — and only gets punctuation and proper-noun fixes
 
 The same script also gives `Department` a much lighter touch, since that string is displayed
-verbatim on the card — it only drops the `Representing:` prefix that non-academic staff entries
-carried, lowercases the conjunctions the title-caser capitalized ("Chemistry And Biochemistry"),
-and uppercases parenthesized acronyms via an explicit list (`DEPT_ACRONYMS`) because
-"(Lecturer)" is a real word that must be left alone.
+verbatim on the card. It only fixes outright errors: drops the `Representing:` prefix that
+non-academic staff entries carried, lowercases the small words the title-caser capitalized
+("Chemistry And Biochemistry", "Office Of Sustainability"), fixes possessives ("Women'S"), and
+uppercases acronyms via explicit lists (`DEPT_ACRONYMS`, `BARE_ACRONYMS`) because "(Lecturer)"
+is a real word and "reach"/"wet" are ordinary words that must be left alone.
+
+It also moves things that are not departments out of the field: a rank in parentheses or in a
+`;`-separated tail is removed and promoted into `Title` if `Title` is empty, and certifications
+and committee memberships move to `Notes`. A Department that *starts* with a rank is left alone
+— a dean belongs to a college, so "Dean of the College of ..." is the real answer. Values that
+only name a job category ("Staff", "N/A") are cleared; those members get their areas from
+`Title` instead, which is why `build_members.py` falls back to it.
 
 The script is idempotent, only rewrites the fields that actually change (so editing one field
 doesn't re-wrap its neighbours), and preserves each file apart from those scalars. It has a

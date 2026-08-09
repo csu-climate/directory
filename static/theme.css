@@ -849,6 +849,16 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Links listed in a member's Notes */
+.note-link {
+    color: var(--email);
+    font-weight: 500;
+}
+
+.note-link + .note-link {
+    margin-left: 2px;
+}
+
 .lesson-meta {
     display: flex;
     flex-direction: column;

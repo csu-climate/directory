@@ -95,7 +95,10 @@ AREA_PATTERNS = [
     ("Humanities", r"humanities|global cultures|global studies|culture and communication|"
                    r"interdisciplinary studies"),
     ("Landscape Architecture", r"landscape"),
-    ("Law", r"\blaw\b|legal|criminal justice|justice\b"),
+    # "justice" alone means law, but not in "climate/environmental/social justice"
+    ("Law", r"\blaw\b|legal|criminal justice|"
+            r"(?<!climate )(?<!environmental )(?<!social )(?<!food )(?<!racial )"
+            r"(?<!spatial )(?<!water )\bjustice\b"),
     ("Library & Information Studies", r"librar"),
     ("Marine Science", r"marine|oceanograph|aquacultur|moss landing|\bmlml\b|training ship"),
     ("Mathematics & Statistics", r"mathematic|statistic|statics"),
@@ -114,7 +117,7 @@ AREA_PATTERNS = [
     ("Religious Studies", r"religio|theolog"),
     ("Social Work", r"social work"),
     ("Sociology", r"sociolog|social science|labor studies"),
-    ("Sustainability", r"sustainab|regenerative|resilient systems"),
+    ("Sustainability", r"sustainab|regenerative|resilient systems|zero waste"),
     ("Tourism & Recreation", r"tourism|recreation|hospitality"),
     ("University Administration", r"academic senate|provost|academic affairs|administrative affairs|"
                                   r"office of research|sponsored programs|\bstaff\b|human resources|"
@@ -296,7 +299,13 @@ def _normalize_member(d: Dict[str, Any]) -> Tuple[Member, List[str]]:
     override = norm.get("Areas")
     if isinstance(override, str):
         override = [s.strip() for s in re.split(r"[,;]+", override) if s.strip()]
+    # Sustainability staff have no department -- their job title is the only
+    # thing that says what they work on, so fall back to it. Only a real match
+    # counts: a title of "Professor" says nothing, and must not become "Other".
     areas = override or areas_for_department(department)
+    if not areas:
+        from_title = areas_for_department(norm.get("Title"))
+        areas = [a for a in from_title if a != OTHER_AREA]
 
     m = Member(
         id=mid,
