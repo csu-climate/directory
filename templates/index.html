@@ -290,11 +290,13 @@
       const blob = [
         m['Name'], m['Research Interests'], m['Teaching Interests'],
         m['Notes'], m['Sustainability Contributions'],
-        m['Department'], m['Areas'].join(' '), m['Campus']
+        m['Department'], m['Areas'].join(' '), m['Campus_Filters'].join(' ')
       ].join(' ').toLowerCase();
       if (q && !blob.includes(q)) return false;
       if (areas.length && !areas.some(a => m['Areas'].includes(a))) return false;
-      if (campuses.length && !campuses.includes(m['Campus'])) return false;
+      // matched against the list, not the display name, so a sub-campus answers
+      // to its parent as well as to itself
+      if (campuses.length && !campuses.some(c => m['Campus_Filters'].includes(c))) return false;
       return true;
     });
 
@@ -307,7 +309,7 @@
       // an empty grid that reads as a broken page.
       const empty = document.createElement('div');
       empty.className = 'empty-state';
-      empty.append('No members match these filters: remove a selection or ');
+      empty.append('No members match these filters: remove a tag from the filter above or ');
       empty.appendChild(clearAllButton());
       grid.appendChild(empty);
     }
@@ -354,6 +356,7 @@
       Campus: m.Campus ?? m.campus ?? '',
       Department: m.Department ?? m.department ?? '',
       Areas: m.Areas ?? m.Areas_List ?? m['Area of Specialization'] ?? [],
+      Campus_Filters: m.Campus_Filters ?? (m.Campus ? [m.Campus] : []),
       'Research Interests': m['Research Interests'] ?? m.Research_Interests ?? '',
       'Teaching Interests': m['Teaching Interests'] ?? m.Teaching_Interests ?? '',
       'Sustainability Contributions': m['Sustainability Contributions'] ?? m.Sustainability_Contributions ?? '',
@@ -363,7 +366,7 @@
     MEMBERS = data.map(normalize);
 
     ALL.area   = uniq(MEMBERS.flatMap(m => m['Areas']));
-    ALL.campus = uniq(MEMBERS.map(m => m['Campus']));
+    ALL.campus = uniq(MEMBERS.flatMap(m => m['Campus_Filters']));
 
     ['area', 'campus'].forEach(id => {
       const sel = $id(id);

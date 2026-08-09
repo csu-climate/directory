@@ -153,7 +153,7 @@ CAMPUS_NAMES = {
     "humboldt": "Cal Poly Humboldt",
     "long beach": "CSU Long Beach",
     "los angeles": "Cal State LA",
-    "maritime": "Cal Maritime",
+    "maritime": "Cal Poly SLO, Solano campus",
     "monterey bay": "CSU Monterey Bay",
     "northridge": "CSU Northridge",
     "pomona": "Cal Poly Pomona",
@@ -171,11 +171,29 @@ CAMPUS_NAMES = {
 }
 
 
+# Campuses that sit inside another one. Cal Maritime merged into Cal Poly SLO as
+# its Solano campus, so its members must be reachable both under the parent and
+# on their own: filtering "Cal Poly SLO" returns Solano too, filtering
+# "Cal Poly SLO, Solano campus" returns only Solano.
+CAMPUS_PARENTS = {
+    "Cal Poly SLO, Solano campus": "Cal Poly SLO",
+}
+
+
 def campus_name(campus: str | None) -> str | None:
     """Short campus name from the YAML -> the name that campus goes by."""
     if not campus or not campus.strip():
         return None
     return CAMPUS_NAMES.get(campus.strip().lower(), campus.strip())
+
+
+def campus_filters(display: str | None) -> List[str]:
+    """Every campus value a member should be findable under. Usually just their
+    own; a sub-campus also answers to its parent."""
+    if not display:
+        return []
+    parent = CAMPUS_PARENTS.get(display)
+    return [parent, display] if parent else [display]
 
 
 def areas_for_department(dept: str | None) -> List[str]:
@@ -197,6 +215,7 @@ class Member:
     Name: str
     Email: str | None = None
     Campus: str | None = None
+    Campus_Filters: List[str] | None = None
     College: str | None = None
     Department: str | None = None
     Areas: List[str] | None = None
@@ -317,6 +336,7 @@ def _normalize_member(d: Dict[str, Any]) -> Tuple[Member, List[str]]:
         Name=name or "Unnamed Member",
         Email=email or None,
         Campus=campus_name(norm.get("Campus")),
+        Campus_Filters=(campus_filters(campus_name(norm.get("Campus"))) or None),
         College=(norm.get("College") or None),
         Department=department,
         Areas=(sorted(set(areas)) or None),

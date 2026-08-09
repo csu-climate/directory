@@ -108,8 +108,13 @@ which is why phrases like "Black geographies" are listed in full.
 `scripts/build_members.py` maps it to the name that campus actually goes by, which is not
 uniform across the CSU — "CSU Northridge", "Chico State", "Cal Poly Humboldt",
 "San Diego State University", "Cal Poly SLO", "Cal State LA". The card shows that name with no
-"Campus:" label, and the filter dropdown uses it too. Keep the YAML short names; add mappings
-here instead.
+"Campus:" label. Keep the YAML short names; add mappings here instead.
+
+Filtering goes through `Campus_Filters`, not the display name, because a campus can sit inside
+another. Cal Maritime merged into Cal Poly SLO, so its members display as "Cal Poly SLO, Solano
+campus" and carry *both* that and "Cal Poly SLO" as filter values: picking the parent returns
+Solano too (49), picking the sub-campus returns only Solano (17), picking both returns the union
+without double-counting. Add future mergers to `CAMPUS_PARENTS`.
 
 ## Email addresses
 
