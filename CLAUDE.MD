@@ -31,8 +31,11 @@ This repo delivers a directory at http://csu-climate.github.io/directory/ that p
   fails to render. Keep it roughly in sync but don't invest in it.
 - `static/theme.css` — all styling, incl. light/dark. Card classes: `.lesson-card`,
   `.lesson-title`, `.department-line`, `.lesson-meta`, `.meta-item`.
-- `templates/member.html`, `templates/lesson.html`, `templates/platforms/`, `index*.html.disabled`,
-  `scripts/build_members.py.old` — dead weight from an earlier lessons site. Not built, not served.
+- `templates/member.html`, `templates/lesson.html`, `templates/platforms/`,
+  `.github/workflows/build-site.yml.disabled`, `scripts/build_members.py.old`,
+  `static/climate-directory-logo.png.old` — dead weight from an earlier lessons site. Not built,
+  not served. The two root `index*.html.disabled` files were deleted; they are in git history if
+  ever needed.
 - `.github/workflows/build-members.yml` — on push to `main`: validates every YAML parses, runs the
   build with `BASE_PATH=/directory`, then deploys `site/` to the `gh-pages` branch.
 - `site/` is gitignored (build output). `data/members.json` is tracked but stale sample data — the
