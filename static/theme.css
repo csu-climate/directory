@@ -744,11 +744,43 @@ a:hover {
 .filter-tag .remove {
     cursor: pointer;
     font-size: 14px;
+    line-height: 1;
     opacity: 0.8;
+    /* it is a <button>, so undo the user-agent chrome */
+    background: none;
+    border: 0;
+    padding: 0;
+    color: inherit;
+    font-family: inherit;
 }
 
-.filter-tag .remove:hover {
+.filter-tag .remove:hover,
+.filter-tag .remove:focus-visible {
     opacity: 1;
+}
+
+/* Shown once more than one filter is active */
+.filter-clear {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--text-secondary);
+    padding: 4px 12px;
+    border-radius: 16px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.filter-clear:hover,
+.filter-clear:focus-visible {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.filter-select:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
 }
 
 /* Results */
