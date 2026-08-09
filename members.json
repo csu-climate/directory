@@ -59,7 +59,7 @@
     "Email": "tacharya@csub.edu",
     "Campus": "CSU Bakersfield",
     "College": "Natural Sciences, Mathematics, and Engineering",
-    "Department": "Physics And Engineering",
+    "Department": "Physics and Engineering",
     "Areas": [
       "Engineering",
       "Physics & Astronomy"
@@ -136,7 +136,7 @@
     "Email": "dpadams@fullerton.edu",
     "Campus": "CSU Fullerton",
     "College": "College of Humanities and Social Sciences",
-    "Department": "Division Of Politics, Administration, And Justice",
+    "Department": "Division Of Politics, Administration, and Justice",
     "Areas": [
       "Law",
       "Political Science"
@@ -192,7 +192,7 @@
     "Email": "sanchayeeta.adhikari@csun.edu",
     "Campus": "CSU Northridge",
     "College": "Social & Behavioral Sciences",
-    "Department": "Geography And Environmental Studies",
+    "Department": "Geography and Environmental Studies",
     "Areas": [
       "Environmental Science",
       "Geography"
@@ -323,7 +323,7 @@
     "Email": "lorenaiton@mail.fresnostate.edu",
     "Campus": "Fresno State",
     "College": "Lyles College of Engineering",
-    "Department": "Construction Management And Architectural Studies",
+    "Department": "Construction Management and Architectural Studies",
     "Areas": [
       "Architecture",
       "Construction Management"
@@ -433,7 +433,7 @@
     "Email": "akthem.al-manaseer@sjsu.edu",
     "Campus": "San José State University",
     "College": "Charles W. Davidson College of Engineering",
-    "Department": "Environmental And Civil Engineering",
+    "Department": "Environmental and Civil Engineering",
     "Areas": [
       "Civil & Environmental Engineering",
       "Engineering",
@@ -516,8 +516,12 @@
     "Email": "dgalexander@csuchico.edu",
     "Campus": "Chico State",
     "College": "College of Engineering, Computer Science, and Construction Management",
-    "Department": null,
-    "Areas": null,
+    "Department": "Dean of the College of Engineering, Computer Science, and Construction Management",
+    "Areas": [
+      "Computer Science & Information Systems",
+      "Construction Management",
+      "Engineering"
+    ],
     "Title": "Dean",
     "Research_Interests": "Dr. Alexander’s research interests are in sustainable energy technologies including solar, wind, geothermal, hybrid and electric vehicles, and advanced energy storage. Additionally, he is interested in engineering design, entrepreneurship and pedagogy.",
     "Teaching_Interests": "Thermodynamics, energy systems, heat transfer, low-speed aerodynamics, and engineering capstone design.",
@@ -531,7 +535,11 @@
     "Research_Interests_List": [
       "Dr. Alexander’s research interests are in sustainable energy technologies including solar, wind, geothermal, hybrid and electric vehicles, and advanced energy storage. Additionally, he is interested in engineering design, entrepreneurship and pedagogy."
     ],
-    "Areas_List": []
+    "Areas_List": [
+      "Computer Science & Information Systems",
+      "Construction Management",
+      "Engineering"
+    ]
   },
   {
     "id": "dgalexandercsuchicoedu",
@@ -539,7 +547,7 @@
     "Email": "dgalexander@csuchico.edu",
     "Campus": "Chico State",
     "College": "College of Engineering, Computer Science, and Construction Management",
-    "Department": "Mechanical And Mechatronic Engineering",
+    "Department": "Mechanical and Mechatronic Engineering",
     "Areas": [
       "Engineering",
       "Mechanical & Aerospace Engineering"
@@ -622,7 +630,7 @@
     "Email": "jennifer.alford@csusb.edu",
     "Campus": "CSU San Bernardino",
     "College": "College of Social & Behavioral Sciences",
-    "Department": "Geography And Environmental Studies",
+    "Department": "Geography and Environmental Studies",
     "Areas": [
       "Environmental Science",
       "Geography"
@@ -734,7 +742,7 @@
     "Email": "andrea.alstone@humboldt.edu",
     "Campus": "Cal Poly Humboldt",
     "College": null,
-    "Department": "Office Of Sustainability, Energy, And Grounds",
+    "Department": "Office Of Sustainability, Energy, and Grounds",
     "Areas": [
       "Energy",
       "Facilities & Operations",
@@ -1012,7 +1020,7 @@
     "Email": "sulbaek.andersen@csun.edu",
     "Campus": "CSU Northridge",
     "College": "Science & Mathematics",
-    "Department": "Geography And Environmental Studies",
+    "Department": "Geography and Environmental Studies",
     "Areas": [
       "Environmental Science",
       "Geography"
@@ -1070,7 +1078,7 @@
     "Email": "sean.anderson@csuci.edu",
     "Campus": "CSU Channel Islands",
     "College": "College of Arts and Sciences",
-    "Department": "Environmental Science And Resource Management",
+    "Department": "Environmental Science and Resource Management",
     "Areas": [
       "Environmental Science"
     ],
@@ -1234,10 +1242,9 @@
     "Email": "antoni@sonoma.edu",
     "Campus": "Sonoma State University",
     "College": "Sustainable SSU Representative",
-    "Department": "Representing: Culinary Services",
+    "Department": "Culinary Services",
     "Areas": [
-      "Facilities & Operations",
-      "University Administration"
+      "Facilities & Operations"
     ],
     "Title": "Director of Culinary Operations",
     "Research_Interests": "Operational sustainability in food services.",
@@ -1253,8 +1260,7 @@
       "Operational sustainability in food services."
     ],
     "Areas_List": [
-      "Facilities & Operations",
-      "University Administration"
+      "Facilities & Operations"
     ]
   },
   {
@@ -1290,7 +1296,7 @@
     "Email": "sarchambault@cpp.edu",
     "Campus": "Cal Poly Pomona",
     "College": "Huntley College of Agriculture",
-    "Department": "Agribusiness & Food Industry Management/Agricultural Science",
+    "Department": "Agribusiness & Food Industry Management / Agricultural Science",
     "Areas": [
       "Agriculture",
       "Business & Management"
@@ -1348,7 +1354,7 @@
     "Email": "larmas@fullerton.edu",
     "Campus": "CSU Fullerton",
     "College": "College of Business and Economics",
-    "Department": "Information Systems And Decision Sciences (Isds)",
+    "Department": "Information Systems and Decision Sciences (ISDS)",
     "Areas": [
       "Business & Management",
       "Computer Science & Information Systems"
@@ -1709,7 +1715,7 @@
     "Email": "pvieira@csudh.edu",
     "Campus": "CSU Dominguez Hills",
     "College": "College of Business Administration and Public Policy",
-    "Department": "Public Policy And Public Administration",
+    "Department": "Public Policy and Public Administration",
     "Areas": [
       "Public Administration & Policy"
     ],
@@ -1759,7 +1765,7 @@
     "Email": "Frank.Baber@csulb.edu",
     "Campus": "CSU Long Beach",
     "College": "College of Health & Human Services",
-    "Department": "Public Policy And Administration",
+    "Department": "Public Policy and Administration",
     "Areas": [
       "Public Administration & Policy"
     ],
@@ -1784,7 +1790,7 @@
     "Email": "kbachkar@csum.edu",
     "Campus": "Cal Maritime",
     "College": "School of Maritime Transportation, Logistics and Management",
-    "Department": "International Business And Logistics",
+    "Department": "International Business and Logistics",
     "Areas": [
       "Business & Management"
     ],
@@ -2284,10 +2290,9 @@
     "Email": "jenifer.barnett@sonoma.edu",
     "Campus": "Sonoma State University",
     "College": "Sustainable SSU Representative",
-    "Department": "Representing: Purchasing & Contracts",
+    "Department": "Purchasing & Contracts",
     "Areas": [
-      "Facilities & Operations",
-      "University Administration"
+      "Facilities & Operations"
     ],
     "Title": "Managing Director for Contracts, Procurement and Accounts Payable",
     "Research_Interests": "Sustainable procurement policy and strategies.",
@@ -2303,8 +2308,7 @@
       "Sustainable procurement policy and strategies."
     ],
     "Areas_List": [
-      "Facilities & Operations",
-      "University Administration"
+      "Facilities & Operations"
     ]
   },
   {
@@ -2369,7 +2373,7 @@
     "Email": "gwbates@calpoly.edu",
     "Campus": "Cal Poly SLO",
     "College": "College of Agriculture, Food, and Environmental Sciences",
-    "Department": "BioResource and  Agricultural Engineering Department",
+    "Department": "BioResource and Agricultural Engineering Department",
     "Areas": [
       "Agriculture",
       "Engineering"
@@ -2749,7 +2753,7 @@
     "Email": "mechelle.best@csun.edu",
     "Campus": "CSU Northridge",
     "College": "Health & Human Development",
-    "Department": "Recreation And Tourism Management",
+    "Department": "Recreation and Tourism Management",
     "Areas": [
       "Tourism & Recreation"
     ],
@@ -2886,7 +2890,7 @@
     "Email": "jblair@cpp.edu",
     "Campus": "Cal Poly Pomona",
     "College": "College of Letters, Arts, and Social Sciences",
-    "Department": "Geography And Anthropology",
+    "Department": "Geography and Anthropology",
     "Areas": [
       "Anthropology",
       "Geography"
@@ -3076,7 +3080,7 @@
       "Geology & Earth Science"
     ],
     "Title": "Assistant Professor",
-    "Research_Interests": "Professor bogie's research focuses on how the traditional practice of intercropping with deep rooted native shrubs in the west African sahel can serve as pumps to transfer water from deep, moist soil layers to shallow-rooted food crops growing nearby during extreme drought. His work in California involves studying links between geology and stream behavior in salmonid-bearing coastal watersheds as well as how the use of winter cover crops affects soil hydraulic properties and groundwater recharge.",
+    "Research_Interests": "Professor Bogie's research focuses on how the traditional practice of intercropping with deep rooted native shrubs in the west African sahel can serve as pumps to transfer water from deep, moist soil layers to shallow-rooted food crops growing nearby during extreme drought. His work in California involves studying links between geology and stream behavior in salmonid-bearing coastal watersheds as well as how the use of winter cover crops affects soil hydraulic properties and groundwater recharge.",
     "Teaching_Interests": "Hydrogeology, vadose zone hydrology, sustainability.",
     "Sustainability_Contributions": "Research on irrigation and crop growth for California's Central Valley. Research on geologic controls on streamflow behavior in salmonid-bearing watersheds.",
     "Notes": null,
@@ -3086,7 +3090,7 @@
     "slug": "nathanielbogiesjsuedu",
     "email_href": "mailto:nathaniel.bogie@sjsu.edu",
     "Research_Interests_List": [
-      "Professor bogie's research focuses on how the traditional practice of intercropping with deep rooted native shrubs in the west African sahel can serve as pumps to transfer water from deep, moist soil layers to shallow-rooted food crops growing nearby during extreme drought. His work in California involves studying links between geology and stream behavior in salmonid-bearing coastal watersheds as well as how the use of winter cover crops affects soil hydraulic properties and groundwater recharge."
+      "Professor Bogie's research focuses on how the traditional practice of intercropping with deep rooted native shrubs in the west African sahel can serve as pumps to transfer water from deep, moist soil layers to shallow-rooted food crops growing nearby during extreme drought. His work in California involves studying links between geology and stream behavior in salmonid-bearing coastal watersheds as well as how the use of winter cover crops affects soil hydraulic properties and groundwater recharge."
     ],
     "Areas_List": [
       "Geology & Earth Science"
@@ -3204,7 +3208,7 @@
     "Email": "soheil.boroushaki@csun.edu",
     "Campus": "CSU Northridge",
     "College": "Social & Behavioral Sciences",
-    "Department": "Geography And Environmental Studies",
+    "Department": "Geography and Environmental Studies",
     "Areas": [
       "Environmental Science",
       "Geography"
@@ -3501,7 +3505,7 @@
     "Email": "cnferdon@csuchico.edu",
     "Campus": "Chico State",
     "College": "College of Behavioral and Social Sciences",
-    "Department": "Political Science And Criminal Justice",
+    "Department": "Political Science and Criminal Justice",
     "Areas": [
       "Law",
       "Political Science"
@@ -4095,7 +4099,7 @@
     "Email": "jcarroll@fullerton.edu",
     "Campus": "CSU Fullerton",
     "College": "College of Humanities and Social Sciences",
-    "Department": "Geography And The Environment",
+    "Department": "Geography and The Environment",
     "Areas": [
       "Environmental Science",
       "Geography"
@@ -4124,7 +4128,7 @@
     "Email": "ecarter2@csub.edu",
     "Campus": "CSU Bakersfield",
     "College": "Business and Public Administration",
-    "Department": "Management And Marketing",
+    "Department": "Management and Marketing",
     "Areas": [
       "Business & Management"
     ],
@@ -4392,7 +4396,7 @@
     "Email": "dcheng@fullerton.edu",
     "Campus": "CSU Fullerton",
     "College": "College of Engineering and Computer Science",
-    "Department": "Electrical And Computer Engineering",
+    "Department": "Electrical and Computer Engineering",
     "Areas": [
       "Electrical & Computer Engineering",
       "Engineering"
@@ -4502,7 +4506,7 @@
     "Email": "choi@csufresno.edu",
     "Campus": "Fresno State",
     "College": "Craig School of Business",
-    "Department": "Information Systems And Decision Sciences",
+    "Department": "Information Systems and Decision Sciences",
     "Areas": [
       "Business & Management",
       "Computer Science & Information Systems"
@@ -4776,7 +4780,7 @@
     "Email": "craig.clements@sjsu.edu",
     "Campus": "San José State University",
     "College": "College of Science",
-    "Department": "Meteorology And Climate Science",
+    "Department": "Meteorology and Climate Science",
     "Areas": [
       "Meteorology & Climate Science"
     ],
@@ -5021,7 +5025,7 @@
     "Email": "enrique.contreras@csusb.edu",
     "Campus": "CSU San Bernardino",
     "College": "College of Natural Sciences",
-    "Department": "Chemistry And Biochemistry",
+    "Department": "Chemistry and Biochemistry",
     "Areas": [
       "Chemistry"
     ],
@@ -5075,7 +5079,7 @@
     "Email": "samuelc@mail.fresnostate.edu",
     "Campus": "Fresno State",
     "College": "Arts and Humanities",
-    "Department": "Media, Communications And Journalism",
+    "Department": "Media, Communications and Journalism",
     "Areas": [
       "Communication & Media"
     ],
@@ -5100,7 +5104,7 @@
     "Email": "kconwaygomez@cpp.edu",
     "Campus": "Cal Poly Pomona",
     "College": "College of Letters, Arts, and Social Sciences",
-    "Department": "Geography And Anthropology",
+    "Department": "Geography and Anthropology",
     "Areas": [
       "Anthropology",
       "Geography"
@@ -5183,7 +5187,7 @@
     "Email": "eugene.cordero@sjsu.edu",
     "Campus": "San José State University",
     "College": "College of Science",
-    "Department": "Meteorology And Climate Science",
+    "Department": "Meteorology and Climate Science",
     "Areas": [
       "Meteorology & Climate Science"
     ],
@@ -5320,7 +5324,7 @@
     "Email": "helen.m.cox@csun.edu",
     "Campus": "CSU Northridge",
     "College": "Social & Behavioral Sciences",
-    "Department": "Geography And Environmental Studies",
+    "Department": "Geography and Environmental Studies",
     "Areas": [
       "Environmental Science",
       "Geography"
@@ -5349,7 +5353,7 @@
     "Email": "acox@fullerton.edu",
     "Campus": "CSU Fullerton",
     "College": "College of Education",
-    "Department": "Elementary And Bilingual Education",
+    "Department": "Elementary and Bilingual Education",
     "Areas": [
       "Education"
     ],
@@ -5455,7 +5459,7 @@
     "Email": "acruz37@csub.edu",
     "Campus": "CSU Bakersfield",
     "College": "Natural Sciences, Mathematics, and Engineering",
-    "Department": "Computer And Electrical Engineering And Computer Science",
+    "Department": "Computer and Electrical Engineering and Computer Science",
     "Areas": [
       "Computer Science & Information Systems",
       "Electrical & Computer Engineering",
@@ -5540,7 +5544,7 @@
     "Email": "dcurtis@fullerton.edu",
     "Campus": "CSU Fullerton",
     "College": "College of Natural Sciences and Mathematics",
-    "Department": "Chemistry And Biochemistry",
+    "Department": "Chemistry and Biochemistry",
     "Areas": [
       "Chemistry"
     ],
@@ -5621,7 +5625,7 @@
     "Email": "adabb@csusm.edu",
     "Campus": "CSU San Marcos",
     "College": "College of Humanities, Arts, Behavioral & Social Sciences",
-    "Department": "Philosophy And Environmental Studies",
+    "Department": "Philosophy and Environmental Studies",
     "Areas": [
       "Environmental Science",
       "Philosophy"
@@ -5706,7 +5710,7 @@
     "Email": "mdangi@csufresno.edu",
     "Campus": "Fresno State",
     "College": "Social Sciences",
-    "Department": "Geography And City & Regional Planning",
+    "Department": "Geography and City & Regional Planning",
     "Areas": [
       "City & Regional Planning",
       "Geography"
@@ -5764,7 +5768,7 @@
     "Email": "jdaniels4@csustan.edu",
     "Campus": "Stanislaus State",
     "College": null,
-    "Department": "Sustainability/ Capital Planning And Facilities Management",
+    "Department": "Sustainability/ Capital Planning and Facilities Management",
     "Areas": [
       "Facilities & Operations",
       "Sustainability"
@@ -5791,7 +5795,7 @@
     "Email": null,
     "Campus": "San Diego State University",
     "College": "College of Engineering",
-    "Department": "Civil, Construction, And Environmental Engineering",
+    "Department": "Civil, Construction, and Environmental Engineering",
     "Areas": [
       "Civil & Environmental Engineering",
       "Construction Management",
@@ -5980,7 +5984,7 @@
     "Email": "john.delacruz@sjsu.edu",
     "Campus": "San José State University",
     "College": "College of Humanities and the Arts",
-    "Department": "School Of Journalism And Mass Communications",
+    "Department": "School Of Journalism and Mass Communications",
     "Areas": [
       "Communication & Media"
     ],
@@ -6065,7 +6069,7 @@
     "Email": "sderakhshan@cpp.edu",
     "Campus": "Cal Poly Pomona",
     "College": "College of Letters, Arts, and Social Sciences",
-    "Department": "Geography And Anthropology",
+    "Department": "Geography and Anthropology",
     "Areas": [
       "Anthropology",
       "Geography"
@@ -6204,7 +6208,7 @@
     "Email": "cdewey@csum.edu",
     "Campus": "Cal Maritime",
     "College": "School of Letters and Sciences",
-    "Department": "Culture And Communication",
+    "Department": "Culture and Communication",
     "Areas": [
       "Communication & Media",
       "Humanities"
@@ -6260,7 +6264,7 @@
     "Email": "ismaila.diallo@sjsu.edu",
     "Campus": "San José State University",
     "College": "College of Science",
-    "Department": "Meteorology And Climate Science",
+    "Department": "Meteorology and Climate Science",
     "Areas": [
       "Meteorology & Climate Science"
     ],
@@ -6287,7 +6291,7 @@
     "Email": "minghui.diao@sjsu.edu",
     "Campus": "San José State University",
     "College": "College of Science",
-    "Department": "Meteorology And Climate Science",
+    "Department": "Meteorology and Climate Science",
     "Areas": [
       "Meteorology & Climate Science"
     ],
@@ -6424,7 +6428,7 @@
     "Email": "dodgev@sonoma.edu",
     "Campus": "Sonoma State University",
     "College": "College of Humanities, Social Sciences, and the Arts",
-    "Department": "Geography, Environment, And Planning",
+    "Department": "Geography, Environment, and Planning",
     "Areas": [
       "City & Regional Planning",
       "Environmental Science",
@@ -6509,7 +6513,7 @@
     "Email": "rdonatello@csuchico.edu",
     "Campus": "Chico State",
     "College": "College of Natural Sciences",
-    "Department": "Mathematics And Statistics",
+    "Department": "Mathematics and Statistics",
     "Areas": [
       "Mathematics & Statistics"
     ],
@@ -6781,7 +6785,7 @@
     "Email": "gita.dunhill@csueastbay.edu",
     "Campus": "CSU East Bay",
     "College": "College of Science",
-    "Department": "Earth And Environmental Sciences",
+    "Department": "Earth and Environmental Sciences",
     "Areas": [
       "Environmental Science",
       "Geology & Earth Science"
@@ -6837,7 +6841,7 @@
     "Email": null,
     "Campus": "San Diego State University",
     "College": "College of Engineering",
-    "Department": "Civil, Construction, And Environmental Engineering",
+    "Department": "Civil, Construction, and Environmental Engineering",
     "Areas": [
       "Civil & Environmental Engineering",
       "Construction Management",
@@ -7032,7 +7036,7 @@
     "Email": "nerbe@csudh.edu",
     "Campus": "CSU Dominguez Hills",
     "College": "College of Arts & Humanities",
-    "Department": "Negotiation, Conflict Resolution, And Peacebuilding",
+    "Department": "Negotiation, Conflict Resolution, and Peacebuilding",
     "Areas": [
       "Political Science"
     ],
@@ -7117,7 +7121,7 @@
     "Email": "beudey@csustan.edu",
     "Campus": "Stanislaus State",
     "College": "College of the Arts, Humanities & Social Sciences",
-    "Department": "Sociology, Gerontology And Gender Studies",
+    "Department": "Sociology, Gerontology and Gender Studies",
     "Areas": [
       "Gender & Sexuality Studies",
       "Health Sciences",
@@ -7175,7 +7179,7 @@
     "Email": "ffairbairn@csub.edu",
     "Campus": "CSU Bakersfield",
     "College": "Arts and Humanities",
-    "Department": "Philosophy And Religious Studies",
+    "Department": "Philosophy and Religious Studies",
     "Areas": [
       "Philosophy",
       "Religious Studies"
@@ -7204,7 +7208,7 @@
     "Email": "dhfairbanks@csuchico.edu",
     "Campus": "Chico State",
     "College": "College of Behavioral and Social Sciences",
-    "Department": "Geography And Environmental Studies",
+    "Department": "Geography and Environmental Studies",
     "Areas": [
       "Environmental Science",
       "Geography"
@@ -7335,7 +7339,7 @@
     "Email": "fangk@sonoma.edu",
     "Campus": "Sonoma State University",
     "College": "College of Humanities, Social Sciences, and the Arts",
-    "Department": "Geography, Environment, And Planning",
+    "Department": "Geography, Environment, and Planning",
     "Areas": [
       "City & Regional Planning",
       "Environmental Science",
@@ -7476,7 +7480,7 @@
     "Email": "xi.feng@sjsu.edu",
     "Campus": "San José State University",
     "College": "College of Health and Human Sciences",
-    "Department": "Nutrition, Food Science, And Packaging",
+    "Department": "Nutrition, Food Science, and Packaging",
     "Areas": [
       "Agriculture",
       "Health Sciences"
@@ -7640,7 +7644,7 @@
     "Email": "Kevin.Fingerman@humboldt.edu",
     "Campus": "Cal Poly Humboldt",
     "College": "College of Natural Resources & Sciences",
-    "Department": "Environmental Science And Management",
+    "Department": "Environmental Science and Management",
     "Areas": [
       "Environmental Science"
     ],
@@ -7854,7 +7858,7 @@
     "Email": "sfomin@csuchico.edu",
     "Campus": "Chico State",
     "College": "College of Natural Sciences",
-    "Department": "Mathematics And Statics",
+    "Department": "Mathematics and Statics",
     "Areas": [
       "Mathematics & Statistics"
     ],
@@ -7881,7 +7885,7 @@
     "Email": "allison.ford@sonoma.edu",
     "Campus": "Sonoma State University",
     "College": "College of Humanities, Social Sciences, and the Arts",
-    "Department": "Geography, Environment, And Planning",
+    "Department": "Geography, Environment, and Planning",
     "Areas": [
       "City & Regional Planning",
       "Environmental Science",
@@ -7912,7 +7916,7 @@
     "Email": "sforester@csub.edu",
     "Campus": "CSU Bakersfield",
     "College": "Natural Sciences, Mathematics, and Engineering",
-    "Department": "Chemistry And Biochemistry",
+    "Department": "Chemistry and Biochemistry",
     "Areas": [
       "Chemistry"
     ],
@@ -7991,7 +7995,7 @@
     "Email": "eric.fox@csueastbay.edu",
     "Campus": "CSU East Bay",
     "College": "College of Science",
-    "Department": "Statistics And Data Science",
+    "Department": "Statistics and Data Science",
     "Areas": [
       "Computer Science & Information Systems",
       "Mathematics & Statistics"
@@ -8041,7 +8045,7 @@
     "Email": "elainefrey@fullerton.edu",
     "Campus": "CSU Fullerton",
     "College": "College of Humanities and Social Sciences",
-    "Department": "Division Of Politics, Administration, And Justice",
+    "Department": "Division Of Politics, Administration, and Justice",
     "Areas": [
       "Law",
       "Political Science"
@@ -8118,7 +8122,7 @@
     "Email": "fullersh@sonoma.edu",
     "Campus": "Sonoma State University",
     "College": "College of Humanities, Social Sciences, and the Arts",
-    "Department": "Geography, Environment, And Planning",
+    "Department": "Geography, Environment, and Planning",
     "Areas": [
       "City & Regional Planning",
       "Environmental Science",
@@ -8419,7 +8423,7 @@
     "Email": "bgarcia@cpp.edu",
     "Campus": "Cal Poly Pomona",
     "College": "College of Environmental Design",
-    "Department": "Urban And Regional Planning",
+    "Department": "Urban and Regional Planning",
     "Areas": [
       "City & Regional Planning"
     ],
@@ -8824,7 +8828,7 @@
     "Email": "elena.givental@csueastbay.edu",
     "Campus": "CSU East Bay",
     "College": "College of Science",
-    "Department": "Earth, Environmental And Sustainability Sciences",
+    "Department": "Earth, Environmental and Sustainability Sciences",
     "Areas": [
       "Environmental Science",
       "Sustainability"
@@ -8880,7 +8884,7 @@
     "Email": "bgoforth@csusb.edu",
     "Campus": "CSU San Bernardino",
     "College": "College of Social & Behavioral Sciences",
-    "Department": "Geography And Environmental Studies",
+    "Department": "Geography and Environmental Studies",
     "Areas": [
       "Environmental Science",
       "Geography"
@@ -9281,7 +9285,7 @@
     "Email": "ggranco@cpp.edu",
     "Campus": "Cal Poly Pomona",
     "College": "College of Letters, Arts, and Social Sciences",
-    "Department": "Geography And Anthropology",
+    "Department": "Geography and Anthropology",
     "Areas": [
       "Anthropology",
       "Geography"
@@ -9337,7 +9341,7 @@
     "Email": "emilio.grande@csueastbay.edu",
     "Campus": "CSU East Bay",
     "College": "College of Science",
-    "Department": "Earth, Environmental And Sustainability Sciences",
+    "Department": "Earth, Environmental and Sustainability Sciences",
     "Areas": [
       "Environmental Science",
       "Sustainability"
@@ -9420,7 +9424,7 @@
     "Email": "klgray@csuchico.edu",
     "Campus": "Chico State",
     "College": "College of Natural Sciences",
-    "Department": "Mathematics And Statistics",
+    "Department": "Mathematics and Statistics",
     "Areas": [
       "Mathematics & Statistics"
     ],
@@ -9447,7 +9451,7 @@
     "Email": "tjgreene@csuchico.edu",
     "Campus": "Chico State",
     "College": "College of Natural Sciences",
-    "Department": "Earth And Environmental Sciences",
+    "Department": "Earth and Environmental Sciences",
     "Areas": [
       "Environmental Science",
       "Geology & Earth Science"
@@ -9563,7 +9567,7 @@
     "Email": "kgressitt@csusm.edu",
     "Campus": "CSU San Marcos",
     "College": "College of Humanities, Arts, Behavioral & Social Sciences",
-    "Department": "Women'S, Gender, And Sexuality Studies",
+    "Department": "Women'S, Gender, and Sexuality Studies",
     "Areas": [
       "Gender & Sexuality Studies"
     ],
@@ -9698,7 +9702,7 @@
     "Email": null,
     "Campus": "San Diego State University",
     "College": "College of Sciences",
-    "Department": "Chemistry And Biochemistry",
+    "Department": "Chemistry and Biochemistry",
     "Areas": [
       "Chemistry"
     ],
@@ -9725,7 +9729,7 @@
     "Email": "guilforj@sonoma.edu",
     "Campus": "Sonoma State University",
     "College": "College of Humanities, Social Sciences, and the Arts",
-    "Department": "Geography, Environment, And Planning",
+    "Department": "Geography, Environment, and Planning",
     "Areas": [
       "City & Regional Planning",
       "Environmental Science",
@@ -9891,7 +9895,7 @@
     "Email": "jhaan@fullerton.edu",
     "Campus": "CSU Fullerton",
     "College": "College of Natural Sciences and Mathematics",
-    "Department": "Chemistry And Biochemistry",
+    "Department": "Chemistry and Biochemistry",
     "Areas": [
       "Chemistry"
     ],
@@ -9918,7 +9922,7 @@
     "Email": "caitlin.hachmyer@sonoma.edu",
     "Campus": "Sonoma State University",
     "College": "College of Humanities, Social Sciences, and the Arts",
-    "Department": "Geography, Environment, And Planning",
+    "Department": "Geography, Environment, and Planning",
     "Areas": [
       "City & Regional Planning",
       "Environmental Science",
@@ -9949,7 +9953,7 @@
     "Email": "erhadden@mail.fresnostate.edu",
     "Campus": "Fresno State",
     "College": null,
-    "Department": "Water, Energy And Technology (Wet) Center",
+    "Department": "Water, Energy and Technology (WET) Center",
     "Areas": [
       "Energy"
     ],
@@ -10088,7 +10092,7 @@
     "Email": "william.haller@csusb.edu",
     "Campus": "CSU San Bernardino",
     "College": "College of Natural Sciences",
-    "Department": "Health Science And Human Ecology",
+    "Department": "Health Science and Human Ecology",
     "Areas": [
       "Biology",
       "Health Sciences"
@@ -10171,7 +10175,7 @@
     "Email": "dhankins@csuchico.edu",
     "Campus": "Chico State",
     "College": "College of Behavioral and Social Sciences",
-    "Department": "Geography And Environmental Studies",
+    "Department": "Geography and Environmental Studies",
     "Areas": [
       "Environmental Science",
       "Geography"
@@ -10200,7 +10204,7 @@
     "Email": "ian.hannah@sonoma.edu",
     "Campus": "Sonoma State University",
     "College": "Sustainable SSU Representative",
-    "Department": "Representing: Advancement",
+    "Department": "Advancement",
     "Areas": [
       "University Administration"
     ],
@@ -10931,7 +10935,7 @@
     "Email": "heidi.herrmann@sonoma.edu",
     "Campus": "Sonoma State University",
     "College": "College of Humanities, Social Sciences, and the Arts",
-    "Department": "Geography, Environment, And Planning",
+    "Department": "Geography, Environment, and Planning",
     "Areas": [
       "City & Regional Planning",
       "Environmental Science",
@@ -10962,7 +10966,7 @@
     "Email": "jhersko@csusm.edu",
     "Campus": "CSU San Marcos",
     "College": "College of Humanities, Arts, Behavioral & Social Sciences",
-    "Department": "School Of Arts - Art, Media, And Design",
+    "Department": "School Of Arts - Art, Media, and Design",
     "Areas": [
       "Art & Design",
       "Communication & Media"
@@ -11124,7 +11128,7 @@
     "Email": null,
     "Campus": "San Diego State University",
     "College": "College of Sciences",
-    "Department": "Chemistry And Biochemistry",
+    "Department": "Chemistry and Biochemistry",
     "Areas": [
       "Chemistry"
     ],
@@ -11205,7 +11209,7 @@
     "Email": "dorothy.horn@csuci.edu",
     "Campus": "CSU Channel Islands",
     "College": "College of Arts and Sciences",
-    "Department": "Environmental Science And Resource Management",
+    "Department": "Environmental Science and Resource Management",
     "Areas": [
       "Environmental Science"
     ],
@@ -11280,7 +11284,7 @@
     "Email": "Lily.HousePeters@csulb.edu",
     "Campus": "CSU Long Beach",
     "College": "College of Liberal Arts",
-    "Department": "Geography And Environmental Science & Policy",
+    "Department": "Geography and Environmental Science & Policy",
     "Areas": [
       "Environmental Science",
       "Geography",
@@ -11336,7 +11340,7 @@
     "Email": "phudson@fullerton.edu",
     "Campus": "CSU Fullerton",
     "College": "College of Natural Sciences and Mathematics",
-    "Department": "Chemistry And Biochemistry",
+    "Department": "Chemistry and Biochemistry",
     "Areas": [
       "Chemistry"
     ],
@@ -11421,11 +11425,10 @@
     "Email": "erin.hunter@sonoma.edu",
     "Campus": "Sonoma State University",
     "College": "Sustainable SSU Representative",
-    "Department": "Representing: Residential Education And Campus Housing (Reach)",
+    "Department": "Residential Education and Campus Housing (REACH)",
     "Areas": [
       "Education",
-      "Facilities & Operations",
-      "University Administration"
+      "Facilities & Operations"
     ],
     "Title": "Director, Residential Education and Campus Housing",
     "Research_Interests": null,
@@ -11440,8 +11443,7 @@
     "Research_Interests_List": [],
     "Areas_List": [
       "Education",
-      "Facilities & Operations",
-      "University Administration"
+      "Facilities & Operations"
     ]
   },
   {
@@ -11504,7 +11506,7 @@
     "Email": "mdarifiqbali@cpp.edu",
     "Campus": "Cal Poly Pomona",
     "College": "Huntley College of Agriculture",
-    "Department": "Apparel Merchandising And Management",
+    "Department": "Apparel Merchandising and Management",
     "Areas": [
       "Art & Design",
       "Business & Management"
@@ -11560,7 +11562,7 @@
     "Email": "linda.ivey@csueastbay.edu",
     "Campus": "CSU East Bay",
     "College": "College of Letters, Arts, and Social Sciences",
-    "Department": "History And Global Cultures",
+    "Department": "History and Global Cultures",
     "Areas": [
       "History",
       "Humanities"
@@ -11857,7 +11859,7 @@
     "Email": "andresjauregui@mail.fresnostate.edu",
     "Campus": "Fresno State",
     "College": "Craig School of Business",
-    "Department": "Finance, Real Estate And Business Law",
+    "Department": "Finance, Real Estate and Business Law",
     "Areas": [
       "Business & Management",
       "Finance",
@@ -11998,7 +12000,7 @@
     "Email": "indumathi.jeyachandran@sjsu.edu",
     "Campus": "San José State University",
     "College": "Charles W. Davidson College of Engineering",
-    "Department": "Environmental And Civil Engineering",
+    "Department": "Environmental and Civil Engineering",
     "Areas": [
       "Civil & Environmental Engineering",
       "Engineering",
@@ -12299,7 +12301,7 @@
     "Email": "kkaczynski@csuchico.edu",
     "Campus": "Chico State",
     "College": "College of Natural Sciences",
-    "Department": "Earth And Environmental Sciences",
+    "Department": "Earth and Environmental Sciences",
     "Areas": [
       "Environmental Science",
       "Geology & Earth Science"
@@ -12382,7 +12384,7 @@
     "Email": "rkalra@csusb.edu",
     "Campus": "CSU San Bernardino",
     "College": "College of Social & Behavioral Sciences",
-    "Department": "Geography And Environmental Studies",
+    "Department": "Geography and Environmental Studies",
     "Areas": [
       "Environmental Science",
       "Geography"
@@ -12438,7 +12440,7 @@
     "Email": "katy.kao@sjsu.edu",
     "Campus": "San José State University",
     "College": "Charles W. Davidson College of Engineering",
-    "Department": "Chemical And Materials Engineering",
+    "Department": "Chemical and Materials Engineering",
     "Areas": [
       "Chemical & Materials Engineering",
       "Engineering"
@@ -12494,7 +12496,7 @@
     "Email": "karlssonk@sonoma.edu",
     "Campus": "Sonoma State University",
     "College": "College of Humanities, Social Sciences, and the Arts",
-    "Department": "Geography, Environment, And Planning",
+    "Department": "Geography, Environment, and Planning",
     "Areas": [
       "City & Regional Planning",
       "Environmental Science",
@@ -12689,7 +12691,7 @@
     "Email": "timnit.kefela@csuci.edu",
     "Campus": "CSU Channel Islands",
     "College": "College of Arts and Sciences",
-    "Department": "Environmental Science And Resource Management",
+    "Department": "Environmental Science and Resource Management",
     "Areas": [
       "Environmental Science"
     ],
@@ -12791,7 +12793,7 @@
     "Email": "ckelsey@csub.edu",
     "Campus": "CSU Bakersfield",
     "College": "Business and Public Administration",
-    "Department": "Public Policy And Administration",
+    "Department": "Public Policy and Administration",
     "Areas": [
       "Public Administration & Policy"
     ],
@@ -12845,7 +12847,7 @@
     "Email": "swat.kethireddy@csusb.edu",
     "Campus": "CSU San Bernardino",
     "College": "College of Natural Sciences",
-    "Department": "Health Science And Human Ecology",
+    "Department": "Health Science and Human Ecology",
     "Areas": [
       "Biology",
       "Health Sciences"
@@ -12901,7 +12903,7 @@
     "Email": "bilal.khan@csusb.edu",
     "Campus": "CSU San Bernardino",
     "College": "College of Natural Sciences",
-    "Department": "School Of Computer Science And Engineering",
+    "Department": "School Of Computer Science and Engineering",
     "Areas": [
       "Computer Science & Information Systems",
       "Engineering"
@@ -12986,7 +12988,7 @@
     "Email": "ayda.kianmehr@sjsu.edu",
     "Campus": "San José State University",
     "College": "School of Planning, Policy, and Environmental Studies",
-    "Department": "Urban And Regional Planning And Environmental Studies",
+    "Department": "Urban and Regional Planning and Environmental Studies",
     "Areas": [
       "City & Regional Planning",
       "Environmental Science"
@@ -13015,7 +13017,7 @@
     "Email": "gkim9@csub.edu",
     "Campus": "CSU Bakersfield",
     "College": "Natural Sciences, Mathematics, and Engineering",
-    "Department": "Physics And Engineering",
+    "Department": "Physics and Engineering",
     "Areas": [
       "Engineering",
       "Physics & Astronomy"
@@ -13154,7 +13156,7 @@
     "Email": null,
     "Campus": "San Diego State University",
     "College": "College of Engineering",
-    "Department": "Civil, Construction, And Environmental Engineering",
+    "Department": "Civil, Construction, and Environmental Engineering",
     "Areas": [
       "Civil & Environmental Engineering",
       "Construction Management",
@@ -13320,7 +13322,7 @@
     "Email": "lknottek@csumb.edu",
     "Campus": "CSU Monterey Bay",
     "College": "College of Science",
-    "Department": "Science/Marine Science; Center For Advising, Career, And Student Success",
+    "Department": "Science/Marine Science; Center For Advising, Career, and Student Success",
     "Areas": [
       "Marine Science"
     ],
@@ -13345,7 +13347,7 @@
     "Email": "adam.kochanski@sjsu.edu",
     "Campus": "San José State University",
     "College": "College of Science",
-    "Department": "Meteorology And Climate Science",
+    "Department": "Meteorology and Climate Science",
     "Areas": [
       "Meteorology & Climate Science"
     ],
@@ -13426,7 +13428,7 @@
     "Email": "mkohout@csusb.edu",
     "Campus": "CSU San Bernardino",
     "College": "College of Social & Behavioral Sciences",
-    "Department": "Geography And Environmental Studies",
+    "Department": "Geography and Environmental Studies",
     "Areas": [
       "Environmental Science",
       "Geography"
@@ -13455,7 +13457,7 @@
     "Email": "tjkohut@cpp.edu",
     "Campus": "Cal Poly Pomona",
     "College": "College of Environmental Design",
-    "Department": "Department Of Architecture And Department Of Regenerative Studies",
+    "Department": "Department Of Architecture and Department Of Regenerative Studies",
     "Areas": [
       "Architecture",
       "Sustainability"
@@ -13625,7 +13627,7 @@
     "Email": "skurwadkar@fullerton.edu",
     "Campus": "CSU Fullerton",
     "College": "College of Engineering and Computer Science",
-    "Department": "Civil And Environmental Engineering",
+    "Department": "Civil and Environmental Engineering",
     "Areas": [
       "Civil & Environmental Engineering",
       "Engineering",
@@ -13685,7 +13687,7 @@
     "Email": "mkwon@fullerton.edu",
     "Campus": "CSU Fullerton",
     "College": "College of Humanities and Social Sciences",
-    "Department": "Division Of Politics, Administration, And Justice",
+    "Department": "Division Of Politics, Administration, and Justice",
     "Areas": [
       "Law",
       "Political Science"
@@ -13882,7 +13884,7 @@
     "Email": "nlambrou@cpp.edu",
     "Campus": "Cal Poly Pomona",
     "College": "College of Environmental Design",
-    "Department": "Urban And Regional Planning",
+    "Department": "Urban and Regional Planning",
     "Areas": [
       "City & Regional Planning"
     ],
@@ -14100,7 +14102,7 @@
     "Email": "robin.lasser@sjsu.edu",
     "Campus": "San José State University",
     "College": "College of Humanities and the Arts",
-    "Department": "Art And Art History",
+    "Department": "Art and Art History",
     "Areas": [
       "Art & Design",
       "History"
@@ -14239,7 +14241,7 @@
     "Email": "jlawston@csusm.edu",
     "Campus": "CSU San Marcos",
     "College": "College of Humanities, Arts, Behavioral & Social Sciences",
-    "Department": "Women'S, Gender And Sexuality Studies",
+    "Department": "Women'S, Gender and Sexuality Studies",
     "Areas": [
       "Gender & Sexuality Studies"
     ],
@@ -14293,7 +14295,7 @@
     "Email": "hatle@cpp.edu",
     "Campus": "Cal Poly Pomona",
     "College": "College of Engineering",
-    "Department": "Electrical And Computer Engineering",
+    "Department": "Electrical and Computer Engineering",
     "Areas": [
       "Electrical & Computer Engineering",
       "Engineering"
@@ -14322,7 +14324,7 @@
     "Email": "jleach@csuchico.edu",
     "Campus": "Chico State",
     "College": null,
-    "Department": "Facilities Management And Services",
+    "Department": "Facilities Management and Services",
     "Areas": [
       "Facilities & Operations"
     ],
@@ -14432,7 +14434,7 @@
     "Email": "clei@csub.edu",
     "Campus": "CSU Bakersfield",
     "College": "Natural Sciences, Mathematics, and Engineering",
-    "Department": "Computer And Electrical Engineering And Computer Science",
+    "Department": "Computer and Electrical Engineering and Computer Science",
     "Areas": [
       "Computer Science & Information Systems",
       "Electrical & Computer Engineering",
@@ -14544,7 +14546,7 @@
     "Email": "marielma@mail.fresnostate.edu",
     "Campus": "Fresno State",
     "College": "Social Sciences",
-    "Department": "Women'S, Gender And Sexuality Studies",
+    "Department": "Women'S, Gender and Sexuality Studies",
     "Areas": [
       "Gender & Sexuality Studies"
     ],
@@ -14623,7 +14625,7 @@
     "Email": "christopher.lew@sjsu.edu",
     "Campus": "San José State University",
     "College": "Charles W. Davidson College of Engineering",
-    "Department": "Chemical And Material Engineering",
+    "Department": "Chemical and Material Engineering",
     "Areas": [
       "Chemical & Materials Engineering",
       "Engineering"
@@ -14733,7 +14735,7 @@
     "Email": null,
     "Campus": "San Diego State University",
     "College": "College of Engineering",
-    "Department": "Civil, Construction, And Environmental Engineering",
+    "Department": "Civil, Construction, and Environmental Engineering",
     "Areas": [
       "Civil & Environmental Engineering",
       "Construction Management",
@@ -14824,7 +14826,7 @@
     "Email": "yli11@csub.edu",
     "Campus": "CSU Bakersfield",
     "College": "Natural Sciences, Mathematics, and Engineering",
-    "Department": "Physics And Engineering",
+    "Department": "Physics and Engineering",
     "Areas": [
       "Engineering",
       "Physics & Astronomy"
@@ -15015,7 +15017,7 @@
     "Email": null,
     "Campus": "San Diego State University",
     "College": "College of Sciences",
-    "Department": "Department Of Biology And Ecology",
+    "Department": "Department Of Biology and Ecology",
     "Areas": [
       "Biology"
     ],
@@ -15042,7 +15044,7 @@
     "Email": null,
     "Campus": "San Diego State University",
     "College": "College of Health and Human Services",
-    "Department": "School Of Exercise And Nutritional Sciences",
+    "Department": "School Of Exercise and Nutritional Sciences",
     "Areas": [
       "Health Sciences"
     ],
@@ -15123,7 +15125,7 @@
     "Email": "zliu3@csub.edu",
     "Campus": "CSU Bakersfield",
     "College": "Natural Sciences, Mathematics, and Engineering",
-    "Department": "Physics And Engineering",
+    "Department": "Physics and Engineering",
     "Areas": [
       "Engineering",
       "Physics & Astronomy"
@@ -15289,7 +15291,7 @@
     "Email": null,
     "Campus": "San Diego State University",
     "College": "College of Sciences",
-    "Department": "Chemistry And Biochemistry",
+    "Department": "Chemistry and Biochemistry",
     "Areas": [
       "Chemistry"
     ],
@@ -15428,7 +15430,7 @@
     "Email": "rlush@csusm.edu",
     "Campus": "CSU San Marcos",
     "College": "College of Humanities, Arts, Behavioral & Social Sciences",
-    "Department": "Literature And Writing Studies",
+    "Department": "Literature and Writing Studies",
     "Areas": [
       "English & Literature"
     ],
@@ -15638,7 +15640,7 @@
     "Email": "ramahto@fullerton.edu",
     "Campus": "CSU Fullerton",
     "College": "College of Engineering and Computer Science",
-    "Department": "Electrical And Computer Engineering",
+    "Department": "Electrical and Computer Engineering",
     "Areas": [
       "Electrical & Computer Engineering",
       "Engineering"
@@ -15667,7 +15669,7 @@
     "Email": "kmaitra@csufresno.edu",
     "Campus": "Fresno State",
     "College": "College of Science and Mathematics",
-    "Department": "Chemistry And Biochemistry",
+    "Department": "Chemistry and Biochemistry",
     "Areas": [
       "Chemistry"
     ],
@@ -15723,7 +15725,7 @@
     "Email": null,
     "Campus": "San Diego State University",
     "College": "College of Sciences",
-    "Department": "Earth And Environmental Sciences",
+    "Department": "Earth and Environmental Sciences",
     "Areas": [
       "Environmental Science",
       "Geology & Earth Science"
@@ -16003,7 +16005,7 @@
     "Email": "Edward.Martin@csulb.edu",
     "Campus": "CSU Long Beach",
     "College": "College of Health & Human Services",
-    "Department": "Public Policy And Administration",
+    "Department": "Public Policy and Administration",
     "Areas": [
       "Public Administration & Policy"
     ],
@@ -16111,7 +16113,7 @@
     "Email": "tmatheus@fullerton.edu",
     "Campus": "CSU Fullerton",
     "College": "College of Humanities and Social Sciences",
-    "Department": "Geography And The Environment",
+    "Department": "Geography and The Environment",
     "Areas": [
       "Environmental Science",
       "Geography"
@@ -16140,7 +16142,7 @@
     "Email": "luke.matjas@csuci.edu",
     "Campus": "CSU Channel Islands",
     "College": "College of Arts and Sciences",
-    "Department": "Art And Art History",
+    "Department": "Art and Art History",
     "Areas": [
       "Art & Design",
       "History"
@@ -16408,7 +16410,7 @@
     "Email": "smcfeeters@csufresno.edu",
     "Campus": "Fresno State",
     "College": "Social Sciences",
-    "Department": "Geography And City And Regional Planning",
+    "Department": "Geography and City and Regional Planning",
     "Areas": [
       "City & Regional Planning",
       "Geography"
@@ -16628,7 +16630,7 @@
     "Email": "kmeehan@csuchico.edu",
     "Campus": "Chico State",
     "College": "College of Engineering, Computer Science, and Construction Management",
-    "Department": "Electrical And Computer Engineering",
+    "Department": "Electrical and Computer Engineering",
     "Areas": [
       "Electrical & Computer Engineering",
       "Engineering"
@@ -16657,7 +16659,7 @@
     "Email": "nmeek@csusb.edu",
     "Campus": "CSU San Bernardino",
     "College": "College of Social & Behavioral Sciences",
-    "Department": "Geography And Environmental Studies",
+    "Department": "Geography and Environmental Studies",
     "Areas": [
       "Environmental Science",
       "Geography"
@@ -16715,7 +16717,7 @@
     "Email": "ali.mehran@sjsu.edu",
     "Campus": "San José State University",
     "College": "Charles W. Davidson College of Engineering",
-    "Department": "Civil And Environmental Engineering",
+    "Department": "Civil and Environmental Engineering",
     "Areas": [
       "Civil & Environmental Engineering",
       "Engineering",
@@ -16858,7 +16860,7 @@
     "Email": "ellen.metzger@sjsu.edu",
     "Campus": "San José State University",
     "College": "College of Science",
-    "Department": "Geology And Science Education",
+    "Department": "Geology and Science Education",
     "Areas": [
       "Education",
       "Geology & Earth Science"
@@ -17018,7 +17020,7 @@
     "Email": "michelk@sonoma.edu",
     "Campus": "Sonoma State University",
     "College": "College of Humanities, Social Sciences, and the Arts",
-    "Department": "Geography, Environment, And Planning",
+    "Department": "Geography, Environment, and Planning",
     "Areas": [
       "City & Regional Planning",
       "Environmental Science",
@@ -17211,7 +17213,7 @@
     "Email": "jmirocha@csustan.edu",
     "Campus": "Stanislaus State",
     "College": "College of Science",
-    "Department": "Physics And Physical Sciences",
+    "Department": "Physics and Physical Sciences",
     "Areas": [
       "Physics & Astronomy"
     ],
@@ -17238,7 +17240,7 @@
     "Email": "pkmishra@fullerton.edu",
     "Campus": "CSU Fullerton",
     "College": "College of Engineering and Computer Science",
-    "Department": "Civil And Environmental Engineering",
+    "Department": "Civil and Environmental Engineering",
     "Areas": [
       "Civil & Environmental Engineering",
       "Engineering",
@@ -17269,7 +17271,7 @@
     "Email": null,
     "Campus": "San Diego State University",
     "College": "College of Engineering",
-    "Department": "Civil, Construction, And Environmental Engineering",
+    "Department": "Civil, Construction, and Environmental Engineering",
     "Areas": [
       "Civil & Environmental Engineering",
       "Construction Management",
@@ -17329,7 +17331,7 @@
     "Email": "amohapatra@fullerton.edu",
     "Campus": "CSU Fullerton",
     "College": "College of Engineering and Computer Science",
-    "Department": "Electrical And Computer Engineering",
+    "Department": "Electrical and Computer Engineering",
     "Areas": [
       "Electrical & Computer Engineering",
       "Engineering"
@@ -17483,7 +17485,7 @@
     "Email": "jean.moran@csueastbay.edu",
     "Campus": "CSU East Bay",
     "College": "College of Science",
-    "Department": "Earth, Environmental And Sustainability Sciences",
+    "Department": "Earth, Environmental and Sustainability Sciences",
     "Areas": [
       "Environmental Science",
       "Sustainability"
@@ -17892,7 +17894,7 @@
     "Email": "nardine@sonoma.edu",
     "Campus": "Sonoma State University",
     "College": "College of Humanities, Social Sciences, and the Arts",
-    "Department": "Geography, Environment, And Planning",
+    "Department": "Geography, Environment, and Planning",
     "Areas": [
       "City & Regional Planning",
       "Environmental Science",
@@ -17950,7 +17952,7 @@
     "Email": "mahmood.nikbakhtzadeh@csusb.edu",
     "Campus": "CSU San Bernardino",
     "College": "College of Natural Sciences",
-    "Department": "Health Science And Human Ecology",
+    "Department": "Health Science and Human Ecology",
     "Areas": [
       "Biology",
       "Health Sciences"
@@ -18137,7 +18139,7 @@
     "Email": "sogunjemiyo@csufresno.edu",
     "Campus": "Fresno State",
     "College": "Social Sciences",
-    "Department": "Geography And City And Regional Planning",
+    "Department": "Geography and City and Regional Planning",
     "Areas": [
       "City & Regional Planning",
       "Geography"
@@ -18166,7 +18168,7 @@
     "Email": "dahyun.oh@sjsu.edu",
     "Campus": "San José State University",
     "College": "Charles W. Davidson College of Engineering",
-    "Department": "Chemical And Materials Engineering",
+    "Department": "Chemical and Materials Engineering",
     "Areas": [
       "Chemical & Materials Engineering",
       "Engineering"
@@ -18195,7 +18197,7 @@
     "Email": "patty.oikawa@csueastbay.edu",
     "Campus": "CSU East Bay",
     "College": "College of Science",
-    "Department": "Earth, Environmental And Sustainability Sciences",
+    "Department": "Earth, Environmental and Sustainability Sciences",
     "Areas": [
       "Environmental Science",
       "Sustainability"
@@ -18330,7 +18332,7 @@
     "Email": "craig.olwert@csun.edu",
     "Campus": "CSU Northridge",
     "College": "Sci & Math",
-    "Department": "Urban Studies And Planning",
+    "Department": "Urban Studies and Planning",
     "Areas": [
       "City & Regional Planning"
     ],
@@ -18432,7 +18434,7 @@
     "Email": "amalie.orme@csun.edu",
     "Campus": "CSU Northridge",
     "College": "Social and Behavioral Sciences",
-    "Department": "Geography And Environmental Studies",
+    "Department": "Geography and Environmental Studies",
     "Areas": [
       "Environmental Science",
       "Geography"
@@ -18536,7 +18538,7 @@
     "Email": "lsott@csuchico.edu",
     "Campus": "Chico State",
     "College": "College of Natural Sciences",
-    "Department": "Chemistry And Biochemistry",
+    "Department": "Chemistry and Biochemistry",
     "Areas": [
       "Chemistry"
     ],
@@ -18563,7 +18565,7 @@
     "Email": "sungjay.ou@sjsu.edu",
     "Campus": "San José State University",
     "College": "College of Social Sciences",
-    "Department": "Anthropology And Environmental Studies",
+    "Department": "Anthropology and Environmental Studies",
     "Areas": [
       "Anthropology",
       "Environmental Science"
@@ -18818,7 +18820,7 @@
     "Email": "parekhn@sonoma.edu",
     "Campus": "Sonoma State University",
     "College": "Sustainable SSU Representative",
-    "Department": "Representing: Academic Senate",
+    "Department": "Academic Senate",
     "Areas": [
       "University Administration"
     ],
@@ -18926,7 +18928,7 @@
     "Email": "kiki.patsch@csuci.edu",
     "Campus": "CSU Channel Islands",
     "College": "College of Arts and Sciences",
-    "Department": "Environmental Science And Resource Management",
+    "Department": "Environmental Science and Resource Management",
     "Areas": [
       "Environmental Science"
     ],
@@ -18980,7 +18982,7 @@
     "Email": "https://www.linkedin.com/in/elizabeth-patterson-94510/",
     "Campus": "Sonoma State University",
     "College": "College of Humanities, Social Sciences, and the Arts",
-    "Department": "Geography, Environment, And Planning",
+    "Department": "Geography, Environment, and Planning",
     "Areas": [
       "City & Regional Planning",
       "Environmental Science",
@@ -19150,7 +19152,7 @@
     "Email": "kpelisari@mail.fresnostate.edu",
     "Campus": "Fresno State",
     "College": null,
-    "Department": "Water, Energy And Technology (Wet) Center",
+    "Department": "Water, Energy and Technology (WET) Center",
     "Areas": [
       "Energy"
     ],
@@ -19362,7 +19364,7 @@
     "Email": "apetit@fullerton.edu",
     "Campus": "CSU Fullerton",
     "College": "College of Natural Sciences and Mathematics",
-    "Department": "Chemistry And Biochemistry",
+    "Department": "Chemistry and Biochemistry",
     "Areas": [
       "Chemistry"
     ],
@@ -19618,7 +19620,7 @@
     "Email": "hamid@csudh.edu",
     "Campus": "CSU Dominguez Hills",
     "College": "College of Business Administration and Public Policy",
-    "Department": "Information Systems And Operations Management",
+    "Department": "Information Systems and Operations Management",
     "Areas": [
       "Business & Management",
       "Computer Science & Information Systems"
@@ -19728,7 +19730,7 @@
     "Email": "vprice@csudh.edu",
     "Campus": "CSU Dominguez Hills",
     "College": "College of Arts & Humanities",
-    "Department": "Women'S, Interdisciplinary, And Environmental Studies",
+    "Department": "Women'S, Interdisciplinary, and Environmental Studies",
     "Areas": [
       "Environmental Science",
       "Gender & Sexuality Studies"
@@ -19811,7 +19813,7 @@
     "Email": "kputirka@csufresno.edu",
     "Campus": "Fresno State",
     "College": "Science and Mathematics",
-    "Department": "Earth And Environmental Sciences",
+    "Department": "Earth and Environmental Sciences",
     "Areas": [
       "Environmental Science",
       "Geology & Earth Science"
@@ -19867,7 +19869,7 @@
     "Email": null,
     "Campus": "San Diego State University",
     "College": "College of Arts and Letters",
-    "Department": "Anthropology/Center For Latin American Studies; Graduate Faculty In The Jdp Global Health; Graduate Faculty In Women'S Studies; Graduate Faculty In Journalism And Media Studies",
+    "Department": "Anthropology/Center For Latin American Studies; Graduate Faculty In The Jdp Global Health; Graduate Faculty In Women'S Studies; Graduate Faculty In Journalism and Media Studies",
     "Areas": [
       "Anthropology",
       "Communication & Media",
@@ -20193,7 +20195,7 @@
     "Email": "mprasadarao@fullerton.edu",
     "Campus": "CSU Fullerton",
     "College": "College of Engineering and Computer Science",
-    "Department": "Civil And Environmental Engineering",
+    "Department": "Civil and Environmental Engineering",
     "Areas": [
       "Civil & Environmental Engineering",
       "Engineering",
@@ -20278,7 +20280,7 @@
     "Email": "dorothee.rebscher@csueastbay.edu",
     "Campus": "CSU East Bay",
     "College": "College of Science",
-    "Department": "Earth And Environmental Sciences",
+    "Department": "Earth and Environmental Sciences",
     "Areas": [
       "Environmental Science",
       "Geology & Earth Science"
@@ -20386,7 +20388,7 @@
     "Email": "ereihani@cs.csubak.edu",
     "Campus": "CSU Bakersfield",
     "College": "Natural Sciences, Mathematics, and Engineering",
-    "Department": "Computer And Electrical Engineering And Computer Science",
+    "Department": "Computer and Electrical Engineering and Computer Science",
     "Areas": [
       "Computer Science & Information Systems",
       "Electrical & Computer Engineering",
@@ -20417,7 +20419,7 @@
     "Email": "dan.reineman@csuci.edu",
     "Campus": "CSU Channel Islands",
     "College": "College of Arts and Sciences",
-    "Department": "Environmental Science And Resource Management",
+    "Department": "Environmental Science and Resource Management",
     "Areas": [
       "Environmental Science"
     ],
@@ -20471,7 +20473,7 @@
     "Email": "mathieu@csufresno.edu",
     "Campus": "Fresno State",
     "College": "Science and Mathematics",
-    "Department": "Earth And Environmental Sciences",
+    "Department": "Earth and Environmental Sciences",
     "Areas": [
       "Environmental Science",
       "Geology & Earth Science"
@@ -20527,7 +20529,7 @@
     "Email": "eridder@csusm.edu",
     "Campus": "CSU San Marcos",
     "College": "College of Humanities, Arts, Behavioral & Social Sciences",
-    "Department": "Environment And Geography",
+    "Department": "Environment and Geography",
     "Areas": [
       "Environmental Science",
       "Geography"
@@ -20687,7 +20689,7 @@
     "Email": "daniel.rivers@sjsu.edu",
     "Campus": "San José State University",
     "College": "College of Social Sciences",
-    "Department": "Humanities (American Studies) & English And Comparative Literature",
+    "Department": "Humanities (American Studies) & English and Comparative Literature",
     "Areas": [
       "English & Literature",
       "Ethnic & Indigenous Studies",
@@ -20803,7 +20805,7 @@
     "Email": "robinsont@sonoma.edu",
     "Campus": "Sonoma State University",
     "College": "College of Humanities, Social Sciences, and the Arts",
-    "Department": "Geography, Environment, And Planning",
+    "Department": "Geography, Environment, and Planning",
     "Areas": [
       "City & Regional Planning",
       "Environmental Science",
@@ -20888,7 +20890,7 @@
     "Email": "antonio.romanalcala@csueastbay.edu",
     "Campus": "CSU East Bay",
     "College": "College of Letters, Arts, and Social Sciences",
-    "Department": "Earth, Environmental And Sustainability Sciences",
+    "Department": "Earth, Environmental and Sustainability Sciences",
     "Areas": [
       "Environmental Science",
       "Sustainability"
@@ -20944,7 +20946,7 @@
     "Email": "anna.rose@csueastbay.edu",
     "Campus": "CSU East Bay",
     "College": "College of Letters, Arts, and Social Sciences",
-    "Department": "History And Global Cultures",
+    "Department": "History and Global Cultures",
     "Areas": [
       "History",
       "Humanities"
@@ -20973,7 +20975,7 @@
     "Email": "srose@csusb.edu",
     "Campus": "CSU San Bernardino",
     "College": "College of Natural Sciences",
-    "Department": "Health Science And Human Ecology",
+    "Department": "Health Science and Human Ecology",
     "Areas": [
       "Biology",
       "Health Sciences"
@@ -21029,7 +21031,7 @@
     "Email": "liat.rosenfeld@sjsu.edu",
     "Campus": "San José State University",
     "College": "Charles W. Davidson College of Engineering",
-    "Department": "Chemical And Materials Engineering",
+    "Department": "Chemical and Materials Engineering",
     "Areas": [
       "Chemical & Materials Engineering",
       "Engineering"
@@ -21085,7 +21087,7 @@
     "Email": "eroualdes@csuchico.edu",
     "Campus": "Chico State",
     "College": "College of Natural Sciences",
-    "Department": "Mathematics And Statistics",
+    "Department": "Mathematics and Statistics",
     "Areas": [
       "Mathematics & Statistics"
     ],
@@ -21112,7 +21114,7 @@
     "Email": "erovai@csuchico.edu",
     "Campus": "Chico State",
     "College": "College of Behavioral and Social Sciences",
-    "Department": "Geography And Environmental Studies",
+    "Department": "Geography and Environmental Studies",
     "Areas": [
       "Environmental Science",
       "Geography"
@@ -21301,7 +21303,7 @@
     "Email": "msalari@csudh.edu",
     "Campus": "CSU Dominguez Hills",
     "College": "College of Business Administration and Public Policy",
-    "Department": "Accounting, Finance, And Economics",
+    "Department": "Accounting, Finance, and Economics",
     "Areas": [
       "Accounting",
       "Economics",
@@ -21550,7 +21552,7 @@
     "Email": null,
     "Campus": "San Diego State University",
     "College": "College of Professional Studies and Fine Arts",
-    "Department": "L. Robert Payne School Of Hospitality And Tourism Management",
+    "Department": "L. Robert Payne School Of Hospitality and Tourism Management",
     "Areas": [
       "Tourism & Recreation"
     ],
@@ -21577,7 +21579,7 @@
     "Email": "nsato2@csuchico.edu",
     "Campus": "Chico State",
     "College": "College of Behavioral and Social Sciences",
-    "Department": "Geography And Environmental Studies",
+    "Department": "Geography and Environmental Studies",
     "Areas": [
       "Environmental Science",
       "Geography"
@@ -21739,7 +21741,7 @@
     "Email": "maureen.scharberg@csueastbay.edu",
     "Campus": "CSU East Bay",
     "College": "College of Science",
-    "Department": "Chemistry And Biochemistry",
+    "Department": "Chemistry and Biochemistry",
     "Areas": [
       "Chemistry"
     ],
@@ -21766,7 +21768,7 @@
     "Email": null,
     "Campus": "San Diego State University",
     "College": "College of Sciences",
-    "Department": "Geology, Department Of Earth And Environmental Sciences",
+    "Department": "Geology, Department Of Earth and Environmental Sciences",
     "Areas": [
       "Environmental Science",
       "Geology & Earth Science"
@@ -21961,7 +21963,7 @@
     "Email": null,
     "Campus": "San Diego State University",
     "College": "College of Engineering",
-    "Department": "Electrical And Computer Engineering",
+    "Department": "Electrical and Computer Engineering",
     "Areas": [
       "Electrical & Computer Engineering",
       "Engineering"
@@ -22017,7 +22019,7 @@
     "Email": "nseymour@exchange.fullerton.edu",
     "Campus": "CSU Fullerton",
     "College": "College of Humanities and Social Sciences",
-    "Department": "English, Comparative Literature, And Linguistics",
+    "Department": "English, Comparative Literature, and Linguistics",
     "Areas": [
       "English & Literature"
     ],
@@ -22179,7 +22181,7 @@
     "Email": null,
     "Campus": "San Diego State University",
     "College": "College of Sciences",
-    "Department": "Mathematics And Statistics",
+    "Department": "Mathematics and Statistics",
     "Areas": [
       "Mathematics & Statistics"
     ],
@@ -22206,10 +22208,9 @@
     "Email": "shephera@sonoma.edu",
     "Campus": "Sonoma State University",
     "College": "Sustainable SSU Representative",
-    "Department": "Representing: Green Music Center",
+    "Department": "Green Music Center",
     "Areas": [
-      "Music & Performing Arts",
-      "University Administration"
+      "Music & Performing Arts"
     ],
     "Title": "Senior Manager of Marketing and Communications",
     "Research_Interests": null,
@@ -22223,8 +22224,7 @@
     "email_href": "mailto:shephera@sonoma.edu",
     "Research_Interests_List": [],
     "Areas_List": [
-      "Music & Performing Arts",
-      "University Administration"
+      "Music & Performing Arts"
     ]
   },
   {
@@ -22262,7 +22262,7 @@
     "Email": "tianqin.shi@sjsu.edu",
     "Campus": "San José State University",
     "College": "School of Global Innovation and Leadership\nand Lucas College and Graduate School of Business",
-    "Department": "Global Innovation And Leadership",
+    "Department": "Global Innovation and Leadership",
     "Areas": [
       "Business & Management"
     ],
@@ -22397,7 +22397,7 @@
     "Email": "csimokat@csusm.edu",
     "Campus": "CSU San Marcos",
     "College": "College of Humanities, Arts, Behavioral & Social Sciences (CHABSS) and College of Science, Technology, Engineering & Mathematics (CSTEM)",
-    "Department": "Environmental Studies Program (Chabss) And Biological Sciences (Cstem)",
+    "Department": "Environmental Studies Program (CHABSS) and Biological Sciences (CSTEM)",
     "Areas": [
       "Biology",
       "Environmental Science"
@@ -22943,7 +22943,7 @@
     "Email": "mso@csuchico.edu",
     "Campus": "Chico State",
     "College": "College of Natural Sciences",
-    "Department": "Chemistry And Biochemistry",
+    "Department": "Chemistry and Biochemistry",
     "Areas": [
       "Chemistry"
     ],
@@ -22970,7 +22970,7 @@
     "Email": "lsolomon@csusm.edu",
     "Campus": "CSU San Marcos",
     "College": "College of Humanities, Arts, Behavioral & Social Sciences",
-    "Department": "School Of Arts - Art, Media, And Design",
+    "Department": "School Of Arts - Art, Media, and Design",
     "Areas": [
       "Art & Design",
       "Communication & Media"
@@ -23026,7 +23026,7 @@
     "Email": "asomozan@calpoly.edu",
     "Campus": "Cal Poly SLO",
     "College": "Bailey College of Science and Mathematics",
-    "Department": "Education,  LEED Green Associate, Member of  UC-CSU Environmental and Climate Change Literacy Projects Research Committee",
+    "Department": "Education, LEED Green Associate, Member of UC-CSU Environmental and Climate Change Literacy Projects Research Committee",
     "Areas": [
       "Education",
       "Environmental Science"
@@ -23109,7 +23109,7 @@
     "Email": "sotod@sonoma.edu",
     "Campus": "Sonoma State University",
     "College": "College of Humanities, Social Sciences, and the Arts",
-    "Department": "Geography, Environment, And Planning",
+    "Department": "Geography, Environment, and Planning",
     "Areas": [
       "City & Regional Planning",
       "Environmental Science",
@@ -23194,7 +23194,7 @@
     "Email": "hsowles@csufresno.edu",
     "Campus": "Fresno State",
     "College": "Arts and Humanities",
-    "Department": "Art, Design And Art History",
+    "Department": "Art, Design and Art History",
     "Areas": [
       "Art & Design",
       "History"
@@ -23223,7 +23223,7 @@
     "Email": "brenton.spies@csuci.edu",
     "Campus": "CSU Channel Islands",
     "College": "College of Arts and Sciences",
-    "Department": "Environmental Science And Resource Management",
+    "Department": "Environmental Science and Resource Management",
     "Areas": [
       "Environmental Science"
     ],
@@ -23387,7 +23387,7 @@
     "Email": "clare.wormald@csuci.edu",
     "Campus": "CSU Channel Islands",
     "College": "College of Arts and Sciences",
-    "Department": "Environmental Science And Resource Management",
+    "Department": "Environmental Science and Resource Management",
     "Areas": [
       "Environmental Science"
     ],
@@ -23441,7 +23441,7 @@
     "Email": "sheila.steinberg@csun.edu",
     "Campus": "CSU Northridge",
     "College": "Social & Behavioral Sciences",
-    "Department": "Geography And Environmental Studies",
+    "Department": "Geography and Environmental Studies",
     "Areas": [
       "Environmental Science",
       "Geography"
@@ -23470,7 +23470,7 @@
     "Email": "mstemen@csuchico.edu",
     "Campus": "Chico State",
     "College": "College of Behavioral and Social Sciences (BSS)",
-    "Department": "Geography And Environmental Studies Department",
+    "Department": "Geography and Environmental Studies Department",
     "Areas": [
       "Environmental Science",
       "Geography"
@@ -23630,7 +23630,7 @@
     "Email": "gstruckhoff@fullerton.edu",
     "Campus": "CSU Fullerton",
     "College": "College of Engineering and Computer Science",
-    "Department": "Civil And Environmental Engineering",
+    "Department": "Civil and Environmental Engineering",
     "Areas": [
       "Civil & Environmental Engineering",
       "Engineering",
@@ -23804,7 +23804,7 @@
     "Email": "sswanson@csusm.edu",
     "Campus": "CSU San Marcos",
     "College": "College of Humanities, Arts, Behavioral & Social Sciences",
-    "Department": "Environment And Geography",
+    "Department": "Environment and Geography",
     "Areas": [
       "Environmental Science",
       "Geography"
@@ -23997,7 +23997,7 @@
     "Email": "jstaylor@fullerton.edu",
     "Campus": "CSU Fullerton",
     "College": "College of Humanities and Social Sciences",
-    "Department": "Geography And The Environment",
+    "Department": "Geography and The Environment",
     "Areas": [
       "Environmental Science",
       "Geography"
@@ -24082,7 +24082,7 @@
     "Email": "lora.teitler@csueastbay.edu",
     "Campus": "CSU East Bay",
     "College": "College of Science",
-    "Department": "Earth And Environmental Sciences",
+    "Department": "Earth and Environmental Sciences",
     "Areas": [
       "Environmental Science",
       "Geology & Earth Science"
@@ -24140,7 +24140,7 @@
     "Email": "fengkt1@csufresno.edu",
     "Campus": "Fresno State",
     "College": "Facilities Management / College of Science and Mathematics",
-    "Department": "Office Of The Provost / Earth And Environmental Sciences",
+    "Department": "Office Of The Provost / Earth and Environmental Sciences",
     "Areas": [
       "Environmental Science",
       "Geology & Earth Science",
@@ -24381,7 +24381,7 @@
     "Email": "btiwari@fullerton.edu",
     "Campus": "CSU Fullerton",
     "College": "College of Engineering and Computer Science",
-    "Department": "Civil And Environmental Engineering",
+    "Department": "Civil and Environmental Engineering",
     "Areas": [
       "Civil & Environmental Engineering",
       "Engineering",
@@ -25002,7 +25002,7 @@
     "Email": null,
     "Campus": "San Diego State University",
     "College": "College of Engineering",
-    "Department": "Civil, Construction, And Environmental Engineering",
+    "Department": "Civil, Construction, and Environmental Engineering",
     "Areas": [
       "Civil & Environmental Engineering",
       "Construction Management",
@@ -25114,7 +25114,7 @@
     "Email": "rvoeks@fullerton.edu",
     "Campus": "CSU Fullerton",
     "College": "College of Humanities and Social Sciences",
-    "Department": "Geography And The Environment",
+    "Department": "Geography and The Environment",
     "Areas": [
       "Environmental Science",
       "Geography"
@@ -25224,7 +25224,7 @@
     "Email": "elizabeth.walsh@sjsu.edu",
     "Campus": "San José State University",
     "College": "College of Science and Connie L. Lurie College of Education",
-    "Department": "Science Education And Meteorology And Climate Science (Joint Appointment)",
+    "Department": "Science Education and Meteorology and Climate Science (Joint Appointment)",
     "Areas": [
       "Education",
       "Meteorology & Climate Science"
@@ -25251,7 +25251,7 @@
     "Email": "cwang@csufresno.edu",
     "Campus": "Fresno State",
     "College": "Social Sciences",
-    "Department": "Geography And City And Regional Planning",
+    "Department": "Geography and City and Regional Planning",
     "Areas": [
       "City & Regional Planning",
       "Geography"
@@ -25365,7 +25365,7 @@
     "Email": "zwang@csufresno.edu",
     "Campus": "Fresno State",
     "College": "Science and Mathematics",
-    "Department": "Earth And Environmental Sciences",
+    "Department": "Earth and Environmental Sciences",
     "Areas": [
       "Environmental Science",
       "Geology & Earth Science"
@@ -25450,10 +25450,9 @@
     "Email": "jessica.way@sonoma.edu",
     "Campus": "Sonoma State University",
     "College": "Sustainable SSU Representative",
-    "Department": "Representing: Conference & Event Services And Parking",
+    "Department": "Conference & Event Services and Parking",
     "Areas": [
-      "Facilities & Operations",
-      "University Administration"
+      "Facilities & Operations"
     ],
     "Title": "Managing Director of EA Operations and Administration",
     "Research_Interests": null,
@@ -25467,8 +25466,7 @@
     "email_href": "mailto:jessica.way@sonoma.edu",
     "Research_Interests_List": [],
     "Areas_List": [
-      "Facilities & Operations",
-      "University Administration"
+      "Facilities & Operations"
     ]
   },
   {
@@ -25535,7 +25533,7 @@
     "Email": null,
     "Campus": "San Diego State University",
     "College": "College of Sciences",
-    "Department": "Earth And Environmental Sciences",
+    "Department": "Earth and Environmental Sciences",
     "Areas": [
       "Environmental Science",
       "Geology & Earth Science"
@@ -25564,7 +25562,7 @@
     "Email": "bweinman@csufresno.edu",
     "Campus": "Fresno State",
     "College": "Science and Mathematics",
-    "Department": "Earth And Environmental Sciences",
+    "Department": "Earth and Environmental Sciences",
     "Areas": [
       "Environmental Science",
       "Geology & Earth Science"
@@ -25676,7 +25674,7 @@
     "Email": null,
     "Campus": "San Diego State University",
     "College": "College of Sciences",
-    "Department": "Department Of Earth And Environmental Sciences",
+    "Department": "Department Of Earth and Environmental Sciences",
     "Areas": [
       "Environmental Science",
       "Geology & Earth Science"
@@ -25867,7 +25865,7 @@
     "Email": "tmwilson@csuchico.edu",
     "Campus": "Chico State",
     "College": "College of Natural Sciences",
-    "Department": "Chemistry And Biochemistry",
+    "Department": "Chemistry and Biochemistry",
     "Areas": [
       "Chemistry"
     ],
@@ -25971,7 +25969,7 @@
     "Email": "mintesnot.woldeamanuel@csun.edu",
     "Campus": "CSU Northridge",
     "College": "Sci & Math",
-    "Department": "Urban Studies And Planning",
+    "Department": "Urban Studies and Planning",
     "Areas": [
       "City & Regional Planning"
     ],
@@ -26081,7 +26079,7 @@
     "Email": "mike.wood@sjsu.edu",
     "Campus": "San José State University",
     "College": "College of Science",
-    "Department": "Moss Landing Marine Labs And Computer Science",
+    "Department": "Moss Landing Marine Labs and Computer Science",
     "Areas": [
       "Computer Science & Information Systems",
       "Marine Science"
@@ -26137,7 +26135,7 @@
     "Email": "jindongwu@fullerton.edu",
     "Campus": "CSU Fullerton",
     "College": "College of Humanities and Social Sciences",
-    "Department": "Geography And The Environment",
+    "Department": "Geography and The Environment",
     "Areas": [
       "Environmental Science",
       "Geography"
@@ -26195,7 +26193,7 @@
     "Email": "bxu@csudh.edu",
     "Campus": "CSU Dominguez Hills",
     "College": "College of Business Administration and Public Policy",
-    "Department": "Management And Marketing",
+    "Department": "Management and Marketing",
     "Areas": [
       "Business & Management"
     ],
@@ -26222,7 +26220,7 @@
     "Email": "bxu@csusb.edu",
     "Campus": "CSU San Bernardino",
     "College": "College of Social & Behavioral Sciences",
-    "Department": "Geography And Environmental Studies",
+    "Department": "Geography and Environmental Studies",
     "Areas": [
       "Environmental Science",
       "Geography"
@@ -26421,7 +26419,7 @@
     "Email": "syi4@csuchico.edu",
     "Campus": "Chico State",
     "College": "College of Natural Sciences",
-    "Department": "Earth And Environmental Sciences",
+    "Department": "Earth and Environmental Sciences",
     "Areas": [
       "Environmental Science",
       "Geology & Earth Science"
@@ -26450,7 +26448,7 @@
     "Email": "olivia.yip@sjsu.edu",
     "Campus": "San José State University",
     "College": "Charles W. Davidson College of Engineering",
-    "Department": "Civil And Environmental Engineering",
+    "Department": "Civil and Environmental Engineering",
     "Areas": [
       "Civil & Environmental Engineering",
       "Engineering",
@@ -26508,7 +26506,7 @@
     "Email": "yyoungs@csusb.edu",
     "Campus": "CSU San Bernardino",
     "College": "College of Social & Behavioral Sciences",
-    "Department": "Geography And Environmental Studies",
+    "Department": "Geography and Environmental Studies",
     "Areas": [
       "Environmental Science",
       "Geography"
@@ -26743,7 +26741,7 @@
     "Email": "rick.zechman@humboldt.edu",
     "Campus": "Cal Poly Humboldt",
     "College": "College of Natural Resources & Sciences",
-    "Department": "Telonicher Marine Lab; Director And Associate Dean Overseeing Marine Operations",
+    "Department": "Telonicher Marine Lab; Director and Associate Dean Overseeing Marine Operations",
     "Areas": [
       "Marine Science"
     ],
@@ -26851,7 +26849,7 @@
     "Email": null,
     "Campus": "San Diego State University",
     "College": "College of Health and Human Services",
-    "Department": "School Of Exercise And Nutritional Sciences",
+    "Department": "School Of Exercise and Nutritional Sciences",
     "Areas": [
       "Health Sciences"
     ],
@@ -26932,7 +26930,7 @@
     "Email": null,
     "Campus": "San Diego State University",
     "College": "College of Sciences",
-    "Department": "Biology, Cellular And Molecular Biology",
+    "Department": "Biology, Cellular and Molecular Biology",
     "Areas": [
       "Biology"
     ],
