@@ -15,6 +15,11 @@ This repo delivers a directory at http://csu-climate.github.io/directory/ that p
 - `scripts/normalize_member_text.py` — one-shot-but-re-runnable cleanup of the three prose
   fields in `members/*.yml` (see "Prose fields" below). Not part of the build; run it by hand
   after a scrape adds new members.
+- `scripts/export_mail_list.py` — exports the mailing list for a mail merge. **Re-run it after
+  any change that could touch an address** — imports, merges, deletions, removal requests. The
+  export is a snapshot; if it goes stale, a mailing can reach someone who asked to be removed.
+  It writes outside the repo and refuses to write inside it, because the output is every
+  member's address in plain text and this repo is public.
 - `scripts/build_members.py` — the whole build. Reads `members/*.yml`, normalizes keys
   (case-insensitive via `KEY_MAP`, unknown keys are preserved under `extras`), derives Areas of
   Specialization, renders `templates/index.html`, and writes `site/index.html`,
