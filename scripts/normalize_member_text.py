@@ -131,7 +131,8 @@ PROPER_TERMS = [
     "Sustainable Groundwater Management Act", "Paris Agreement", "Green New Deal",
     "Title IX", "Fulbright",
     # places
-    "California", "Baja California", "Central Valley", "San Joaquin Valley",
+    "California", "Baja California", "Cali-Baja", "Baja", "Central Valley",
+    "San Joaquin Valley",
     "Salinas Valley", "Imperial Valley", "Sierra Nevada", "Central Coast",
     "Bay Area", "Monterey Bay", "Humboldt Bay", "Lake Tahoe", "Klamath",
     "Colorado River", "Mojave", "Yosemite", "Channel Islands", "Santa Barbara",
