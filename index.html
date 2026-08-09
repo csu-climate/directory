@@ -47,6 +47,11 @@
       <div class="filter-tags" id="activeFilters"></div>
     </div>
 
+    <p class="contact-note">
+      To be added, removed, or have your profile updated, contact epearse(@)calpoly.edu.
+      Please nominate any missing colleagues for addition.
+    </p>
+
     <div class="results-header">
       <h2>Members</h2>
       <div class="results-count" id="resultsCount">Loading...</div>
@@ -60,7 +65,6 @@
         </div>
         <p>The Initiative for Climate Leadership and Resilience at Cal Poly.</p>
       <p>Facilitating collaboration on climate change solutions.</p>
-      <p>To be added, removed, or have your profile updated, contact epearse(@)calpoly.edu</p>
     </footer>
   </div>
 
@@ -104,9 +108,32 @@
     return str.split(/[,;]+/).map(s => s.trim()).filter(Boolean);
   }
 
+  // Addresses are stored reversed-then-base64'd in members.json, so neither the
+  // page nor the data file ever contains anything matching an email pattern.
+  function decodeEmail(enc) {
+    if (!enc) return '';
+    try { return atob(enc).split('').reverse().join(''); } catch (e) { return ''; }
+  }
+
+  // Reveal on click: swap the button for the real mailto link.
+  function revealEmail(btn) {
+    const addr = decodeEmail(btn.dataset.e);
+    if (!addr) return;
+    const a = document.createElement('a');
+    a.className = 'card-email';
+    a.href = 'mailto:' + addr;
+    a.rel = 'nofollow';
+    a.textContent = addr;
+    btn.replaceWith(a);
+  }
+
   // === Rendering ===
   function createMemberCard(m) {
-    const emailLine = m['Email'] ? `<a class="card-email" href="mailto:${m['Email']}">${m['Email']}</a>` : '';
+    // The address is never written into the page -- only the encoded form, which
+    // the button decodes on click. See decodeEmail().
+    const emailButton = m['Email_Enc']
+      ? `<button type="button" class="email-btn" data-e="${m['Email_Enc']}">Email</button>`
+      : '';
 
     const deptLine = m['Department'] ? `<div class="department-line">${m['Department']}</div>` : '';
     const campusLine = m['Campus'] ? `<div class="campus-line">${m['Campus']}</div>` : '';
@@ -152,9 +179,9 @@
     card.innerHTML = `
       <div class="card-identity">
         <div class="lesson-title">${m['Name'] || '(No name)'}</div>
+        ${emailButton}
         ${deptLine}
         ${campusLine}
-        ${emailLine}
       </div>
 
       <div class="lesson-meta">
@@ -237,7 +264,8 @@
     const normalize = (m) => ({
       ...m,
       Name: m.Name ?? m.name ?? '',
-      Email: m.Email ?? m.email ?? '',
+      // decoded in memory only, so search still matches on address
+      Email: decodeEmail(m.Email_Enc),
       Campus: m.Campus ?? m.campus ?? '',
       Department: m.Department ?? m.department ?? '',
       Areas: m.Areas ?? m.Areas_List ?? m['Area of Specialization'] ?? [],
@@ -266,6 +294,12 @@
 
     const searchEl = $id('searchInput');
     if (searchEl) searchEl.addEventListener('input', applyFilters);
+
+    // one delegated handler, so re-rendering the grid never loses it
+    $id('cardsGrid').addEventListener('click', (e) => {
+      const btn = e.target.closest('.email-btn');
+      if (btn) revealEmail(btn);
+    });
 
     applyFilters();
   }

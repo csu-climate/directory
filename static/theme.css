@@ -1,14 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
         
 :root {
-    /* Brand colors */
-    --primary-color: #ed1c24;
-    --primary-light: rgba(237, 28, 36, 0.1);
-
-    /* Email links: deep forest green on light, lightened for dark so it stays
-       legible against the dark card background */
-    --light-email: #1b4d3e;
-    --dark-email: #86ccaa;
+    /* Brand accent: deep forest green on light, lightened for dark so borders
+       and links stay legible against the dark card background. Set per theme on
+       body below -- do not use these two directly. */
+    --light-accent: #1b4d3e;
+    --dark-accent: #86ccaa;
 
     /* Light theme */
     --light-background: #fafafa;
@@ -38,7 +35,9 @@ body {
     --text-secondary: var(--light-text-secondary);
     --border: var(--light-border);
     --shadow: var(--light-shadow);
-    --email: var(--light-email);
+    --primary-color: var(--light-accent);
+    --primary-light: rgba(27, 77, 62, 0.10);
+    --email: var(--light-accent);
 }
 
 /* Dark theme */
@@ -50,7 +49,9 @@ body.dark-theme {
     --text-secondary: var(--dark-text-secondary);
     --border: var(--dark-border);
     --shadow: var(--dark-shadow);
-    --email: var(--dark-email);
+    --primary-color: var(--dark-accent);
+    --primary-light: rgba(134, 204, 170, 0.14);
+    --email: var(--dark-accent);
 }
 
 * {
@@ -69,8 +70,9 @@ body {
 }
 
 .logo {
-            height: 200px;
+            height: 400px;
             width: auto;
+            max-width: 100%;
         }
 
 .container {
@@ -88,12 +90,15 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;          /* the full-size logo needs room to drop */
+    gap: 16px;
     padding: 24px 0;
     border-bottom: 1px solid var(--primary-color);
     margin-bottom: 32px;
 }
 
 .header h1 {
+    flex: 1 1 320px;          /* keep the title on one line where it fits */
     font-size: 24px;
     font-weight: 700;
     color: var(--text-primary);
@@ -114,6 +119,7 @@ body {
 }
 
 .theme-toggle {
+    white-space: nowrap;
     background: var(--card);
     border: 1px solid var(--border);
     border-radius: 8px;
@@ -849,6 +855,39 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Email is held behind a button so the address is never in the page for a
+   scraper to read; clicking swaps in the real mailto link. */
+.email-btn {
+    display: inline-block;
+    margin: 3px 0 1px;
+    padding: 2px 10px;
+    font: inherit;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    color: var(--email);
+    background: transparent;
+    border: 1px solid var(--email);
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease;
+}
+
+.email-btn:hover,
+.email-btn:focus-visible {
+    background: var(--email);
+    color: var(--card);
+}
+
+/* Small print under the filters */
+.contact-note {
+    margin: 12px 2px 28px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: var(--text-secondary);
+}
+
 /* Links listed in a member's Notes */
 .note-link {
     color: var(--email);
@@ -937,6 +976,11 @@ a:hover {
     
     .lessons-grid {
         grid-template-columns: 1fr;
+    }
+
+    /* the full-size logo would fill a phone screen on its own */
+    .logo {
+        height: 200px;
     }
     
     .results-header {
