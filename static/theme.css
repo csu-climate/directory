@@ -821,11 +821,20 @@ a:hover {
     margin-bottom: 16px;
 }
 
+/* Name and Email button share a line; the button wraps under on narrow cards */
+.title-row {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 4px 10px;
+    margin-bottom: 2px;
+}
+
 .lesson-card .lesson-title {
     font-size: 21px;
     line-height: 1.25;
     letter-spacing: -0.01em;
-    margin-bottom: 2px;
+    margin-bottom: 0;
 }
 
 .lesson-card .department-line {
@@ -858,7 +867,6 @@ a:hover {
    scraper to read; clicking swaps in the real mailto link. */
 .email-btn {
     display: inline-block;
-    margin: 3px 0 1px;
     padding: 2px 10px;
     font: inherit;
     font-size: 12px;

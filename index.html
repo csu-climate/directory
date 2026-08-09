@@ -178,8 +178,10 @@
     card.className = 'lesson-card';
     card.innerHTML = `
       <div class="card-identity">
-        <div class="lesson-title">${m['Name'] || '(No name)'}</div>
-        ${emailButton}
+        <div class="title-row">
+          <div class="lesson-title">${m['Name'] || '(No name)'}</div>
+          ${emailButton}
+        </div>
         ${deptLine}
         ${campusLine}
       </div>
@@ -203,7 +205,7 @@
       const blob = [
         m['Name'], m['Research Interests'], m['Teaching Interests'],
         m['Notes'], m['Sustainability Contributions'],
-        m['Department'], m['Areas'].join(' '), m['Campus'], m['Email']
+        m['Department'], m['Areas'].join(' '), m['Campus']
       ].join(' ').toLowerCase();
       if (q && !blob.includes(q)) return false;
       if (area && !m['Areas'].includes(area)) return false;
@@ -264,8 +266,10 @@
     const normalize = (m) => ({
       ...m,
       Name: m.Name ?? m.name ?? '',
-      // decoded in memory only, so search still matches on address
-      Email: decodeEmail(m.Email_Enc),
+      // Deliberately not decoded here. Addresses are decoded one at a time,
+      // only when a reader clicks that member's Email button, so a scraper that
+      // runs the page's JavaScript still has no list of addresses to lift.
+      // The cost is that search cannot match on an email address.
       Campus: m.Campus ?? m.campus ?? '',
       Department: m.Department ?? m.department ?? '',
       Areas: m.Areas ?? m.Areas_List ?? m['Area of Specialization'] ?? [],
