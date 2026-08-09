@@ -40,6 +40,17 @@ ROOT = Path(__file__).resolve().parent.parent
 MEMBERS_DIR = ROOT / "members"
 FIELDS = ["Research Interests", "Teaching Interests", "Sustainability Contributions"]
 
+# `Department` gets a much lighter touch -- it is displayed verbatim on the card,
+# so only outright errors are corrected. See normalize_department().
+DEPT_FIELD = "Department"
+
+# Parenthesized acronyms that arrived title-cased. Explicit rather than derived,
+# because "(Lecturer)" is a real word and must be left alone.
+DEPT_ACRONYMS = {
+    "chabss": "CHABSS", "cstem": "CSTEM", "reach": "REACH",
+    "wet": "WET", "isds": "ISDS",
+}
+
 # ---------------------------------------------------------------------------
 # Vocabulary
 # ---------------------------------------------------------------------------
@@ -393,6 +404,34 @@ def normalize_value(value: str, listy: bool) -> str:
     return result
 
 
+def normalize_department(value: str) -> str:
+    """Department is shown verbatim on the card, so this only fixes errors:
+
+    * drops the "Representing:" prefix carried by non-academic staff entries
+      ("Representing: Culinary Services" -> "Culinary Services")
+    * lowercases the conjunctions the title-caser capitalized
+      ("Chemistry And Biochemistry" -> "Chemistry and Biochemistry")
+    * uppercases parenthesized acronyms ("(Isds)" -> "(ISDS)")
+    """
+    text = " ".join(value.split())
+    if not text:
+        return ""
+
+    text = re.sub(r"^Representing:\s*", "", text, flags=re.I)
+
+    # conjunctions, but never as the first word of the name
+    def lower_conj(m):
+        return m.group(0) if m.start() == 0 else m.group(0).lower()
+    text = re.sub(r"\b(And|Or)\b", lower_conj, text)
+
+    text = re.sub(
+        r"\(([A-Za-z]{2,8})\)",
+        lambda m: "(" + DEPT_ACRONYMS.get(m.group(1).lower(), m.group(1)) + ")",
+        text,
+    )
+    return text.strip()
+
+
 # ---------------------------------------------------------------------------
 # Surgical YAML rewriting
 # ---------------------------------------------------------------------------
@@ -490,7 +529,7 @@ def process_file(path: Path, dry_run: bool):
     while i < len(lines):
         line = lines[i]
         matched = None
-        for field in FIELDS:
+        for field in FIELDS + [DEPT_FIELD]:
             if line.startswith(field + ":"):
                 matched = field
                 break
@@ -500,11 +539,18 @@ def process_file(path: Path, dry_run: bool):
             continue
         raw, end = _read_scalar(lines, i)
         value, style = _unquote(raw)
-        listy = matched in ("Research Interests", "Teaching Interests")
-        new_value = normalize_value(value, listy=listy)
+        if matched == DEPT_FIELD:
+            new_value = normalize_department(value)
+        else:
+            listy = matched in ("Research Interests", "Teaching Interests")
+            new_value = normalize_value(value, listy=listy)
         if new_value != value:
             changes.append((matched, value, new_value))
-        out.extend(_emit(matched, new_value, style if new_value else "single"))
+            out.extend(_emit(matched, new_value, style if new_value else "single"))
+        else:
+            # Unchanged: keep the original lines rather than re-wrapping them,
+            # so editing one field doesn't churn its neighbours in the diff.
+            out.extend(lines[i:end])
         i = end
     new_text = "\n".join(out) + "\n"
     if changes and not dry_run:

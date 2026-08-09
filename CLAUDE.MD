@@ -73,7 +73,14 @@ The scraped data arrived Title-Cased after every comma and with proper nouns low
 - `Sustainability Contributions` keeps its internal capitals — those are mostly organization
   names — and only gets punctuation and proper-noun fixes
 
-The script is idempotent and preserves each file apart from those three scalars. It has a
+The same script also gives `Department` a much lighter touch, since that string is displayed
+verbatim on the card — it only drops the `Representing:` prefix that non-academic staff entries
+carried, lowercases the conjunctions the title-caser capitalized ("Chemistry And Biochemistry"),
+and uppercases parenthesized acronyms via an explicit list (`DEPT_ACRONYMS`) because
+"(Lecturer)" is a real word that must be left alone.
+
+The script is idempotent, only rewrites the fields that actually change (so editing one field
+doesn't re-wrap its neighbours), and preserves each file apart from those scalars. It has a
 `--dry-run` mode; use it, and check the report, before writing. Its guard rails matter: the
 "same letters, ignoring case and punctuation" invariant is what proves nothing was lost.
 

@@ -118,7 +118,7 @@ AREA_PATTERNS = [
     ("Tourism & Recreation", r"tourism|recreation|hospitality"),
     ("University Administration", r"academic senate|provost|academic affairs|administrative affairs|"
                                   r"office of research|sponsored programs|\bstaff\b|human resources|"
-                                  r"advancement|research & innovation|representing:"),
+                                  r"advancement|research & innovation"),
 ]
 
 _DECOY_SUBS = [(re.compile(p, re.I), r) for p, r in DECOY_SUBS]
