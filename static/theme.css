@@ -70,9 +70,8 @@ body {
 }
 
 .logo {
-            height: 400px;
+            height: 200px;
             width: auto;
-            max-width: 100%;
         }
 
 .container {
@@ -583,9 +582,9 @@ body {
 
 .footer .footer-logo {
   display: block !important;
-  height: 40px !important;
+  height: 80px !important;
   width: auto !important;
-  max-width: 280px !important;
+  max-width: 560px !important;
   object-fit: contain;
   margin: 0 auto;
 }
@@ -593,16 +592,16 @@ body {
 /* Tablet */
 @media (max-width: 900px) {
   .footer .footer-logo {
-    height: 32px !important;
-    max-width: 220px !important;
+    height: 64px !important;
+    max-width: 440px !important;
   }
 }
 
 /* Phone */
 @media (max-width: 600px) {
   .footer .footer-logo {
-    height: 24px !important;
-    max-width: 180px !important;
+    height: 48px !important;
+    max-width: 360px !important;
   }
 }
 
