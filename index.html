@@ -106,10 +106,10 @@
 
   // === Rendering ===
   function createMemberCard(m) {
-    const emailHTML = m['Email'] ? `<a href="mailto:${m['Email']}">${m['Email']}</a>` : '';
-  
+    const emailLine = m['Email'] ? `<a class="card-email" href="mailto:${m['Email']}">${m['Email']}</a>` : '';
+
     const deptLine = m['Department'] ? `<div class="department-line">${m['Department']}</div>` : '';
-    const campusLine = m['Campus'] ? `<div class="lesson-description">${m['Campus']}</div>` : '';
+    const campusLine = m['Campus'] ? `<div class="campus-line">${m['Campus']}</div>` : '';
   
     function block(label, value) {
       if (!value) return '';
@@ -127,12 +127,14 @@
     const card = document.createElement('div');
     card.className = 'lesson-card';
     card.innerHTML = `
-      <div class="lesson-title">${m['Name'] || '(No name)'}</div>
-      ${deptLine}
-      ${campusLine}
-  
+      <div class="card-identity">
+        <div class="lesson-title">${m['Name'] || '(No name)'}</div>
+        ${deptLine}
+        ${campusLine}
+        ${emailLine}
+      </div>
+
       <div class="lesson-meta">
-        ${emailHTML ? `<div class="meta-item"><span class="meta-label">Email:</span><span class="meta-value">${emailHTML}</span></div>` : ''}
         ${block('Research Interests', m['Research Interests'])}
         ${block('Teaching Interests', m['Teaching Interests'])}
         ${block('Sustainability Contributions', m['Sustainability Contributions'])}
