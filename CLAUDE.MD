@@ -106,6 +106,25 @@ uniform across the CSU — "CSU Northridge", "Chico State", "Cal Poly Humboldt",
 "Campus:" label, and the filter dropdown uses it too. Keep the YAML short names; add mappings
 here instead.
 
+## Email addresses
+
+Addresses are never published in the clear. `build_members.py` reverses each address and
+base64-encodes it into `Email_Enc`; the plain `Email` key is dropped from `members.json`
+entirely. The card renders an **Email** button holding only the encoded string, and
+`decodeEmail()` in the page swaps in a real `mailto:` link when the reader clicks it. Search
+still matches on the address because `normalize()` decodes into memory.
+
+Net effect: neither `site/index.html` nor `site/members.json` contains anything matching an
+email pattern — verify with
+`grep -oE "[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}" site/members.json`, which should
+return nothing.
+
+This is obfuscation, not protection. It defeats the pattern-matching harvesters that do the bulk
+of address scraping; it does not stop anyone who reads this file and writes six lines of code.
+**The real exposure is `members/*.yml`, which holds every address in plain text in a public
+repo.** Closing that would mean encoding at rest or making the repo private — neither is done,
+so treat these addresses as public.
+
 ## Coding conventions
 
 - Python 3.12, stdlib + `pyyaml` + `jinja2` only. No new dependencies without a good reason —

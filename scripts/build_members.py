@@ -17,7 +17,7 @@ Build script for the Members Directory (simple, gh-pages friendly)
 """
 
 from __future__ import annotations
-import os, json, yaml, shutil, sys, re
+import os, json, yaml, shutil, sys, re, base64
 from pathlib import Path
 from dataclasses import dataclass, asdict
 from typing import Any, Dict, List, Tuple
@@ -391,7 +391,6 @@ FALLBACK_INDEX = """<!doctype html>
       {% if m.Department %}<div class="muted">{{ m.Department }}</div>{% endif %}
       {% if m.College or m.Campus %}<div class="muted">{{ [m.College, m.Campus]|select|join(' · ') }}</div>{% endif %}
       {% if m.Research_Interests_List %}<div>{{ m.Research_Interests_List|join(', ') }}</div>{% endif %}
-      {% if m.Email %}<div><a href="mailto:{{ m.Email }}">{{ m.Email }}</a></div>{% endif %}
     </article>
     {% endfor %}
   </section>
@@ -435,19 +434,31 @@ def _render_index(env: Environment, members: List[Member], base_path: str) -> st
 # ---------------------------
 # Writers
 # ---------------------------
+def _encode_email(email: str | None) -> str | None:
+    """Reverse, then base64. members.json is a public static file, so a plain
+    address in it is free lunch for a harvester; this leaves nothing that
+    matches an email pattern. The page decodes it only when the reader clicks
+    the Email button. Obfuscation, not encryption -- see CLAUDE.md."""
+    if not email:
+        return None
+    return base64.b64encode(email.strip()[::-1].encode("utf-8")).decode("ascii")
+
+
 def _write_json(members: List[Member]):
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     SITE_DIR.mkdir(parents=True, exist_ok=True)
 
-    data = [
-        asdict(m) | {
+    data = []
+    for m in members:
+        row = asdict(m)
+        row.pop("Email", None)          # never published in the clear
+        row["Email_Enc"] = _encode_email(m.Email)
+        row |= {
             "slug": m.slug,
-            "email_href": m.email_href,
             "Research_Interests_List": m.Research_Interests_List,
             "Areas_List": m.Areas_List,
         }
-        for m in members
-    ]
+        data.append(row)
     (DATA_DIR / "members.json").write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
     (SITE_DIR / "members.json").write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
 
