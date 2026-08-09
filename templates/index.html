@@ -242,10 +242,23 @@
     applyFilters();
   }
 
+  // Clears the search box too, so "Clear all" means the same thing wherever it
+  // appears -- including the empty state, which a stray search term can cause.
   function clearFilters() {
     SELECTED.area = []; SELECTED.campus = [];
     renderSelect('area'); renderSelect('campus');
+    const searchEl = $id('searchInput');
+    if (searchEl) searchEl.value = '';
     applyFilters();
+  }
+
+  function clearAllButton() {
+    const b = document.createElement('button');
+    b.className = 'filter-clear';
+    b.type = 'button';
+    b.textContent = 'Clear all';
+    b.addEventListener('click', clearFilters);
+    return b;
   }
 
   function renderChips() {
@@ -265,14 +278,7 @@
       tagsEl.appendChild(t);
     });
 
-    if (chips.length > 1) {
-      const clear = document.createElement('button');
-      clear.className = 'filter-clear';
-      clear.type = 'button';
-      clear.textContent = 'Clear all';
-      clear.addEventListener('click', clearFilters);
-      tagsEl.appendChild(clear);
-    }
+    if (chips.length > 1) tagsEl.appendChild(clearAllButton());
   }
 
   function applyFilters() {
@@ -294,7 +300,17 @@
 
     const grid = $id('cardsGrid');
     grid.innerHTML = '';
-    filtered.forEach(m => grid.appendChild(createMemberCard(m)));
+    if (filtered.length) {
+      filtered.forEach(m => grid.appendChild(createMemberCard(m)));
+    } else {
+      // Easy to reach now that filters combine, so say so rather than showing
+      // an empty grid that reads as a broken page.
+      const empty = document.createElement('div');
+      empty.className = 'empty-state';
+      empty.append('No members match these filters: remove a selection or ');
+      empty.appendChild(clearAllButton());
+      grid.appendChild(empty);
+    }
     $id('resultsCount').textContent = `${filtered.length} of ${MEMBERS.length}`;
 
     renderChips();

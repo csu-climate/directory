@@ -783,6 +783,22 @@ a:hover {
     cursor: not-allowed;
 }
 
+/* Shown in place of the card grid when nothing matches */
+.empty-state {
+    grid-column: 1 / -1;      /* the grid is multi-column; span all of it */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 40px 20px;
+    color: var(--text-secondary);
+    background: var(--card);
+    border: 1px dashed var(--border);
+    border-radius: 12px;
+    text-align: center;
+}
+
 /* Results */
 .results-header {
     display: flex;
