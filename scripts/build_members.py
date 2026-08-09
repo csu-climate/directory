@@ -399,7 +399,7 @@ FALLBACK_INDEX = """<!doctype html>
 <body>
   <header>
     <div style="display:flex;align-items:center;gap:.75rem;">
-      <img class="logo" src="{{ base_path }}/static/climate-directory-logo.png" alt="Logo">
+      <img class="logo" src="{{ base_path }}/static/climate-directory-logo.svg" alt="Logo">
       <h1>Members Directory</h1>
     </div>
     <input id="q" class="search" placeholder="Search name, dept, campus, college, research">
