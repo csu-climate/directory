@@ -470,7 +470,7 @@
     ]
   },
   {
-    "id": "sandraalcosser",
+    "id": "alcossersdsuedu",
     "Name": "Sandra Alcosser",
     "Campus": "San Diego State University",
     "College": "College of Arts and Letters",
@@ -486,43 +486,13 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "sandraalcosser",
+    "Email_Enc": "dWRlLnVzZHNAcmVzc29jbGE=",
+    "slug": "alcossersdsuedu",
     "Research_Interests_List": [
       "*conservation poet and writer of feminist literature."
     ],
     "Areas_List": [
       "English & Literature"
-    ]
-  },
-  {
-    "id": "dgalexandercsuchicoedu",
-    "Name": "David Alexander",
-    "Campus": "Chico State",
-    "College": "College of Engineering, Computer Science, and Construction Management",
-    "Department": "Dean of the College of Engineering, Computer Science, and Construction Management",
-    "Areas": [
-      "Computer Science & Information Systems",
-      "Construction Management",
-      "Engineering"
-    ],
-    "Title": "Dean",
-    "Research_Interests": "Dr. Alexander’s research interests are in sustainable energy technologies including solar, wind, geothermal, hybrid and electric vehicles, and advanced energy storage. Additionally, he is interested in engineering design, entrepreneurship and pedagogy.",
-    "Teaching_Interests": "Thermodynamics, energy systems, heat transfer, low-speed aerodynamics, and engineering capstone design.",
-    "Sustainability_Contributions": "He has experience and interests in renewable energy and is the advisor for the Alternative Energy Club.",
-    "Notes": null,
-    "Photo": null,
-    "Website": null,
-    "extras": null,
-    "Email_Enc": "dWRlLm9jaWhjdXNjQHJlZG5heGVsYWdk",
-    "slug": "dgalexandercsuchicoedu",
-    "Research_Interests_List": [
-      "Dr. Alexander’s research interests are in sustainable energy technologies including solar, wind, geothermal, hybrid and electric vehicles, and advanced energy storage. Additionally, he is interested in engineering design, entrepreneurship and pedagogy."
-    ],
-    "Areas_List": [
-      "Computer Science & Information Systems",
-      "Construction Management",
-      "Engineering"
     ]
   },
   {
@@ -535,10 +505,10 @@
       "Engineering",
       "Mechanical & Aerospace Engineering"
     ],
-    "Title": "Assistant Professor of Mechanical and Mechatronic Engineering",
+    "Title": "Dean, College of Engineering, Computer Science, and Construction Management",
     "Research_Interests": "Dr. Alexander’s research interests are in sustainable energy technologies including solar, wind, geothermal, hybrid and electric vehicles, and advanced energy storage. Additionally, he is interested in engineering design, entrepreneurship and pedagogy.",
-    "Teaching_Interests": null,
-    "Sustainability_Contributions": null,
+    "Teaching_Interests": "Thermodynamics, energy systems, heat transfer, low-speed aerodynamics, and engineering capstone design.",
+    "Sustainability_Contributions": "He has experience and interests in renewable energy and is the advisor for the Alternative Energy Club.",
     "Notes": null,
     "Photo": null,
     "Website": null,
@@ -956,7 +926,7 @@
     ]
   },
   {
-    "id": "madssandersen",
+    "id": "mpsacsunedu",
     "Name": "Mads S. Andersen",
     "Campus": "CSU Northridge",
     "College": "Sci & Math",
@@ -972,8 +942,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "madssandersen",
+    "Email_Enc": "dWRlLm51c2NAYXNwbQ==",
+    "slug": "mpsacsunedu",
     "Research_Interests_List": [
       "Biogeochemistry, environmental catalysis."
     ],
@@ -1522,7 +1492,7 @@
     ]
   },
   {
-    "id": "peteratterton",
+    "id": "attertonsdsuedu",
     "Name": "Peter Atterton",
     "Campus": "San Diego State University",
     "College": "College of Arts and Letters",
@@ -1538,8 +1508,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "peteratterton",
+    "Email_Enc": "dWRlLnVzZHNAbm90cmV0dGE=",
+    "slug": "attertonsdsuedu",
     "Research_Interests_List": [
       "20th-century European philosophy (esp. Heidegger, Levinas, & Derrida), phenomenology, philosophical darwinism, animal philosophy, has written works on Darwin, Heidegger, Nietzsche, Kant, michel Foucault, jacques Derrida, Shakespeare, psychoanalysis, human rights, human extinction, animal ethics, and the sci-fi movie blade runner, has done extensive work on emmanuel Levinas."
     ],
@@ -1966,7 +1936,7 @@
     ]
   },
   {
-    "id": "edbalsdon",
+    "id": "ebalsdonsdsuedu",
     "Name": "Ed Balsdon",
     "Campus": "San Diego State University",
     "College": "College of Arts and Letters",
@@ -1982,8 +1952,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "edbalsdon",
+    "Email_Enc": "dWRlLnVzZHNAbm9kc2xhYmU=",
+    "slug": "ebalsdonsdsuedu",
     "Research_Interests_List": [
       "Valuation of public goods, natural amenities, and risks from observed behavior in markets, field experiments, and the ballot box."
     ],
@@ -2076,7 +2046,7 @@
     ]
   },
   {
-    "id": "sbannistercsumedusoontobesbannistercalpolyedu",
+    "id": "sbannistercalpolyedu",
     "Name": "Samar Bannister",
     "Campus": "Cal Maritime",
     "College": null,
@@ -2092,8 +2062,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": "dWRlLnlsb3BsYWNAcmV0c2lubmFicyBlYiBvdCBub29zIHVkZS5tdXNjQHJldHNpbm5hYnM=",
-    "slug": "sbannistercsumedusoontobesbannistercalpolyedu",
+    "Email_Enc": "dWRlLnlsb3BsYWNAcmV0c2lubmFicw==",
+    "slug": "sbannistercalpolyedu",
     "Research_Interests_List": [
       "Maritime."
     ],
@@ -2180,7 +2150,7 @@
     ]
   },
   {
-    "id": "jessicabarlow",
+    "id": "jbarlowsdsuedu",
     "Name": "Jessica Barlow",
     "Campus": "San Diego State University",
     "College": "College of Arts and Letters",
@@ -2196,8 +2166,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "jessicabarlow",
+    "Email_Enc": "dWRlLnVzZHNAd29scmFiag==",
+    "slug": "jbarlowsdsuedu",
     "Research_Interests_List": [
       "Sustainability, with an emphasis on sustainable cities through community engagement, city-university partnerships, environmental justice, language and sustainability, management of speech-language disorders, language acquisition and bilingualism."
     ],
@@ -2575,33 +2545,7 @@
   },
   {
     "id": "lisabentleysonomaedu",
-    "Name": "Lisa Bentley",
-    "Campus": "Sonoma State University",
-    "College": "College of Science, Technology, and Business",
-    "Department": "Department of Biology",
-    "Areas": [
-      "Biology"
-    ],
-    "Title": "Associate Professor",
-    "Research_Interests": "Plant ecophysiology, plant physiology, community and ecosystem ecology, tropical ecology.",
-    "Teaching_Interests": "Ecology, plant biology, and environmental science. Classes include: BIOL 131 - biological diversity and ecology, BIOL 315 - plants and society, BIOL 320 - ecology and evolution: an integrated approach, BIOL 348 - plant physiology, BIOL 351 - climate change biology, BIOL 350 - plant physiological ecology, BIOL 490 - research experience in biology.",
-    "Sustainability_Contributions": "Skydido drone in project 3DForests to assess Forest Biomass and dire fuel parameters.",
-    "Notes": null,
-    "Photo": null,
-    "Website": null,
-    "extras": null,
-    "Email_Enc": "dWRlLmFtb25vc0B5ZWx0bmViLmFzaWw=",
-    "slug": "lisabentleysonomaedu",
-    "Research_Interests_List": [
-      "Plant ecophysiology, plant physiology, community and ecosystem ecology, tropical ecology."
-    ],
-    "Areas_List": [
-      "Biology"
-    ]
-  },
-  {
-    "id": "lisabentleysonomaedu",
-    "Name": "Lisa Patrick Bently",
+    "Name": "Lisa Patrick Bentley",
     "Campus": "Sonoma State University",
     "College": "College of Science, Technology, and Business",
     "Department": "Biology",
@@ -2609,9 +2553,9 @@
       "Biology"
     ],
     "Title": "Associate Professor",
-    "Research_Interests": "Plant ecophysiology, forest dynamics, remote sensing, using Bayesian approaches to study climate impact on forests.",
-    "Teaching_Interests": "BIOL 131 (biological diversity and ecology), BIOL 315 (plants & society), BIOL 350 (plant physiological ecology), BIOL 351 (climate change biology), BIOL 320, BIOL 348, BIOL 490.",
-    "Sustainability_Contributions": "Provides mechanistic insights into forest resilience and drought responses, informs climate adaptation in ecosystems.",
+    "Research_Interests": "Plant ecophysiology, plant physiology, community and ecosystem ecology, tropical ecology, forest dynamics, remote sensing, using Bayesian approaches to study climate impact on forests.",
+    "Teaching_Interests": "Ecology, plant biology, and environmental science. Classes include: BIOL 131 - biological diversity and ecology, BIOL 315 - plants and society, BIOL 320 - ecology and evolution: an integrated approach, BIOL 348 - plant physiology, BIOL 351 - climate change biology, BIOL 350 - plant physiological ecology, BIOL 490 - research experience in biology.",
+    "Sustainability_Contributions": "Skydio drone in project 3DForests to assess forest biomass and fire fuel parameters. Provides mechanistic insights into forest resilience and drought responses, informs climate adaptation in ecosystems.",
     "Notes": null,
     "Photo": null,
     "Website": null,
@@ -2619,7 +2563,7 @@
     "Email_Enc": "dWRlLmFtb25vc0B5ZWx0bmViLmFzaWw=",
     "slug": "lisabentleysonomaedu",
     "Research_Interests_List": [
-      "Plant ecophysiology, forest dynamics, remote sensing, using Bayesian approaches to study climate impact on forests."
+      "Plant ecophysiology, plant physiology, community and ecosystem ecology, tropical ecology, forest dynamics, remote sensing, using Bayesian approaches to study climate impact on forests."
     ],
     "Areas_List": [
       "Biology"
@@ -2678,7 +2622,7 @@
     ]
   },
   {
-    "id": "asfawbeyene",
+    "id": "abeyenesdsuedu",
     "Name": "Asfaw Beyene",
     "Campus": "San Diego State University",
     "College": "College of Engineering",
@@ -2695,8 +2639,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "asfawbeyene",
+    "Email_Enc": "dWRlLnVzZHNAZW5leWViYQ==",
+    "slug": "abeyenesdsuedu",
     "Research_Interests_List": [
       "Energy efficiency - improving system or component performance utilizing low grade thermal energy, renewable energy - using computational fluid dynamics to improve energy recovery from wind and wave, ongoing projects: adaptive motion, combined heat and power systems for ultra-low grade heat recovery, heat recovery from traction engines for absorption chillers, and ozone-free refrigerants for low grade heat recovery."
     ],
@@ -2758,7 +2702,7 @@
     ]
   },
   {
-    "id": "trentbiggs",
+    "id": "tbiggssdsuedu",
     "Name": "Trent Biggs",
     "Campus": "San Diego State University",
     "College": "College of Arts and Letters",
@@ -2774,8 +2718,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "trentbiggs",
+    "Email_Enc": "dWRlLnVzZHNAc2dnaWJ0",
+    "slug": "tbiggssdsuedu",
     "Research_Interests_List": [
       "Effects of land cover change on hydrology, sediment, and stream biogeochemistry, remote sensing of land cover, terrain, and evapotranspiration, isotopes in the hydrologic cycle, using satellite imagery, fieldwork, and modeling for water issues related to the environment and human welfare (field locations: American samoa, southern India, the himalaya, and the us-Mexico border region), near-surface energy balances and heat, farmworker heat stress."
     ],
@@ -3098,7 +3042,7 @@
     ]
   },
   {
-    "id": "fernandobosco",
+    "id": "fboscosdsuedu",
     "Name": "Fernando Bosco",
     "Campus": "San Diego State University",
     "College": "College of Arts and Letters",
@@ -3114,8 +3058,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "fernandobosco",
+    "Email_Enc": "dWRlLnVzZHNAb2Nzb2Jm",
+    "slug": "fboscosdsuedu",
     "Research_Interests_List": [
       "Intersections of urban, social, and political geography, geographic dimensions of social movements and collective action, geographies of children and youth, geographies of food in urban environments, emotional geographies, place and memory, geographic thought, qualitative research methods."
     ],
@@ -3178,7 +3122,7 @@
     ]
   },
   {
-    "id": "samanthabova",
+    "id": "sbovasdsuedu",
     "Name": "Samantha Bova",
     "Campus": "San Diego State University",
     "College": "College of Sciences",
@@ -3194,8 +3138,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "samanthabova",
+    "Email_Enc": "dWRlLnVzZHNAYXZvYnM=",
+    "slug": "sbovasdsuedu",
     "Research_Interests_List": [
       "Utilizing marine sediment cores and geochemistry to reconstruct how the oceans and climate have varied across earth history, understanding how ocean circulation alters the global climate via the movement of heat, salt, and carbon around the globe, examining how climate perturbations move between the high and low latitudes especially during past warm intervals (interstadials and interglacials) as well as periods of rapid change (e.g. Glacial terminations, abrupt climate events)."
     ],
@@ -3595,7 +3539,7 @@
       "Biology"
     ],
     "Title": "Professor",
-    "Research_Interests": "How wnt signals are transported from wnt-producing cells to wint-responding cells in chick embryos, relevant to birth defects and cancer. Additionally, dr. Burrus is transitioning into studying the role of microbial communities in climate resilience, specifically for oyster reef restoration in the San Francisco bay.",
+    "Research_Interests": "How wnt signals are transported from wnt-producing cells to wint-responding cells in chick embryos, relevant to birth defects and cancer. Additionally, Dr. Burrus is transitioning into studying the role of microbial communities in climate resilience, specifically for oyster reef restoration in the San Francisco bay.",
     "Teaching_Interests": "Intro biology, cancer biology, peer assistants for learning science, climate justice practicum.",
     "Sustainability_Contributions": "Launched the certificate in climate change causes, impacts, and solutions. Co-director of the Climate Justice Leaders Initiative. Co-director of Climate HQ.",
     "Notes": "https://climatehq.sfsu.edu/",
@@ -3605,14 +3549,14 @@
     "Email_Enc": "dWRlLnVzZnNAc3VycnVibA==",
     "slug": "lburrussfsuedu",
     "Research_Interests_List": [
-      "How wnt signals are transported from wnt-producing cells to wint-responding cells in chick embryos, relevant to birth defects and cancer. Additionally, dr. Burrus is transitioning into studying the role of microbial communities in climate resilience, specifically for oyster reef restoration in the San Francisco bay."
+      "How wnt signals are transported from wnt-producing cells to wint-responding cells in chick embryos, relevant to birth defects and cancer. Additionally, Dr. Burrus is transitioning into studying the role of microbial communities in climate resilience, specifically for oyster reef restoration in the San Francisco bay."
     ],
     "Areas_List": [
       "Biology"
     ]
   },
   {
-    "id": "contactpage",
+    "id": "rburtoncsumbedu",
     "Name": "Robert Burton",
     "Campus": "CSU Monterey Bay",
     "College": "College of Science",
@@ -3628,8 +3572,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": "ZWdhUCB0Y2F0bm9D",
-    "slug": "contactpage",
+    "Email_Enc": "dWRlLmJtdXNjQG5vdHJ1YnI=",
+    "slug": "rburtoncsumbedu",
     "Research_Interests_List": [
       "Grassland ecosystem management, transformation of non-native to native bunchgrass species (especially in fortod area)."
     ],
@@ -3770,7 +3714,7 @@
     ]
   },
   {
-    "id": "contactpage",
+    "id": "dacantrellcsumbedu",
     "Name": "Danielle Cantrell",
     "Campus": "CSU Monterey Bay",
     "College": "College of Science",
@@ -3786,8 +3730,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": "ZWdhUCB0Y2F0bm9D",
-    "slug": "contactpage",
+    "Email_Enc": "dWRlLmJtdXNjQGxsZXJ0bmFjYWQ=",
+    "slug": "dacantrellcsumbedu",
     "Research_Interests_List": [
       "Marine ecology, disease ecology, particle-tracking disease modeling in aquaculture."
     ],
@@ -4032,7 +3976,7 @@
     ]
   },
   {
-    "id": "ianacastro",
+    "id": "ianacastrosdsuedu",
     "Name": "Iana Castro",
     "Campus": "San Diego State University",
     "College": "College of Business",
@@ -4048,8 +3992,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "ianacastro",
+    "Email_Enc": "dWRlLnVzZHNAb3J0c2FjLmFuYWk=",
+    "slug": "ianacastrosdsuedu",
     "Research_Interests_List": [
       "Consumer behavior, how factors in retail and service settings impact consumer emotions, evaluations, preferences and choices, providing insights for companies and marketers regarding their in-store retailing efforts in order to maximize consumer well-being and firm outcomes."
     ],
@@ -4136,7 +4080,7 @@
     ]
   },
   {
-    "id": "mirandachase",
+    "id": "mchasesdsuedu",
     "Name": "Miranda Chase",
     "Campus": "San Diego State University",
     "College": "College of Arts and Letters",
@@ -4152,8 +4096,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "mirandachase",
+    "Email_Enc": "dWRlLnVzZHNAZXNhaGNt",
+    "slug": "mchasesdsuedu",
     "Research_Interests_List": [
       "Intersection of political science, economics, sustainability, climate change, Latin American and environmental studies. Specializes in the Amazon region, how environmental social movements influence policymakers."
     ],
@@ -4636,7 +4580,7 @@
     ]
   },
   {
-    "id": "lauracoco",
+    "id": "lcocosdsuedu",
     "Name": "Laura Coco",
     "Campus": "San Diego State University",
     "College": "College of Health and Human Services",
@@ -4652,8 +4596,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "lauracoco",
+    "Email_Enc": "dWRlLnVzZHNAb2NvY2w=",
+    "slug": "lcocosdsuedu",
     "Research_Interests_List": [
       "Improving access to hearing healthcare services for Latino adults, age-related hearing loss, Latino health, telehealth, service delivery, occupational noise exposure in low-income workers."
     ],
@@ -4829,7 +4773,7 @@
       "Chemistry"
     ],
     "Title": "Assistant Professor",
-    "Research_Interests": "Engineering and development of plasmonic gas-diffusion electrodes, cleaning nitrate-polluted surface water in the cali-baja region, and creating plasmonic, earth-abundant catalyst nanomaterials for energy storage and fuel cell applications.",
+    "Research_Interests": "Engineering and development of plasmonic gas-diffusion electrodes, cleaning nitrate-polluted surface water in the Cali-Baja region, and creating plasmonic, earth-abundant catalyst nanomaterials for energy storage and fuel cell applications.",
     "Teaching_Interests": null,
     "Sustainability_Contributions": "Research related to energy efficiency and fuel cell applications.",
     "Notes": null,
@@ -4839,7 +4783,7 @@
     "Email_Enc": "dWRlLmJzdXNjQHNhcmVydG5vYy5ldXFpcm5l",
     "slug": "enriquecontrerascsusbedu",
     "Research_Interests_List": [
-      "Engineering and development of plasmonic gas-diffusion electrodes, cleaning nitrate-polluted surface water in the cali-baja region, and creating plasmonic, earth-abundant catalyst nanomaterials for energy storage and fuel cell applications."
+      "Engineering and development of plasmonic gas-diffusion electrodes, cleaning nitrate-polluted surface water in the Cali-Baja region, and creating plasmonic, earth-abundant catalyst nanomaterials for energy storage and fuel cell applications."
     ],
     "Areas_List": [
       "Chemistry"
@@ -5056,7 +5000,7 @@
     ]
   },
   {
-    "id": "email",
+    "id": "aspencotycsunedu",
     "Name": "Aspen Coty",
     "Campus": "CSU Northridge",
     "College": "Social & Behavioral Sciences",
@@ -5072,8 +5016,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": "P0xJQU1F",
-    "slug": "email",
+    "Email_Enc": "dWRlLm51c2NAeXRvYy5uZXBzYQ==",
+    "slug": "aspencotycsunedu",
     "Research_Interests_List": [
       "Waste reduction, sustainability practices."
     ],
@@ -5268,7 +5212,7 @@
     ]
   },
   {
-    "id": "affectanalysisandrecognitionvideobioinformaticsbioinspiredcomputervisionthermographicanalysisofphotovoltaics",
+    "id": "asoarescruzcsubedu",
     "Name": "Anna Cruz",
     "Campus": "CSU Bakersfield",
     "College": "Natural Sciences, Mathematics, and Engineering",
@@ -5284,8 +5228,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": "c2NpYXRsb3ZvdG9ocCBmbyBzaXN5bGFuYSBjaWhwYXJnb21yZWhUCm5vaXNpdiByZXR1cG1vYyBkZXJpcHNuaS1vaUIKc2NpdGFtcm9mbmlvaWIgb2VkaVYKbm9pdGluZ29jZVIgZG5hIHNpc3lsYW5BIHRjZWZmQQ==",
-    "slug": "affectanalysisandrecognitionvideobioinformaticsbioinspiredcomputervisionthermographicanalysisofphotovoltaics",
+    "Email_Enc": "dWRlLmJ1c2NAenVyYy1zZXJhb3Nh",
+    "slug": "asoarescruzcsubedu",
     "Research_Interests_List": [
       "Paleoclimatology, oceanography, environmental geochemistry."
     ],
@@ -5520,7 +5464,7 @@
     "Title": "Lecturer",
     "Research_Interests": "Human health risk from multimedia, multi pathway exposure to toxins (e.g., chemical, biological, radiological, emerging), disease prevention, epidemiology, toxicology, and environmental health policy.",
     "Teaching_Interests": "Environmental health and policy, climate change, disease outbreaks, epidemiology, toxicological risk and health physics, precautionary principle.",
-    "Sustainability_Contributions": "Interests include prospective and retrospective health risk assessments for substances of toxicological concern introduced into environmental media based on consideration of multiple exposure pathways. Worked for the Lawrence Livermore National Laboratory in Livermore, NASA Ames Research Center at Moffett Field, and The Desert Research Institute of the Nevada System of Higher Education in Las Vegas. Appointments include review committees for the National Academies of Science, Engineering, and Medicine (NASEM). .",
+    "Sustainability_Contributions": "Interests include prospective and retrospective health risk assessments for substances of toxicological concern introduced into environmental media based on consideration of multiple exposure pathways. Worked for the Lawrence Livermore National Laboratory in Livermore, NASA Ames Research Center at Moffett Field, and The Desert Research Institute of the Nevada System of Higher Education in Las Vegas. Appointments include review committees for the National Academies of Science, Engineering, and Medicine (NASEM).",
     "Notes": "Currently employed by CSU East Bay as a Lecturing Professor for the Department of Public Health.",
     "Photo": null,
     "Website": null,
@@ -5562,7 +5506,7 @@
     ]
   },
   {
-    "id": "hassandavani",
+    "id": "hdavanisdsuedu",
     "Name": "Hassan Davani",
     "Campus": "San Diego State University",
     "College": "College of Engineering",
@@ -5581,8 +5525,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "hassandavani",
+    "Email_Enc": "dWRlLnVzZHNAaW5hdmFkaA==",
+    "slug": "hdavanisdsuedu",
     "Research_Interests_List": [
       "Stormwater management, green infrastructure, coastal resilience, climate change, sea-level rise, life cycle assessment, sustainable development, image processing, machine learning."
     ],
@@ -5620,7 +5564,7 @@
     ]
   },
   {
-    "id": "cdawsoncsum",
+    "id": "facilitiescbscalpolyedu",
     "Name": "Craig Dawson",
     "Campus": "Cal Maritime",
     "College": null,
@@ -5637,8 +5581,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": "bXVzY0Bub3N3YWRj",
-    "slug": "cdawsoncsum",
+    "Email_Enc": "dWRlLnlsb3BsYWNAc2JjLXNlaXRpbGljYWY=",
+    "slug": "facilitiescbscalpolyedu",
     "Research_Interests_List": [],
     "Areas_List": [
       "Environmental Science",
@@ -6576,7 +6520,7 @@
     ]
   },
   {
-    "id": "christydykstra",
+    "id": "cdykstrasdsuedu",
     "Name": "Christy Dykstra",
     "Campus": "San Diego State University",
     "College": "College of Engineering",
@@ -6595,8 +6539,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "christydykstra",
+    "Email_Enc": "dWRlLnVzZHNAYXJ0c2t5ZGM=",
+    "slug": "cdykstrasdsuedu",
     "Research_Interests_List": [],
     "Areas_List": [
       "Civil & Environmental Engineering",
@@ -6984,7 +6928,7 @@
     ]
   },
   {
-    "id": "madeleinefalco",
+    "id": "mfalcosdsuedu",
     "Name": "Madeleine Falco",
     "Campus": "San Diego State University",
     "College": "Office of Energy and Sustainability",
@@ -7001,8 +6945,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "madeleinefalco",
+    "Email_Enc": "dWRlLnVzZHNAb2NsYWZt",
+    "slug": "mfalcosdsuedu",
     "Research_Interests_List": [],
     "Areas_List": [
       "Energy",
@@ -7484,7 +7428,7 @@
     ]
   },
   {
-    "id": "lluviafloresrenteria",
+    "id": "lfloresrenteriasdsuedu",
     "Name": "Lluvia Flores-Renteria",
     "Campus": "San Diego State University",
     "College": "College of Sciences",
@@ -7500,8 +7444,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "lluviafloresrenteria",
+    "Email_Enc": "dWRlLnVzZHNAYWlyZXRuZXJzZXJvbGZs",
+    "slug": "lfloresrenteriasdsuedu",
     "Research_Interests_List": [
       "Phylogenetics, population genetics, evolution of reproductive systems, the evolutionary ecology of plant-insect-microbe interactions under climate change."
     ],
@@ -7882,7 +7826,7 @@
     ]
   },
   {
-    "id": "adriennefusek",
+    "id": "afuseksdsuedu",
     "Name": "Adrienne Fusek",
     "Campus": "San Diego State University",
     "College": "College of Arts and Letters",
@@ -7898,8 +7842,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "adriennefusek",
+    "Email_Enc": "dWRlLnVzZHNAa2VzdWZh",
+    "slug": "afuseksdsuedu",
     "Research_Interests_List": [],
     "Areas_List": [
       "Geography"
@@ -7995,7 +7939,7 @@
       "Biology"
     ],
     "Title": "Lab Manager, Climate HQ Budget Specialist",
-    "Research_Interests": "1) how wnt signals are transported in chick embryos, and the role of microbial communities in climate resilience. 2) microbial communities in oyster reef restoration as indicators of climate resilience in the San Francisco bay.",
+    "Research_Interests": "1) How wnt signals are transported in chick embryos, and the role of microbial communities in climate resilience. 2) Microbial communities in oyster reef restoration as indicators of climate resilience in the San Francisco bay.",
     "Teaching_Interests": null,
     "Sustainability_Contributions": "Climate HQ Budget Specialist, Lab Manager of Kai Burrus Lab.",
     "Notes": null,
@@ -8005,7 +7949,7 @@
     "Email_Enc": "dWRlLnVzZnNAaWxsYWds",
     "slug": "lgallisfsuedu",
     "Research_Interests_List": [
-      "1) how wnt signals are transported in chick embryos, and the role of microbial communities in climate resilience. 2) microbial communities in oyster reef restoration as indicators of climate resilience in the San Francisco bay."
+      "1) How wnt signals are transported in chick embryos, and the role of microbial communities in climate resilience. 2) Microbial communities in oyster reef restoration as indicators of climate resilience in the San Francisco bay."
     ],
     "Areas_List": [
       "Biology"
@@ -8240,7 +8184,7 @@
     ]
   },
   {
-    "id": "noemaillisted",
+    "id": "sandragarrencsusedu",
     "Name": "Sandra Garren",
     "Campus": "Sacramento State",
     "College": "Social Sciences",
@@ -8256,8 +8200,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": "ZGV0c2lsIGxpYW1lIG9O",
-    "slug": "noemaillisted",
+    "Email_Enc": "dWRlLnN1c2NAbmVycmFnLmFyZG5hcw==",
+    "slug": "sandragarrencsusedu",
     "Research_Interests_List": [
       "CEQA and NEPA, air quality and GHG reports related to CEQA and NEPA."
     ],
@@ -8348,7 +8292,7 @@
     ]
   },
   {
-    "id": "richardgersberg",
+    "id": "rgersbersdsuedu",
     "Name": "Richard Gersberg",
     "Campus": "San Diego State University",
     "College": "College of Health and Human Services",
@@ -8365,8 +8309,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "richardgersberg",
+    "Email_Enc": "dWRlLnVzZHNAcmVic3JlZ3I=",
+    "slug": "rgersbersdsuedu",
     "Research_Interests_List": [
       "Water contamination and pollution, health risks of contaminated waters, including after rainfall, aquatic toxicity testing and ecological risk assessment for contaminants in water and sediments, restoration of the Venice lagoon in Italy, transboundary water pollution concerns for the u.s.-Mexico border, including the tijuana river and new river watersheds."
     ],
@@ -9352,7 +9296,7 @@
     ]
   },
   {
-    "id": "jinggu",
+    "id": "jgusdsuedu",
     "Name": "Jing Gu",
     "Campus": "San Diego State University",
     "College": "College of Sciences",
@@ -9368,8 +9312,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "jinggu",
+    "Email_Enc": "dWRlLnVzZHNAdWdq",
+    "slug": "jgusdsuedu",
     "Research_Interests_List": [
       "Solar energy & solar fuels, development of light absorber-catalyst artificial photosynthesis assembles, understanding the electron and energy transfer mechanism in light harvesting systems, renewable energy."
     ],
@@ -10652,7 +10596,7 @@
     ]
   },
   {
-    "id": "tiahilmer",
+    "id": "chilmersdsuedu",
     "Name": "Tia Hilmer",
     "Campus": "San Diego State University",
     "College": "College of Arts and Letters",
@@ -10668,8 +10612,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "tiahilmer",
+    "Email_Enc": "dWRlLnVzZHNAcmVtbGloYw==",
+    "slug": "chilmersdsuedu",
     "Research_Interests_List": [
       "Mainly economics research, with some articles focused on agricultural economics, educational decisions, food assistance and equity, etc."
     ],
@@ -10702,7 +10646,7 @@
     ]
   },
   {
-    "id": "eunhahoh",
+    "id": "ehohsdsuedu",
     "Name": "Eunha Hoh",
     "Campus": "San Diego State University",
     "College": "College of Health and Human Services",
@@ -10719,8 +10663,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "eunhahoh",
+    "Email_Enc": "dWRlLnVzZHNAaG9oZQ==",
+    "slug": "ehohsdsuedu",
     "Research_Interests_List": [
       "Investigation of diverse environmental pollutants in the environment and their impact on human health, current research projects:, ocean and human health, environmental exposure to tobacco smoke residue (thirdhand smoke), environmental impact of tobacco product waste and water quality, utilization of chromatography and mass spectrometry to detect organic chemicals in various biological and environmental samples."
     ],
@@ -10730,7 +10674,7 @@
     ]
   },
   {
-    "id": "gregholland",
+    "id": "ghollandsdsuedu",
     "Name": "Greg Holland",
     "Campus": "San Diego State University",
     "College": "College of Sciences",
@@ -10746,8 +10690,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "gregholland",
+    "Email_Enc": "dWRlLnVzZHNAZG5hbGxvaGc=",
+    "slug": "ghollandsdsuedu",
     "Research_Interests_List": [
       "Molecular structure and dynamics of complex biological and technologically relevant materials, scientific problems that lie at the interface of chemistry, biology, and materials, developing and applying nuclear magnetic resonance methods, specific projects: spider silk, lipid rafts, nanomaterials."
     ],
@@ -11276,7 +11220,7 @@
     ]
   },
   {
-    "id": "jjahnckepointblueorgorjahnckejsfsuedu",
+    "id": "jjahnckepointblueorg",
     "Name": "Jaime Jahncke",
     "Campus": "San Francisco State University",
     "College": "Science and Engineering",
@@ -11292,8 +11236,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": "dWRlLnVzZnNAamVrY25oYWoKIHJvICxncm8uZXVsYnRuaW9wQGVrY25oYWpq",
-    "slug": "jjahnckepointblueorgorjahnckejsfsuedu",
+    "Email_Enc": "Z3JvLmV1bGJ0bmlvcEBla2NuaGFqag==",
+    "slug": "jjahnckepointblueorg",
     "Research_Interests_List": [
       "Climate change impacts on marine ecosystems, long-term ecological monitoring, seabird and marine mammal ecology, marine ecology and biological oceanography. Focuses on enhancing ocean resilience, supporting sustainable fisheries, and protecting marine wildlife from climate-driven threats through applied science, community engagement, and conservation policy, including ocean zoning and fishery management."
     ],
@@ -11408,7 +11352,7 @@
     ]
   },
   {
-    "id": "piotrjankowsi",
+    "id": "pjankowssdsuedu",
     "Name": "Piotr Jankowsi",
     "Campus": "San Diego State University",
     "College": "College of Arts and Letters",
@@ -11424,8 +11368,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "piotrjankowsi",
+    "Email_Enc": "dWRlLnVzZHNAc3dva25hanA=",
+    "slug": "pjankowssdsuedu",
     "Research_Interests_List": [
       "Models and methods of spatial decision support, participatory GIS approaches to planning and decision-making, sensitivity analysis in space-time models."
     ],
@@ -11544,7 +11488,7 @@
     ]
   },
   {
-    "id": "meganjennings",
+    "id": "mjenningsmailsdsuedu",
     "Name": "Megan Jennings",
     "Campus": "San Diego State University",
     "College": "College of Sciences",
@@ -11560,8 +11504,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "meganjennings",
+    "Email_Enc": "dWRlLnVzZHMubGlhbUBzZ25pbm5lam0=",
+    "slug": "mjenningsmailsdsuedu",
     "Research_Interests_List": [
       "Current research:, ​assessing the multiple benefits of conserving connecting landscapes for climate resilient communities, advancing ecological, cultural, and community resilience with tribal nations in Southern California, developing a climate-adapted conservation strategy for Southern California's montane forests, evaluating population persistence for desert bighorn sheep in the peninsular ranges of California, monitoring across San Diego county to determine the efficacy of an intergovernmental effort to manage pigs."
     ],
@@ -11600,7 +11544,7 @@
     ]
   },
   {
-    "id": "pascalejoassartmarcelli",
+    "id": "pmarcellsdsuedu",
     "Name": "Pascale Joassart-Marcelli",
     "Campus": "San Diego State University",
     "College": "College of Arts and Letters",
@@ -11616,8 +11560,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "pascalejoassartmarcelli",
+    "Email_Enc": "dWRlLnVzZHNAbGxlY3JhbXA=",
+    "slug": "pmarcellsdsuedu",
     "Research_Interests_List": [
       "Urban poverty and social justice, urban geographies of food, especially the relationship between place, ethnicity and food, urban foodscapes food-related gentrification, urban agriculture and environmental justice."
     ],
@@ -12664,7 +12608,7 @@
     "Areas_List": []
   },
   {
-    "id": "aliciakinoshita",
+    "id": "akinoshitasdsuedu",
     "Name": "Alicia Kinoshita",
     "Campus": "San Diego State University",
     "College": "College of Engineering",
@@ -12683,8 +12627,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "aliciakinoshita",
+    "Email_Enc": "dWRlLnVzZHNAYXRpaHNvbmlrYQ==",
+    "slug": "akinoshitasdsuedu",
     "Research_Interests_List": [
       "Wildfire, post-fire hydrology, disturbance hydrology, remote sensing applications."
     ],
@@ -13230,7 +13174,7 @@
     ]
   },
   {
-    "id": "chuntalai",
+    "id": "chuntalaisdsuedu",
     "Name": "Chun-Ta Lai",
     "Campus": "San Diego State University",
     "College": "College of Sciences",
@@ -13246,8 +13190,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "chuntalai",
+    "Email_Enc": "dWRlLnVzZHNAaWFsLmF0LW51aGM=",
+    "slug": "chuntalaisdsuedu",
     "Research_Interests_List": [
       "Characterizing how biological organisms respond and adapt to environmental stressors exacerbated climate change and human activities. Wants to assist science-informed decision making as local governments adapt to mitigate the impacts of climate change."
     ],
@@ -13658,7 +13602,7 @@
     ]
   },
   {
-    "id": "matthewlauer",
+    "id": "mlauersdsuedu",
     "Name": "Matthew Lauer",
     "Campus": "San Diego State University",
     "College": "College of Arts and Letters",
@@ -13674,8 +13618,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "matthewlauer",
+    "Email_Enc": "dWRlLnVzZHNAcmV1YWxt",
+    "slug": "mlauersdsuedu",
     "Research_Interests_List": [
       "Environmental change, Indigenous knowledge, disasters in oceania. Current research: micro-ecology of coastal and marine resource use, resilience and vulnerability of coastal communities to climate change and socio-ecological perturbations, and community-based resource management and development (has active projects in French polynesia, the solomon islands, and San Diego)."
     ],
@@ -13952,7 +13896,7 @@
     ]
   },
   {
-    "id": "dianaleong",
+    "id": "dleongsdsuedu",
     "Name": "Diana Leong",
     "Campus": "San Diego State University",
     "College": "College of Arts and Letters",
@@ -13968,8 +13912,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "dianaleong",
+    "Email_Enc": "dWRlLnVzZHNAZ25vZWxk",
+    "slug": "dleongsdsuedu",
     "Research_Interests_List": [
       "Conservation poet, co -founder and curator for language of conservation."
     ],
@@ -14054,7 +13998,7 @@
     ]
   },
   {
-    "id": "ariellelevine",
+    "id": "alevinesdsuedu",
     "Name": "Arielle Levine",
     "Campus": "San Diego State University",
     "College": "College of Arts and Letters",
@@ -14070,8 +14014,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "ariellelevine",
+    "Email_Enc": "dWRlLnVzZHNAZW5pdmVsYQ==",
+    "slug": "alevinesdsuedu",
     "Research_Interests_List": [
       "Interactions between people and their environments and the implications of these interactions for natural resource management and conservation. Current research program focuses on understanding and managing marine resources (in Hawaii California, coastal tanzania, American samoa) in relation to community participation in natural resource management & climate impacts on fisheries, aquaculture, and ocean/coastal systems."
     ],
@@ -14160,7 +14104,7 @@
     ]
   },
   {
-    "id": "rebeccalewison",
+    "id": "rlewisonsdsuedu",
     "Name": "Rebecca Lewison",
     "Campus": "San Diego State University",
     "College": "College of Sciences",
@@ -14176,8 +14120,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "rebeccalewison",
+    "Email_Enc": "dWRlLnVzZHNAbm9zaXdlbHI=",
+    "slug": "rlewisonsdsuedu",
     "Research_Interests_List": [
       "Vertebrate conservation, population ecology, behavioral ecology, impacts of anthropogenic disturbances, resource and land use."
     ],
@@ -14186,7 +14130,7 @@
     ]
   },
   {
-    "id": "hanyangli",
+    "id": "hli6sdsuedu",
     "Name": "Hanyang Li",
     "Campus": "San Diego State University",
     "College": "College of Engineering",
@@ -14205,8 +14149,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "hanyangli",
+    "Email_Enc": "dWRlLnVzZHNANmlsaA==",
+    "slug": "hli6sdsuedu",
     "Research_Interests_List": [
       "Combining engineering and data mining to better understand air pollution, emissions, and impacts, areas of expertise: instrument development (spectroscopy instruments for toxic metal monitoring), lab and field studies of atmospheric aerosols, aerosol analysis with data mining tools."
     ],
@@ -14458,7 +14402,7 @@
     ]
   },
   {
-    "id": "davidlipson",
+    "id": "dlipsonsdsuedu",
     "Name": "David Lipson",
     "Campus": "San Diego State University",
     "College": "College of Sciences",
@@ -14474,8 +14418,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "davidlipson",
+    "Email_Enc": "dWRlLnVzZHNAbm9zcGlsZA==",
+    "slug": "dlipsonsdsuedu",
     "Research_Interests_List": [
       "Soil microbial ecology, plant-microbe interactions, cycling of carbon and nitrogen, life in cold environments."
     ],
@@ -14484,7 +14428,7 @@
     ]
   },
   {
-    "id": "changquliu",
+    "id": "changqiliusdsuedu",
     "Name": "Changqu Liu",
     "Campus": "San Diego State University",
     "College": "College of Health and Human Services",
@@ -14500,8 +14444,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "changquliu",
+    "Email_Enc": "dWRlLnVzZHNAdWlsLmlxZ25haGM=",
+    "slug": "changqiliusdsuedu",
     "Research_Interests_List": [
       "Sustainable food production, alternative protein sources, food waste reduction and upcycling."
     ],
@@ -14722,7 +14666,7 @@
     ]
   },
   {
-    "id": "johnlove",
+    "id": "jlovesdsuedu",
     "Name": "John Love",
     "Campus": "San Diego State University",
     "College": "College of Sciences",
@@ -14738,8 +14682,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "johnlove",
+    "Email_Enc": "dWRlLnVzZHNAZXZvbGo=",
+    "slug": "jlovesdsuedu",
     "Research_Interests_List": [
       "Protein design and engineering, protein-based drug design, working on a protein design project about the engineering of novel biomaterials to replace non-biodegradable plastics."
     ],
@@ -14800,7 +14744,7 @@
     ]
   },
   {
-    "id": "clarklundberg",
+    "id": "clundbergsdsuedu",
     "Name": "Clark Lundberg",
     "Campus": "San Diego State University",
     "College": "College of Arts and Letters",
@@ -14816,8 +14760,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "clarklundberg",
+    "Email_Enc": "dWRlLnVzZHNAZ3JlYmRudWxj",
+    "slug": "clundbergsdsuedu",
     "Research_Interests_List": [
       "Natural resource and environmental economics, agricultural economics, international trade, applied econometrics. Current work focuses on tensions between agriculture and the environment, specifically the role that commodity markets and trade policy play in this relationship."
     ],
@@ -14882,7 +14826,7 @@
     ]
   },
   {
-    "id": "contactpage",
+    "id": "slydoncsumbedu",
     "Name": "Scott Lydon",
     "Campus": "CSU Monterey Bay",
     "College": "College of Science",
@@ -14898,8 +14842,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": "ZWdhUCB0Y2F0bm9D",
-    "slug": "contactpage",
+    "Email_Enc": "dWRlLmJtdXNjQG5vZHlscw==",
+    "slug": "slydoncsumbedu",
     "Research_Interests_List": [
       "Paleoecology, biogeography, climate change, GIS applications."
     ],
@@ -15146,7 +15090,7 @@
     ]
   },
   {
-    "id": "jillianmaloney",
+    "id": "jmaloneysdsuedu",
     "Name": "Jillian Maloney",
     "Campus": "San Diego State University",
     "College": "College of Sciences",
@@ -15163,8 +15107,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "jillianmaloney",
+    "Email_Enc": "dWRlLnVzZHNAeWVub2xhbWo=",
+    "slug": "jmaloneysdsuedu",
     "Research_Interests_List": [
       "Sequence stratigraphy and sediment processes, neotectonics, paleoseismology, earthquake hazard, subaqueous landslides, coastal geomorphology, geologic controls on habitats."
     ],
@@ -15335,34 +15279,6 @@
   },
   {
     "id": "marshallcppedu",
-    "Name": "Jeff Marshall",
-    "Campus": "Cal Poly Pomona",
-    "College": "College of Science",
-    "Department": "Department of Geological Sciences & Lyle Center for Regenerative Studies",
-    "Areas": [
-      "Geology & Earth Science",
-      "Sustainability"
-    ],
-    "Title": "Professor",
-    "Research_Interests": "Regenerative systems, sustainability frameworks.",
-    "Teaching_Interests": "Ecological systems, regenerative theory.",
-    "Sustainability_Contributions": "Advances regenerative systems education and research.",
-    "Notes": null,
-    "Photo": null,
-    "Website": null,
-    "extras": null,
-    "Email_Enc": "dWRlLnBwY0BsbGFoc3JhbQ==",
-    "slug": "marshallcppedu",
-    "Research_Interests_List": [
-      "Regenerative systems, sustainability frameworks."
-    ],
-    "Areas_List": [
-      "Geology & Earth Science",
-      "Sustainability"
-    ]
-  },
-  {
-    "id": "marshallcppedu",
     "Name": "Jeffrey Marshall",
     "Campus": "Cal Poly Pomona",
     "College": "College of Science",
@@ -15372,9 +15288,9 @@
       "Sustainability"
     ],
     "Title": "Professor",
-    "Research_Interests": "Geomorphology, active tectonics, coastal processes, river systems, sea level rise, climate change & extreme weather.",
-    "Teaching_Interests": "Earth science field courses, watershed restoration, natural hazards, undergraduate research mentoring.",
-    "Sustainability_Contributions": "Focus on Watershed restoration, coastal erosion/sea-level rise, linking geologic processes to climate change adaptation.",
+    "Research_Interests": "Geomorphology, active tectonics, coastal processes, river systems, sea level rise, climate change & extreme weather, regenerative systems, sustainability frameworks.",
+    "Teaching_Interests": "Earth science field courses, watershed restoration, natural hazards, undergraduate research mentoring, ecological systems, regenerative theory.",
+    "Sustainability_Contributions": "Focus on watershed restoration, coastal erosion/sea-level rise, linking geologic processes to climate change adaptation. Advances regenerative systems education and research.",
     "Notes": null,
     "Photo": null,
     "Website": null,
@@ -15382,7 +15298,7 @@
     "Email_Enc": "dWRlLnBwY0BsbGFoc3JhbQ==",
     "slug": "marshallcppedu",
     "Research_Interests_List": [
-      "Geomorphology, active tectonics, coastal processes, river systems, sea level rise, climate change & extreme weather."
+      "Geomorphology, active tectonics, coastal processes, river systems, sea level rise, climate change & extreme weather, regenerative systems, sustainability frameworks."
     ],
     "Areas_List": [
       "Geology & Earth Science",
@@ -15442,7 +15358,7 @@
     ]
   },
   {
-    "id": "contactpage",
+    "id": "jumartincsumbedu",
     "Name": "Julie Martin",
     "Campus": "CSU Monterey Bay",
     "College": "College of Science",
@@ -15458,8 +15374,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": "ZWdhUCB0Y2F0bm9D",
-    "slug": "contactpage",
+    "Email_Enc": "dWRlLmJtdXNjQG5pdHJhbXVq",
+    "slug": "jumartincsumbedu",
     "Research_Interests_List": [
       "Oceanography, hydrothermal systems, tidal and coastal ecosystems."
     ],
@@ -15642,7 +15558,7 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": "PyB1ZGUudXNmc0BzdGVuYWxw",
+    "Email_Enc": "dWRlLnVzZnNAc3RlbmFscA==",
     "slug": "planetssfsuedu",
     "Research_Interests_List": [],
     "Areas_List": [
@@ -15650,7 +15566,7 @@
     ]
   },
   {
-    "id": "amandamcclain",
+    "id": "amcclainsdsuedu",
     "Name": "Amanda McClain",
     "Campus": "San Diego State University",
     "College": "College of Health and Human Services",
@@ -15666,8 +15582,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "amandamcclain",
+    "Email_Enc": "dWRlLnVzZHNAbmlhbGNjbWE=",
+    "slug": "amcclainsdsuedu",
     "Research_Interests_List": [
       "Food insecurity and food access, food choice and dietary intake and quality, health equity, behavior-change interventions, community-engaged research."
     ],
@@ -15884,7 +15800,7 @@
     ]
   },
   {
-    "id": "hilarymcmillan",
+    "id": "hmcmillansdsuedu",
     "Name": "Hilary McMillan",
     "Campus": "San Diego State University",
     "College": "College of Arts and Letters",
@@ -15900,8 +15816,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "hilarymcmillan",
+    "Email_Enc": "dWRlLnVzZHNAbmFsbGltY21o",
+    "slug": "hmcmillansdsuedu",
     "Research_Interests_List": [
       "Changes in hydrological processes with space, time and scale, hydrological predictions on national to continental scales, uncertainty in hydrological data and predictions, water resources, impact of humans on watershed processes, socio-hydrology."
     ],
@@ -16188,7 +16104,7 @@
     ]
   },
   {
-    "id": "leandramerz",
+    "id": "lmerzsdsuedu",
     "Name": "Leandra Merz",
     "Campus": "San Diego State University",
     "College": "College of Arts and Letters",
@@ -16204,8 +16120,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "leandramerz",
+    "Email_Enc": "dWRlLnVzZHNAenJlbWw=",
+    "slug": "lmerzsdsuedu",
     "Research_Interests_List": [
       "Community-based natural resource management programs, human-wolf interactions in the northwestern u.s., wildlife crime, gender and conservation, sustainable development, natural resource governance, human-wildlife coexistence."
     ],
@@ -16474,7 +16390,7 @@
     ]
   },
   {
-    "id": "fletchermiller",
+    "id": "fmillersdsuedu",
     "Name": "Fletcher Miller",
     "Campus": "San Diego State University",
     "College": "College of Engineering",
@@ -16491,8 +16407,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "fletchermiller",
+    "Email_Enc": "dWRlLnVzZHNAcmVsbGltZg==",
+    "slug": "fmillersdsuedu",
     "Research_Interests_List": [
       "Thermal sciences, sustainable energy, combustion, solar energy, spacecraft fires, previous research in microgravity combustion at NASA glenn research center."
     ],
@@ -16636,7 +16552,7 @@
     ]
   },
   {
-    "id": "nataliemladenov",
+    "id": "nmladenovsdsuedu",
     "Name": "Natalie Mladenov",
     "Campus": "San Diego State University",
     "College": "College of Engineering",
@@ -16655,8 +16571,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "nataliemladenov",
+    "Email_Enc": "dWRlLnVzZHNAdm9uZWRhbG1u",
+    "slug": "nmladenovsdsuedu",
     "Research_Interests_List": [
       "Biogeochemical processes influencing pollutant fate and transport in natural and engineered systems, anaerobic processes for decentralized wastewater treatment, nutrient removal and energy recovery, research focuses on fundamental processes driving photochemical and biological degradation and mobilization of contaminants and applies optical spectroscopic techniques for monitoring organic contaminants."
     ],
@@ -17030,7 +16946,7 @@
     ]
   },
   {
-    "id": "esmemurdock",
+    "id": "emurdocksdsuedu",
     "Name": "Esme Murdock",
     "Campus": "San Diego State University",
     "College": "College of Arts and Letters",
@@ -17046,8 +16962,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "esmemurdock",
+    "Email_Enc": "dWRlLnVzZHNAa2NvZHJ1bWU=",
+    "slug": "emurdocksdsuedu",
     "Research_Interests_List": [
       "Environmental justice, Indigenous and afro-descended environmental ethics, settler colonial theory, decolonization as a land/resource rematriation. Current research focuses on the impacts of colonization and slavery on Indigenous/afro-descendant peoples and environments in North America (turtle island)."
     ],
@@ -17056,7 +16972,7 @@
     ]
   },
   {
-    "id": "jamesmurren",
+    "id": "jmurrensdsuedu",
     "Name": "James Murren",
     "Campus": "San Diego State University",
     "College": "College of Arts and Letters",
@@ -17072,8 +16988,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "jamesmurren",
+    "Email_Enc": "dWRlLnVzZHNAbmVycnVtag==",
+    "slug": "jmurrensdsuedu",
     "Research_Interests_List": [
       "15+ years of experience in the fields of international environmental and agricultural development (watershed management in honduras, household energy procurement in ethiopia, Nigeria and Brazil, post-harvest storage in west Africa, agricultural assessments in paraguay and the republic of georgia, climate change/agricultural education in guinea, and capacity building/business planning with farmers associations in Central America)."
     ],
@@ -17426,27 +17342,33 @@
     ]
   },
   {
-    "id": "jonocon",
+    "id": "jonathanoconcsulbedu",
     "Name": "Jon Ocon",
     "Campus": "CSU Long Beach",
-    "College": null,
-    "Department": null,
-    "Areas": null,
-    "Title": null,
-    "Research_Interests": null,
+    "College": "College of Liberal Arts",
+    "Department": "Geography",
+    "Areas": [
+      "Geography"
+    ],
+    "Title": "Assistant Professor",
+    "Research_Interests": "Geospatial science, remote sensing, human-environment dynamics, traditional ecological knowledge, urban ecosystems.",
     "Teaching_Interests": null,
     "Sustainability_Contributions": null,
     "Notes": null,
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "jonocon",
-    "Research_Interests_List": [],
-    "Areas_List": []
+    "Email_Enc": "dWRlLmJsdXNjQG5vY08ubmFodGFub0o=",
+    "slug": "jonathanoconcsulbedu",
+    "Research_Interests_List": [
+      "Geospatial science, remote sensing, human-environment dynamics, traditional ecological knowledge, urban ecosystems."
+    ],
+    "Areas_List": [
+      "Geography"
+    ]
   },
   {
-    "id": "walteroechel",
+    "id": "woechelsdsuedu",
     "Name": "Walter Oechel",
     "Campus": "San Diego State University",
     "College": "College of Sciences",
@@ -17462,8 +17384,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "walteroechel",
+    "Email_Enc": "dWRlLnVzZHNAbGVoY2Vvdw==",
+    "slug": "woechelsdsuedu",
     "Research_Interests_List": [
       "Developing and understanding the interconnections of the functioning of terrestrial, atmospheric, and marine systems on with climate change. Of particular interest are: how does climate change affect ecosystem functioning. How does the response of ecosystems feed back or feed forward on climate change. How can ecosystems be managed to reduce net CO2 emissions."
     ],
@@ -17633,43 +17555,17 @@
   },
   {
     "id": "craigolwertcsunedu",
-    "Name": "Craig Olwert",
+    "Name": "Craig T. Olwert",
     "Campus": "CSU Northridge",
     "College": "Social & Behavioral Sciences",
     "Department": "Urban Studies & Planning",
     "Areas": [
       "City & Regional Planning"
     ],
-    "Title": "Professor & Undergraduate Advisor",
-    "Research_Interests": "Urban economics, environment and sustainability, modeling social, economic, and environmental interrelationships at the metropolitan scale.",
-    "Teaching_Interests": "Urban planning theory and practice, sustainable community development, quantitative research methods.",
-    "Sustainability_Contributions": "Led multiple community and neighborhood resilience planning projects (e.g., Resilient Northridge, Plummer Pocket Park) via URBS capstones.",
-    "Notes": null,
-    "Photo": null,
-    "Website": null,
-    "extras": null,
-    "Email_Enc": "dWRlLm51c2NAdHJld2xvLmdpYXJj",
-    "slug": "craigolwertcsunedu",
-    "Research_Interests_List": [
-      "Urban economics, environment and sustainability, modeling social, economic, and environmental interrelationships at the metropolitan scale."
-    ],
-    "Areas_List": [
-      "City & Regional Planning"
-    ]
-  },
-  {
-    "id": "craigolwertcsunedu",
-    "Name": "Craig T. Olwert",
-    "Campus": "CSU Northridge",
-    "College": "Sci & Math",
-    "Department": "Urban Studies and Planning",
-    "Areas": [
-      "City & Regional Planning"
-    ],
     "Title": "Professor & Chair",
-    "Research_Interests": "Urban planning, green infrastructure.",
-    "Teaching_Interests": "Urban sustainability, planning.",
-    "Sustainability_Contributions": "Helps shape sustainable urban policy.",
+    "Research_Interests": "Urban economics, environment and sustainability, modeling social, economic, and environmental interrelationships at the metropolitan scale, urban planning, green infrastructure.",
+    "Teaching_Interests": "Urban planning theory and practice, sustainable community development, quantitative research methods, urban sustainability.",
+    "Sustainability_Contributions": "Led multiple community and neighborhood resilience planning projects (e.g., Resilient Northridge, Plummer Pocket Park) via URBS capstones. Helps shape sustainable urban policy.",
     "Notes": null,
     "Photo": null,
     "Website": null,
@@ -17677,7 +17573,7 @@
     "Email_Enc": "dWRlLm51c2NAdHJld2xvLmdpYXJj",
     "slug": "craigolwertcsunedu",
     "Research_Interests_List": [
-      "Urban planning, green infrastructure."
+      "Urban economics, environment and sustainability, modeling social, economic, and environmental interrelationships at the metropolitan scale, urban planning, green infrastructure."
     ],
     "Areas_List": [
       "City & Regional Planning"
@@ -18294,36 +18190,6 @@
     ]
   },
   {
-    "id": "httpswwwlinkedincominelizabethpatterson94510",
-    "Name": "Elizabeth Patterson",
-    "Campus": "Sonoma State University",
-    "College": "College of Humanities, Social Sciences, and the Arts",
-    "Department": "Geography, Environment, and Planning",
-    "Areas": [
-      "City & Regional Planning",
-      "Environmental Science",
-      "Geography"
-    ],
-    "Title": "Lecturer",
-    "Research_Interests": "Integrated water and land management tool development, water-land use carbon and cost analysis under climate pressures.",
-    "Teaching_Interests": "Conservation planning, GIS analysis & land use planning.",
-    "Sustainability_Contributions": "Co-developed climate-relevant decision-support tool (Integrated Water and Land Management Tool) with SSU’s CSC, helping planners assess carbon outcomes, water use, and development tradeoffs to enhance water-resilient design.",
-    "Notes": "https://www.linkedin.com/in/elizabeth-patterson-94510/",
-    "Photo": null,
-    "Website": null,
-    "extras": null,
-    "Email_Enc": "LzAxNTQ5LW5vc3JldHRhcC1odGViYXppbGUvbmkvbW9jLm5pZGVrbmlsLnd3dy8vOnNwdHRo",
-    "slug": "httpswwwlinkedincominelizabethpatterson94510",
-    "Research_Interests_List": [
-      "Integrated water and land management tool development, water-land use carbon and cost analysis under climate pressures."
-    ],
-    "Areas_List": [
-      "City & Regional Planning",
-      "Environmental Science",
-      "Geography"
-    ]
-  },
-  {
     "id": "mepattersoncsuchicoedu",
     "Name": "Marie Patterson",
     "Campus": "Chico State",
@@ -18426,7 +18292,7 @@
     ]
   },
   {
-    "id": "contactpage",
+    "id": "rpelccsumbedu",
     "Name": "Robin Pelc",
     "Campus": "CSU Monterey Bay",
     "College": "College of Science",
@@ -18445,8 +18311,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": "ZWdhUCB0Y2F0bm9D",
-    "slug": "contactpage",
+    "Email_Enc": "dWRlLmJtdXNjQGNsZXBy",
+    "slug": "rpelccsumbedu",
     "Research_Interests_List": [
       "Marine species sustainability, MPAs, carbon removal."
     ],
@@ -18710,7 +18576,7 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": "dWRlLnVzanMgQCBoY3N0ZWlwLmVpbHJhYw==",
+    "Email_Enc": "dWRlLnVzanNAaGNzdGVpcC5laWxyYWM=",
     "slug": "carliepietschsjsuedu",
     "Research_Interests_List": [
       "Research focuses on paleontology and deep time marine biology. The sjsu paleontology lab group combines geologic observations with marine ecology and evolution to interpret the history of life on earth with a focus on mollusks (clams and snails) and extreme climate change events."
@@ -18720,7 +18586,7 @@
     ]
   },
   {
-    "id": "adampine",
+    "id": "apinesdsuedu",
     "Name": "Adam Pine",
     "Campus": "San Diego State University",
     "College": "College of Arts and Letters",
@@ -18736,8 +18602,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "adampine",
+    "Email_Enc": "dWRlLnVzZHNAZW5pcGE=",
+    "slug": "apinesdsuedu",
     "Research_Interests_List": [
       "Urban policy, race, hunger, and the global food system, focused on how marginalized communities advocate for change and how universities can support these efforts, interconnections between housing precarity and food insecurity and how anti-racist food activists are fighting to institute the right to food in the us."
     ],
@@ -18868,7 +18734,7 @@
     ]
   },
   {
-    "id": "jasonporth",
+    "id": "jporthsfsuedu",
     "Name": "Jason Porth",
     "Campus": "San Francisco State University",
     "College": null,
@@ -18882,8 +18748,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "jasonporth",
+    "Email_Enc": "dWRlLnVzZnNAaHRyb3Bq",
+    "slug": "jporthsfsuedu",
     "Research_Interests_List": [],
     "Areas_List": []
   },
@@ -19128,7 +18994,7 @@
     ]
   },
   {
-    "id": "ramonaprez",
+    "id": "perezsdsuedu",
     "Name": "Ramona Pérez",
     "Campus": "San Diego State University",
     "College": "College of Arts and Letters",
@@ -19148,8 +19014,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "ramonaprez",
+    "Email_Enc": "dWRlLnVzZHNAemVyZXA=",
+    "slug": "perezsdsuedu",
     "Research_Interests_List": [
       "Power and political economy, migration and health, climate change, food security, and small-scale farming communities, ethics. Regional interests: Mexico, Latin America, current research focuses on:, binational youth identity and the effects of immigration on family structure, human rights in the migratory process to include deportation, trafficking, and the judicial treatment of migrants, the negotiations and practices of shifting gender roles and the maintenance of ‘traditional’ community identity in rural Mexico, land reform and the movement of rural lands to peri-urban space, tourism and ceramic production, squatter settlements and colonias populares, lead poisoning and the strategies of development in Mexico, the creation of community among Mexican immigrants and Mexican American identity in the southwestern region of the United States, food, its relationship to identity and the shifts in consumption, production, and importance as people relocate and respond to local ingredients and practices. Food security, climate change, shifts in farming practices among Indigenous communities in Mexico."
     ],
@@ -19216,7 +19082,7 @@
     ]
   },
   {
-    "id": "amyquandt",
+    "id": "aquandtsdsuedu",
     "Name": "Amy Quandt",
     "Campus": "San Diego State University",
     "College": "College of Arts and Letters",
@@ -19232,8 +19098,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "amyquandt",
+    "Email_Enc": "dWRlLnVzZHNAdGRuYXVxYQ==",
+    "slug": "aquandtsdsuedu",
     "Research_Interests_List": [
       "Intersection of environmental conservation and rural livelihoods, agroforestry, agriculture, mobile phone technologies, community-based conservation, climate change adaptation, social-ecological resilience, mixed-methods research."
     ],
@@ -19800,7 +19666,7 @@
     ]
   },
   {
-    "id": "erinriley",
+    "id": "eprileysdsuedu",
     "Name": "Erin Riley",
     "Campus": "San Diego State University",
     "College": "College of Arts and Letters",
@@ -19816,8 +19682,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "erinriley",
+    "Email_Enc": "dWRlLnVzZHNAeWVsaXJwZQ==",
+    "slug": "eprileysdsuedu",
     "Research_Interests_List": [
       "Primatology/biological anthropology, environmental anthropology, conservation, primate conservation education, relationship between humans and primates, ecological and social impacts of that, active research in Indonesia with moor macaques since 2010."
     ],
@@ -20528,7 +20394,7 @@
     ]
   },
   {
-    "id": "contactpage",
+    "id": "sasaldanacsumbedu",
     "Name": "Savannah Saldana",
     "Campus": "CSU Monterey Bay",
     "College": "College of Science",
@@ -20544,8 +20410,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": "ZWdhUCB0Y2F0bm9D",
-    "slug": "contactpage",
+    "Email_Enc": "dWRlLmJtdXNjQGFuYWRsYXNhcw==",
+    "slug": "sasaldanacsumbedu",
     "Research_Interests_List": [
       "Relationship between insects and arundo donax, an invasive species dominating freshwater ecosystems."
     ],
@@ -20554,7 +20420,7 @@
     ]
   },
   {
-    "id": "fernandodesales",
+    "id": "fdesalessdsuedu",
     "Name": "Fernando De Sales",
     "Campus": "San Diego State University",
     "College": "College of Arts and Letters",
@@ -20570,8 +20436,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "fernandodesales",
+    "Email_Enc": "dWRlLnVzZHNAc2VsYXNlZGY=",
+    "slug": "fdesalessdsuedu",
     "Research_Interests_List": [
       "Impacts of land-use and land-cover changes on climate, environmental extreme: wildfires, droughts, heatwaves, perennial crop suitability, coastal farming sustainability."
     ],
@@ -20738,7 +20604,7 @@
     ]
   },
   {
-    "id": "vinodsasidharan",
+    "id": "htmasstsdsuedu",
     "Name": "Vinod Sasidharan",
     "Campus": "San Diego State University",
     "College": "College of Professional Studies and Fine Arts",
@@ -20747,17 +20613,17 @@
       "Tourism & Recreation"
     ],
     "Title": "Associate Professor, Lecturer",
-    "Research_Interests": "Sustainable development, sustainable tourism and community empowerment in the California-baja Mexico transborder region, international tourism, tourism and technology, sustainable tourism assessment, interdisciplinary analysis of tourism, tourism and corporate social responsibility, Indigenous tourism, tourism best practices.",
-    "Teaching_Interests": "Sustainable development, sustainable tourism and community empowerment in the California-baja Mexico transborder region, international tourism, tourism and technology, sustainable tourism assessment, interdisciplinary analysis of tourism, tourism and corporate social responsibility, Indigenous tourism, tourism best practices.",
+    "Research_Interests": "Sustainable development, sustainable tourism and community empowerment in the California-Baja Mexico transborder region, international tourism, tourism and technology, sustainable tourism assessment, interdisciplinary analysis of tourism, tourism and corporate social responsibility, Indigenous tourism, tourism best practices.",
+    "Teaching_Interests": "Sustainable development, sustainable tourism and community empowerment in the California-Baja Mexico transborder region, international tourism, tourism and technology, sustainable tourism assessment, interdisciplinary analysis of tourism, tourism and corporate social responsibility, Indigenous tourism, tourism best practices.",
     "Sustainability_Contributions": "Ganster, P., Arizpe, O., & Sasidharan, V. (eds) (2020). Loreto, Mexico: Challenges for a sustainable future. San Diego, CA: San Diego State University Press, Institute for Regional Studies of the Californias. Sasidharan, V. (2009). Sustainability of outdoor recreation. Köln, Germany: LAMBERT Academic Publishing AG & Co. KG. Sasidharan, V., Križaj, D., Quiogue, D., & Aquino, J. (2024). Slovenia’s social sustainability achievements: An examination of local perspectives and satisfaction levels. European Journal of Sustainable Development Research, 8(3), em062. Https://doi.org/10.29333/ejosdr/14782 Dudley, K., Sasidharan, V., Orta, M., & Olague, J. (2024). Virtual transborder service learning as a transformative educational pedagogy: Outcomes from a California, USA - Baja California, Mexico academic partnership in sustainable tourism. Frontiers: The Interdisciplinary Journal of Study Abroad, 36(1), 660-687. Https://doi.org/10.36366/frontiers.v36i1.819 Herrera, M., Sasidharan, V., Hernández, J., & Herrera, L. (2018). Quality and sustainability of tourism development in Copper Canyon, Mexico: Perceptions of community stakeholders and visitors. Tourism Management Perspectives, 27(2018), 91-103. Https://doi.org/10.1016/j.tmp.2018.05.003 Herrera, M., Sasidharan, V., & Hernández, J. (2018). Desarrollo turístico versus calidad y sustentabilidad percibidas: Barrancas del Cobre, México. European Scientific Journal, 14(35), 1-17. Https://doi.org/10.19044/esj.2018.v14n35p1 Sasidharan, V., & Križaj, D. (2018). Tourism ecolabels and social sustainability: Challenges and innovations from a Slovene perspective. Academica Turistica – Tourism and Innovation Journal, 11(1), 19-29. Https://doi.org/10.26493/2335-4194.11.19-29 Hatipoglu, B., Ertuna, B., & Sasidharan, V. (2014). A referential methodology for education on sustainable tourism development. Sustainability, 6(8), 5029-5048. Https://doi.org/10.3390/su6085029 Sasidharan, V., & Hall, M. (2012). Dominican resort tourism, sustainability, and Millennium Development Goals. Journal of Tourism Insights, 3(1), Article 5. Https://doi.org/10.9707/2328-0824.1029 Sasidharan, V., & Hall, M. (2007). Community-defined cultural and ecological tourism framework: Potential applications in Romania's Orastie zone. Tourism Review International, 11(4), 365-382. Https://doi.org/10.3727/154427207785908083.",
     "Notes": null,
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "vinodsasidharan",
+    "Email_Enc": "dWRlLnVzZHNAdHNzYW10aA==",
+    "slug": "htmasstsdsuedu",
     "Research_Interests_List": [
-      "Sustainable development, sustainable tourism and community empowerment in the California-baja Mexico transborder region, international tourism, tourism and technology, sustainable tourism assessment, interdisciplinary analysis of tourism, tourism and corporate social responsibility, Indigenous tourism, tourism best practices."
+      "Sustainable development, sustainable tourism and community empowerment in the California-Baja Mexico transborder region, international tourism, tourism and technology, sustainable tourism assessment, interdisciplinary analysis of tourism, tourism and corporate social responsibility, Indigenous tourism, tourism best practices."
     ],
     "Areas_List": [
       "Tourism & Recreation"
@@ -20946,7 +20812,7 @@
     ]
   },
   {
-    "id": "stephenschellenberg",
+    "id": "saschellenbergsdsuedu",
     "Name": "Stephen Schellenberg",
     "Campus": "San Diego State University",
     "College": "College of Sciences",
@@ -20963,8 +20829,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "stephenschellenberg",
+    "Email_Enc": "dWRlLnVzZHNAZ3JlYm5lbGxlaGNzYXM=",
+    "slug": "saschellenbergsdsuedu",
     "Research_Interests_List": [
       "Paleobiology, paleoecology of invertebrates and protists, mesozoic and cenozoic paleoceanography, applications of isotopic and elemental chemistry to biological, ecological, and environmental research."
     ],
@@ -21134,7 +21000,7 @@
     ]
   },
   {
-    "id": "sridharseshagiri",
+    "id": "sridharseshagirisdsuedu",
     "Name": "Sridhar Seshagiri",
     "Campus": "San Diego State University",
     "College": "College of Engineering",
@@ -21151,8 +21017,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "sridharseshagiri",
+    "Email_Enc": "dWRlLnVzZHNAaXJpZ2Foc2VzLnJhaGRpcnM=",
+    "slug": "sridharseshagirisdsuedu",
     "Research_Interests_List": [
       "Broad areas of nonlinear control, adaptive approximation based control, and applications to machines/drives, and renewable energy technologies (photovoltaics, wind energy systems and storage), current research projects:, control for battery management systems, hybrid Energy Storage Systems (HESS) for grid integration of renewables, hybrid and nonlinear control of power converters, power optimization and control for PV and Wind Energy Conversion Systems (WECS), distributed wide-area control of power systems."
     ],
@@ -21240,7 +21106,7 @@
     ]
   },
   {
-    "id": "noemailfound",
+    "id": "ashafiqfullertonedu",
     "Name": "Asad Shafiq",
     "Campus": "CSU Fullerton",
     "College": "College of Business and Economics",
@@ -21256,8 +21122,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": "ZG51b2YgbGlhbWUgb04=",
-    "slug": "noemailfound",
+    "Email_Enc": "dWRlLm5vdHJlbGx1ZkBxaWZhaHNh",
+    "slug": "ashafiqfullertonedu",
     "Research_Interests_List": [],
     "Areas_List": [
       "Business & Management"
@@ -21344,7 +21210,7 @@
     ]
   },
   {
-    "id": "samshen",
+    "id": "samshensdsuedu",
     "Name": "Sam Shen",
     "Campus": "San Diego State University",
     "College": "College of Sciences",
@@ -21360,8 +21226,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "samshen",
+    "Email_Enc": "dWRlLnVzZHNAbmVocy5tYXM=",
+    "slug": "samshensdsuedu",
     "Research_Interests_List": [
       "Areas of expertise: AI weather forecasting, climate data science, climate data visualization, climate data delivery technology to classrooms, machine learning, AI applications to education, spectral optimal averaging theory."
     ],
@@ -21842,7 +21708,7 @@
     ]
   },
   {
-    "id": "ericsmigel",
+    "id": "esmigelsdsuedu",
     "Name": "Eric Smigel",
     "Campus": "San Diego State University",
     "College": "School of Music and Dance",
@@ -21858,8 +21724,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "ericsmigel",
+    "Email_Enc": "dWRlLnVzZHNAbGVnaW1zZQ==",
+    "slug": "esmigelsdsuedu",
     "Research_Interests_List": [
       "American music in the second half of the twentieth century in relation to contemporaneous developments in other arts and sciences, American experimental music."
     ],
@@ -22268,7 +22134,7 @@
     ]
   },
   {
-    "id": "danieldansousa",
+    "id": "dansousasdsuedu",
     "Name": "Daniel (Dan) Sousa",
     "Campus": "San Diego State University",
     "College": "College of Arts and Letters",
@@ -22284,8 +22150,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "danieldansousa",
+    "Email_Enc": "dWRlLnVzZHNAYXN1b3MubmFk",
+    "slug": "dansousasdsuedu",
     "Research_Interests_List": [
       "Understanding spatiotemporal landscape patterns using multi-scale imagery, imaging spectroscopy, manifold learning, and spatial network analysis, agriculture in the San Joaquin Valley, water quality in the tijuana river estuary and San Diego coastal ocean, arsenic contamination in smallholder rice farms in cambodia."
     ],
@@ -22294,7 +22160,7 @@
     ]
   },
   {
-    "id": "rebeccadesouza",
+    "id": "rtdesouzasdsuedu",
     "Name": "Rebecca de Souza",
     "Campus": "San Diego State University",
     "College": "College of Professional Studies and Fine Arts",
@@ -22310,8 +22176,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "rebeccadesouza",
+    "Email_Enc": "dWRlLnVzZHNAYXp1b3NlZHRy",
+    "slug": "rtdesouzasdsuedu",
     "Research_Interests_List": [
       "How political and economic systems impact access to food, health, and social well-being, how racism, ethnocentrism, and other oppressive ideologies influence policies, practices, and environments."
     ],
@@ -22424,7 +22290,7 @@
     ]
   },
   {
-    "id": "contactpage",
+    "id": "estanfieldcsumbedu",
     "Name": "Erin Stanfield",
     "Campus": "CSU Monterey Bay",
     "College": "College of Science",
@@ -22442,8 +22308,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": "ZWdhUCB0Y2F0bm9D",
-    "slug": "contactpage",
+    "Email_Enc": "dWRlLmJtdXNjQGRsZWlmbmF0c2U=",
+    "slug": "estanfieldcsumbedu",
     "Research_Interests_List": [
       "Freshwater ecology, STEM pedagogy."
     ],
@@ -22940,7 +22806,7 @@
     ]
   },
   {
-    "id": "madisonswayne",
+    "id": "mswaynesdsuedu",
     "Name": "Madison Swayne",
     "Campus": "San Diego State University",
     "College": "School of Public Affairs, City Planning; Center for Regional Sustainability",
@@ -22957,8 +22823,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "madisonswayne",
+    "Email_Enc": "dWRlLnVzZHNAZW55YXdzbQ==",
+    "slug": "mswaynesdsuedu",
     "Research_Interests_List": [
       "Environmental justice, land use planning, brownfield reuse, food systems, air quality, and gis-based methods."
     ],
@@ -23838,7 +23704,7 @@
     ]
   },
   {
-    "id": "isaacullah",
+    "id": "iullahsdsuedu",
     "Name": "Isaac Ullah",
     "Campus": "San Diego State University",
     "College": "College of Arts and Letters",
@@ -23854,8 +23720,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "isaacullah",
+    "Email_Enc": "dWRlLnVzZHNAaGFsbHVp",
+    "slug": "iullahsdsuedu",
     "Research_Interests_List": [
       "Using GIS and simulation modeling to understand the long-term dynamics of humans and the earth system, social and environmental changes surrounding the advent of plant and animal domestication and food production, Mediterranean and other semi-arid landscapes (southern Italy and the greater San Diego region)."
     ],
@@ -23942,7 +23808,7 @@
     ]
   },
   {
-    "id": "meredithvaughn",
+    "id": "mhoulesdsuedu",
     "Name": "Meredith Vaughn",
     "Campus": "San Diego State University",
     "College": "College of Education",
@@ -23958,8 +23824,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "meredithvaughn",
+    "Email_Enc": "dWRlLnVzZHNAZWx1b2ht",
+    "slug": "mhoulesdsuedu",
     "Research_Interests_List": [
       "Urban environmental education."
     ],
@@ -24072,7 +23938,7 @@
     ]
   },
   {
-    "id": "matthewverbyla",
+    "id": "mverbylasdsuedu",
     "Name": "Matthew Verbyla",
     "Campus": "San Diego State University",
     "College": "College of Engineering",
@@ -24091,8 +23957,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "matthewverbyla",
+    "Email_Enc": "dWRlLnVzZHNAYWx5YnJldm0=",
+    "slug": "mverbylasdsuedu",
     "Research_Interests_List": [
       "Development of next generation methods to identify and monitor wastewater and surface waters for pathogens and their sources, produce new data and analytics for web-based tools to measure and model pathogen reduction in sanitation and water reuse systems, quantify the partitioning of pathogens to liquids and solids in wastewater to improve treatment system operation and design."
     ],
@@ -24584,7 +24450,7 @@
     ]
   },
   {
-    "id": "matthewweingarten",
+    "id": "mweingartensdsuedu",
     "Name": "Matthew Weingarten",
     "Campus": "San Diego State University",
     "College": "College of Sciences",
@@ -24601,8 +24467,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "matthewweingarten",
+    "Email_Enc": "dWRlLnVzZHNAbmV0cmFnbmlld20=",
+    "slug": "mweingartensdsuedu",
     "Research_Interests_List": [
       "Hydrogeology, geomechanics, induced seismicity, fluid-fault interactions."
     ],
@@ -24720,7 +24586,7 @@
     ]
   },
   {
-    "id": "jessicawhiteside",
+    "id": "jhwhitesidesdsuedu",
     "Name": "Jessica Whiteside",
     "Campus": "San Diego State University",
     "College": "College of Sciences",
@@ -24737,8 +24603,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "jessicawhiteside",
+    "Email_Enc": "dWRlLnVzZHNAZWRpc2V0aWh3aGo=",
+    "slug": "jhwhitesidesdsuedu",
     "Research_Interests_List": [
       "Organic geochemistry, paleoclimate."
     ],
@@ -24774,7 +24640,7 @@
     ]
   },
   {
-    "id": "rogerwhitney",
+    "id": "rwhitneysdsuedu",
     "Name": "Roger Whitney",
     "Campus": "San Diego State University",
     "College": "College of Sciences",
@@ -24790,8 +24656,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "rogerwhitney",
+    "Email_Enc": "dWRlLnVzZHNAeWVudGlod3I=",
+    "slug": "rwhitneysdsuedu",
     "Research_Interests_List": [
       "Object-oriented programming, functional programming, software development, mobile computing."
     ],
@@ -24800,7 +24666,7 @@
     ]
   },
   {
-    "id": "andrewwiese",
+    "id": "awiesesdsuedu",
     "Name": "Andrew Wiese",
     "Campus": "San Diego State University",
     "College": "College of Arts and Letters",
@@ -24816,8 +24682,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "andrewwiese",
+    "Email_Enc": "dWRlLnVzZHNAZXNlaXdh",
+    "slug": "awiesesdsuedu",
     "Research_Interests_List": [
       "Suburbanization, history of housing and planning, race, space, and power, the relationships between place and politics. Current research explores the role of place-based activism in urban environmental history and relationships among local politics, environmental planning, and social justice in California."
     ],
@@ -25274,7 +25140,7 @@
     ]
   },
   {
-    "id": "xiaofengxu",
+    "id": "xxusdsuedu",
     "Name": "Xiaofeng Xu",
     "Campus": "San Diego State University",
     "College": "College of Sciences",
@@ -25290,8 +25156,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "xiaofengxu",
+    "Email_Enc": "dWRlLnVzZHNAdXh4",
+    "slug": "xxusdsuedu",
     "Research_Interests_List": [
       "Areas of expertise: global change ecology, ecosystem modeling, microbial ecology, land-atmosphere interaction, soil biogeochemistry."
     ],
@@ -25832,7 +25698,7 @@
     ]
   },
   {
-    "id": "jingzhao",
+    "id": "jzhao2sdsuedu",
     "Name": "Jing Zhao",
     "Campus": "San Diego State University",
     "College": "College of Health and Human Services",
@@ -25848,8 +25714,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "jingzhao",
+    "Email_Enc": "dWRlLnVzZHNAMm9haHpq",
+    "slug": "jzhao2sdsuedu",
     "Research_Interests_List": [
       "Functionalities and flavor impacts of food proteins, agricultural by-products utilization (rice bran), novel protein development and characterization (insect and algae proteins), utilization of plant and algae proteins in alternative meat products, flavor characterization of protein-rich foods."
     ],
@@ -25910,7 +25776,7 @@
     ]
   },
   {
-    "id": "cristalzuniga",
+    "id": "czuniga2sdsuedu",
     "Name": "Cristal Zuniga",
     "Campus": "San Diego State University",
     "College": "College of Sciences",
@@ -25926,8 +25792,8 @@
     "Photo": null,
     "Website": null,
     "extras": null,
-    "Email_Enc": null,
-    "slug": "cristalzuniga",
+    "Email_Enc": "dWRlLnVzZHNAMmFnaW51emM=",
+    "slug": "czuniga2sdsuedu",
     "Research_Interests_List": [
       "Ngs, big data, systems biology, metabolic modeling, development of experimental and computational systems biology approaches to study microorganisms in isolation and within microbial communities and understand biological treatment, bioproduction, global cycles, and health and disease roles in hosts."
     ],

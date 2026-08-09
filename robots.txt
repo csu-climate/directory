@@ -2,8 +2,12 @@
 #
 # IMPORTANT: robots.txt is only honoured at a DOMAIN root. This file deploys to
 # https://csu-climate.github.io/directory/robots.txt, which crawlers ignore --
-# they read https://csu-climate.github.io/robots.txt and nothing else. It takes
-# effect only if the site moves to its own domain. See CLAUDE.md.
+# they read https://csu-climate.github.io/robots.txt and nothing else.
+#
+# The live copy is served from the csu-climate/csu-climate.github.io repo. THIS
+# file is the canonical text: edit it here, then copy it there (their header
+# comments differ). This copy takes over automatically if the site moves to its
+# own domain. See CLAUDE.md.
 #
 # Note also that robots.txt is a request, not a control. Well-behaved crawlers
 # honour it; email harvesters do not. The addresses on this site are protected
