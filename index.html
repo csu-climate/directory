@@ -4,6 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>CSU Climate Faculty Directory</title>
+  <!-- Findable, but not cached: noarchive stops search engines serving their own
+       copy of the page. Honoured per-page, unlike robots.txt on this URL. -->
+  <meta name="robots" content="index, follow, noarchive">
+  <meta name="description" content="Find specialists working on climate change and sustainability across the California State University system." />
   <link rel="stylesheet" href="/directory/static/theme.css?v=7" />
 </head>
 <body>
@@ -48,7 +52,9 @@
     </div>
 
     <p class="contact-note">
-      To be added, removed, or have your profile updated, contact epearse(@)calpoly.edu.
+      To be added, removed, or have your profile updated, contact
+      <button type="button" class="email-btn email-btn--name"
+              data-e="dWRlLnlsb3BsYWNAZXNyYWVwZQ==">Erin Pearse</button>.
       Please nominate any missing colleagues for addition.
     </p>
 
@@ -299,8 +305,9 @@
     const searchEl = $id('searchInput');
     if (searchEl) searchEl.addEventListener('input', applyFilters);
 
-    // one delegated handler, so re-rendering the grid never loses it
-    $id('cardsGrid').addEventListener('click', (e) => {
+    // One delegated handler on the body: survives re-rendering the grid, and
+    // also covers the contact button, which lives outside it.
+    document.body.addEventListener('click', (e) => {
       const btn = e.target.closest('.email-btn');
       if (btn) revealEmail(btn);
     });

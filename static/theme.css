@@ -887,6 +887,15 @@ a:hover {
     color: var(--card);
 }
 
+/* Variant that shows a person's name rather than the word EMAIL */
+.email-btn--name {
+    text-transform: none;
+    letter-spacing: normal;
+    font-size: inherit;
+    padding: 1px 9px;
+    vertical-align: baseline;
+}
+
 /* Small print under the filters */
 .contact-note {
     margin: 12px 2px 28px;
