@@ -31,8 +31,11 @@ This repo delivers a directory at http://csu-climate.github.io/directory/ that p
   fails to render. Keep it roughly in sync but don't invest in it.
 - `static/theme.css` — all styling, incl. light/dark. Card classes: `.lesson-card`,
   `.lesson-title`, `.department-line`, `.lesson-meta`, `.meta-item`.
-- `templates/member.html`, `templates/lesson.html`, `templates/platforms/`, `index*.html.disabled`,
-  `scripts/build_members.py.old` — dead weight from an earlier lessons site. Not built, not served.
+- `templates/member.html`, `templates/lesson.html`, `templates/platforms/` — the last dead weight
+  from an earlier lessons site. Nothing renders them, but `_get_env()` points Jinja at the whole
+  `templates/` directory, so they are closer to the live machinery than the rest of the cruft was.
+  The disabled index pages, the old lesson-portal workflow, `build_members.py.old` and the `.png`
+  logo have all been deleted; they remain in git history.
 - `.github/workflows/build-members.yml` — on push to `main`: validates every YAML parses, runs the
   build with `BASE_PATH=/directory`, then deploys `site/` to the `gh-pages` branch.
 - `site/` is gitignored (build output). `data/members.json` is tracked but stale sample data — the
@@ -108,8 +111,13 @@ which is why phrases like "Black geographies" are listed in full.
 `scripts/build_members.py` maps it to the name that campus actually goes by, which is not
 uniform across the CSU — "CSU Northridge", "Chico State", "Cal Poly Humboldt",
 "San Diego State University", "Cal Poly SLO", "Cal State LA". The card shows that name with no
-"Campus:" label, and the filter dropdown uses it too. Keep the YAML short names; add mappings
-here instead.
+"Campus:" label. Keep the YAML short names; add mappings here instead.
+
+Filtering goes through `Campus_Filters`, not the display name, because a campus can sit inside
+another. Cal Maritime merged into Cal Poly SLO, so its members display as "Cal Poly SLO, Solano
+campus" and carry *both* that and "Cal Poly SLO" as filter values: picking the parent returns
+Solano too (49), picking the sub-campus returns only Solano (17), picking both returns the union
+without double-counting. Add future mergers to `CAMPUS_PARENTS`.
 
 ## Email addresses
 
