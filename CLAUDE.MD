@@ -123,11 +123,37 @@ email pattern — verify with
 `grep -oE "[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}" site/members.json`, which should
 return nothing.
 
+The site contact address is handled the same way: `CONTACT_EMAIL` in `build_members.py` is
+encoded into the template context, and the contact line under the filters renders a button
+labelled with `CONTACT_NAME` instead of the address. Change the address there, not in the
+template.
+
 This is obfuscation, not protection. It defeats the pattern-matching harvesters that do the bulk
 of address scraping; it does not stop anyone who reads this file and writes six lines of code.
 **The real exposure is `members/*.yml`, which holds every address in plain text in a public
 repo.** Closing that would mean encoding at rest or making the repo private — neither is done,
 so treat these addresses as public.
+
+## Crawlers
+
+`robots.txt` is only honoured at a **domain root**. The site lives at
+`csu-climate.github.io/directory/`, so crawlers read `csu-climate.github.io/robots.txt` — a
+different repo's territory — and ignore `/directory/robots.txt` entirely. The `robots.txt` in
+this repo is therefore **inert today**; it is committed so it starts working the moment the site
+moves to its own domain, and the build copies it to the deployment root rather than under
+`static/`.
+
+What does work per-page is the `<meta name="robots">` tag in `templates/index.html`. It is set to
+`index, follow, noarchive`: the directory is meant to be found, so indexing stays on, and
+`noarchive` stops search engines serving their own cached copy.
+
+Don't `Disallow: /members.json`. The page renders every card from that file at runtime, so
+blocking it would leave search engines indexing an empty shell — the directory would stop being
+findable by member name, which is the main way people arrive.
+
+To actually apply the crawler rules, copy this repo's `robots.txt` into a repo named
+`csu-climate.github.io` (GitHub Pages serves that at the domain root), or point a custom domain
+at this site.
 
 ## Coding conventions
 

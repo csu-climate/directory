@@ -129,6 +129,11 @@ _AREA_PATTERNS = [(area, re.compile(pat, re.I)) for area, pat in AREA_PATTERNS]
 
 OTHER_AREA = "Other"
 
+# Shown on the site as a click-to-reveal button, never as text. Encoded the same
+# way as member addresses -- see _encode_email().
+CONTACT_NAME = "Erin Pearse"
+CONTACT_EMAIL = "epearse@calpoly.edu"
+
 
 # ---------------------------
 # Campus names
@@ -425,11 +430,17 @@ def _get_env() -> Environment:
     return Environment(autoescape=select_autoescape(["html", "xml"]))
 
 def _render_index(env: Environment, members: List[Member], base_path: str) -> str:
+    ctx = dict(
+        members=members,
+        base_path=base_path,
+        contact_name=CONTACT_NAME,
+        contact_email_enc=_encode_email(CONTACT_EMAIL),
+    )
     try:
         tmpl = env.get_template("index.html")
-        return tmpl.render(members=members, base_path=base_path)
+        return tmpl.render(**ctx)
     except Exception:
-        return env.from_string(FALLBACK_INDEX).render(members=members, base_path=base_path)
+        return env.from_string(FALLBACK_INDEX).render(**ctx)
 
 # ---------------------------
 # Writers
@@ -474,6 +485,11 @@ def _copy_static():
         if dst.exists():
             shutil.rmtree(dst)
         shutil.copytree(STATIC_DIR, dst)
+
+    # robots.txt has to sit at the deployment root, not under static/
+    robots = ROOT / "robots.txt"
+    if robots.exists():
+        shutil.copyfile(robots, SITE_DIR / "robots.txt")
 
 # ---------------------------
 # Entry point
