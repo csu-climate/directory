@@ -142,11 +142,18 @@ so treat these addresses as public.
 ## Crawlers
 
 `robots.txt` is only honoured at a **domain root**. The site lives at
-`csu-climate.github.io/directory/`, so crawlers read `csu-climate.github.io/robots.txt` — a
-different repo's territory — and ignore `/directory/robots.txt` entirely. The `robots.txt` in
-this repo is therefore **inert today**; it is committed so it starts working the moment the site
-moves to its own domain, and the build copies it to the deployment root rather than under
-`static/`.
+`csu-climate.github.io/directory/`, so crawlers read `csu-climate.github.io/robots.txt` and
+ignore `/directory/robots.txt` entirely.
+
+The live policy therefore lives in a second repo, **`csu-climate/csu-climate.github.io`**,
+which GitHub Pages serves at the domain root. It governs every project page under that host,
+this directory included. That repo also carries a one-page landing site, so the root is not a
+404.
+
+The `robots.txt` in *this* repo is the **canonical copy** — edit it here first, then copy it
+across (the header comment differs between the two, since only one of them is live). It is not
+dead weight: the build copies it to the deployment root, so it takes over automatically if the
+site ever moves to its own domain.
 
 What does work per-page is the `<meta name="robots">` tag in `templates/index.html`. It is set to
 `index, follow, noarchive`: the directory is meant to be found, so indexing stays on, and
