@@ -111,8 +111,12 @@ here instead.
 Addresses are never published in the clear. `build_members.py` reverses each address and
 base64-encodes it into `Email_Enc`; the plain `Email` key is dropped from `members.json`
 entirely. The card renders an **Email** button holding only the encoded string, and
-`decodeEmail()` in the page swaps in a real `mailto:` link when the reader clicks it. Search
-still matches on the address because `normalize()` decodes into memory.
+`decodeEmail()` in the page swaps in a real `mailto:` link when the reader clicks it.
+
+Decoding happens **only on click**, one address at a time — `normalize()` deliberately does not
+decode, so a scraper that runs the page's JavaScript still finds no list of addresses anywhere
+in memory. The cost is that search cannot match on an email address; name, interests,
+department and campus all still work. Don't "fix" that by decoding at load.
 
 Net effect: neither `site/index.html` nor `site/members.json` contains anything matching an
 email pattern — verify with
