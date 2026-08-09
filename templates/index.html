@@ -4,6 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>CSU Climate Faculty Directory</title>
+  <!-- Findable, but not cached: noarchive stops search engines serving their own
+       copy of the page. Honoured per-page, unlike robots.txt on this URL. -->
+  <meta name="robots" content="index, follow, noarchive">
+  <meta name="description" content="Find specialists working on climate change and sustainability across the California State University system." />
   <link rel="stylesheet" href="{{ base_path }}/static/theme.css?v=7" />
 </head>
 <body>
@@ -47,6 +51,13 @@
       <div class="filter-tags" id="activeFilters"></div>
     </div>
 
+    <p class="contact-note">
+      To be added, removed, or have your profile updated, contact
+      <button type="button" class="email-btn email-btn--name"
+              data-e="{{ contact_email_enc }}">{{ contact_name }}</button>.
+      Please nominate any missing colleagues for addition.
+    </p>
+
     <div class="results-header">
       <h2>Members</h2>
       <div class="results-count" id="resultsCount">Loading...</div>
@@ -60,7 +71,6 @@
         </div>
         <p>The Initiative for Climate Leadership and Resilience at Cal Poly.</p>
       <p>Facilitating collaboration on climate change solutions.</p>
-      <p>To be added, removed, or have your profile updated, contact epearse(@)calpoly.edu</p>
     </footer>
   </div>
 
@@ -104,22 +114,68 @@
     return str.split(/[,;]+/).map(s => s.trim()).filter(Boolean);
   }
 
+  // Addresses are stored reversed-then-base64'd in members.json, so neither the
+  // page nor the data file ever contains anything matching an email pattern.
+  function decodeEmail(enc) {
+    if (!enc) return '';
+    try { return atob(enc).split('').reverse().join(''); } catch (e) { return ''; }
+  }
+
+  // Reveal on click: swap the button for the real mailto link.
+  function revealEmail(btn) {
+    const addr = decodeEmail(btn.dataset.e);
+    if (!addr) return;
+    const a = document.createElement('a');
+    a.className = 'card-email';
+    a.href = 'mailto:' + addr;
+    a.rel = 'nofollow';
+    a.textContent = addr;
+    btn.replaceWith(a);
+  }
+
   // === Rendering ===
   function createMemberCard(m) {
-    const emailHTML = m['Email'] ? `<a href="mailto:${m['Email']}">${m['Email']}</a>` : '';
-  
+    // The address is never written into the page -- only the encoded form, which
+    // the button decodes on click. See decodeEmail().
+    const emailButton = m['Email_Enc']
+      ? `<button type="button" class="email-btn" data-e="${m['Email_Enc']}">Email</button>`
+      : '';
+
     const deptLine = m['Department'] ? `<div class="department-line">${m['Department']}</div>` : '';
-    const campusLine = m['Campus'] ? `<div class="lesson-description">${m['Campus']}</div>` : '';
+    const campusLine = m['Campus'] ? `<div class="campus-line">${m['Campus']}</div>` : '';
   
+    // A Notes value that is nothing but URLs is a list of links, not a note.
+    function isLinksOnly(v) {
+      return !!v && !v.replace(/https?:\/\/\S+/g, '').replace(/[\s;,.]/g, '');
+    }
+
+    function escapeHTML(s) {
+      return String(s).replace(/[&<>"']/g, c => (
+        {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]
+      ));
+    }
+
+    // Turn bare URLs into links, showing the host rather than the raw URL.
+    function linkify(value) {
+      return escapeHTML(value).replace(/https?:\/\/[^\s;,]+/g, url => {
+        let label = url;
+        try { label = new URL(url).hostname.replace(/^www\./, ''); } catch (e) {}
+        return `<a class="note-link" href="${url}" target="_blank" rel="noopener noreferrer">${label}</a>`;
+      });
+    }
+
     function block(label, value) {
       if (!value) return '';
-      
+
       const extraClass = (label === 'Teaching Interests') ? ' teaching-block' : '';
+      const links = (label === 'Notes') && isLinksOnly(value);
+      const shown = links ? 'Links' : label;
+      const body = /https?:\/\//.test(value) ? linkify(value) : value;
 
       return `
         <div class="meta-item${extraClass}">
-          <span class="meta-label">${label}:</span>
-          <span class="meta-value">${value}</span>
+          <span class="meta-label">${shown}:</span>
+          <span class="meta-value">${body}</span>
         </div>
       `;
     }
@@ -127,12 +183,16 @@
     const card = document.createElement('div');
     card.className = 'lesson-card';
     card.innerHTML = `
-      <div class="lesson-title">${m['Name'] || '(No name)'}</div>
-      ${deptLine}
-      ${campusLine}
-  
+      <div class="card-identity">
+        <div class="title-row">
+          <div class="lesson-title">${m['Name'] || '(No name)'}</div>
+          ${emailButton}
+        </div>
+        ${deptLine}
+        ${campusLine}
+      </div>
+
       <div class="lesson-meta">
-        ${emailHTML ? `<div class="meta-item"><span class="meta-label">Email:</span><span class="meta-value">${emailHTML}</span></div>` : ''}
         ${block('Research Interests', m['Research Interests'])}
         ${block('Teaching Interests', m['Teaching Interests'])}
         ${block('Sustainability Contributions', m['Sustainability Contributions'])}
@@ -151,7 +211,7 @@
       const blob = [
         m['Name'], m['Research Interests'], m['Teaching Interests'],
         m['Notes'], m['Sustainability Contributions'],
-        m['Department'], m['Areas'].join(' '), m['Campus'], m['Email']
+        m['Department'], m['Areas'].join(' '), m['Campus']
       ].join(' ').toLowerCase();
       if (q && !blob.includes(q)) return false;
       if (area && !m['Areas'].includes(area)) return false;
@@ -212,7 +272,10 @@
     const normalize = (m) => ({
       ...m,
       Name: m.Name ?? m.name ?? '',
-      Email: m.Email ?? m.email ?? '',
+      // Deliberately not decoded here. Addresses are decoded one at a time,
+      // only when a reader clicks that member's Email button, so a scraper that
+      // runs the page's JavaScript still has no list of addresses to lift.
+      // The cost is that search cannot match on an email address.
       Campus: m.Campus ?? m.campus ?? '',
       Department: m.Department ?? m.department ?? '',
       Areas: m.Areas ?? m.Areas_List ?? m['Area of Specialization'] ?? [],
@@ -241,6 +304,13 @@
 
     const searchEl = $id('searchInput');
     if (searchEl) searchEl.addEventListener('input', applyFilters);
+
+    // One delegated handler on the body: survives re-rendering the grid, and
+    // also covers the contact button, which lives outside it.
+    document.body.addEventListener('click', (e) => {
+      const btn = e.target.closest('.email-btn');
+      if (btn) revealEmail(btn);
+    });
 
     applyFilters();
   }

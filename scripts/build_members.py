@@ -17,7 +17,7 @@ Build script for the Members Directory (simple, gh-pages friendly)
 """
 
 from __future__ import annotations
-import os, json, yaml, shutil, sys, re
+import os, json, yaml, shutil, sys, re, base64
 from pathlib import Path
 from dataclasses import dataclass, asdict
 from typing import Any, Dict, List, Tuple
@@ -95,7 +95,10 @@ AREA_PATTERNS = [
     ("Humanities", r"humanities|global cultures|global studies|culture and communication|"
                    r"interdisciplinary studies"),
     ("Landscape Architecture", r"landscape"),
-    ("Law", r"\blaw\b|legal|criminal justice|justice\b"),
+    # "justice" alone means law, but not in "climate/environmental/social justice"
+    ("Law", r"\blaw\b|legal|criminal justice|"
+            r"(?<!climate )(?<!environmental )(?<!social )(?<!food )(?<!racial )"
+            r"(?<!spatial )(?<!water )\bjustice\b"),
     ("Library & Information Studies", r"librar"),
     ("Marine Science", r"marine|oceanograph|aquacultur|moss landing|\bmlml\b|training ship"),
     ("Mathematics & Statistics", r"mathematic|statistic|statics"),
@@ -114,17 +117,22 @@ AREA_PATTERNS = [
     ("Religious Studies", r"religio|theolog"),
     ("Social Work", r"social work"),
     ("Sociology", r"sociolog|social science|labor studies"),
-    ("Sustainability", r"sustainab|regenerative|resilient systems"),
+    ("Sustainability", r"sustainab|regenerative|resilient systems|zero waste"),
     ("Tourism & Recreation", r"tourism|recreation|hospitality"),
     ("University Administration", r"academic senate|provost|academic affairs|administrative affairs|"
                                   r"office of research|sponsored programs|\bstaff\b|human resources|"
-                                  r"advancement|research & innovation|representing:"),
+                                  r"advancement|research & innovation"),
 ]
 
 _DECOY_SUBS = [(re.compile(p, re.I), r) for p, r in DECOY_SUBS]
 _AREA_PATTERNS = [(area, re.compile(pat, re.I)) for area, pat in AREA_PATTERNS]
 
 OTHER_AREA = "Other"
+
+# Shown on the site as a click-to-reveal button, never as text. Encoded the same
+# way as member addresses -- see _encode_email().
+CONTACT_NAME = "Erin Pearse"
+CONTACT_EMAIL = "epearse@calpoly.edu"
 
 
 # ---------------------------
@@ -156,7 +164,7 @@ CAMPUS_NAMES = {
     "san diego": "San Diego State University",
     "san francisco": "San Francisco State University",
     "san jose": "San José State University",
-    "san luis obispo": "Cal Poly, SLO",
+    "san luis obispo": "Cal Poly SLO",
     "san marcos": "CSU San Marcos",
     "sonoma": "Sonoma State University",
     "stanislaus": "Stanislaus State",
@@ -296,7 +304,13 @@ def _normalize_member(d: Dict[str, Any]) -> Tuple[Member, List[str]]:
     override = norm.get("Areas")
     if isinstance(override, str):
         override = [s.strip() for s in re.split(r"[,;]+", override) if s.strip()]
+    # Sustainability staff have no department -- their job title is the only
+    # thing that says what they work on, so fall back to it. Only a real match
+    # counts: a title of "Professor" says nothing, and must not become "Other".
     areas = override or areas_for_department(department)
+    if not areas:
+        from_title = areas_for_department(norm.get("Title"))
+        areas = [a for a in from_title if a != OTHER_AREA]
 
     m = Member(
         id=mid,
@@ -382,7 +396,6 @@ FALLBACK_INDEX = """<!doctype html>
       {% if m.Department %}<div class="muted">{{ m.Department }}</div>{% endif %}
       {% if m.College or m.Campus %}<div class="muted">{{ [m.College, m.Campus]|select|join(' · ') }}</div>{% endif %}
       {% if m.Research_Interests_List %}<div>{{ m.Research_Interests_List|join(', ') }}</div>{% endif %}
-      {% if m.Email %}<div><a href="mailto:{{ m.Email }}">{{ m.Email }}</a></div>{% endif %}
     </article>
     {% endfor %}
   </section>
@@ -417,28 +430,46 @@ def _get_env() -> Environment:
     return Environment(autoescape=select_autoescape(["html", "xml"]))
 
 def _render_index(env: Environment, members: List[Member], base_path: str) -> str:
+    ctx = dict(
+        members=members,
+        base_path=base_path,
+        contact_name=CONTACT_NAME,
+        contact_email_enc=_encode_email(CONTACT_EMAIL),
+    )
     try:
         tmpl = env.get_template("index.html")
-        return tmpl.render(members=members, base_path=base_path)
+        return tmpl.render(**ctx)
     except Exception:
-        return env.from_string(FALLBACK_INDEX).render(members=members, base_path=base_path)
+        return env.from_string(FALLBACK_INDEX).render(**ctx)
 
 # ---------------------------
 # Writers
 # ---------------------------
+def _encode_email(email: str | None) -> str | None:
+    """Reverse, then base64. members.json is a public static file, so a plain
+    address in it is free lunch for a harvester; this leaves nothing that
+    matches an email pattern. The page decodes it only when the reader clicks
+    the Email button. Obfuscation, not encryption -- see CLAUDE.md."""
+    if not email:
+        return None
+    return base64.b64encode(email.strip()[::-1].encode("utf-8")).decode("ascii")
+
+
 def _write_json(members: List[Member]):
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     SITE_DIR.mkdir(parents=True, exist_ok=True)
 
-    data = [
-        asdict(m) | {
+    data = []
+    for m in members:
+        row = asdict(m)
+        row.pop("Email", None)          # never published in the clear
+        row["Email_Enc"] = _encode_email(m.Email)
+        row |= {
             "slug": m.slug,
-            "email_href": m.email_href,
             "Research_Interests_List": m.Research_Interests_List,
             "Areas_List": m.Areas_List,
         }
-        for m in members
-    ]
+        data.append(row)
     (DATA_DIR / "members.json").write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
     (SITE_DIR / "members.json").write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
 
@@ -454,6 +485,11 @@ def _copy_static():
         if dst.exists():
             shutil.rmtree(dst)
         shutil.copytree(STATIC_DIR, dst)
+
+    # robots.txt has to sit at the deployment root, not under static/
+    robots = ROOT / "robots.txt"
+    if robots.exists():
+        shutil.copyfile(robots, SITE_DIR / "robots.txt")
 
 # ---------------------------
 # Entry point

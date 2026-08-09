@@ -73,7 +73,22 @@ The scraped data arrived Title-Cased after every comma and with proper nouns low
 - `Sustainability Contributions` keeps its internal capitals — those are mostly organization
   names — and only gets punctuation and proper-noun fixes
 
-The script is idempotent and preserves each file apart from those three scalars. It has a
+The same script also gives `Department` a much lighter touch, since that string is displayed
+verbatim on the card. It only fixes outright errors: drops the `Representing:` prefix that
+non-academic staff entries carried, lowercases the small words the title-caser capitalized
+("Chemistry And Biochemistry", "Office Of Sustainability"), fixes possessives ("Women'S"), and
+uppercases acronyms via explicit lists (`DEPT_ACRONYMS`, `BARE_ACRONYMS`) because "(Lecturer)"
+is a real word and "reach"/"wet" are ordinary words that must be left alone.
+
+It also moves things that are not departments out of the field: a rank in parentheses or in a
+`;`-separated tail is removed and promoted into `Title` if `Title` is empty, and certifications
+and committee memberships move to `Notes`. A Department that *starts* with a rank is left alone
+— a dean belongs to a college, so "Dean of the College of ..." is the real answer. Values that
+only name a job category ("Staff", "N/A") are cleared; those members get their areas from
+`Title` instead, which is why `build_members.py` falls back to it.
+
+The script is idempotent, only rewrites the fields that actually change (so editing one field
+doesn't re-wrap its neighbours), and preserves each file apart from those scalars. It has a
 `--dry-run` mode; use it, and check the report, before writing. Its guard rails matter: the
 "same letters, ignoring case and punctuation" invariant is what proves nothing was lost.
 
@@ -87,9 +102,58 @@ which is why phrases like "Black geographies" are listed in full.
 `members/*.yml` carry the short campus name ("Northridge"). `CAMPUS_NAMES` in
 `scripts/build_members.py` maps it to the name that campus actually goes by, which is not
 uniform across the CSU — "CSU Northridge", "Chico State", "Cal Poly Humboldt",
-"San Diego State University", "Cal Poly, SLO", "Cal State LA". The card shows that name with no
+"San Diego State University", "Cal Poly SLO", "Cal State LA". The card shows that name with no
 "Campus:" label, and the filter dropdown uses it too. Keep the YAML short names; add mappings
 here instead.
+
+## Email addresses
+
+Addresses are never published in the clear. `build_members.py` reverses each address and
+base64-encodes it into `Email_Enc`; the plain `Email` key is dropped from `members.json`
+entirely. The card renders an **Email** button holding only the encoded string, and
+`decodeEmail()` in the page swaps in a real `mailto:` link when the reader clicks it.
+
+Decoding happens **only on click**, one address at a time — `normalize()` deliberately does not
+decode, so a scraper that runs the page's JavaScript still finds no list of addresses anywhere
+in memory. The cost is that search cannot match on an email address; name, interests,
+department and campus all still work. Don't "fix" that by decoding at load.
+
+Net effect: neither `site/index.html` nor `site/members.json` contains anything matching an
+email pattern — verify with
+`grep -oE "[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}" site/members.json`, which should
+return nothing.
+
+The site contact address is handled the same way: `CONTACT_EMAIL` in `build_members.py` is
+encoded into the template context, and the contact line under the filters renders a button
+labelled with `CONTACT_NAME` instead of the address. Change the address there, not in the
+template.
+
+This is obfuscation, not protection. It defeats the pattern-matching harvesters that do the bulk
+of address scraping; it does not stop anyone who reads this file and writes six lines of code.
+**The real exposure is `members/*.yml`, which holds every address in plain text in a public
+repo.** Closing that would mean encoding at rest or making the repo private — neither is done,
+so treat these addresses as public.
+
+## Crawlers
+
+`robots.txt` is only honoured at a **domain root**. The site lives at
+`csu-climate.github.io/directory/`, so crawlers read `csu-climate.github.io/robots.txt` — a
+different repo's territory — and ignore `/directory/robots.txt` entirely. The `robots.txt` in
+this repo is therefore **inert today**; it is committed so it starts working the moment the site
+moves to its own domain, and the build copies it to the deployment root rather than under
+`static/`.
+
+What does work per-page is the `<meta name="robots">` tag in `templates/index.html`. It is set to
+`index, follow, noarchive`: the directory is meant to be found, so indexing stays on, and
+`noarchive` stops search engines serving their own cached copy.
+
+Don't `Disallow: /members.json`. The page renders every card from that file at runtime, so
+blocking it would leave search engines indexing an empty shell — the directory would stop being
+findable by member name, which is the main way people arrive.
+
+To actually apply the crawler rules, copy this repo's `robots.txt` into a repo named
+`csu-climate.github.io` (GitHub Pages serves that at the domain root), or point a custom domain
+at this site.
 
 ## Coding conventions
 

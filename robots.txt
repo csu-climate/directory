@@ -1,0 +1,90 @@
+# Crawler policy for the CSU Climate Faculty Directory.
+#
+# IMPORTANT: robots.txt is only honoured at a DOMAIN root. This file deploys to
+# https://csu-climate.github.io/directory/robots.txt, which crawlers ignore --
+# they read https://csu-climate.github.io/robots.txt and nothing else. It takes
+# effect only if the site moves to its own domain. See CLAUDE.md.
+#
+# Note also that robots.txt is a request, not a control. Well-behaved crawlers
+# honour it; email harvesters do not. The addresses on this site are protected
+# by being encoded and revealed only on click, not by anything in this file.
+
+# Search engines are welcome, including members.json. The page renders every
+# member card from that file, so blocking it would leave an empty shell in the
+# index and make the directory unfindable -- the opposite of the point.
+User-agent: *
+Disallow:
+
+# Bulk scrapers and AI training crawlers.
+User-agent: GPTBot
+Disallow: /
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: YouBot
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
+# SEO/backlink crawlers: no benefit to us, meaningful traffic.
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: dataforseo-bot
+Disallow: /

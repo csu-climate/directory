@@ -40,6 +40,50 @@ ROOT = Path(__file__).resolve().parent.parent
 MEMBERS_DIR = ROOT / "members"
 FIELDS = ["Research Interests", "Teaching Interests", "Sustainability Contributions"]
 
+# `Department` gets a much lighter touch -- it is displayed verbatim on the card,
+# so only outright errors are corrected. See normalize_department().
+DEPT_FIELD = "Department"
+
+NOTES_FIELD = "Notes"
+TITLE_FIELD = "Title"
+
+# Parenthesized acronyms that arrived title-cased. Explicit rather than derived,
+# because "(Lecturer)" is a real word and must be left alone.
+DEPT_ACRONYMS = {
+    "chabss": "CHABSS", "cstem": "CSTEM", "reach": "REACH",
+    "wet": "WET", "isds": "ISDS", "jdp": "JDP",
+}
+
+# Of those, the ones that are not also ordinary words, so they can be uppercased
+# outside parentheses too. "reach" and "wet" are deliberately excluded.
+BARE_ACRONYMS = {"chabss", "cstem", "isds", "jdp"}
+
+# Small words that only keep their capital as the first word of a name.
+DEPT_LOWERCASE = r"And|Or|Of|The|In|For|At|On|To|With|An|A"
+
+# A rank in parentheses is the person's job, not their department. Stripped from
+# Department -- and promoted into Title if Title is empty, so nothing is lost.
+PAREN_RANKS = {
+    "lecturer", "professor", "adjunct", "emeritus", "emerita", "instructor",
+    "staff", "retired",
+}
+
+# Values that name a job category rather than a department at all.
+NON_DEPARTMENTS = {"staff", "n/a", "na", "none", "faculty", "administration"}
+
+# A ";"-separated tail that starts with one of these is a role, not a department
+# ("Telonicher Marine Lab; Director and Associate Dean Overseeing Marine Ops").
+# "Dean" is included here but a Department that *begins* with it is left alone --
+# a dean belongs to a college, so "Dean of the College of ..." is the real answer.
+SEGMENT_RANK_LEADERS = (
+    "director", "dean", "chair", "professor", "lecturer", "coordinator", "manager",
+)
+
+# Certifications and committee memberships belong in Notes, not Department.
+CERT_PATTERN = re.compile(
+    r"\b(leed\b|certified|certificate|credential|member of|fellow of|board of)", re.I
+)
+
 # ---------------------------------------------------------------------------
 # Vocabulary
 # ---------------------------------------------------------------------------
@@ -393,6 +437,85 @@ def normalize_value(value: str, listy: bool) -> str:
     return result
 
 
+def normalize_department(value: str):
+    """Department is shown verbatim on the card, so this only fixes errors.
+
+    Returns (department, moved_to_notes, rank_for_title):
+
+    * drops the "Representing:" prefix carried by non-academic staff entries
+      ("Representing: Culinary Services" -> "Culinary Services")
+    * lowercases the small words the title-caser capitalized
+      ("Chemistry And Biochemistry", "Office Of Sustainability")
+    * uppercases parenthesized acronyms ("(Isds)" -> "(ISDS)")
+    * removes a rank -- "(Lecturer)", or a ";"-separated role tail -- handing it
+      back so the caller can put it in Title if Title is empty
+    * hands back certifications and memberships for Notes
+    """
+    text = " ".join(value.split())
+    if not text:
+        return "", "", ""
+
+    text = re.sub(r"^Representing:\s*", "", text, flags=re.I)
+    rank = ""
+
+    # "Env. & Occupational Health (Lecturer)" -> the rank is not the department
+    def take_paren_rank(m):
+        nonlocal rank
+        if m.group(1).strip().lower() in PAREN_RANKS:
+            rank = m.group(1).strip().title()
+            return ""
+        return m.group(0)
+    text = re.sub(r"\s*\(([^)]+)\)", take_paren_rank, text).strip()
+
+    # A whole value that just names a job category is not a department.
+    bare = re.sub(r"[^a-z/ ]", "", text.lower()).strip()
+    if bare in NON_DEPARTMENTS or re.match(r"^n/?a\b", bare):
+        return "", "", rank
+
+    # Drop ";"-separated role tails, but never the only segment, and never when
+    # the department legitimately starts with a rank (a dean's "department").
+    if ";" in text and not text.lower().startswith(SEGMENT_RANK_LEADERS):
+        segments = [s.strip() for s in text.split(";") if s.strip()]
+        kept = [s for s in segments if not s.lower().startswith(SEGMENT_RANK_LEADERS)]
+        if kept:
+            dropped = [s for s in segments if s not in kept]
+            if dropped and not rank:
+                rank = dropped[0]
+            text = "; ".join(kept)
+
+    # Certifications and memberships move to Notes, as long as something remains.
+    moved = ""
+    if CERT_PATTERN.search(text):
+        parts = [s.strip() for s in text.split(",") if s.strip()]
+        keep = [s for s in parts if not CERT_PATTERN.search(s)]
+        move = [s for s in parts if CERT_PATTERN.search(s)]
+        if keep and move:
+            text = ", ".join(keep)
+            moved = ", ".join(move)
+
+    # small words, but never as the first word of the name
+    text = re.sub(
+        rf"\b({DEPT_LOWERCASE})\b",
+        lambda m: m.group(0) if m.start() == 0 else m.group(0).lower(),
+        text,
+    )
+
+    text = re.sub(
+        r"\(([A-Za-z]{2,8})\)",
+        lambda m: "(" + DEPT_ACRONYMS.get(m.group(1).lower(), m.group(1)) + ")",
+        text,
+    )
+    text = re.sub(
+        r"\b([A-Za-z]{3,8})\b",
+        lambda m: DEPT_ACRONYMS[m.group(1).lower()]
+        if m.group(1).lower() in BARE_ACRONYMS else m.group(0),
+        text,
+    )
+    # the title-caser also capitalized possessives: "Women'S" -> "Women's"
+    text = re.sub(r"([A-Za-z])'S\b", r"\1's", text)
+    return text.strip(" ,;"), moved, rank
+
+
 # ---------------------------------------------------------------------------
 # Surgical YAML rewriting
 # ---------------------------------------------------------------------------
@@ -485,12 +608,33 @@ def process_file(path: Path, dry_run: bool):
     text = path.read_text(encoding="utf-8")
     lines = text.splitlines()
     changes = []
+
+    # Pass 1: read every field we care about, so Department can hand a rank to
+    # Title and a certification to Notes regardless of the order they appear in.
+    scanned = {}
+    i = 0
+    while i < len(lines):
+        field = next((f for f in FIELDS + [DEPT_FIELD, NOTES_FIELD, TITLE_FIELD]
+                      if lines[i].startswith(f + ":")), None)
+        if field:
+            raw, end = _read_scalar(lines, i)
+            scanned[field] = _unquote(raw)
+            i = end
+        else:
+            i += 1
+
+    dept_value = scanned.get(DEPT_FIELD, ("", "plain"))[0]
+    _, moved_to_notes, rank_for_title = normalize_department(dept_value)
+    if scanned.get(TITLE_FIELD, ("", ""))[0].strip():
+        rank_for_title = ""      # Title already says it; don't duplicate
+
+    # Pass 2: rewrite
     i = 0
     out = []
     while i < len(lines):
         line = lines[i]
         matched = None
-        for field in FIELDS:
+        for field in FIELDS + [DEPT_FIELD, NOTES_FIELD, TITLE_FIELD]:
             if line.startswith(field + ":"):
                 matched = field
                 break
@@ -500,11 +644,22 @@ def process_file(path: Path, dry_run: bool):
             continue
         raw, end = _read_scalar(lines, i)
         value, style = _unquote(raw)
-        listy = matched in ("Research Interests", "Teaching Interests")
-        new_value = normalize_value(value, listy=listy)
+        if matched == DEPT_FIELD:
+            new_value = normalize_department(value)[0]
+        elif matched == NOTES_FIELD:
+            new_value = "; ".join(x for x in (value.strip(), moved_to_notes) if x)
+        elif matched == TITLE_FIELD:
+            new_value = value.strip() or rank_for_title
+        else:
+            listy = matched in ("Research Interests", "Teaching Interests")
+            new_value = normalize_value(value, listy=listy)
         if new_value != value:
             changes.append((matched, value, new_value))
-        out.extend(_emit(matched, new_value, style if new_value else "single"))
+            out.extend(_emit(matched, new_value, style if new_value else "single"))
+        else:
+            # Unchanged: keep the original lines rather than re-wrapping them,
+            # so editing one field doesn't churn its neighbours in the diff.
+            out.extend(lines[i:end])
         i = end
     new_text = "\n".join(out) + "\n"
     if changes and not dry_run:
